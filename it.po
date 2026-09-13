@@ -1,0 +1,6957 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Antivirus Survivors 2003MIME-Version: 1.0</title>
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+  <style>
+
+
+/*
+Based on Minimal CSS (minimalcss.com) under the MIT license.
+*/
+
+/* Reset */
+* { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+/* Layout */
+body { font: 14px/20px -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+
+.container { position: relative; max-width: 90%; margin: 0 auto; }
+
+/* Typography */
+a { color: #105CB6; text-decoration: none; }
+a:hover, a:focus { color: #105CB6; text-decoration: underline; }
+a:active { color: #105CB6; }
+
+h1 { font-size: 24px; line-height: 20px; margin: 10px 0; }
+h2 { font-size: 20px; line-height: 20px; margin: 10px 0; }
+h3 { font-size: 16px; line-height: 20px; margin: 10px 0; }
+h4 { font-size: 14px; line-height: 20px; margin: 10px 0; }
+h5 { font-size: 12px; line-height: 20px; margin: 10px 0; }
+h5 { font-size: 10px; line-height: 20px; margin: 10px 0; }
+
+p { margin-bottom: 10px; }
+
+.float-left     { float: left; }
+.float-right    { float: right; }
+img.float-left  { float: left; margin: 0 20px 20px 0; }
+img.float-right { float: right; margin: 0 0 20px 20px; }
+img.center      { margin: 0 auto; display: block; }
+
+.text-left    { text-align: left; }
+.text-center  { text-align: center; }
+.text-right   { text-align: right; }
+.text-justify { text-align: justify; }
+
+/* List */
+ul { list-style-position:inside; }
+ol { list-style-position:inside; }
+
+/* Table */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+th { font-weight: bold; }
+tfoot { font-style: italic; }
+
+/* Metadata part */
+
+.metadata {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 90%;
+}
+table.metadata td {
+  padding-right: 20px;
+}
+
+.stats {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+.graph {
+  width: 100%;
+}
+.graph div { float: left; }
+.graph div:first-child { border-top-left-radius: 3px; border-bottom-left-radius: 3px; }
+.graph div:last-child { border-top-right-radius: 3px; border-bottom-right-radius: 3px; }
+.legend {
+  font-size: smaller;
+  padding-top: 12px;
+  text-align: center;
+}
+
+/* Translations */
+table.translations {
+  width: 100%;
+  table-layout: fixed;
+}
+table.translations th, table.translations td {
+  padding: 5px 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #F1F1F1;
+}
+table.translations th {
+  text-align: left;
+}
+table.translations th:first-child, table.translations td:first-child { padding-left: 0; }
+table.translations th:last-child, table.translations td:last-child { padding-right: 0; }
+
+.with-comments td {
+  border-bottom: none !important;
+}
+tr.comments div {
+  float: left;
+  max-width: 90%;
+  font-size: smaller;
+}
+tr.comments div p:last-child { margin-bottom: 0; }
+tr.comments td { padding-top: 0; }
+
+.id {
+  font-size: smaller;
+}
+
+.msgctxt {
+  font-size: smaller;
+  border-radius: 2px;
+  padding: 2px 4px;
+  margin-right: 4px;
+}
+
+
+/* Colors */
+
+body { background-color: #fff; color: #333; }
+
+.percent-done    { background-color: rgb(146, 236, 106); height: 10px; }
+.percent-fuzzy   { background-color: rgb(255, 149, 0); height: 10px; }
+.percent-untrans { background-color: #F1F1F1; height: 10px; }
+.legend          { color: #aaa; }
+.id              { color: #aaa; }
+tr.comments div  { color: #aaa; }
+.fuzzy .tra      { color: rgb(230, 134, 0); }
+
+.msgctxt         { color: rgb(70, 109, 137); background-color: rgb(217, 232, 242); }
+
+
+@media (prefers-color-scheme: dark) {
+    body             { background-color: rgb(45, 42, 41); color: #eee; }
+    .percent-untrans { background-color: rgba(255, 255, 255, 0.3); }
+    .legend          { color: rgba(255, 255, 255, 0.6); }
+    .id              { color: rgba(255, 255, 255, 0.6); }
+    tr.comments div  { color: rgba(255, 255, 255, 0.6); }
+    .fuzzy .tra      { color: rgb(253, 178, 72); }
+    .msgctxt         { color: rgb(180, 222, 254); background-color: rgba(67, 94, 147, 0.6); }
+    table.translations th, table.translations td { border-bottom: 1px solid #333; }
+}
+
+
+  </style>
+</head>
+<body>
+<div class='container'>
+<table class='metadata'>
+<tr><td>Progetto:</td><td>Antivirus Survivors 2003MIME-Version: 1.0</td></tr>
+<tr><td>Lingua:</td><td>italiano (Italia)</td></tr>
+</table>
+<div class='stats'>
+  <div class='graph'>
+    <div class='percent-done' style='width: 100%'>&nbsp;</div>
+  </div>
+  <div class='legend'>Tradotti: 515 di 515 (100 %)  </div>
+</div>
+<table class='translations'>
+  <thead>
+    <tr>
+      <th>Testo sorgente — inglese</th>
+      <th>Traduzione — italiano (Italia)</th>
+    </tr>
+  </thead>
+  <tbody>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLASS.brick.name</td>
+<td class='tra'  lang='it-IT'>
+Mattone</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Class select - name (brick)<br>
+source: Brick<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLASS.brick.description</td>
+<td class='tra'  lang='it-IT'>
+Un tank</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Class select - description (brick)<br>
+source: A tank<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLASS.default.name</td>
+<td class='tra'  lang='it-IT'>
+Predefinito</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Class select - name (default)<br>
+source: Default<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLASS.default.description</td>
+<td class='tra'  lang='it-IT'>
+Il buon vecchio cursore - bilanciato, semplice, bellissimo.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Class select - description (default)<br>
+source: Your regular old cursor - balanced, simple, beautiful.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLASS.null.name</td>
+<td class='tra'  lang='it-IT'>
+Nullo</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Class select - name (null)<br>
+source: Null<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLASS.null.description</td>
+<td class='tra'  lang='it-IT'>
+Debole e fragile, ma ha un sacco di fortuna.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Class select - description (null)<br>
+source: Weak and fragile, but has a lot of luck.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLASS.vector.name</td>
+<td class='tra'  lang='it-IT'>
+Vettore</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Class select - name (vector)<br>
+source: Vector<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLASS.vector.description</td>
+<td class='tra'  lang='it-IT'>
+Uno veloce.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Class select - description (vector)<br>
+source: A fast one<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+EVO.chaos.name</td>
+<td class='tra'  lang='it-IT'>
+Caos</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Folder evolution mode - name (chaos)<br>
+source: Chaos<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+EVO.chaos.description</td>
+<td class='tra'  lang='it-IT'>
+Una difficoltà inconsistente e imprevedibile. Non saprei dirti cosa aspettarti.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Folder evolution mode - description (chaos)<br>
+source: A inconsistent unpredictable mess of difficulty. I couldn't tell you what to expect.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+EVO.linear.name</td>
+<td class='tra'  lang='it-IT'>
+Lineare</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Folder evolution mode - name (linear)<br>
+source: Linear<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+EVO.linear.description</td>
+<td class='tra'  lang='it-IT'>
+Un consistente flusso lineare di sempre più nemici aggiunti nel tempo.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Folder evolution mode - description (linear)<br>
+source: A consistent linear stream of more enemies being added over time.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+EVO.variable.name</td>
+<td class='tra'  lang='it-IT'>
+Variabile</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Folder evolution mode - name (variable)<br>
+source: Variable<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+EVO.variable.description</td>
+<td class='tra'  lang='it-IT'>
+Un livello variegato di nemici che aumentano e diminuiscono per darti momenti di pace, ma anche difficoltà aumentata.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Folder evolution mode - description (variable)<br>
+source: A varied level of enemies that ramps up and down to give more moments of peace but harder increases.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.armor.name</td>
+<td class='tra'  lang='it-IT'>
+Armatura</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - name (armor)<br>
+source: Armo(u)r<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.armor.description</td>
+<td class='tra'  lang='it-IT'>
+Aggiunge +1 di Armatura per Grado.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - description (armor)<br>
+source: Adds +1 Armo(u)r per Rank.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.coin_gain.name</td>
+<td class='tra'  lang='it-IT'>
+Guadagno Monete</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - name (coin_gain)<br>
+source: Coin Gain<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.coin_gain.description</td>
+<td class='tra'  lang='it-IT'>
+Il Guadagno Monete viene moltiplicato di un ulteriore +1% per Grado.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - description (coin_gain)<br>
+source: Multiply Coin Gain by an extra +1% per Rank.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.crit_chance.name</td>
+<td class='tra'  lang='it-IT'>
+Probabilità Critico</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - name (crit_chance)<br>
+source: Crit Chance<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.crit_chance.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta la Probabilità Critico +1% per Grado.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - description (crit_chance)<br>
+source: Increases Crit Chance +1% per Rank.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.crit_damage.name</td>
+<td class='tra'  lang='it-IT'>
+Danno Critico</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - name (crit_damage)<br>
+source: Crit Damage<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.crit_damage.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica il Danno Critico di +2% in più per Grado.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - description (crit_damage)<br>
+source: Multiply Crit Damage by an extra +2% per Rank.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.cursor_speed.name</td>
+<td class='tra'  lang='it-IT'>
+Velocità Cursore</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - name (cursor_speed)<br>
+source: Cursor Speed<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.cursor_speed.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica la Velocità del Cursore di +1% in più per Grado.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - description (cursor_speed)<br>
+source: Multiply Cursor Speed by an extra +1% per Rank.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.exp_gain.name</td>
+<td class='tra'  lang='it-IT'>
+Guadagno PE</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - name (exp_gain)<br>
+source: EXP Gain<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.exp_gain.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica il Guadagno PE di +2% in più per Grado.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - description (exp_gain)<br>
+source: Multiply EXP Gain by an extra +2% per Rank.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.health_regen.name</td>
+<td class='tra'  lang='it-IT'>
+Rigenerazione Salute</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - name (health_regen)<br>
+source: Health Regen<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.health_regen.description</td>
+<td class='tra'  lang='it-IT'>
+Aggiunge +1 PS alla Rigenerazione Salute per Grado.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - description (health_regen)<br>
+source: Adds +1 HP Health Regen per Rank.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.luck.name</td>
+<td class='tra'  lang='it-IT'>
+Fortuna</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - name (luck)<br>
+source: Luck<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.luck.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica la Fortuna di +1% in più per Grado.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - description (luck)<br>
+source: Multiply Luck by an extra +1% per Rank.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.magnetism.name</td>
+<td class='tra'  lang='it-IT'>
+Magnetismo</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - name (magnetism)<br>
+source: Magnetism<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.magnetism.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica il Magnetismo di +2% in più per Grado.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - description (magnetism)<br>
+source: Multiply Magnetism by an extra +2% per Rank.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.max_health.name</td>
+<td class='tra'  lang='it-IT'>
+Salute Massima</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - name (max_health)<br>
+source: Max Health<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.max_health.description</td>
+<td class='tra'  lang='it-IT'>
+Aggiunge +10 PS alla Salute Massima per Grado.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - description (max_health)<br>
+source: Adds +10 HP Max Health per Rank.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.packet_loss.name</td>
+<td class='tra'  lang='it-IT'>
+Perdita Pacchetti</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - name (packet_loss)<br>
+source: Packet Loss<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.packet_loss.description</td>
+<td class='tra'  lang='it-IT'>
+Aggiunge +1 alla Perdita Pacchetti per Grado.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - description (packet_loss)<br>
+source: Adds +1 Packet Loss per Rank.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.proc_speed.name</td>
+<td class='tra'  lang='it-IT'>
+Velocità di Elaborazione</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - name (proc_speed)<br>
+source: Processing Speed<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.proc_speed.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica la Velocità di Elaborazione di +1% in più per Grado.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - description (proc_speed)<br>
+source: Multiply Processing Speed by an extra +1% per Rank.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.weap_amount.name</td>
+<td class='tra'  lang='it-IT'>
+Quantità dell'Arma</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - name (weap_amount)<br>
+source: Weapon Amount<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.weap_amount.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta la probabilità di Quantità dell'Arma di +3% per Grado.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - description (weap_amount)<br>
+source: Increases Weapon Amount chance +3% per Rank.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.weap_damage.name</td>
+<td class='tra'  lang='it-IT'>
+Danno dell'Arma</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - name (weap_damage)<br>
+source: Weapon Damage<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.weap_damage.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica il Danno dell'Arma di +2% in più per Grado.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - description (weap_damage)<br>
+source: Multiply Weapon Damage by an extra +2% per Rank.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.weap_refresh.name</td>
+<td class='tra'  lang='it-IT'>
+Ricarica dell'Arma</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - name (weap_refresh)<br>
+source: Weapon Refresh<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.weap_refresh.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica la Ricarica dell'Arma di +1% in più per Grado.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - description (weap_refresh)<br>
+source: Multiply Weapon Refresh by an extra +1% per Rank.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.weap_repel.name</td>
+<td class='tra'  lang='it-IT'>
+Potenza dell'Arma</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - name (weap_repel)<br>
+source: Weapon Power<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.weap_repel.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica la Potenza dell'Arma di +1% in più per Grado.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - description (weap_repel)<br>
+source: Multiply Weapon Repel by an extra +1% per Rank.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.weap_size.name</td>
+<td class='tra'  lang='it-IT'>
+Dimensione dell'Arma</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - name (weap_size)<br>
+source: Weapon Size<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.weap_size.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica la Dimensione dell'Arma di +1% in più per Grado.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - description (weap_size)<br>
+source: Multiply Weapon Size by an extra +1% per Rank.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.weap_speed.name</td>
+<td class='tra'  lang='it-IT'>
+Velocità dell'Arma</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - name (weap_speed)<br>
+source: Weapon Speed<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.weap_speed.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica la Velocità dell'Arma di +1% in più per Grado.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu - description (weap_speed)<br>
+source: Multiply Weapon Speed by an extra +1% per Rank.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.armor_damage_trigger.name</td>
+<td class='tra'  lang='it-IT'>
+innesco_danno_armatura</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (armor_damage_trigger)<br>
+source: armor_damage_trigger<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.armor_damage_trigger.description</td>
+<td class='tra'  lang='it-IT'>
+Aggiunge +5 di Armatura.
+<br>Aggiunge +25 Perdita Pacchetti quando si prende Danno (Dura 10s).</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (armor_damage_trigger)<br>
+source: Add +5 Armo(u)r.\nAdd +25 Packet Loss when taking Damage (Lasts 10s).<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.armor_missing_hp.name</td>
+<td class='tra'  lang='it-IT'>
+salute_rimanente_armatura</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (armor_missing_hp)<br>
+source: armor_missing_hp<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.armor_missing_hp.description</td>
+<td class='tra'  lang='it-IT'>
+Aggiunge +1 di Armatura per ogni 2% di PS persi.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (armor_missing_hp)<br>
+source: Add +1 Armor per 2% missing HP.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.big_hp_regen_boost.name</td>
+<td class='tra'  lang='it-IT'>
+grande_aumento_rigenerazione_salute</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (big_hp_regen_boost)<br>
+source: big_hp_regen_boost<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.big_hp_regen_boost.description</td>
+<td class='tra'  lang='it-IT'>
+Aggiunge +64 di PS massimi.
+<br>Aggiunge +12 di Rigenerazione Salute.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (big_hp_regen_boost)<br>
+source: Add +64 Max HP.\nAdd +12 Health Regen.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.big_wave_damage.name</td>
+<td class='tra'  lang='it-IT'>
+danno_big_wave</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (big_wave_damage)<br>
+source: big_wave_damage<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.big_wave_damage.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta il Moltiplicatore del Danno dell'Arma di +10% quando si apre una Big Wave</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (big_wave_damage)<br>
+source: Increase Weapon Damage Multiplier +10% when opening a Big Wave.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.blast_on_file_open.name</td>
+<td class='tra'  lang='it-IT'>
+esplosione_apertura_file</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (blast_on_file_open)<br>
+source: blast_on_file_open<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.blast_on_file_open.description</td>
+<td class='tra'  lang='it-IT'>
+Probabilità del 25% di innescare un'Esplosione quando si apre un File. </td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (blast_on_file_open)<br>
+source: 25% Chance to trigger a Blast when opening a File.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.chance_defrag.name</td>
+<td class='tra'  lang='it-IT'>
+probabilità_defrag</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (chance_defrag)<br>
+source: chance_defrag<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.chance_defrag.description</td>
+<td class='tra'  lang='it-IT'>
+Probabilità del 10% di effettuare un Defrag ogni 30s.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (chance_defrag)<br>
+source: 10% Chance to perform a Defrag every 30s.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.coin_boost.name</td>
+<td class='tra'  lang='it-IT'>
+aumento_monete</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (coin_boost)<br>
+source: coin_boost<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.coin_boost.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica il Guadagno Monete di 1.1x.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (coin_boost)<br>
+source: Multiply Coin Gain 1.1x.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.coin_drop_boost.name</td>
+<td class='tra'  lang='it-IT'>
+aumento_monete_ottenibili</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (coin_drop_boost)<br>
+source: coin_drop_boost<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.coin_drop_boost.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta la probabilità di ottenere Monete dai nemici di +20%.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (coin_drop_boost)<br>
+source: Increase enemy Coin Drop Chance +20%.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.crit_chance_boost.name</td>
+<td class='tra'  lang='it-IT'>
+probabilità_aumento_critico</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (crit_chance_boost)<br>
+source: crit_chance_boost<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.crit_chance_boost.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica la Probabilità Critico di 1.1x.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (crit_chance_boost)<br>
+source: Multiply Crit Chance 1.1x.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.cursor_speed_boost.name</td>
+<td class='tra'  lang='it-IT'>
+aumento_velocità_cursore</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (cursor_speed_boost)<br>
+source: cursor_speed_boost<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.cursor_speed_boost.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica la Velocità del Cursore di 1.1x.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (cursor_speed_boost)<br>
+source: Multiply Cursor Speed 1.1x<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.cursor_speed_damage.name</td>
+<td class='tra'  lang='it-IT'>
+danno_velocità_cursore</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (cursor_speed_damage)<br>
+source: cursor_speed_damage<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.cursor_speed_damage.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta la Velocità del Cursore di +10%.
+<br>Aumenta la Velocità del Cursore di +30% quando si prende Danno (Dura 10s).</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (cursor_speed_damage)<br>
+source: Increase Cursor Speed +10%.\nIncrease Cursor Speed +30% when taking Damage (Lasts 10s).<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.damage_boost.name</td>
+<td class='tra'  lang='it-IT'>
+aumento_danno</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (damage_boost)<br>
+source: damage_boost<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.damage_boost.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica il Danno dell'Arma di 1.1x.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (damage_boost)<br>
+source: Multiply Weapon Damage 1.1x.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.damage_level_scaling.name</td>
+<td class='tra'  lang='it-IT'>
+livello_danno_percentuale</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (damage_level_scaling)<br>
+source: damage_level_scaling<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.damage_level_scaling.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta il Danno dell'Arma di +3% per livello del giocatore.
+<br>Diminuisce i PS Massimi di -1 per livello del giocatore.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (damage_level_scaling)<br>
+source: Increase Weapon Damage +3% per player level.\nDecrease Max HP -1 per player level.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.damage_missing_hp.name</td>
+<td class='tra'  lang='it-IT'>
+danno_salute_mancante</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (damage_missing_hp)<br>
+source: damage_missing_hp<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.damage_missing_hp.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta il Danno dell'Arma di +1% per 1% di PS persi.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (damage_missing_hp)<br>
+source: Increase Weapon Damage +1% per 1% missing HP.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.damage_speed_crit.name</td>
+<td class='tra'  lang='it-IT'>
+velocità_danno_critico</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (damage_speed_crit)<br>
+source: damage_speed_crit<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.damage_speed_crit.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta il Danno dell'Arma di +10%.
+<br>Aumenta la Velocità di Ricarica di +10%.
+<br>Aumenta la Probabilità Critico di +5%.
+<br>Aumenta il Danno Critico di +15%.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (damage_speed_crit)<br>
+source: Increase Weapon Damage +10%.\nIncrease Refresh Speed +10%.\nIncrease Crit Chance +5%.\nIncrease Crit Damage +15%.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.defrag_on_safe_folder.name</td>
+<td class='tra'  lang='it-IT'>
+defrag_sulla_cartella_sicura</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (defrag_on_safe_folder)<br>
+source: defrag_on_safe_folder<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.defrag_on_safe_folder.description</td>
+<td class='tra'  lang='it-IT'>
+Effettua un Defrag quando la Cartella Sicura compare.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (defrag_on_safe_folder)<br>
+source: Perform a Defrag when the Safe Folder spawns.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.dual_core.name</td>
+<td class='tra'  lang='it-IT'>
+Doppio Nucleo</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (dual_core)<br>
+source: Dual Core<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.dual_core.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica la Velocità di Elaborazione di 2.0x.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (dual_core)<br>
+source: Multiply Processing Speed 2.0x.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.heal_on_crit.name</td>
+<td class='tra'  lang='it-IT'>
+cura_con_crit</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (heal_on_crit)<br>
+source: heal_on_crit<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.heal_on_crit.description</td>
+<td class='tra'  lang='it-IT'>
+Probabilità del 5% di Curare quando si mette a segno un Critico.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (heal_on_crit)<br>
+source: 5% Chance to Heal when landing a Crit.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.hp_boost.name</td>
+<td class='tra'  lang='it-IT'>
+aumento_ps</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (hp_boost)<br>
+source: hp_boost<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.hp_boost.description</td>
+<td class='tra'  lang='it-IT'>
+Aggiunge +15% PS Massimi.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (hp_boost)<br>
+source: Add +15 Max HP.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.hp_on_heal.name</td>
+<td class='tra'  lang='it-IT'>
+salute_con_cura</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (hp_on_heal)<br>
+source: hp_on_heal<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.hp_on_heal.description</td>
+<td class='tra'  lang='it-IT'>
+Probabilità del 7% di Aggiungere +3 PS Massimi quando ci si Cura. (5s di Cooldown).</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (hp_on_heal)<br>
+source: 7% Chance to Add +3 Max HP when Healed. (5s Cooldown).<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.locate_pointer.name</td>
+<td class='tra'  lang='it-IT'>
+Individua Puntatore</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (locate_pointer)<br>
+source: Locate Pointer<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.locate_pointer.description</td>
+<td class='tra'  lang='it-IT'>
+Innesca un'Esplosione quando prendi danno (20s di cooldown).</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (locate_pointer)<br>
+source: Trigger a Blast when taking damage (20s cooldown).<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.luck_boost.name</td>
+<td class='tra'  lang='it-IT'>
+aumento_fortuna</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (luck_boost)<br>
+source: luck_boost<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.luck_boost.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica la Fortuna di 1.1x.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (luck_boost)<br>
+source: Multiply Luck 1.1x.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.luck_reroll.name</td>
+<td class='tra'  lang='it-IT'>
+rilancio_fortuna</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (luck_reroll)<br>
+source: luck_reroll<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.luck_reroll.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta la Fortuna di +12%.
+<br>Aumenta la Fortuna di +25% quando si Rilancia (Dura 10s).</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (luck_reroll)<br>
+source: Increase Luck +12%.\nIncrease Luck +25% on Rerolls (Lasts 10s).<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.luck_zip_boost.name</td>
+<td class='tra'  lang='it-IT'>
+aumento_fortuna_zip</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (luck_zip_boost)<br>
+source: luck_zip_boost<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.luck_zip_boost.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta la Fortuna di +3% quando si apre con successo un File Zip.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (luck_zip_boost)<br>
+source: Increase Luck +3% when successfully opening a Zip File.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.lucky_when_hurt.name</td>
+<td class='tra'  lang='it-IT'>
+Fortunato Quando Ferito</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (lucky_when_hurt)<br>
+source: Lucky When Hurt<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.lucky_when_hurt.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica la Fortuna di 2.0x quando si prende Danno (Dura 6s).</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (lucky_when_hurt)<br>
+source: Multiply Luck 2.0x when taking Damage (Lasts 6s).<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.packet_loss_boost.name</td>
+<td class='tra'  lang='it-IT'>
+aumento_perdita_pacchetti</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (packet_loss_boost)<br>
+source: packet_loss_boost<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.packet_loss_boost.description</td>
+<td class='tra'  lang='it-IT'>
+Aggiunge +6 Perdita Pacchetti.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (packet_loss_boost)<br>
+source: Add +6 Packet Loss.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.processing_speed_boost.name</td>
+<td class='tra'  lang='it-IT'>
+aumento_velocità_elaborazione</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (processing_speed_boost)<br>
+source: processing_speed_boost<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.processing_speed_boost.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica la Velocità di Elaborazione di 1.1x.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (processing_speed_boost)<br>
+source: Multiply Processing Speed 1.1x.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.regen_boost.name</td>
+<td class='tra'  lang='it-IT'>
+aumento_rigenerazione</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (regen_boost)<br>
+source: regen_boost<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.regen_boost.description</td>
+<td class='tra'  lang='it-IT'>
+Aggiunge +5 alla Rigenerazione della Salute.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (regen_boost)<br>
+source: Add +5 Health Regen.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.shop_discount_10.name</td>
+<td class='tra'  lang='it-IT'>
+sconto_negozio_10</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (shop_discount_10)<br>
+source: shop_discount_10<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.shop_discount_10.description</td>
+<td class='tra'  lang='it-IT'>
+Oggetti del Negozio Scontati di +10%.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (shop_discount_10)<br>
+source: Discount Shop Items +10%.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.shop_discount_25.name</td>
+<td class='tra'  lang='it-IT'>
+sconto_negozio_25</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (shop_discount_25)<br>
+source: shop_discount_25<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.shop_discount_25.description</td>
+<td class='tra'  lang='it-IT'>
+Oggetti del Negozio Scontati di +25%.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (shop_discount_25)<br>
+source: Discount Shop Items +25%.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.slow_but_strong.name</td>
+<td class='tra'  lang='it-IT'>
+Rau und Stark</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (slow_but_strong)<br>
+source: Rau und Stark<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.slow_but_strong.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica il Danno dell'Arma di 1.25x.
+<br>Riduce la Velocità del Cursore di -10%.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (slow_but_strong)<br>
+source: Multiply Weapon Damage 1.25x.\nReduce Cursor Speed -10%.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.smart_recovery.name</td>
+<td class='tra'  lang='it-IT'>
+Recupero Intelligente</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (smart_recovery)<br>
+source: Smart Recovery<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.smart_recovery.description</td>
+<td class='tra'  lang='it-IT'>
+Aggiunge +10 PS Massimi.
+<br>Cura il 25% dei PS Massimi quando si apre una Cartella Sicura.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (smart_recovery)<br>
+source: Add +10 Max HP.\nHeal 25% of Max HP when opening a Safe Folder.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.weapon_speed_boost.name</td>
+<td class='tra'  lang='it-IT'>
+aumento_velocità_arma</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (weapon_speed_boost)<br>
+source: weapon_speed_boost<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.weapon_speed_boost.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica la Velocità dell'Arma di 1.1x.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (weapon_speed_boost)<br>
+source: Multiply Weapon Speed 1.1x.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.xp_drop_boost.name</td>
+<td class='tra'  lang='it-IT'>
+aumento_rilascio_pe</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (xp_drop_boost)<br>
+source: xp_drop_boost<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.xp_drop_boost.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta la possibilità che i nemici rilascino PE di +20%.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (xp_drop_boost)<br>
+source: Increase enemy EXP Drop Chance +20%.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.xp_file_open.name</td>
+<td class='tra'  lang='it-IT'>
+apertura_file_pe</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (xp_file_open)<br>
+source: xp_file_open<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.xp_file_open.description</td>
+<td class='tra'  lang='it-IT'>
+Guadagna +5 PE quando si apre un File.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (xp_file_open)<br>
+source: Gain +5 EXP when opening a File.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.xp_gain_boost.name</td>
+<td class='tra'  lang='it-IT'>
+aumento_guadagno_pe</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (xp_gain_boost)<br>
+source: xp_gain_boost<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.xp_gain_boost.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica il Guadagno di PE di 1.1x.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (xp_gain_boost)<br>
+source: Multiply EXP Gain 1.1x.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.xp_gain_on_damage.name</td>
+<td class='tra'  lang='it-IT'>
+guadagno_pe_sul_danno</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - name (xp_gain_on_damage)<br>
+source: xp_gain_on_damage<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PLUGIN.xp_gain_on_damage.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta il Guadagno di PE di +10%.
+<br>Guadagna +4 PE quando prendi danno.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Plugin - description (xp_gain_on_damage)<br>
+source: Increase EXP Gain +10%.\nGain +4 EXP when taking damage.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PROTOCOL.protocol_1.name</td>
+<td class='tra'  lang='it-IT'>
+Protocollo I</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Difficulty protocol - name (protocol_1)<br>
+source: Protocol I<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PROTOCOL.protocol_1.description</td>
+<td class='tra'  lang='it-IT'>
+La difficoltà per principianti. Ottieni 16 Beanz per Cartella Sicura aperta + nemici sconfitti.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Difficulty protocol - description (protocol_1)<br>
+source: The beginner difficulty. Earn 16 Beanz per Safe Folder opened + cleared enemies.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PROTOCOL.protocol_2.name</td>
+<td class='tra'  lang='it-IT'>
+Protocollo II</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Difficulty protocol - name (protocol_2)<br>
+source: Protocol II<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PROTOCOL.protocol_2.description</td>
+<td class='tra'  lang='it-IT'>
+La difficoltà avanzata. Ottieni 24 Beanz per Cartella Sicura aperta + nemici sconfitti.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Difficulty protocol - description (protocol_2)<br>
+source: The sophomore difficulty. Earn 24 Beanz per Safe Folder opened + cleared enemies.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PROTOCOL.protocol_3.name</td>
+<td class='tra'  lang='it-IT'>
+Protocollo III</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Difficulty protocol - name (protocol_3)<br>
+source: Protocol III<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PROTOCOL.protocol_3.description</td>
+<td class='tra'  lang='it-IT'>
+La difficoltà terziaria. Ottieni 32 Beanz per Cartella Sicura aperta + nemici sconfitti.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Difficulty protocol - description (protocol_3)<br>
+source: The tertiary difficulty. Earn 32 Beanz per Safe Folder opened + cleared enemies.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PROTOCOL.protocol_4.name</td>
+<td class='tra'  lang='it-IT'>
+Protocollo IV</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Difficulty protocol - name (protocol_4)<br>
+source: Protocol IV<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PROTOCOL.protocol_4.description</td>
+<td class='tra'  lang='it-IT'>
+La difficoltà esperta. Ottieni 48 Beanz per Cartella Sicura aperta + nemici sconfitti.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Difficulty protocol - description (protocol_4)<br>
+source: The senior difficulty. Earn 48 Beanz per Safe Folder opened + cleared enemies.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PROTOCOL.protocol_5.name</td>
+<td class='tra'  lang='it-IT'>
+Protocollo V</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Difficulty protocol - name (protocol_5)<br>
+source: Protocol V<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PROTOCOL.protocol_5.description</td>
+<td class='tra'  lang='it-IT'>
+Non c'è bisogno che tu la faccia. 64 Beanz per Cartella Sicura aperta se ce la fai però.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Difficulty protocol - description (protocol_5)<br>
+source: You don't have to do this. 64 Beanz per Safe Folder opened if you do though.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_armor.name</td>
+<td class='tra'  lang='it-IT'>
+Armatura</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - name (upgrade_player_armor)<br>
+source: Armo(u)r<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_armor.description</td>
+<td class='tra'  lang='it-IT'>
+Resistenza da tutti i Danni in arrivo. (Esponenziale)</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - description (upgrade_player_armor)<br>
+source: Resistence from all incoming Damage. (Exponential)<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_coin_gain.name</td>
+<td class='tra'  lang='it-IT'>
+Guadagno Monete</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - name (upgrade_player_coin_gain)<br>
+source: Coin Gain<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_coin_gain.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica la quantità di tutte le Monete ricevute.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - description (upgrade_player_coin_gain)<br>
+source: Multiplies the amount of all Coin received.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_crit_chance.name</td>
+<td class='tra'  lang='it-IT'>
+Probabilità Critico</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - name (upgrade_player_crit_chance)<br>
+source: Crit Chance<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_crit_chance.description</td>
+<td class='tra'  lang='it-IT'>
+Probabilità di causare un Colpo Critico.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - description (upgrade_player_crit_chance)<br>
+source: Chance to cause Crit Hit.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_crit_damage_multi.name</td>
+<td class='tra'  lang='it-IT'>
+Danno Critico</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - name (upgrade_player_crit_damage_multi)<br>
+source: Crit Damage<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_crit_damage_multi.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica il Danno di un Colpo Critico.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - description (upgrade_player_crit_damage_multi)<br>
+source: Multiplies Damage on Crit Hit.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_damage_multi.name</td>
+<td class='tra'  lang='it-IT'>
+Danno</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - name (upgrade_player_damage_multi)<br>
+source: Damage<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_damage_multi.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica tutti i Danni inflitti.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - description (upgrade_player_damage_multi)<br>
+source: Multiplies all Damage output.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_dodge.name</td>
+<td class='tra'  lang='it-IT'>
+Perdita Pacchetti</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - name (upgrade_player_dodge)<br>
+source: Packet Loss<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_dodge.description</td>
+<td class='tra'  lang='it-IT'>
+Probabilità di schivare tutti i Danni in arrivo. (Esponenziale)</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - description (upgrade_player_dodge)<br>
+source: Chance to dogde all incoming Damage. (Exponential)<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_exp_gain.name</td>
+<td class='tra'  lang='it-IT'>
+Guadagno PE</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - name (upgrade_player_exp_gain)<br>
+source: EXP Gain<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_exp_gain.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica la quantità di tutti i PE ricevuti.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - description (upgrade_player_exp_gain)<br>
+source: Multiplies the amount of all EXP received.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_health_regen.name</td>
+<td class='tra'  lang='it-IT'>
+Rigenerazione Salute</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - name (upgrade_player_health_regen)<br>
+source: Health Regen<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_health_regen.description</td>
+<td class='tra'  lang='it-IT'>
+La quantità di salute che si rigenera ogni 20s.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - description (upgrade_player_health_regen)<br>
+source: Amount of health regen every 20s.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_luck.name</td>
+<td class='tra'  lang='it-IT'>
+Fortuna</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - name (upgrade_player_luck)<br>
+source: Luck<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_luck.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta la probabilità di avere rilanci migliori, così da avere rarità maggiori e altri benefici.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - description (upgrade_player_luck)<br>
+source: Increases odds for better rolls, resulting in higher rarities amoung other benefits.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_magnetism_multi.name</td>
+<td class='tra'  lang='it-IT'>
+Magnetismo</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - name (upgrade_player_magnetism_multi)<br>
+source: Magnetism<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_magnetism_multi.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica il raggio che attira i PE e altri oggetti ottenibili.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - description (upgrade_player_magnetism_multi)<br>
+source: Multiplies the radius that pulls in EXP and other pickup items.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_max_health.name</td>
+<td class='tra'  lang='it-IT'>
+Salute Massima</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - name (upgrade_player_max_health)<br>
+source: Max Health<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_max_health.description</td>
+<td class='tra'  lang='it-IT'>
+PS Massimi aggiuntivi.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - description (upgrade_player_max_health)<br>
+source: Additional Max HP.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_power_multi.name</td>
+<td class='tra'  lang='it-IT'>
+Potenza dell'Arma</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - name (upgrade_player_power_multi)<br>
+source: Weapon Power<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_power_multi.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta la potenza di Repelli, Calore, Infetta e Lag di tutte le armi.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - description (upgrade_player_power_multi)<br>
+source: Increases power of Repel, Heat, Infect and Lag from all weapons.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_proc_speed.name</td>
+<td class='tra'  lang='it-IT'>
+Velocità di Elaborazione</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - name (upgrade_player_proc_speed)<br>
+source: Processing Speed<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_proc_speed.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica la velocità con cui vengono elaborati tutti i file, inclusi .zip, .bat, LemWire ecc. (Esponenziale)</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - description (upgrade_player_proc_speed)<br>
+source: Multiplies the speed that all files process at, including .zip, .bat, LemWire etc. (Exponential)<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_refresh_multi.name</td>
+<td class='tra'  lang='it-IT'>
+Ricarica dell'Arma</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - name (upgrade_player_refresh_multi)<br>
+source: Weapon Refresh<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_refresh_multi.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica la velocità con cui tutte le armi vanno in cooldown. (Esponenziale)</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - description (upgrade_player_refresh_multi)<br>
+source: Multiplies the speed that all weapons cooldown. (Exponential)<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_speed.name</td>
+<td class='tra'  lang='it-IT'>
+Velocità del Cursore</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - name (upgrade_player_speed)<br>
+source: Cursor Speed<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_speed.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica la velocità di movimento del giocatore.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - description (upgrade_player_speed)<br>
+source: Multiplies the player movement speed.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_weap_amount.name</td>
+<td class='tra'  lang='it-IT'>
+Quantità dell'Arma</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - name (upgrade_player_weap_amount)<br>
+source: Weapon Amount<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_weap_amount.description</td>
+<td class='tra'  lang='it-IT'>
+Probabilità che un'arma extra si aggiunga all'attacco. Relativa alla quantità base.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - description (upgrade_player_weap_amount)<br>
+source: Chance of additional weapon spawns on attack. Relative to base amount.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_weap_size.name</td>
+<td class='tra'  lang='it-IT'>
+Dimensione dell'Arma</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - name (upgrade_player_weap_size)<br>
+source: Weapon Size<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_weap_size.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica la dimensione di tutte le armi.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - description (upgrade_player_weap_size)<br>
+source: Multiplies the size of all weapons.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_weap_speed.name</td>
+<td class='tra'  lang='it-IT'>
+Velocità dell'Arma</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - name (upgrade_player_weap_speed)<br>
+source: Weapon Speed<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+STAT.upgrade_player_weap_speed.description</td>
+<td class='tra'  lang='it-IT'>
+Moltiplica la velocità con cui tutte le armi attaccano. (Esponenziale)</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat display - description (upgrade_player_weap_speed)<br>
+source: Multiplies the speed that all weapons attack. (Exponential)<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+WEAPON_UPGRADE.damage.name</td>
+<td class='tra'  lang='it-IT'>
+Danno {weapon}</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Weapon upgrade card - damage stat title<br>
+source: {weapon} Damage<br>
+Keep placeholders unchanged: {weapon}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+WEAPON_UPGRADE.damage.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta il danno di {weapon} di +{percent}%.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Weapon upgrade card - damage stat description<br>
+source: Increases {weapon} damage by +{percent}%.<br>
+Keep placeholders unchanged: {weapon}, {percent}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+WEAPON_UPGRADE.speed.name</td>
+<td class='tra'  lang='it-IT'>
+Velocità di {weapon}</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Weapon upgrade card - attack speed stat title<br>
+source: {weapon} Speed<br>
+Keep placeholders unchanged: {weapon}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+WEAPON_UPGRADE.speed.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta la velocità d'attacco di {weapon} di +{percent}%.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Weapon upgrade card - attack speed stat description<br>
+source: Increases {weapon} attack speed by +{percent}%.<br>
+Keep placeholders unchanged: {weapon}, {percent}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+WEAPON_UPGRADE.refresh.name</td>
+<td class='tra'  lang='it-IT'>
+Ricarica di {weapon}</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Weapon upgrade card - refresh/cooldown stat title<br>
+source: {weapon} Refresh<br>
+Keep placeholders unchanged: {weapon}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+WEAPON_UPGRADE.refresh.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta la velocità di ricarica di {weapon} di +{percent}%.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Weapon upgrade card - refresh/cooldown stat description<br>
+source: Increases {weapon} refresh speed by +{percent}%.<br>
+Keep placeholders unchanged: {weapon}, {percent}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+WEAPON_UPGRADE.size.name</td>
+<td class='tra'  lang='it-IT'>
+Dimensione di {weapon}</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Weapon upgrade card - size stat title<br>
+source: {weapon} Size<br>
+Keep placeholders unchanged: {weapon}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+WEAPON_UPGRADE.size.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta la dimensione di {weapon} di +{percent}%.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Weapon upgrade card - size stat description<br>
+source: Increases {weapon} size by +{percent}%.<br>
+Keep placeholders unchanged: {weapon}, {percent}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+WEAPON_UPGRADE.amount.name</td>
+<td class='tra'  lang='it-IT'>
+Quantità di {weapon}</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Weapon upgrade card - spawn amount stat title<br>
+source: {weapon} Amount<br>
+Keep placeholders unchanged: {weapon}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+WEAPON_UPGRADE.amount.description</td>
+<td class='tra'  lang='it-IT'>
+Aggiunge il +{percent}% di probabilità di generare un ulteriore {spawn_noun}.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Weapon upgrade card - spawn amount stat description<br>
+source: Adds +{percent}% chance of additional {spawn_noun}.<br>
+Keep placeholders unchanged: {percent}, {spawn_noun}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+WEAPON_UPGRADE.power.name</td>
+<td class='tra'  lang='it-IT'>
+Potenza di {weapon}</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Weapon upgrade card - power stat title<br>
+source: {weapon} Power<br>
+Keep placeholders unchanged: {weapon}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+WEAPON_UPGRADE.power.repel.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta l'effetto di Respinta di {weapon} di +{percent}%.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Weapon upgrade card - repel power description<br>
+source: Increases {weapon} Repel effect by +{percent}%.<br>
+Keep placeholders unchanged: {weapon}, {percent}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+WEAPON_UPGRADE.power.heat.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta le Pile di Calore di {weapon} di +{percent}%.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Weapon upgrade card - heat stacks power description<br>
+source: Increases {weapon} Heat Stacks by +{percent}%.<br>
+Keep placeholders unchanged: {weapon}, {percent}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+WEAPON_UPGRADE.power.lag.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta le Pile di Lag di {weapon} di +{percent}%.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Weapon upgrade card - lag stacks power description<br>
+source: Increases {weapon} Lag Stacks by +{percent}%.<br>
+Keep placeholders unchanged: {weapon}, {percent}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+WEAPON_UPGRADE.power.infect.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta le Pile di Infezione di {weapon} di +{percent}%.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Weapon upgrade card - infect stacks power description<br>
+source: Increases {weapon} Infect Stacks by +{percent}%.<br>
+Keep placeholders unchanged: {weapon}, {percent}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+WEAPON.avd.spawn_noun</td>
+<td class='tra'  lang='it-IT'>
+generazione dei logo</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Weapon amount upgrade - phrase after "additional" for AVD<br>
+source: logos spawning<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+WEAPON.bubbles.spawn_noun</td>
+<td class='tra'  lang='it-IT'>
+generazione delle bolle</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Weapon amount upgrade - phrase after "additional" for Bubbles<br>
+source: bubbles spawning<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+WEAPON.cdrive.spawn_noun</td>
+<td class='tra'  lang='it-IT'>
+generazione dei drive</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Weapon amount upgrade - phrase after "additional" for C: Drive<br>
+source: drives spawning<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+WEAPON.cut.spawn_noun</td>
+<td class='tra'  lang='it-IT'>
+generazione delle forbici</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Weapon amount upgrade - phrase after "additional" for Cut<br>
+source: scissors spawning<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+WEAPON.firewall.spawn_noun</td>
+<td class='tra'  lang='it-IT'>
+generazione degli anelli di fuoco</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Weapon amount upgrade - phrase after "additional" for Firewall<br>
+source: fire rings spawning<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+WEAPON.fontart.spawn_noun</td>
+<td class='tra'  lang='it-IT'>
+generazione delle lettere</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Weapon amount upgrade - phrase after "additional" for FontArt<br>
+source: letters spawning<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+WEAPON.hitmarkers.spawn_noun</td>
+<td class='tra'  lang='it-IT'>
+spari</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Weapon amount upgrade - phrase after "additional" for HaD: DoCK<br>
+source: shots<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+WEAPON.paint.spawn_noun</td>
+<td class='tra'  lang='it-IT'>
+generazione dei cerchi</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Weapon amount upgrade - phrase after "additional" for Paint<br>
+source: circles spawning<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+WEAPON.pinball.spawn_noun</td>
+<td class='tra'  lang='it-IT'>
+generazione delle palline</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Weapon amount upgrade - phrase after "additional" for Pinball<br>
+source: pinballs spawning<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+WEAPON.quarantine.spawn_noun</td>
+<td class='tra'  lang='it-IT'>
+scansioni</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Weapon amount upgrade - phrase after "additional" for Quarantine<br>
+source: scans<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+WEAPON.search.spawn_noun</td>
+<td class='tra'  lang='it-IT'>
+lenti d'ingrandimento</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Weapon amount upgrade - phrase after "additional" for Search<br>
+source: magnifying glasses<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+WEAPON.solitaire.spawn_noun</td>
+<td class='tra'  lang='it-IT'>
+generazione delle carte</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Weapon amount upgrade - phrase after "additional" for Solitaire<br>
+source: cards spawning<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_armor.name</td>
+<td class='tra'  lang='it-IT'>
+Armatura</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (upgrade_player_armor)<br>
+source: Armo(u)r<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_armor.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta la resistenza al danno di +{percent}%.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (upgrade_player_armor)<br>
+source: Increases damage resistance by +{percent}%.<br>
+Keep placeholders unchanged: {percent}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_coin_gain.name</td>
+<td class='tra'  lang='it-IT'>
+Guadagno Monete</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (upgrade_player_coin_gain)<br>
+source: Coin Gain<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_coin_gain.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta il guadagno delle monete di +{percent}%.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (upgrade_player_coin_gain)<br>
+source: Increases coin gain by +{percent}%.<br>
+Keep placeholders unchanged: {percent}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_crit_chance.name</td>
+<td class='tra'  lang='it-IT'>
+Probabilità Critico</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (upgrade_player_crit_chance)<br>
+source: Crit Chance<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_crit_chance.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta la probabilità di colpi critici di +{percent}%.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (upgrade_player_crit_chance)<br>
+source: Increases crit hit chance by +{percent}%.<br>
+Keep placeholders unchanged: {percent}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_crit_damage_multi.name</td>
+<td class='tra'  lang='it-IT'>
+Danno Critico</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (upgrade_player_crit_damage_multi)<br>
+source: Crit Damage<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_crit_damage_multi.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta il danno del colpo critico di +{percent}%.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (upgrade_player_crit_damage_multi)<br>
+source: Increases crit hit damage by +{percent}%.<br>
+Keep placeholders unchanged: {percent}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_damage_multi.name</td>
+<td class='tra'  lang='it-IT'>
+Danno dell'Arma</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (upgrade_player_damage_multi)<br>
+source: Weapon Damage<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_damage_multi.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta il moltiplicatore di danni dell'arma di +{percent}%.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (upgrade_player_damage_multi)<br>
+source: Increases weapon damage multiplier by +{percent}%.<br>
+Keep placeholders unchanged: {percent}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_dodge.name</td>
+<td class='tra'  lang='it-IT'>
+Perdita Pacchetti</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (upgrade_player_dodge)<br>
+source: Packet Loss<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_dodge.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta la probabilità di schivare il danno del +{percent}%.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (upgrade_player_dodge)<br>
+source: Increases chance of dodging damage by +{percent}%.<br>
+Keep placeholders unchanged: {percent}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_exp_gain.name</td>
+<td class='tra'  lang='it-IT'>
+Guadagno PE</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (upgrade_player_exp_gain)<br>
+source: EXP Gain<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_exp_gain.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta il guadagno di PE di +{percent}%.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (upgrade_player_exp_gain)<br>
+source: Increases EXP gain by +{percent}%.<br>
+Keep placeholders unchanged: {percent}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_health_regen.name</td>
+<td class='tra'  lang='it-IT'>
+Rigenerazione Salute</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (upgrade_player_health_regen)<br>
+source: Health Regen<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_health_regen.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta la rigenerazione della salute di +{percent} PS ogni 20s.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (upgrade_player_health_regen)<br>
+source: Increases health regen by +{percent} HP every 20s.<br>
+Keep placeholders unchanged: {percent}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_luck.name</td>
+<td class='tra'  lang='it-IT'>
+Fortuna</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (upgrade_player_luck)<br>
+source: Luck<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_luck.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta la fortuna di +{percent}%.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (upgrade_player_luck)<br>
+source: Increases luck by +{percent}%.<br>
+Keep placeholders unchanged: {percent}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_magnetism_multi.name</td>
+<td class='tra'  lang='it-IT'>
+Magnetismo</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (upgrade_player_magnetism_multi)<br>
+source: Magnetism<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_magnetism_multi.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta il magnetismo del giocatore di +{percent}%.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (upgrade_player_magnetism_multi)<br>
+source: Increases player magnetism by +{percent}%.<br>
+Keep placeholders unchanged: {percent}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_max_health.name</td>
+<td class='tra'  lang='it-IT'>
+Salute Massima</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (upgrade_player_max_health)<br>
+source: Max Health<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_max_health.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta la salute massima di +{percent}.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (upgrade_player_max_health)<br>
+source: Increases max health by +{percent}.<br>
+Keep placeholders unchanged: {percent}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_power_multi.name</td>
+<td class='tra'  lang='it-IT'>
+Potenza dell'Arma</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (upgrade_player_power_multi)<br>
+source: Weapon Power<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_power_multi.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta la potenza di Respingi, Calore, Infezione e Lag delle armi di +{percent}%.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (upgrade_player_power_multi)<br>
+source: Increases power of Repel, Heat, Infect and Lag from weapons by +{percent}%.<br>
+Keep placeholders unchanged: {percent}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_proc_speed.name</td>
+<td class='tra'  lang='it-IT'>
+Velocità di Elaborazione</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (upgrade_player_proc_speed)<br>
+source: Processing Speed<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_proc_speed.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta la velocità di apertura dei file di +{percent}%.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (upgrade_player_proc_speed)<br>
+source: Increases file opening speed by +{percent}%.<br>
+Keep placeholders unchanged: {percent}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_refresh_multi.name</td>
+<td class='tra'  lang='it-IT'>
+Ricarica dell'Arma</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (upgrade_player_refresh_multi)<br>
+source: Weapon Refresh<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_refresh_multi.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta il moltiplicatore di ricarica dell'arma di +{percent}%.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (upgrade_player_refresh_multi)<br>
+source: Increases weapon refresh multiplier by +{percent}%.<br>
+Keep placeholders unchanged: {percent}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_speed.name</td>
+<td class='tra'  lang='it-IT'>
+Velocità del Cursore</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (upgrade_player_speed)<br>
+source: Cursor Speed<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_speed.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta la velocità di movimento di +{percent}%.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (upgrade_player_speed)<br>
+source: Increases movement speed by +{percent}%.<br>
+Keep placeholders unchanged: {percent}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_weap_amount.name</td>
+<td class='tra'  lang='it-IT'>
+Quantità dell'Arma</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (upgrade_player_weap_amount)<br>
+source: Weapon Amount<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_weap_amount.description</td>
+<td class='tra'  lang='it-IT'>
+Aggiunge una probabilità di +{percent}% di generare un'arma aggiuntiva.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (upgrade_player_weap_amount)<br>
+source: Adds +{percent}% chance of additional weapon spawns.<br>
+Keep placeholders unchanged: {percent}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_weap_size.name</td>
+<td class='tra'  lang='it-IT'>
+Dimensione dell'Arma</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (upgrade_player_weap_size)<br>
+source: Weapon Size<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_weap_size.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta il moltiplicatore della dimensione dell'arma di +{percent}%.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (upgrade_player_weap_size)<br>
+source: Increases weapon size multiplier by +{percent}%.<br>
+Keep placeholders unchanged: {percent}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_weap_speed.name</td>
+<td class='tra'  lang='it-IT'>
+Velocità dell'Arma</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (upgrade_player_weap_speed)<br>
+source: Weapon Speed<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.upgrade_player_weap_speed.description</td>
+<td class='tra'  lang='it-IT'>
+Aumenta il moltiplicatore della velocità dell'arma di +{percent}%.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (upgrade_player_weap_speed)<br>
+source: Increases weapon attack speed multiplier by +{percent}%.<br>
+Keep placeholders unchanged: {percent}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.weapon_avd.name</td>
+<td class='tra'  lang='it-IT'>
+Logo AVD</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (weapon_avd)<br>
+source: AVD Logo<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.weapon_avd.description</td>
+<td class='tra'  lang='it-IT'>
+Spara un enorme logo AVD verso il nemico più vicino.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (weapon_avd)<br>
+source: Shoots a giant AVD logo towards the nearest enemy.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.weapon_bubbles.name</td>
+<td class='tra'  lang='it-IT'>
+Bolle</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (weapon_bubbles)<br>
+source: Bubbles<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.weapon_bubbles.description</td>
+<td class='tra'  lang='it-IT'>
+Enormi bolle fluttuano in giro e aggiungono pile di Infezione ai nemici.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (weapon_bubbles)<br>
+source: Giant bubbles float around that add stacks of Infect to enemies.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.weapon_cdrive.name</td>
+<td class='tra'  lang='it-IT'>
+C: Drive</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (weapon_cdrive)<br>
+source: C: Drive<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.weapon_cdrive.description</td>
+<td class='tra'  lang='it-IT'>
+Dischi rigidi cadono in modo casuale sui nemici.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (weapon_cdrive)<br>
+source: Drops harddrives randomly on enemies.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.weapon_cut.name</td>
+<td class='tra'  lang='it-IT'>
+Taglio</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (weapon_cut)<br>
+source: Cut<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.weapon_cut.description</td>
+<td class='tra'  lang='it-IT'>
+Forbici tagliano attraverso il nemico più vicino.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (weapon_cut)<br>
+source: Scissors slice through the nearest enemy.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.weapon_firewall.name</td>
+<td class='tra'  lang='it-IT'>
+Firewall</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (weapon_firewall)<br>
+source: Firewall<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.weapon_firewall.description</td>
+<td class='tra'  lang='it-IT'>
+Crea un cerchio di fuoco attorno al giocatore che aggiunge pile di Calore ai nemici.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (weapon_firewall)<br>
+source: Creates a ring of fire around the player that adds stacks of Heat to enemies.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.weapon_fontart.name</td>
+<td class='tra'  lang='it-IT'>
+FontArt</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (weapon_fontart)<br>
+source: FontArt<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.weapon_fontart.description</td>
+<td class='tra'  lang='it-IT'>
+Lettere cadono sul nemico più forte e aggiungono pile di Calore ai nemici.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (weapon_fontart)<br>
+source: Drops letters on the strongest enemy that add stacks of Heat to enemies.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.weapon_hitmarkers.name</td>
+<td class='tra'  lang='it-IT'>
+HaD: DoCK</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (weapon_hitmarkers)<br>
+source: HaD: DoCK<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.weapon_hitmarkers.description</td>
+<td class='tra'  lang='it-IT'>
+Spari colpiscono il nemico più vicino. Probabilità del 3% di fare headshot.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (weapon_hitmarkers)<br>
+source: Shots land on the nearest enemy. 3% chance of a headshot.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.weapon_paint.name</td>
+<td class='tra'  lang='it-IT'>
+Paint</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (weapon_paint)<br>
+source: Paint<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.weapon_paint.description</td>
+<td class='tra'  lang='it-IT'>
+Dipinge dei cerchi vicino al giocatore che fanno danno e aggiungono pile di Lag ai nemici nel tempo.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (weapon_paint)<br>
+source: Paints circles near the player that damage and add stacks of Lag to enemies over time.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.weapon_pinball.name</td>
+<td class='tra'  lang='it-IT'>
+Pinball</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (weapon_pinball)<br>
+source: Pinball<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.weapon_pinball.description</td>
+<td class='tra'  lang='it-IT'>
+Spara una pallina rimbalzante verso il nemico più vicino.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (weapon_pinball)<br>
+source: Shoots a bouncing ball towards the nearest enemy.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.weapon_quarantine.name</td>
+<td class='tra'  lang='it-IT'>
+Quarantena</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (weapon_quarantine)<br>
+source: Quarantine<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.weapon_quarantine.description</td>
+<td class='tra'  lang='it-IT'>
+Scansiona un'area attorno al giocatore che danneggia i nemici.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (weapon_quarantine)<br>
+source: Scans an area around the player damaging enemies.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.weapon_search.name</td>
+<td class='tra'  lang='it-IT'>
+Ricerca</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (weapon_search)<br>
+source: Search<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.weapon_search.description</td>
+<td class='tra'  lang='it-IT'>
+Spedisce una lente d'ingrandimento intorno al giocatore.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (weapon_search)<br>
+source: Sends out a magnifying glass around the player.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.weapon_solitaire.name</td>
+<td class='tra'  lang='it-IT'>
+Solitario</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - name (weapon_solitaire)<br>
+source: Solitaire<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UPGRADE.weapon_solitaire.description</td>
+<td class='tra'  lang='it-IT'>
+Spara una carta rimbalzante che aggiunge pile di Infezione ai nemici.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade card - description (weapon_solitaire)<br>
+source: Shoots a bouncing card that adds stacks of Infect to enemies.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+SETTINGS.fps_unlimited</td>
+<td class='tra'  lang='it-IT'>
+Illimitato</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Settings menu<br>
+source: Unlimited<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+SETTINGS.windowed</td>
+<td class='tra'  lang='it-IT'>
+Finestra</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Settings menu<br>
+source: Windowed<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+SETTINGS.fullscreen</td>
+<td class='tra'  lang='it-IT'>
+Schermo Intero</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Settings menu<br>
+source: Full Screen<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+SETTINGS.unknown</td>
+<td class='tra'  lang='it-IT'>
+Sconosciuto</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Settings menu<br>
+source: Unknown<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+SETTINGS.zoom_standard</td>
+<td class='tra'  lang='it-IT'>
+Standard</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Settings menu<br>
+source: Standard<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+SETTINGS.on</td>
+<td class='tra'  lang='it-IT'>
+ACCESO</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Settings menu<br>
+source: ON<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+SETTINGS.off</td>
+<td class='tra'  lang='it-IT'>
+SPENTO</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Settings menu<br>
+source: OFF<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+SETTINGS.language</td>
+<td class='tra'  lang='it-IT'>
+Lingua</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Settings menu<br>
+source: Language<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+SETTINGS.restart_for_locale</td>
+<td class='tra'  lang='it-IT'>
+Riavvia il gioco per aggiornare tutte le scritte.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Settings menu<br>
+source: Restart the game for all text to update.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+RARITY.common</td>
+<td class='tra'  lang='it-IT'>
+Comune</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Rarity label<br>
+source: Common<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+RARITY.uncommon</td>
+<td class='tra'  lang='it-IT'>
+Non comune</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Rarity label<br>
+source: Uncommon<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+RARITY.rare</td>
+<td class='tra'  lang='it-IT'>
+Raro</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Rarity label<br>
+source: Rare<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+RARITY.epic</td>
+<td class='tra'  lang='it-IT'>
+Epico</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Rarity label<br>
+source: Epic<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+RARITY.legendary</td>
+<td class='tra'  lang='it-IT'>
+Leggendario</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Rarity label<br>
+source: Legendary<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+RARITY.unknown</td>
+<td class='tra'  lang='it-IT'>
+Sconosciuto</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Rarity label<br>
+source: Unknown<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+TORRENT.finished</td>
+<td class='tra'  lang='it-IT'>
+Finito</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Torrent window<br>
+source: Finished<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+TORRENT.stalled</td>
+<td class='tra'  lang='it-IT'>
+In stallo</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Torrent window<br>
+source: Stalled<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+TORRENT.downloading</td>
+<td class='tra'  lang='it-IT'>
+Download in corso</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Torrent window<br>
+source: Downloading<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+TORRENT.speed</td>
+<td class='tra'  lang='it-IT'>
+%d KB/s</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Torrent window<br>
+source: %d KB/s<br>
+Keep placeholders unchanged: %d<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UI.vapor_validating</td>
+<td class='tra'  lang='it-IT'>
+Vapore - Validazione dei file - {0}% completato</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+UI (script-driven)<br>
+source: Vapor - Validating files - {0}% complete<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UI.level</td>
+<td class='tra'  lang='it-IT'>
+Livello: %d</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+HUD - level label<br>
+source: Level: %d<br>
+Keep placeholders unchanged: %d<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UI.window_title</td>
+<td class='tra'  lang='it-IT'>
+livello%d.doc - SH Docs 2003</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade screen - fake window title<br>
+source: level%d.doc - SH Docs 2003<br>
+Keep placeholders unchanged: %d<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UI.level_up</td>
+<td class='tra'  lang='it-IT'>
+Salito di Livello!</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade screen - title<br>
+source: Level Up!<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UI.collecting_data</td>
+<td class='tra'  lang='it-IT'>
+Raccogliendo tutti i Dati sparsi.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+UI (script-driven)<br>
+source: Collecting any loose Data.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UI.shop_title</td>
+<td class='tra'  lang='it-IT'>
+Negozio</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Shop screen - title<br>
+source: Shop<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UI.shop_speech</td>
+<td class='tra'  lang='it-IT'>
+Compra qualche miglioramento! Ti prego, mi servono Monete...</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Shop screen - speech<br>
+source: Purchase some upgrades! Please, I need Coin...<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UI.max</td>
+<td class='tra'  lang='it-IT'>
+Max</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+UI (script-driven)<br>
+source: Max<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UI.defragmented</td>
+<td class='tra'  lang='it-IT'>
+Deframmentato</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+UI (script-driven)<br>
+source: Defragmented<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UI.defrag_capacity</td>
+<td class='tra'  lang='it-IT'>
+%2.2f KB</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+UI (script-driven)<br>
+source: %2.2f KB<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UI.select_upgrade</td>
+<td class='tra'  lang='it-IT'>
+Scegli una miglioria per continuare.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade screen - speech prompt<br>
+source: Select an upgrade to continue.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UI.select_weapon</td>
+<td class='tra'  lang='it-IT'>
+Scegli un'arma per continuare.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Upgrade screen - weapon pick prompt<br>
+source: Select a weapon to continue.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UI.reroll_coin</td>
+<td class='tra'  lang='it-IT'>
+Rilancia: %.2f Monete</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Shop / upgrade screen - reroll button<br>
+source: Reroll: %.2f Coin<br>
+Keep placeholders unchanged: %.2f<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UI.beanz</td>
+<td class='tra'  lang='it-IT'>
+Beanz: %d</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+HUD - Beanz label<br>
+source: Beanz: %d<br>
+Keep placeholders unchanged: %d<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UI.coin</td>
+<td class='tra'  lang='it-IT'>
+Monete: %.2f</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+HUD - Coin label<br>
+source: Coin: %.2f<br>
+Keep placeholders unchanged: %.2f<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UI.keys</td>
+<td class='tra'  lang='it-IT'>
+Chiavi: %.2f</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+HUD - Keys label<br>
+source: Keys: %.2f<br>
+Keep placeholders unchanged: %.2f<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UI.all_count</td>
+<td class='tra'  lang='it-IT'>
+Tutto (%d)</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Torrent window - tab<br>
+source: All (%d)<br>
+Keep placeholders unchanged: %d<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UI.downloading_count</td>
+<td class='tra'  lang='it-IT'>
+Scaricando (%d)</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Torrent window - tab<br>
+source: Downloading (%d)<br>
+Keep placeholders unchanged: %d<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UI.completed_count</td>
+<td class='tra'  lang='it-IT'>
+Completato (%d)</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Torrent window - tab<br>
+source: Completed (%d)<br>
+Keep placeholders unchanged: %d<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UI.stalled_count</td>
+<td class='tra'  lang='it-IT'>
+In stallo (%d)</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Torrent window - tab<br>
+source: Stalled (%d)<br>
+Keep placeholders unchanged: %d<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UI.hp</td>
+<td class='tra'  lang='it-IT'>
+PS: %d/%d</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+HUD - health label<br>
+source: HP: %d/%d<br>
+Keep placeholders unchanged: %d<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLICKABLE.double_click_open</td>
+<td class='tra'  lang='it-IT'>
+Doppio Click per Aprire</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Desktop icon tooltip<br>
+source: Double-Click to Open<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLICKABLE.double_click_run</td>
+<td class='tra'  lang='it-IT'>
+Doppio Click per Avviare</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Desktop icon tooltip<br>
+source: Double-Click to Run<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLICKABLE.torrent_downloads</td>
+<td class='tra'  lang='it-IT'>
+Scarica 1-5 Migliorie dell'Arma</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Desktop icon tooltip<br>
+source: Downloads 1-5 Weapon Upgrades<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLICKABLE.double_click_purchase</td>
+<td class='tra'  lang='it-IT'>
+Doppio Click per Acquistare</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Desktop icon tooltip<br>
+source: Double-Click to Purchase<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLICKABLE.double_click_fight</td>
+<td class='tra'  lang='it-IT'>
+Doppio Click per Combattere</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Desktop icon tooltip<br>
+source: Double-Click to Fight<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLICKABLE.double_click_collect_coins</td>
+<td class='tra'  lang='it-IT'>
+Doppio Click per raccogliere tutte le monete</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Desktop icon tooltip<br>
+source: Double-Click to collect all coins<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLICKABLE.double_click_collect_data</td>
+<td class='tra'  lang='it-IT'>
+Doppio Click per raccogliere tutti i dati</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Desktop icon tooltip<br>
+source: Double-Click to collect all data<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLICKABLE.double_click_install</td>
+<td class='tra'  lang='it-IT'>
+Doppio Click per Installare il Plugin</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Desktop icon tooltip<br>
+source: Double-Click to Install Plugin<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLICKABLE.double_click_keygen</td>
+<td class='tra'  lang='it-IT'>
+Doppio Click per Generare una Chiave</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Desktop icon tooltip<br>
+source: Double-Click to Generate Key<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLICKABLE.double_click_play</td>
+<td class='tra'  lang='it-IT'>
+Doppio Click per Giocare</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Desktop icon tooltip<br>
+source: Double-Click to Play<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLICKABLE.double_click_shop</td>
+<td class='tra'  lang='it-IT'>
+Doppio Click per Aprire il Negozio</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Desktop icon tooltip<br>
+source: Double-Click to Open Shop<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLICKABLE.double_click_unarchive</td>
+<td class='tra'  lang='it-IT'>
+Doppio Click per Ripristinare.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Desktop icon tooltip<br>
+source: Double-Click to Unarchive<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLICKABLE.double_click_equip</td>
+<td class='tra'  lang='it-IT'>
+Doppio Click per Equipaggiare</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Desktop icon tooltip<br>
+source: Double-Click to Equip<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLICKABLE.double_click_apply</td>
+<td class='tra'  lang='it-IT'>
+Doppio Click per applicare</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Desktop icon tooltip<br>
+source: Double-Click to apply<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLICKABLE.double_click_open_link</td>
+<td class='tra'  lang='it-IT'>
+Doppio Click per Aprire il Link</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Desktop icon tooltip<br>
+source: Double-Click to Open Link<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLICKABLE.double_click_cycle_language</td>
+<td class='tra'  lang='it-IT'>
+Doppio Click per Cambiare Lingua</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Desktop icon tooltip<br>
+source: Double-Click to Change Language<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLICKABLE.success_chance</td>
+<td class='tra'  lang='it-IT'>
+%.0f%% probabilità di Successo</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Desktop icon tooltip<br>
+source: %.0f%% chance of Success<br>
+Keep placeholders unchanged: %.0f, %%<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLICKABLE.uses_one_key</td>
+<td class='tra'  lang='it-IT'>
+Usa 1 Chiave</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Desktop icon tooltip<br>
+source: Uses 1 Key<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLICKABLE.vapor_destroys</td>
+<td class='tra'  lang='it-IT'>
+Distrugge tutto quello che c'è sullo schermo!</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Desktop icon tooltip<br>
+source: Destroys everything on-screen!<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+TOOLTIP.level</td>
+<td class='tra'  lang='it-IT'>
+Livello %d</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat tooltip<br>
+source: Level %d<br>
+Keep placeholders unchanged: %d<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+TOOLTIP.damage</td>
+<td class='tra'  lang='it-IT'>
+Danno: %.1f</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat tooltip<br>
+source: Damage: %.1f<br>
+Keep placeholders unchanged: %.1f<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+TOOLTIP.amount</td>
+<td class='tra'  lang='it-IT'>
+Quantità: %.1f</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat tooltip<br>
+source: Amount: %.1f<br>
+Keep placeholders unchanged: %.1f<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+TOOLTIP.speed</td>
+<td class='tra'  lang='it-IT'>
+Velocità: %.2fs</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat tooltip<br>
+source: Speed: %.2fs<br>
+Keep placeholders unchanged: %.2f<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+TOOLTIP.refresh</td>
+<td class='tra'  lang='it-IT'>
+Riavvia: %.2fs</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat tooltip<br>
+source: Refresh: %.2fs<br>
+Keep placeholders unchanged: %.2f<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+TOOLTIP.size</td>
+<td class='tra'  lang='it-IT'>
+Dimensione: %.2fx</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat tooltip<br>
+source: Size: %.2fx<br>
+Keep placeholders unchanged: %.2f<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+TOOLTIP.power</td>
+<td class='tra'  lang='it-IT'>
+Potenza: %.1f</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat tooltip<br>
+source: Power: %.1f<br>
+Keep placeholders unchanged: %.1f<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+TOOLTIP.completions</td>
+<td class='tra'  lang='it-IT'>
+Completamento: %d</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Stat tooltip<br>
+source: Completions: %d<br>
+Keep placeholders unchanged: %d<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.rank</td>
+<td class='tra'  lang='it-IT'>
+Grado: %d/%d</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu<br>
+source: Rank: %d/%d<br>
+Keep placeholders unchanged: %d<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.rank_max</td>
+<td class='tra'  lang='it-IT'>
+GRADO MASSIMO</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu<br>
+source: MAX RANK<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+META.cost_beanz</td>
+<td class='tra'  lang='it-IT'>
+Costo: %d Beanz</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Meta upgrade menu<br>
+source: Cost: %d Beanz<br>
+Keep placeholders unchanged: %d<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+ZIP.extracting</td>
+<td class='tra'  lang='it-IT'>
+Estrazione file: 
+<br>%s da /.???</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Zip extractor window<br>
+source: Extracting file: \n%s from /.???<br>
+Keep placeholders unchanged: %s<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+ZIP.progress</td>
+<td class='tra'  lang='it-IT'>
+Stima tempo rimanente: {m}m {s}s ({cur} KB di {max} KB) 
+<br>Velocità di processione: {rate} KB/s</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Zip extractor window<br>
+source: Estimated time left: {m}m {s}s ({cur} KB of {max} KB) \nProcessing rate: {rate} KB/Sec<br>
+Keep placeholders unchanged: {m}, {s}, {cur}, {max}, {rate}<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+ZIP.extracted_success</td>
+<td class='tra'  lang='it-IT'>
+%s estratto con successo.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Zip extractor window<br>
+source: %s extracted successfully.<br>
+Keep placeholders unchanged: %s<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+DLL.missing_library</td>
+<td class='tra'  lang='it-IT'>
+Libreria dinamica collegata mancante %s localizzata.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+DLL<br>
+source: Missing dynamic link library %s located.<br>
+Keep placeholders unchanged: %s<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLICKABLE.filename.torrent</td>
+<td class='tra'  lang='it-IT'>
+BigWave.exe</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Desktop icon tooltip<br>
+source: BigWave.exe<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLICKABLE.filename.lemwire</td>
+<td class='tra'  lang='it-IT'>
+LemWire.exe</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Desktop icon tooltip<br>
+source: LemWire.exe<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CLICKABLE.filename.installer</td>
+<td class='tra'  lang='it-IT'>
+Installatore.pgi</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Desktop icon tooltip<br>
+source: Installer.pgi<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+RUNSTAT.difficulty</td>
+<td class='tra'  lang='it-IT'>
+Difficoltà</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Run stats panel row<br>
+source: Difficulty<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+RUNSTAT.levels_gained</td>
+<td class='tra'  lang='it-IT'>
+Livelli Guadagnati</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Run stats panel row<br>
+source: Levels Gained<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+RUNSTAT.exp_gained</td>
+<td class='tra'  lang='it-IT'>
+PE Guadagnati</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Run stats panel row<br>
+source: EXP Gained<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+RUNSTAT.safe_folders</td>
+<td class='tra'  lang='it-IT'>
+Cartelle Sicure Aperte</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Run stats panel row<br>
+source: Safe Folders Opened<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+RUNSTAT.files_opened</td>
+<td class='tra'  lang='it-IT'>
+File Aperti</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Run stats panel row<br>
+source: Files Opened<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+RUNSTAT.enemies_cleared</td>
+<td class='tra'  lang='it-IT'>
+Nemici Sconfitti</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Run stats panel row<br>
+source: Enemies Cleared<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+RUNSTAT.coin_collected</td>
+<td class='tra'  lang='it-IT'>
+Monete Ottenute</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Run stats panel row<br>
+source: Coin Collected<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+RUNSTAT.keys_collected</td>
+<td class='tra'  lang='it-IT'>
+Chiavi Ottenute</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Run stats panel row<br>
+source: Keys Collected<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+RUNSTAT.beanz_collected</td>
+<td class='tra'  lang='it-IT'>
+Beanz Ottenuti</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Run stats panel row<br>
+source: Beanz Collected<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Packet Loss</td>
+<td class='tra'  lang='it-IT'>
+Perdita Pacchetti</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Memory Leak</td>
+<td class='tra'  lang='it-IT'>
+Perdita di Memoria!</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+source: Memory Leak!<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Zip File</td>
+<td class='tra'  lang='it-IT'>
+File Zip</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Shop</td>
+<td class='tra'  lang='it-IT'>
+Negozio</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Safe Folder</td>
+<td class='tra'  lang='it-IT'>
+Cartella Sicura</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Next Folder</td>
+<td class='tra'  lang='it-IT'>
+Prossima Cartella</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Coin Collector</td>
+<td class='tra'  lang='it-IT'>
+Raccogli Monete</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Defrag Collector</td>
+<td class='tra'  lang='it-IT'>
+Raccogli Defrag</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: defrag_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Health Check</td>
+<td class='tra'  lang='it-IT'>
+Punto di Cura</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Pointer Trails</td>
+<td class='tra'  lang='it-IT'>
+Scia del Cursore</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Download More RAM</td>
+<td class='tra'  lang='it-IT'>
+Scarica Più RAM</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+RAM download complete.</td>
+<td class='tra'  lang='it-IT'>
+Installazione RAM completata.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+RAM download complete<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+LemWire.exe</td>
+<td class='tra'  lang='it-IT'>
+LemWire.exe</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+LemWire<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+keygen.exe</td>
+<td class='tra'  lang='it-IT'>
+keygen.exe</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+keygen<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+vapor.exe</td>
+<td class='tra'  lang='it-IT'>
+vapor.exe</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+vapor<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+frenzy.exe</td>
+<td class='tra'  lang='it-IT'>
+frenzy.exe</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+frenzy<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Installer.pgi</td>
+<td class='tra'  lang='it-IT'>
+Installer.pgi</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Installer<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Feedback</td>
+<td class='tra'  lang='it-IT'>
+Feedback</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Wishlist</td>
+<td class='tra'  lang='it-IT'>
+Wishlist</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Discord</td>
+<td class='tra'  lang='it-IT'>
+Discord</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+avs03.com</td>
+<td class='tra'  lang='it-IT'>
+avs03.com</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+avs03<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Level 8</td>
+<td class='tra'  lang='it-IT'>
+Livello 8</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Level 16</td>
+<td class='tra'  lang='it-IT'>
+Livello 16</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Level 24 </td>
+<td class='tra'  lang='it-IT'>
+Livello 24</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Empty</td>
+<td class='tra'  lang='it-IT'>
+Vuoto</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Internet
+<br>Cruiser</td>
+<td class='tra'  lang='it-IT'>
+Rete</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Paint</td>
+<td class='tra'  lang='it-IT'>
+Paint</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+VAPOR.validate_fail</td>
+<td class='tra'  lang='it-IT'>
+{0} file non sono stati validati e verranno riacquisiti.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Vapor window<br>
+source: {0} files failed to validate and will be reaquired.<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Skips installing plugin and removes it from selection pool.</td>
+<td class='tra'  lang='it-IT'>
+Salta l'installazione del plugin e rimuovi dal gruppo di selezione.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Skips installing plugin and removes it from selection pool<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Skips installing plugin and refunds Key.</td>
+<td class='tra'  lang='it-IT'>
+Salta l'installazione del plugin e rimborsa la Chiave.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Skips installing plugin and refunds Key<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Installs plugin.</td>
+<td class='tra'  lang='it-IT'>
+Installa il plugin.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Installs plugin<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+(1) Alert!!! CRITICAL</td>
+<td class='tra'  lang='it-IT'>
+(1) Allarme!!! CRITICO</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: spam_ad.tscn; trailer_ad.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Headshot!</td>
+<td class='tra'  lang='it-IT'>
+Headshot!</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: headshot_text.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+File</td>
+<td class='tra'  lang='it-IT'>
+File</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: basic_window.tscn; defrag_window.tscn; torrent_window.tscn; upgrade_screen.tscn; window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Action</td>
+<td class='tra'  lang='it-IT'>
+Azione</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: defrag_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+View</td>
+<td class='tra'  lang='it-IT'>
+Visualizza</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: basic_window.tscn; defrag_window.tscn; torrent_window.tscn; upgrade_screen.tscn; window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Help</td>
+<td class='tra'  lang='it-IT'>
+Aiuto</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: basic_window.tscn; defrag_window.tscn; torrent_window.tscn; upgrade_screen.tscn; window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Volume</td>
+<td class='tra'  lang='it-IT'>
+Volume</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: defrag_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Session Status</td>
+<td class='tra'  lang='it-IT'>
+Stato della Sessione</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: defrag_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Capacity</td>
+<td class='tra'  lang='it-IT'>
+Capacità</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: defrag_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+LOCAL DISK (C:)</td>
+<td class='tra'  lang='it-IT'>
+DISCO LOCALE (C:)</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: defrag_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Defragmenting</td>
+<td class='tra'  lang='it-IT'>
+Deframmentazione</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: defrag_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Estimated exp before defragmentation:</td>
+<td class='tra'  lang='it-IT'>
+Pe estimati prima della deframmentazione:</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: defrag_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Missing dynamic link library scd.dll located.</td>
+<td class='tra'  lang='it-IT'>
+Libreria dinamica collegata mancante localizzata scd.dll.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: dll_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Procedure can now resume.</td>
+<td class='tra'  lang='it-IT'>
+La procedura può ripartire.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: dll_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+OK</td>
+<td class='tra'  lang='it-IT'>
+OK</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: dll_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+RAM Downloader Professional (Legal)</td>
+<td class='tra'  lang='it-IT'>
+Installatore Professionale RAM (Legale)</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: download_ram_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Download</td>
+<td class='tra'  lang='it-IT'>
+Installazione</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: download_ram_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Your RAM is now downloading...</td>
+<td class='tra'  lang='it-IT'>
+La tua RAM sta venendo installata...</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: download_ram_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Serial:</td>
+<td class='tra'  lang='it-IT'>
+Seriale:</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: keygen_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Generate Key</td>
+<td class='tra'  lang='it-IT'>
+Genera Chiave</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: keygen_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+LemWire 4.7 - Pick Your Download</td>
+<td class='tra'  lang='it-IT'>
+LemWire 4.7 - Scegli Il Tuo Download</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: lem_upgrade_screen.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+LemWire 4.7</td>
+<td class='tra'  lang='it-IT'>
+LemWire 4.7</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: lem_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Searching: cursor upgrades</td>
+<td class='tra'  lang='it-IT'>
+Ricerca: migliorie cursore</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: lem_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Quality</td>
+<td class='tra'  lang='it-IT'>
+Qualità</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: lem_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Name</td>
+<td class='tra'  lang='it-IT'>
+Nome</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: lem_window.tscn; torrent_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Type</td>
+<td class='tra'  lang='it-IT'>
+Tipo</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: lem_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Bitrate</td>
+<td class='tra'  lang='it-IT'>
+Bitrate</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: lem_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+(3) "hey x "  HOT!!! Singles</td>
+<td class='tra'  lang='it-IT'>
+(3) "ciao x" HOT!!! Singles</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: spam_ad_2.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+!!! !!  WINNER WINNER WINER!!! !!!</td>
+<td class='tra'  lang='it-IT'>
+!!! !! HAI VINTO HAI VINTO!!! !!!</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: spam_ad_3.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+FREE AVDs CLI...</td>
+<td class='tra'  lang='it-IT'>
+AVDs GRATIS...</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: spam_ad_4.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+BIG BIG WINNER THATS YOU!!!</td>
+<td class='tra'  lang='it-IT'>
+BRAVO BRAVO HAI VINTO TU!!!</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: spam_ad_5.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+CHEAP PRINTER ONE CLICK AWAY</td>
+<td class='tra'  lang='it-IT'>
+STAMPANTE SCONTATA IN UN CLICK</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: spam_ad_6.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Before you go, did you kno..</td>
+<td class='tra'  lang='it-IT'>
+Prima che tu vada, sapevi ch...</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: spam_ad_7.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Hey DUMBY!!</td>
+<td class='tra'  lang='it-IT'>
+Ciao SCEMO!!</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: spam_ad_8.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UH OHHHHHHHHH WARNING YOU MIG...</td>
+<td class='tra'  lang='it-IT'>
+OH OHHHHHHH ATTENZIONE POTRES...</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: spam_ad_9.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+1,000,0000 th VISTOR this WEEK!!! PRIZE WON!</td>
+<td class='tra'  lang='it-IT'>
+1,000,000 esima PERSONA questa SETTIMANA!!! HAI VINTO!</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: spam_ad_10.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Vapor.exe</td>
+<td class='tra'  lang='it-IT'>
+Vapore.exe</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: vapor_exe.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Validating cache files...</td>
+<td class='tra'  lang='it-IT'>
+Validazione file cache...</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: vapor_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Cancel</td>
+<td class='tra'  lang='it-IT'>
+Annulla</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: vapor_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+SHZip v2.03 (evaluation copy)</td>
+<td class='tra'  lang='it-IT'>
+SHZip v2.03 (copia di valutazione)</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: zip_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Extracting file:
+<br>temp_file_649743.zip from /.???</td>
+<td class='tra'  lang='it-IT'>
+Estrazione file:
+<br>temp_file_649743.zip da /.???</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: zip_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Estimated time left: 0m 00s (0.00 KB of 0.00 KB)
+<br>Processing rate: 0.00 KB/Sec</td>
+<td class='tra'  lang='it-IT'>
+Tempo stimato rimanente 0m 00s (0.00 KB di 0.00 KB)
+<br>Velocità di elaborazione: 0.00 KB/s</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: zip_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Progress will reset if area is abandoned</td>
+<td class='tra'  lang='it-IT'>
+I progressi verranno annullati se si lascia l'area</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: zip_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+All data has been collected.</td>
+<td class='tra'  lang='it-IT'>
+Tutti i dati sono stati raccolti.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: main.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Collecting any loose Coin.</td>
+<td class='tra'  lang='it-IT'>
+Raccogliendo tutti le Monete sparse.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: main.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Not Enough Keys :(</td>
+<td class='tra'  lang='it-IT'>
+Non Hai Abbastanza Chiavi :(</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: main.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Critical Health!</td>
+<td class='tra'  lang='it-IT'>
+Salute Critica!</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: main.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Welcome...</td>
+<td class='tra'  lang='it-IT'>
+Benvenuto...</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: starter_folder.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Let's get started with Double-Clicking some settings.</td>
+<td class='tra'  lang='it-IT'>
+Iniziamo facendo Doppio Click su alcuni settaggi.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: starter_folder.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Movement -</td>
+<td class='tra'  lang='it-IT'>
+Movimento -</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: starter_folder.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+/</td>
+<td class='tra'  lang='it-IT'>
+/</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: starter_folder.tscn; window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Click and Drag -</td>
+<td class='tra'  lang='it-IT'>
+Clicca e Trascina -</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: starter_folder.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Menu Shortcut -</td>
+<td class='tra'  lang='it-IT'>
+Scorciatoie Menu -</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: starter_folder.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Show Stats -</td>
+<td class='tra'  lang='it-IT'>
+Mostra Statistiche -</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: starter_folder.tscn; window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Close -</td>
+<td class='tra'  lang='it-IT'>
+Chiudi -</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: starter_folder.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Pause -</td>
+<td class='tra'  lang='it-IT'>
+Pausa -</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: starter_folder.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Weapons...</td>
+<td class='tra'  lang='it-IT'>
+Armi...</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: starter_folder.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Great, now just pick a weapon you want to start with.</td>
+<td class='tra'  lang='it-IT'>
+Ottimo, ora scegli un'arma con cui iniziare.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: starter_folder.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Folder Evolution</td>
+<td class='tra'  lang='it-IT'>
+Evoluzione Cartelle</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: starter_folder.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Folder Difficulty</td>
+<td class='tra'  lang='it-IT'>
+Difficoltà Cartelle</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: starter_folder.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Cursor Class</td>
+<td class='tra'  lang='it-IT'>
+Classe del Cursore</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: starter_folder.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Starter Weapon</td>
+<td class='tra'  lang='it-IT'>
+Arma Iniziale</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: starter_folder.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Locked Weapons - Coming Soon</td>
+<td class='tra'  lang='it-IT'>
+Armi Bloccate - In Arrivo</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: starter_folder.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+StatsManager V0.1b</td>
+<td class='tra'  lang='it-IT'>
+StatsManager V0.1b</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: stat_list.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+A</td>
+<td class='tra'  lang='it-IT'>
+A</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: stat_list.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+B</td>
+<td class='tra'  lang='it-IT'>
+B</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: stat_list.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Weapons</td>
+<td class='tra'  lang='it-IT'>
+Armi</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: stat_list.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Installed Plugins</td>
+<td class='tra'  lang='it-IT'>
+Plugin Installati</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: stat_list.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Firewall Size</td>
+<td class='tra'  lang='it-IT'>
+Dimensioni Firewall</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: stat_upgrade_item.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Edit</td>
+<td class='tra'  lang='it-IT'>
+Modifica</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: basic_window.tscn; upgrade_screen.tscn; window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Favorites</td>
+<td class='tra'  lang='it-IT'>
+Preferiti</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: basic_window.tscn; window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Antivirus Survivors 2003 Professional ©</td>
+<td class='tra'  lang='it-IT'>
+Antivirus Survivors 2003 Professional ©</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: basic_window.tscn; window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Victory!</td>
+<td class='tra'  lang='it-IT'>
+Vittoria!</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: end_screen.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+You did it! I'm proud of you! I hope you had fun.
+<br>
+<br>However I am very sorry that this is such a boring and uninspired win screen. You deserve better and you will get better - in the full release.
+<br>
+<br>In the meantime, enjoy trying some of the harder difficulties, go spend those Beanz on some upgrades and try out some different builds.
+<br>
+<br>If you had fun during this demo be sure to give it a wishlist or follow on Steam - there's so much more to come!</td>
+<td class='tra'  lang='it-IT'>
+Ce l'hai fatta! Sono fiero di te! Spero tu ti sia divertito.
+<br>
+<br>Mi dispiace che questa schermata di vittoria sia così noiosa e banale. Meriti di meglio e avrai di meglio - nella versione completa.
+<br>
+<br>Nel frattempo, dilettati con le modalità più difficili, spendi quei Beanz su qualche aggiornamento e prova delle build diverse.
+<br>
+<br>Se ti sei divertito durante questa demo assicurati di aggiungerlo alla wishlist o di seguirlo su Steam - tanto altro sta per arrivare!</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: end_screen.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Open Steam Page</td>
+<td class='tra'  lang='it-IT'>
+Apri la Pagina Steam</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: end_screen.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Exit to Menu</td>
+<td class='tra'  lang='it-IT'>
+Torna al Menu</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: end_screen.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Get to the Safe Folder!</td>
+<td class='tra'  lang='it-IT'>
+Vai alla Cartella Sicura!</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: end_timer_ui.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Plugin Suite Installation</td>
+<td class='tra'  lang='it-IT'>
+Installazione Plugin Suite</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: installer_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Please wait...</td>
+<td class='tra'  lang='it-IT'>
+Aspetta per favore...</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: installer_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PluginInstaller v2.03 r2</td>
+<td class='tra'  lang='it-IT'>
+PluginInstaller v2.03 r2</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: installer_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Preparing to Install...</td>
+<td class='tra'  lang='it-IT'>
+Preparazione all'Installazione...</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: installer_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+PluginInstaller is preparing to find all appropriate plugins for this application.</td>
+<td class='tra'  lang='it-IT'>
+PluginInstaller si sta preparando a trovare tutti i plugin appropriati per questa applicazione.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: installer_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Checking Plugin Compatibility Layer...</td>
+<td class='tra'  lang='it-IT'>
+Controllo Compatibilità del Plugin...</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: installer_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Add +10 Max HP.
+<br>Heal 20% of Max HP when opening a Safe Folder.</td>
+<td class='tra'  lang='it-IT'>
+Aggiunge +10 PS Massimi.
+<br>Cura 20% dei PS Massimi quando si apre una Cartella Sicura.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: installer_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Remove</td>
+<td class='tra'  lang='it-IT'>
+Rimuovi</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: installer_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Skip</td>
+<td class='tra'  lang='it-IT'>
+Salta</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: installer_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Install</td>
+<td class='tra'  lang='it-IT'>
+Installa</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: installer_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Exit to Desktop</td>
+<td class='tra'  lang='it-IT'>
+Torna al Desktop</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: main_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Start Exploring</td>
+<td class='tra'  lang='it-IT'>
+Inizia a Esplorare</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: main_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Upgrades</td>
+<td class='tra'  lang='it-IT'>
+Aggiornamenti</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: main_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Statistics</td>
+<td class='tra'  lang='it-IT'>
+Statistiche</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: main_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Personalise</td>
+<td class='tra'  lang='it-IT'>
+Personalizza</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: main_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Settings</td>
+<td class='tra'  lang='it-IT'>
+Impostazioni</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: main_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+coming soon
+<br>- more weapons
+<br>- more enemies
+<br>- bosses
+<br>- classes
+<br>- wallpapers
+<br>- weapon evos
+<br>- and more</td>
+<td class='tra'  lang='it-IT'>
+prossimamente
+<br>- più armi
+<br>- più nemici
+<br>- boss
+<br>- classi
+<br>- sfondi
+<br>- evoluzioni armi
+<br>- e altro</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: main_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Thank you so much for playing. It means the world to me.
+<br>enjoy and have a great day &lt;3
+<br>shaun</td>
+<td class='tra'  lang='it-IT'>
+Grazie mille per aver giocato. Significa moltissimo per me.
+<br>divertiti e passa una bella giornata &lt;3
+<br>shaun</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: main_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+UpgradeManager 2003 rc2</td>
+<td class='tra'  lang='it-IT'>
+UpgradeManager 2003 rc2</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: meta_upgrades_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Refund All</td>
+<td class='tra'  lang='it-IT'>
+Rimborsa Tutto</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: meta_upgrades_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+This is</td>
+<td class='tra'  lang='it-IT'>
+Questo è</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: notif_bubble.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Options</td>
+<td class='tra'  lang='it-IT'>
+Opzioni</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: options_menu.tscn; pause_menu.tscn; torrent_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+SFX Volume</td>
+<td class='tra'  lang='it-IT'>
+Volume SFX</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: options_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Music Volume</td>
+<td class='tra'  lang='it-IT'>
+Volume Musica</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: options_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Window Mode</td>
+<td class='tra'  lang='it-IT'>
+Modalità Finestra</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: options_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Back</td>
+<td class='tra'  lang='it-IT'>
+Indietro</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: options_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Pause menu</td>
+<td class='tra'  lang='it-IT'>
+Menu pausa</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: pause_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Stats</td>
+<td class='tra'  lang='it-IT'>
+Stats</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: pause_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Resume</td>
+<td class='tra'  lang='it-IT'>
+Riprendi</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: pause_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Exit</td>
+<td class='tra'  lang='it-IT'>
+Esci</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: pause_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Antivirus Survivors 2003 Professional
+<br>Shaun Hammond Business Solutions Ltd</td>
+<td class='tra'  lang='it-IT'>
+Antivirus Survivors 2003 Professional
+<br>Shaun Hammond Business Solutions Ltd</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: pause_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Control Panel</td>
+<td class='tra'  lang='it-IT'>
+Pannello di Controllo</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: settings_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Vsync:</td>
+<td class='tra'  lang='it-IT'>
+Vsync:</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: settings_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Toggle</td>
+<td class='tra'  lang='it-IT'>
+Attiva</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: settings_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+FPS Cap:</td>
+<td class='tra'  lang='it-IT'>
+Limite FPS:</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: settings_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Cycle</td>
+<td class='tra'  lang='it-IT'>
+Ciclico</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: settings_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Language:</td>
+<td class='tra'  lang='it-IT'>
+Lingua:</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: settings_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Window Mode:</td>
+<td class='tra'  lang='it-IT'>
+Modalità Finestra:</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: settings_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Display Zoom:</td>
+<td class='tra'  lang='it-IT'>
+Ingrandimento Schermo:</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: settings_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+-</td>
+<td class='tra'  lang='it-IT'>
+-</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: settings_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
++</td>
+<td class='tra'  lang='it-IT'>
++</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: settings_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Animation Speed:</td>
+<td class='tra'  lang='it-IT'>
+Velocità di Animazione:</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: settings_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Master Volume:</td>
+<td class='tra'  lang='it-IT'>
+Volume Principale:</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: settings_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Music Volume:</td>
+<td class='tra'  lang='it-IT'>
+Volume Musica:</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: settings_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Keygen Volume:</td>
+<td class='tra'  lang='it-IT'>
+Volume Tasti:</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: settings_menu.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Upgrade Shop</td>
+<td class='tra'  lang='it-IT'>
+Migliora il Negozio</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: shop_screen.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Sound Button</td>
+<td class='tra'  lang='it-IT'>
+Bottone Sonoro</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: sound_button.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Search Refresh</td>
+<td class='tra'  lang='it-IT'>
+Aggiorna Ricerca</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: upgrade_button.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Increases Refresh Rate for Search by 20%.
+<br>But here's a second line also.</td>
+<td class='tra'  lang='it-IT'>
+Aumenta la Frequenza di Ricarica per Ricerca del 20%.
+<br>Ecco una seconda frase.</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: upgrade_button.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+BigWave 2003 Edition</td>
+<td class='tra'  lang='it-IT'>
+BigWave 2003 Edition</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: torrent_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Sources</td>
+<td class='tra'  lang='it-IT'>
+Risorse</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: torrent_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Rarity</td>
+<td class='tra'  lang='it-IT'>
+Rarità</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: torrent_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Size</td>
+<td class='tra'  lang='it-IT'>
+Dimensione</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: torrent_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Progress</td>
+<td class='tra'  lang='it-IT'>
+Progresso</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: torrent_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Status</td>
+<td class='tra'  lang='it-IT'>
+Stato</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: torrent_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Seeds</td>
+<td class='tra'  lang='it-IT'>
+Semi</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: torrent_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Speed</td>
+<td class='tra'  lang='it-IT'>
+Velocità</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: torrent_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Downloads complete, click to continue...</td>
+<td class='tra'  lang='it-IT'>
+Installazione completata, clicca per continuare...</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: torrent_window.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Insert</td>
+<td class='tra'  lang='it-IT'>
+Inserisci</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: upgrade_screen.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Format</td>
+<td class='tra'  lang='it-IT'>
+Formato</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: upgrade_screen.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Tools</td>
+<td class='tra'  lang='it-IT'>
+Strumenti</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: upgrade_screen.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Window</td>
+<td class='tra'  lang='it-IT'>
+Finestra</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: upgrade_screen.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Show Stats</td>
+<td class='tra'  lang='it-IT'>
+Mostra Statistiche</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+screens: upgrade_screen.tscn<br>
+</p>
+</div></td>
+</tr>
+<tr class='i with-comments'>
+<td class='src'  lang='en'>
+Antivirus Survivors 2003 Professional</td>
+<td class='tra'  lang='it-IT'>
+Antivirus Survivors 2003 Professional</td>
+</tr>
+<tr class='comments'>
+  <td colspan='2'><div><p>
+Scene label<br>
+</p>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>
