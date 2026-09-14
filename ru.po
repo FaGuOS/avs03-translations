@@ -512,7 +512,7 @@ msgstr "Сжатые папки"
 #. Plugin - description (luck_zip_boost)
 #. source: Increase Luck +3% when successfully opening a Zip File.
 msgid "PLUGIN.luck_zip_boost.description"
-msgstr "Увеличивает удачу на +3% при успешном открытии zip Файла."
+msgstr "Увеличивает удачу на +3% при успешном открытии zip файла."
 
 #. Plugin - name (lucky_when_hurt)
 #. source: Lucky When Hurt
@@ -527,12 +527,12 @@ msgstr "Умножает удачу на 2.0x при получении урон
 #. Plugin - name (magnetism_boost)
 #. source: Magnetism Boost
 msgid "PLUGIN.magnetism_boost.name"
-msgstr "Буст Магнетизма"
+msgstr "Буст магнетизма"
 
 #. Plugin - description (magnetism_boost)
 #. source: Multiply Magnetism 1.1x.
 msgid "PLUGIN.magnetism_boost.description"
-msgstr "Умножает Магнетизм на 1.1x."
+msgstr "Умножает магнетизм на 1.1x."
 
 #. Plugin - name (packet_loss_boost)
 #. source: Packet Loss Boost
@@ -547,7 +547,7 @@ msgstr "Добавляет +6 к потере пакетов."
 #. Plugin - name (processing_speed_boost)
 #. source: Processing Speed Boost
 msgid "PLUGIN.processing_speed_boost.name"
-msgstr "Буст Скорости обработки"
+msgstr "Буст скорости обработки"
 
 #. Plugin - description (processing_speed_boost)
 #. source: Multiply Processing Speed 1.1x.
@@ -611,7 +611,7 @@ msgstr ""
 #. Plugin - name (weapon_speed_boost)
 #. source: Weapon Speed Boost
 msgid "PLUGIN.weapon_speed_boost.name"
-msgstr "Буст Скорости оружия"
+msgstr "Буст скорости оружия"
 
 #. Plugin - description (weapon_speed_boost)
 #. source: Multiply Weapon Speed 1.1x.
@@ -636,12 +636,12 @@ msgstr "База знаний"
 #. Plugin - description (xp_file_open)
 #. source: Gain +5 EXP when opening a File.
 msgid "PLUGIN.xp_file_open.description"
-msgstr "Зарабатывайте +5 опыта при открытии Файла."
+msgstr "Получайте +5 опыта при открытии файла."
 
 #. Plugin - name (xp_gain_boost)
 #. source: EXP Gain Boost
 msgid "PLUGIN.xp_gain_boost.name"
-msgstr "Буст Заработка опыта"
+msgstr "Буст заработка опыта"
 
 #. Plugin - description (xp_gain_boost)
 #. source: Multiply EXP Gain 1.1x.
@@ -675,7 +675,7 @@ msgstr ""
 #. Plugin - name (popup_blocker)
 #. source: Realtime Protection
 msgid "PLUGIN.popup_blocker.name"
-msgstr "Защита в Реальном Времени"
+msgstr "Защита в реальном времени"
 
 #. Plugin - description (popup_blocker)
 #. source: Enemy projectiles can be destroyed by weapons.
@@ -685,17 +685,17 @@ msgstr "Снаряды врагов могут быть уничтожены о�
 #. Plugin - name (spam_blocker)
 #. source: Popup Blocker
 msgid "PLUGIN.spam_blocker.name"
-msgstr "Блокировщик Баннеров"
+msgstr "БаннерБлок"
 
 #. Plugin - description (spam_blocker)
 #. source: Block half of Spam Popups.
 msgid "PLUGIN.spam_blocker.description"
-msgstr "Блокирует половину Спам Баннеров"
+msgstr "Блокирует половину спам баннеров"
 
 #. Plugin - name (adsense)
 #. source: Hit Counter
 msgid "PLUGIN.adsense.name"
-msgstr "Счетчик Попаданий"
+msgstr "Счетчик попаданий"
 
 #. Plugin - description (adsense)
 #. source: Gain +1 Coin when opening a File.
@@ -705,7 +705,7 @@ msgstr "Зарабатывайте +1 монету при открытии Фа�
 #. Plugin - name (still_frame)
 #. source: Still Frame
 msgid "PLUGIN.still_frame.name"
-msgstr "Стоп Кадр"
+msgstr "Стоп кадр"
 
 #. Plugin - description (still_frame)
 #. source: Increase Weapon Damage +5% per second while not moving, up to +15% per stack.
@@ -737,7 +737,7 @@ msgstr ""
 #. Plugin - name (wallet_damage)
 #. source: Wallet Damage
 msgid "PLUGIN.wallet_damage.name"
-msgstr "Платная Подписка"
+msgstr "Платная подписка"
 
 #. Plugin - description (wallet_damage)
 #. source: Increase Weapon Damage +1% per 10 Coin held.
@@ -840,7 +840,7 @@ msgstr "Утечка как награда"
 #. Plugin - description (reward_leak)
 #. source: Spawn 4 CLICK-ME or Memory Leak files around you.
 msgid "PLUGIN.reward_leak.description"
-msgstr "Создает 4 ЖМИ-НА-МЕНЯ файла или Утечки памяти возле курсора."
+msgstr "Создает 4 ЖМИ-НА-МЕНЯ файла или утечки памяти возле курсора."
 
 #. Plugin - name (expansion_slot)
 #. source: Expansion Slot
@@ -855,7 +855,7 @@ msgstr "Добавляет одно случайное оружие на 6 ур�
 #. Plugin - name (task_manager)
 #. source: Task Manager
 msgid "PLUGIN.task_manager.name"
-msgstr "Диспетчер Задач"
+msgstr "Диспетчер задач"
 
 #. Plugin - description (task_manager)
 #. source: Multiply Weapon Refresh 2.0x.\nMultiply Weapon Size 0.75x.
@@ -879,13 +879,13 @@ msgstr ""
 #. Plugin - name (system_restore)
 #. source: System Restore
 msgid "PLUGIN.system_restore.name"
-msgstr "Восстановление Системы"
+msgstr "Восстановление системы"
 
 #. Plugin - description (system_restore)
 #. source: On death, heal 50% of Max HP instead of Blue Screen.\nOnce per stack.
 msgid "PLUGIN.system_restore.description"
 msgstr ""
-"При смерти, восстанавливает 50% от всего ОЗ вместо Синего Экрана.\n"
+"При смерти, восстанавливает 50% от всего ОЗ вместо синего экрана.\n"
 "Срабатывает столько раз, сколько установлено расширение."
 
 #. Plugin - name (power_user)
@@ -896,12 +896,12 @@ msgstr "Сисадмин"
 #. Plugin - description (power_user)
 #. source: Special File capacity scales with Weapon Power.
 msgid "PLUGIN.power_user.description"
-msgstr "Мощность Спец. Файлов увеличивается вместе с силой оружия."
+msgstr "Мощность спец. файлов увеличивается вместе с силой оружия."
 
 #. Plugin - name (extra_shop_offer)
 #. source: Software Catalog
 msgid "PLUGIN.extra_shop_offer.name"
-msgstr "Каталог Приложений"
+msgstr "Каталог приложений"
 
 #. Plugin - description (extra_shop_offer)
 #. source: Add +1 upgrade to the Shop.
@@ -911,12 +911,12 @@ msgstr "Добавляет +1 апгрейд в магазине."
 #. Plugin - name (extra_upgrade_choice)
 #. source: Optional Components
 msgid "PLUGIN.extra_upgrade_choice.name"
-msgstr "Дополнительные Компоненты"
+msgstr "Дополнительные компоненты"
 
 #. Plugin - description (extra_upgrade_choice)
 #. source: Add +1 upgrade choice on Level Up.
 msgid "PLUGIN.extra_upgrade_choice.description"
-msgstr "Добавляет +1 апгрейд на выбор при Новом Уровне."
+msgstr "Добавляет +1 апгрейд на выбор при новом уровне."
 
 #. Difficulty protocol - name (protocol_1)
 #. source: Protocol I
@@ -963,7 +963,7 @@ msgstr "Пакет IV"
 #. source: The senior difficulty. Earn 48 Beanz per Safe Folder opened + cleared enemies.
 msgid "PROTOCOL.protocol_4.description"
 msgstr ""
-"Сложность выше высшего. Заработайте 48 Баобов за каждую открытую безопасную "
+"Экстремальная сложность. Заработайте 48 Баобов за каждую открытую безопасную "
 "папку + очистку от врагов."
 
 #. Difficulty protocol - name (protocol_5)
@@ -986,7 +986,7 @@ msgstr "Броня"
 #. Stat display - description (upgrade_player_armor)
 #. source: Resistence from all incoming Damage. (Exponential)
 msgid "STAT.upgrade_player_armor.description"
-msgstr "Устойчивость ко всему урону. (Экспоненциально)"
+msgstr "Устойчивость ко всему урону (экспоненциально)"
 
 #. Stat display - name (upgrade_player_coin_gain)
 #. source: Coin Gain
@@ -1036,7 +1036,7 @@ msgstr "Потеря пакетов"
 #. Stat display - description (upgrade_player_dodge)
 #. source: Chance to dogde all incoming Damage. (Exponential)
 msgid "STAT.upgrade_player_dodge.description"
-msgstr "Шанс избежать полученный урон. (Экспоненциально)"
+msgstr "Шанс избежать полученный урон (экспоненциально)"
 
 #. Stat display - name (upgrade_player_exp_gain)
 #. source: EXP Gain
@@ -1099,7 +1099,7 @@ msgstr "Дополнительное максимальное здоровье."
 #. Stat display - name (upgrade_player_power_multi)
 #. source: Weapon Power
 msgid "STAT.upgrade_player_power_multi.name"
-msgstr "сила оружия"
+msgstr "Сила оружия"
 
 #. Stat display - description (upgrade_player_power_multi)
 #. source: Increases power of Repel, Heat, Infect and Lag from all weapons.
@@ -1117,7 +1117,7 @@ msgstr "Скорость обработки"
 msgid "STAT.upgrade_player_proc_speed.description"
 msgstr ""
 "Умножает скорость обработки всех файлов, такие как .zip, .bat, LemWire и "
-"т.д. (Экспоненциально)"
+"т.д. (экспоненциально)"
 
 #. Stat display - name (upgrade_player_refresh_multi)
 #. source: Weapon Refresh
@@ -1162,7 +1162,7 @@ msgstr "Умножает размер каждого оружия."
 #. Stat display - name (upgrade_player_weap_speed)
 #. source: Weapon Speed
 msgid "STAT.upgrade_player_weap_speed.name"
-msgstr "скорость оружия"
+msgstr "Скорость оружия"
 
 #. Stat display - description (upgrade_player_weap_speed)
 #. source: Multiplies the speed that all weapons attack. (Exponential)
@@ -1463,12 +1463,12 @@ msgstr "Случайно роняет винчестер на врагов."
 #. Upgrade card - name (weapon_cut)
 #. source: Cut
 msgid "UPGRADE.weapon_cut.name"
-msgstr "Вырезать"
+msgstr "Ножницы"
 
 #. Upgrade card - description (weapon_cut)
 #. source: Scissors slice through the nearest enemy.
 msgid "UPGRADE.weapon_cut.description"
-msgstr "Ножницы режутся сквозь ближайшего врага."
+msgstr "Ножницы вырезают ближайшего врага."
 
 #. Upgrade card - name (weapon_firewall)
 #. source: Firewall
@@ -1582,7 +1582,7 @@ msgstr "Снайпер 1.6"
 #. source: One heavy shot at the strongest enemy. Clears show in a killfeed.
 msgid "UPGRADE.weapon_sniper.description"
 msgstr ""
-"Один сильный выстрел в самого сильного врага. Убийство отображается в ленте "
+"Один мощный выстрел в самого сильного врага. Убийство отображается в ленте "
 "убийств."
 
 #. Upgrade card - name (weapon_minesweeper)
@@ -1598,14 +1598,13 @@ msgstr "Закладывает мины, которые взрываются п�
 #. Upgrade card - name (weapon_email)
 #. source: Email
 msgid "UPGRADE.weapon_email.name"
-msgstr "Эл. Почта"
+msgstr "Эл. почта"
 
 #. Upgrade card - description (weapon_email)
 #. source: Envelopes fly out, bounce off walls, and boomerang home hitting both ways.
 msgid "UPGRADE.weapon_email.description"
 msgstr ""
-"Конверты разлетаются, отпрыгивают от стен и возвращаются домой в стиле "
-"бумеранга, нанося урон."
+"Конверты разлетаются, отскакивают от стен и возвращаются как бумеранг, нанося урон."
 
 #. Upgrade card - name (weapon_cruiser)
 #. source: Internet Cruiser
@@ -1677,7 +1676,7 @@ msgstr ""
 #. Upgrade card - name (weapon_modem)
 #. source: Output Device
 msgid "UPGRADE.weapon_modem.name"
-msgstr "Устройство Вывода"
+msgstr "Устройство вывода"
 
 #. Upgrade card - description (weapon_modem)
 #. source: Blasts concentric handshake rings outward from the cursor.
@@ -1893,7 +1892,7 @@ msgstr "Утечка памяти"
 #. Enemy sniper-feed name
 #. source: memory_leak.reg
 msgid "ENEMY.memory_leak.filename"
-msgstr "утечка_памяти.reg"
+msgstr "утечка_ памяти.reg"
 
 #. Settings menu
 #. source: Unlimited
@@ -2070,7 +2069,7 @@ msgstr "Ограничить частоту кадров, чтобы предо�
 msgid "SETTINGS.fps_cap_tip"
 msgstr ""
 "Максимальное кол-во кадров в секунду. Неограниченное кол-во доходит до "
-"лимита вашего оборудования."
+"предела вашего оборудования."
 
 #. Settings menu
 #. source: Strength of the CRT scanline filter over the screen.
@@ -2215,7 +2214,7 @@ msgstr "Движение"
 #. Settings menu
 #. source: Click / Drag
 msgid "SETTINGS.action_left_click"
-msgstr "Нажать / Перетащ."
+msgstr "Нажать / перетащ."
 
 #. Settings menu
 #. source: Special
@@ -4337,7 +4336,7 @@ msgstr "Всего нанесенного урона за всё время."
 #. Biggest hit milestone description
 #. source: Biggest hit milestone.
 msgid "UI.unlock_general_highest_hit_desc"
-msgstr "Наибольший удар за всё время."
+msgstr "Сильнейший удар за всё время."
 
 #. Lifetime run completions milestone description
 #. source: Runs completed successfully.
@@ -4699,7 +4698,7 @@ msgstr "Статы за забег"
 #. Finance Manager wallet group
 #. source: Wallet
 msgid "UI.stock_trader_group_wallet"
-msgstr "Кошелек"
+msgstr "Кошелёк"
 
 #. Finance Manager trade group
 #. source: Trade
@@ -5158,7 +5157,7 @@ msgstr "Безоп. папок открыто в этом забеге."
 #. Run stats panel row
 #. source: Folders and files opened this run.
 msgid "RUNSTAT.files_opened_desc"
-msgstr "Папок и Файлов открыто в этом забеге."
+msgstr "Папок и файлов открыто в этом забеге."
 
 #. Run stats panel row
 #. source: Enemies cleared this run.
@@ -6935,37 +6934,37 @@ msgstr "Антивирус Выживатели 2003 Профессиональ�
 #~ msgstr "Диск C: размер"
 
 #~ msgid "UPGRADE.upgrade_cut_amount.name"
-#~ msgstr "Вырезать кол-во"
+#~ msgstr "Ножницы кол-во"
 
 #~ msgid "UPGRADE.upgrade_cut_amount.description"
 #~ msgstr "Добавляет +{percent}% шанс появления доп. пары ножниц."
 
 #~ msgid "UPGRADE.upgrade_cut_damage.name"
-#~ msgstr "Вырезать урон"
+#~ msgstr "Ножницы урон"
 
 #~ msgid "UPGRADE.upgrade_cut_damage.description"
-#~ msgstr "Увеличивает урон Вырезать на {percent}%."
+#~ msgstr "Увеличивает урон Ножницы на {percent}%."
 
 #~ msgid "UPGRADE.upgrade_cut_knockback.name"
-#~ msgstr "Вырезать сила"
+#~ msgstr "Ножницы сила"
 
 #~ msgid "UPGRADE.upgrade_cut_knockback.description"
 #~ msgstr "Увеличивает эффект отдачи Вырезать на {percent}%."
 
 #~ msgid "UPGRADE.upgrade_cut_rate.name"
-#~ msgstr "Вырезать реген"
+#~ msgstr "Ножницы реген"
 
 #~ msgid "UPGRADE.upgrade_cut_size_multi.name"
-#~ msgstr "Вырезать размер"
+#~ msgstr "Ножницы размер"
 
 #~ msgid "UPGRADE.upgrade_cut_size_multi.description"
-#~ msgstr "Увеличивает размер Вырезать на {percent}%."
+#~ msgstr "Увеличивает размер Ножницы на {percent}%."
 
 #~ msgid "UPGRADE.upgrade_cut_speed.name"
-#~ msgstr "Вырезать скорость"
+#~ msgstr "Ножницы скорость"
 
 #~ msgid "UPGRADE.upgrade_cut_speed.description"
-#~ msgstr "Увеличивает скорость атаки Вырезать на {percent}%."
+#~ msgstr "Увеличивает скорость атаки Ножницы на {percent}%."
 
 #~ msgid "UPGRADE.upgrade_firewall_amount.name"
 #~ msgstr "Брандм. кол-во"
