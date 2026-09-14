@@ -260,6 +260,8 @@ msgstr ""
 #. source: Add +5 Armo(u)r.\nAdd +25 Packet Loss when taking Damage (Lasts 10s).
 msgid "PLUGIN.armor_damage_trigger.description"
 msgstr ""
+"Ajoute +5 protection.\n"
+"Ajoute +25 perte de paquets en cas d'attaque ennemi (pendant 10s)."
 
 #. Plugin - name (armor_missing_hp)
 #. source: Last Known Good
@@ -286,7 +288,7 @@ msgstr ""
 #. Plugin - name (big_wave_damage)
 #. source: Peak Hours
 msgid "PLUGIN.big_wave_damage.name"
-msgstr ""
+msgstr "Rush Hour"
 
 #. Plugin - description (big_wave_damage)
 #. source: Increase Weapon Damage Multiplier +10% when opening a Big Wave.
@@ -297,7 +299,7 @@ msgstr ""
 #. Plugin - name (blast_on_file_open)
 #. source: AutoPlay
 msgid "PLUGIN.blast_on_file_open.name"
-msgstr ""
+msgstr "Lecture automatique"
 
 #. Plugin - description (blast_on_file_open)
 #. source: 25% Chance to trigger a Blast when opening a File.
@@ -380,12 +382,14 @@ msgstr "Multiplie la force d'attaque des armes par 1.1x."
 #. Plugin - name (damage_level_scaling)
 #. source: Career Path
 msgid "PLUGIN.damage_level_scaling.name"
-msgstr ""
+msgstr "Choix de carrière"
 
 #. Plugin - description (damage_level_scaling)
 #. source: Increase Weapon Damage +3% per player level.\nDecrease Max HP -1 per player level.
 msgid "PLUGIN.damage_level_scaling.description"
 msgstr ""
+"Incrémente la force d'attaque par +3% pour chaque niveau.\n"
+"Réduit les PV maxi par -1 pour chaque niveau."
 
 #. Plugin - name (damage_missing_hp)
 #. source: Redline
@@ -575,12 +579,14 @@ msgstr "-25% sur tout dans la boutique."
 #. Plugin - name (slow_but_strong)
 #. source: Rau und Stark
 msgid "PLUGIN.slow_but_strong.name"
-msgstr ""
+msgstr "Lent mais fort"
 
 #. Plugin - description (slow_but_strong)
 #. source: Multiply Weapon Damage 1.25x.\nReduce Cursor Speed -10%.
 msgid "PLUGIN.slow_but_strong.description"
 msgstr ""
+"Multiplie la force d'attaque par 1.25x.\n"
+"Réduit la vitesse du curseur par -10%."
 
 #. Plugin - name (smart_recovery)
 #. source: Smart Recovery
@@ -5940,7 +5946,6 @@ msgstr "Débit binaire"
 
 #. Scene label
 #. screens: spam_ad_2.tscn
-#, fuzzy
 msgid "(3) \"hey x \"  HOT!!! Singles"
 msgstr "(3) \"Coucou mon chou\" FEMMES CHAUDES DE TA RÉGION !!!"
 
