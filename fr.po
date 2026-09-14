@@ -2125,7 +2125,7 @@ msgstr "Spécial"
 #. Settings menu
 #. source: Show Stats
 msgid "SETTINGS.action_tab"
-msgstr "Statistique"
+msgstr "Records"
 
 #. Settings menu
 #. source: Pause
@@ -2553,7 +2553,7 @@ msgstr ""
 #. Profile stats window - statistics tab
 #. source: Stats
 msgid "UI.stats_tab"
-msgstr "Statistique"
+msgstr "Records"
 
 #. Profile stats window - tasks tab label
 #. source: Tasks
@@ -5233,7 +5233,7 @@ msgstr "Aimant à pièces"
 #. Scene label
 #. screens: defrag_window.tscn
 msgid "Defrag Collector"
-msgstr "Aiment de défragmentation"
+msgstr "Aimant de donnés"
 
 #. Scene label
 msgid "Health Check"
@@ -6150,7 +6150,7 @@ msgstr "Améliorations"
 #. Scene label
 #. screens: main_menu.tscn
 msgid "Statistics"
-msgstr "Statistique"
+msgstr "Records"
 
 #. Scene label
 #. screens: main_menu.tscn
