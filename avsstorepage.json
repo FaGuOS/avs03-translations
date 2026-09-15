@@ -390,6 +390,19 @@
       "app[content][sysreqs][linux][min][osversion]": "",
       "app[content][sysreqs][linux][min][processor]": "",
       "app[content][sysreqs][linux][min][graphics]": ""
-    }
+    },
+    "croatian": {
+    	"app[content][about]": "[p]Pokreni sustav, prijavi se i pripremi se za intenzivnu dvostrukog klik akciju.[/p][p][img src=&quot;{STEAM_APP_IMAGE}/extras/doubleclickfull-optimize&quot;][/img]U Antivirus Survivors 2003 Professional, klikaj kroz mape dok izbjegavaš prazninu, boriš se protiv viruse, izmičeš neželjenim skočnim prozorima i svladavaš ogrnomne neprijatelje. Traži za XP i ključeve, istraživanjem mapa i otvaranjem datoteka, ispunjavanjem zadataka i pravilnika za bonuse. Razvijaj svoj pokazivač nadogradnjama i dodacima i otključaj nova oružja i stilove igranja.[/p][p]Uz intenzivnu akciju u stilu rogue-like igara i veliku ljubav prema ranih 2000-ih računalnim operativnim sustavima, ovo je prava doza nostalgije za Y2K erom, servirana u oko 30 do 40 minuta sesije.[/p][p][img src=&quot;{STEAM_APP_IMAGE}/extras/survivefull-optimize&quot;][/img][/p][p][b]Potpuna igra uključuje:[/b][/p][list][*][p][b]24 Oružja[/b] - Fliper, Pasijans, Minolovac, Vatrozid, i više inspirirano od 2000-ih računalske ere.[/p][/*][*][p][b]50 Upravljački Programi[/b] - Transformirajte način na koji oružje obično funkcionira uz pomoć prilagođenih nadogradnji.[/p][/*][*][p][b]33 Vrste Datoteke[/b] - Dvostruko-kliknite na svoje omiljene vrste datoteka i osvojite nagrade – LemWire, BigWave, Defrag i još mnogo više.[/p][/*][*][p][b]62 Dodaci[/b] - Pokreni generatore ključeva i instalirajte dodatke kako biste znatno pojačali oružje i statistiku igrača./p][/*][*][p][b]18 Meta Nadogradnje[/b] - Mudro biraj kako bi oblikovao svoj put kroz metaprogresiju.[/p][/*][*][p][b]5 Razine Težine[/b] - Pet protokol mape s rastućim rizicima i nagradama.[/p][/*][*][p][b]15 Pravilnika[/b] - Jedinstveni izazovi kako bi doživljao igru na teže i zanimljivije načine.[/p][/*][*][p][b]18 Statistike Igrača [/b]- Stvorite jedinstvene konfiguracije sa nadogradnje za štetu, brzinu, sreću i ostalog.[/p][/*][*][p][b]81 Pozadine i 8 Teme[/b] - Odključaj kozmetički dodaci za prilagodbu radne površine.[/p][/*][*][p][b]6 Šefova i Mini-Šefova[/b] - Pojačani neprijatelji i moćni šefovi koje se treba poništiti.[/p][/*][*][p][b]200+ Zadaci [/b]- Izvršite dodatne zadatke za otključavanje novih datoteka, oružja, dodataka i više![/p][/*][/list][p][img src=&quot;{STEAM_APP_IMAGE}/extras/upgradefuull-optimize&quot;][/img][/p][p]Dvo-Klik, Izdvoji, Preuzmi, Nadogradi, Preživi.[/p]",
+    	"app[content][short_description]": "Obiteljsko računalo ponovno je zaraženo, a tvoj je posao odbiti valove virusa i adware neprijatelja koristeći arsenal nostalgičnog oružja nadahnutog Y2K erom. Antivirus Survivors 2003 Professional je auto-shooter igara preživljavanja, prepun referenci na dane kada su računala doista bila zabavna.",
+		"app[content][sysreqs][mac][min][osversion]": "macOS 12",
+		"app[content][sysreqs][mac][min][processor]": "Apple M1 ili 2.0 GHz Intel",
+		"app[content][sysreqs][mac][min][graphics]": "512 MB VRAM",
+		"app[content][sysreqs][windows][min][osversion]": "Windows 10",
+		"app[content][sysreqs][windows][min][processor]": "2.0 GHz",
+		"app[content][sysreqs][windows][min][graphics]": "512 MB VRAM",
+		"app[content][sysreqs][linux][min][osversion]": "SteamOS ili bilo koja moderna Linux distribucija",
+		"app[content][sysreqs][linux][min][processor]": "2.0 GHz",
+		"app[content][sysreqs][linux][min][graphics]": "512 MB VRAM"
+    },
   }
 }
