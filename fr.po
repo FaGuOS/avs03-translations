@@ -33,7 +33,7 @@ msgstr "Standard"
 #. Class select - description (default)
 #. source: No class bonuses or penalties.\nBalanced baseline cursor.
 msgid "CLASS.default.description"
-msgstr "Le curseur standard."
+msgstr "Le pointeur standard."
 
 #. Class select - name (null)
 #. source: Null
@@ -78,7 +78,7 @@ msgstr ""
 "1.25x force d'attaque critique.\n"
 "-15 PV maxi.\n"
 "0.9x vitesse curseur.\n"
-"0.92x force d'attaque"
+"0.92x force d'attaque."
 
 #. Class select - name (thread)
 #. source: Thread
@@ -90,7 +90,7 @@ msgstr ""
 msgid "CLASS.thread.description"
 msgstr ""
 "1.3x vitesse processeur.\n"
-"1.12x réduction temps d'attente d'attaque\n"
+"1.12x réduction temps d'attente d'attaque.\n"
 "1.08x gain d'EXP.\n"
 "0.85x force d'attaque."
 
@@ -2180,12 +2180,12 @@ msgstr "Raccourci menu"
 #. Settings menu
 #. source: Previous Tab
 msgid "SETTINGS.action_menu_tab_prev"
-msgstr "Onglet préc."
+msgstr "Onglet précédent"
 
 #. Settings menu
 #. source: Next Tab
 msgid "SETTINGS.action_menu_tab_next"
-msgstr "Onglet suiv."
+msgstr "Onglet suivant"
 
 #. Rarity label
 #. source: Common
@@ -3254,13 +3254,13 @@ msgstr "Stratégies de domaine"
 #. UI (script-driven)
 #. source: Extra Difficulty
 msgid "UI.policies_header"
-msgstr ""
+msgstr "Modes additionaux"
 
 #. UI (script-driven)
 #. source: Extra Difficulty - %d/%d Complete
 #. Keep placeholders unchanged: %d
 msgid "UI.policies_header_progress"
-msgstr ""
+msgstr "Modes additionaux - %d/%d complété"
 
 #. UI (script-driven)
 #. source: Select a Folder Difficulty first.
@@ -3285,12 +3285,12 @@ msgstr "Beanz"
 #. Policies list column - enabled/disabled
 #. source: Security Setting
 msgid "UI.policies_col_setting"
-msgstr ""
+msgstr "Param. de sécurité"
 
 #. Policies list column - completion count
 #. source: Completions
 msgid "UI.policies_col_completed"
-msgstr ""
+msgstr "Complété"
 
 #. Policies list - security setting when enabled
 #. source: Enabled
@@ -3310,7 +3310,7 @@ msgstr ""
 #. Policies list and protocol tooltip - no completions yet
 #. source: Incomplete
 msgid "UI.policies_status_incomplete"
-msgstr ""
+msgstr "Incomplet"
 
 #. UI (script-driven)
 #. source: Control your cursor with the mouse in Safe Folders.[br]Battle Folders always use WASD or the left stick.
@@ -3360,7 +3360,7 @@ msgstr "%s +%d Beanz"
 #. source: Reach level {amount} with {weapon} in a single run
 #. Keep placeholders unchanged: {amount}, {weapon}
 msgid "UI.unlock_driver_req"
-msgstr ""
+msgstr "Atteint niveau {amount} avec {weapon} en une session"
 
 #. Weapon driver unlock reward template
 #. source: {weapon} Drivers
@@ -3372,7 +3372,7 @@ msgstr "Pilotes pour {weapon}"
 #. source: Unlocks Weapon Drivers for {weapon}.
 #. Keep placeholders unchanged: {weapon}
 msgid "UI.unlock_driver_desc"
-msgstr ""
+msgstr "Débloque les pilotes d'armes pour {weapon}"
 
 #. Shop screen - title
 #. source: Shop
@@ -3382,7 +3382,7 @@ msgstr "Boutique"
 #. Shop screen - speech
 #. source: Purchase some upgrades! Please, I need Coin...
 msgid "UI.shop_speech"
-msgstr ""
+msgstr "Achète des améliorations! J'ai pas d'argent..."
 
 #. UI (script-driven)
 #. source: Defragmented
@@ -3397,17 +3397,17 @@ msgstr "%2.2f Ko"
 #. Upgrade screen - speech prompt
 #. source: Select an upgrade to continue.
 msgid "UI.select_upgrade"
-msgstr ""
+msgstr "Choisissez une amélioration."
 
 #. Upgrade screen - weapon pick prompt
 #. source: Select a weapon to continue.
 msgid "UI.select_weapon"
-msgstr ""
+msgstr "Choisissez une arme."
 
 #. Weapon Drivers screen - title
 #. source: Weapon Drivers
 msgid "UI.weapon_drivers"
-msgstr ""
+msgstr "Pilotes d'armes"
 
 #. Weapon Drivers screen - fake window title
 #. source: drivers.doc - SH Docs 2003
@@ -3418,13 +3418,13 @@ msgstr "pilotes.doc - SH Docs 2003"
 #. source: Select a driver for %s.
 #. Keep placeholders unchanged: %s
 msgid "UI.select_driver"
-msgstr ""
+msgstr "Choisissez un pilote pour %s."
 
 #. Weapon Drivers screen - speech when a weapon hits a driver level
 #. source: %s reached level %d. Pick a driver.
 #. Keep placeholders unchanged: %s, %d
 msgid "UI.select_driver_level"
-msgstr ""
+msgstr "%s a atteint niveau %d. Choisissez un pilote."
 
 #. Coin Collector notification
 #. source: Collecting coins
@@ -3440,7 +3440,7 @@ msgstr ""
 #. Side Task complete toast
 #. source: Side Task complete
 msgid "UI.notif_side_objective_complete"
-msgstr ""
+msgstr "Tâche complétée."
 
 #. Vapidshare cracked installer spawned toast
 #. source: Cracked Installer created
@@ -3472,11 +3472,12 @@ msgstr ""
 #. source: Folder Difficulty sets the rules of the run: enemy pressure, rewards, and what you can unlock.
 msgid "UI.starter_help_difficulty"
 msgstr ""
+"La difficulté de la session. Une difficulté plus haute donne plus de bonus."
 
 #. Starter folder policies category help
 #. source: Optional extra rules on top of the protocol. Completing them earns more Beanz.
 msgid "UI.starter_help_policies"
-msgstr ""
+msgstr "Des règles additionelles pour encore plus de Beanz."
 
 #. Plus! cleared. %s is the elite name, %s is the dropped filename
 #. source: %s cleared, %s dropped.
@@ -3494,7 +3495,7 @@ msgstr "%d %s"
 #. source: %d Plus! enemies
 #. Keep placeholders unchanged: %d
 msgid "UI.notif_elites_count"
-msgstr ""
+msgstr "%d ennemis Plus!"
 
 #. Normal installer window title
 #. source: Plugin Suite Installation
@@ -3524,18 +3525,18 @@ msgstr "Installation de Antivirus Morgan"
 #. Installer skip tooltip when no Key was spent
 #. source: Skip installing.
 msgid "UI.installer_skip_no_key"
-msgstr ""
+msgstr "Ne pas installer."
 
 #. Installer skip tooltip when a Key is refunded
 #. source: Skips installing plugin and refunds Key.
 msgid "UI.installer_skip"
-msgstr ""
+msgstr "Annule l'installation et rembourse la clé."
 
 #. Side Task HUD progress line
 #. source: Open %d/%d .%s files
 #. Keep placeholders unchanged: %d, %s
 msgid "UI.side_objective_open"
-msgstr ""
+msgstr "Ouvre %d/%d fichiers %s."
 
 #. Vapidshare window title when Vapidshare Pro plugin is equipped
 #. source: Vapidshare Pro
@@ -3546,7 +3547,7 @@ msgstr "Vapidshare Pro"
 #. source: Parts %d / %d
 #. Keep placeholders unchanged: %d
 msgid "UI.vapidshare_parts"
-msgstr ""
+msgstr "Partie %d / %d"
 
 #. Vapidshare window extracting status
 #. source: Extracting...
@@ -3571,12 +3572,12 @@ msgstr "vapidshare.com"
 #. Vapidshare list Hoster header
 #. source: Hoster
 msgid "UI.vapidshare_hoster_column"
-msgstr ""
+msgstr "Hôte"
 
 #. Vapidshare toolbar Extras
 #. source: Extras
 msgid "UI.vapidshare_extras"
-msgstr ""
+msgstr "Extras"
 
 #. Window menu File
 #. source: File
@@ -3621,7 +3622,7 @@ msgstr "Première arme"
 #. Installer Remove button tooltip
 #. source: Skips installing plugin and removes it from selection pool.
 msgid "UI.installer_remove_tooltip"
-msgstr ""
+msgstr "Annule l'installation du pilote et l'enlève de la selection."
 
 #. Installer Install button tooltip
 #. source: Installs plugin.
@@ -3631,12 +3632,12 @@ msgstr "Installe le pilote"
 #. Finance Manager all-in button
 #. source: All In
 msgid "UI.stock_trader_all_in"
-msgstr ""
+msgstr "All In"
 
 #. Finance Manager withdraw button
 #. source: Withdraw
 msgid "UI.stock_trader_withdraw"
-msgstr ""
+msgstr "Retirer"
 
 #. AVN Buddy Plus! shield file name
 #. source: Send Message
@@ -3651,13 +3652,33 @@ msgstr "Menu pause"
 #. Victory screen title
 #. source: You Won!
 msgid "UI.you_won"
-msgstr ""
+msgstr "Victoire!"
 
 #. Bluescreen body. {click} and {tab} are input icons
 #. source: A fatal exception has occurred and the system has been terminated to prevent corruption.\n\nCODE_HALTED: SYSTEM_COHERENCE_FAILURE\n\nIf this is the first time you've seen this termination screen, restart your system.\nIf this screen appears again, internal modules may have been compromised.\n\nPlease verify the integrity of your installed components. Unexpected behavior may\nindicate corrupted memory, invalid packet injection, or unauthorized script execution.\n\nIf the issue persists, perform a secure reboot or contact your system's internal administrator.\n\nTechnical Dump:\nSTOP: 0x0000000d (0xFF0000Fa, 0x00000023, 0x00000022, 0x820ea23b)\n\nBeginning forced shutdown...\nMemory cache flushed.\n\nPress {click} to continue. {tab} for stats
 #. Keep placeholders unchanged: {click}, {tab}
 msgid "UI.bluescreen_text"
 msgstr ""
+"Un problème a été détecté et le système a été attêté afin de prévenir tout "
+"dommage sur votre ordinateur.\n"
+"\n"
+"CODE_ERREUR: \n"
+"SYSTEM_COHERENCE_FAILURE\n"
+"\n"
+"Si vous voyez cet écran d'arrêt pour la première fois, redémarrez votre "
+"ordinateur.\n"
+"Si cet écran apparaît encore, suivez ces étapes :\n"
+"\n"
+"Assurez-vous que tout matériel et logiciels sont installés correctement.\n"
+"Si les problèmes persistent, effectuez un redémarrage en mode sans échec ou "
+"contactez votre administrateur.\n"
+"\n"
+"Information techniques :\n"
+"STOP: 0x0000000d (0xFF0000Fa, 0x00000023, 0x00000022, 0x820ea23b)\n"
+"\n"
+"Vidage de la mémoire terminé.\n"
+"\n"
+"{click}pour continuer. {tab} pour afficher les records."
 
 #. Browser address-bar caption
 #. source: Address
