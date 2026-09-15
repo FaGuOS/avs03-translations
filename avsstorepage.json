@@ -223,17 +223,17 @@
       "app[content][sysreqs][linux][min][graphics]": ""
     },
     "polish": {
-      "app[content][about]": "",
-      "app[content][short_description]": "",
-      "app[content][sysreqs][mac][min][osversion]": "",
-      "app[content][sysreqs][mac][min][processor]": "",
-      "app[content][sysreqs][mac][min][graphics]": "",
-      "app[content][sysreqs][windows][min][osversion]": "",
-      "app[content][sysreqs][windows][min][processor]": "",
-      "app[content][sysreqs][windows][min][graphics]": "",
-      "app[content][sysreqs][linux][min][osversion]": "",
-      "app[content][sysreqs][linux][min][processor]": "",
-      "app[content][sysreqs][linux][min][graphics]": ""
+      "app[content][about]": "[p]Uruchom komputer, zaloguj się i przygotuj na intensywne klikanie.[/p][p][img src=&quot;{STEAM_APP_IMAGE}/extras/doubleclickfull-optimize&quot;][/img]W Antivirus Survivors 2003 Professional przemierzasz kolejne foldery, unikając pustki, wyskakujących okienek ze spamem, walcząc z wirusami oraz pokonując bossów. Eksploruj foldery i otwieraj pliki w poszukiwaniu PD oraz kluczy, a także wykonuj zadania wraz z włączonymi politykami. Rozwijaj swój kursor dzięki ulepszeniom i wtyczkom oraz odblokowuj nowe bronie i style rozgrywki.[/p][p]Dzięki intensywnej akcji w stylu roguelike i ogromnego zamiłowania do systemów operacyjnych z początku lat 2000., gra ta stanowi dawkę czystej nostalgii za erą Y2K, której można doświadczyć w sesjach trwających około 30–40 minut.[/p][p][img src=&quot;{STEAM_APP_IMAGE}/extras/survivefull-optimize&quot;][/img][/p][p][b]Pełna wersja gry zawiera:[/b][/p][list][*][p][b]24 Weapons[/b] - Pinball, Pasjans, Miny, Zapora Ogniowa, i wiele więcej broni inspirowanymi latami 2000.[/p][/*][*][p][b]50 Sterowniki[/b] - Zmień działanie broni dzięki dostosowanym ulepszeniom.[/p][/*][*][p][b]33 Typy Plików[/b] - Otwieraj swoje ulubione typy plików aby zdobywać nagrody jak - LemWire, BigWave, Defrag i inne.[/p][/*][*][p][b]62 Wtyczki[/b] - Uruchamiaj generatory kluczy i instaluj wtyczki, aby znacząco zmodyfikować broń i statystyki gracza.[/p][/*][*][p][b]18 Meta-Ulepszenia[/b] - Mądrze wybieraj meta-ulepszenia, żeby rozwijać się w grze.[/p][/*][*][p][b]5 Poziomów Trudności[/b] - Pięć protokołów o rosnącym poziomie ryzyka i możliwych nagród.[/p][/*][*][p][b]15 Polityki[/b] - Wyjątkowe wyzwania, które pozwalają doświadczyć grę w trudniejszy i ciekawszy sposób.[/p][/*][*][p][b]18 Staty Gracza [/b]- Twórz unikalne konfiguracje, zwiększając obrażenia, prędkość, szczęście i inne parametry.[/p][/*][*][p][b]81 Tła Pulpitu 8 Motywów[/b] - Dodatki kosmetyczne do odblokowania, które pozwolą Ci spersonalizować twój pulpit.[/p][/*][*][p][b]6 Bossy i Mini-Bossy[/b] - Wzmocnieni przeciwnicy i potężni bossowie, których trzeba pokonać.[/p][/*][*][p][b]200+ Zadań [/b]- Wykonuj dodatkowe zadania, aby odblokować nowe Pliki, Broń, Wtyczki i nie tylko![/p][/*][/list][p][img src=&quot;{STEAM_APP_IMAGE}/extras/upgradefuull-optimize&quot;][/img][/p][p]Klikaj Dwukrotnie, Wypakowuj, Pobieraj, Ulepszaj, Przetrwaj.[/p]",
+      "app[content][short_description]": "Wirusy znów zaatakowały rodzinny komputer, a Twoim zadaniem jest odeprzeć fale wirusów i złowrogich programów, korzystając z arsenału nostalgicznej broni inspirowanej erą Y2K. Antivirus Survivors 2003 Professional jest grą przypominającą survival, typu auto-shooter, pełną nawiązań do czasów, kiedy korzystanie z komputerów sprawiało prawdziwą frajdę.",
+      "app[content][sysreqs][mac][min][osversion]": "macOS 12",
+      "app[content][sysreqs][mac][min][processor]": "Apple M1 or 2.0 GHz Intel",
+      "app[content][sysreqs][mac][min][graphics]": "512 MB VRAM",
+      "app[content][sysreqs][windows][min][osversion]": "Windows 10",
+      "app[content][sysreqs][windows][min][processor]": "2.0 GHz",
+      "app[content][sysreqs][windows][min][graphics]": "512 MB VRAM",
+      "app[content][sysreqs][linux][min][osversion]": "SteamOS or any modern Linux Distro",
+      "app[content][sysreqs][linux][min][processor]": "2.0 GHz",
+      "app[content][sysreqs][linux][min][graphics]": "512 MB VRAM"
     },
     "brazilian": {
       "app[content][about]": "",
