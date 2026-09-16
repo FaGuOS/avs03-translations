@@ -2039,7 +2039,7 @@ msgstr "Glasnoća glazbe"
 #. Settings menu
 #. source: Keygen Volume
 msgid "SETTINGS.keygen_volume"
-msgstr "Glasnoća Keygen-a"
+msgstr "Glasnoća Ključgena"
 
 #. Settings menu
 #. source: Animation Speed
@@ -2103,7 +2103,7 @@ msgstr "Glasnoća zvučne podloge."
 #. Settings menu
 #. source: Volume for Keygen windows that play their own track.
 msgid "SETTINGS.keygen_volume_tip"
-msgstr "Glasnoća za Keygen prozore koji reproduciraju vlastitu pjesmu."
+msgstr "Glasnoća za Ključgen prozore koji reproduciraju vlastitu pjesmu."
 
 #. Settings menu
 #. source: Language for menus and in-game text.
@@ -4077,24 +4077,22 @@ msgstr "Kupi {amount} nadogradnje od Dućana"
 #. source: Open {amount} Health Checks
 #. Keep placeholders unchanged: {amount}
 msgid "UI.unlock_open_health_check"
-msgstr ""
+msgstr "Otvori {amount} Provjere Zdravlja"
 
 #. Unlock requirement - heal N HP lifetime
 #. source: Heal {amount} HP
 #. Keep placeholders unchanged: {amount}
-#, fuzzy
 msgid "UI.unlock_heal_hp"
-msgstr "Heal {amount} HP"
+msgstr "Liječi {amount} HP-a"
 
 #. Unlock requirement - die N times
 #. source: Die {amount} times
 #. Keep placeholders unchanged: {amount}
 msgid "UI.unlock_die_times"
-msgstr ""
+msgstr "Umri {amount} puta"
 
 #. Hidden 5th weapon slot label
 #. source: Bonus
-#, fuzzy
 msgid "UI.weapon_slot_bonus"
 msgstr "Bonus"
 
@@ -4102,13 +4100,13 @@ msgstr "Bonus"
 #. source: Open {amount} LemWire files
 #. Keep placeholders unchanged: {amount}
 msgid "UI.unlock_open_lemwire"
-msgstr ""
+msgstr "Otvori {amount} LemWire datoteke"
 
 #. Unlock requirement - trigger N spam ad attacks
 #. source: Trigger {amount} Spam Ad Attacks
 #. Keep placeholders unchanged: {amount}
 msgid "UI.unlock_spam_popups"
-msgstr ""
+msgstr "Aktiviraj {amount} napade Spam Oglase "
 
 #. Unlock requirement - defeat a boss
 #. source: Defeat {boss}
@@ -4118,16 +4116,14 @@ msgstr ""
 
 #. Unlock requirement - defeat any boss
 #. source: Defeat any boss
-#, fuzzy
-#| msgid "UI.unlock_file_ethanol_desc"
 msgid "UI.unlock_defeat_any_boss"
-msgstr "Pay Coin to copy a random plugin you already have installed."
+msgstr ""
 
 #. Unlock reward - boss choice file
 #. source: {boss} File
 #. Keep placeholders unchanged: {boss}
 msgid "UI.unlock_boss_choice_reward"
-msgstr ""
+msgstr "{boss} Datoteka"
 
 #. Unlock description - boss choice file
 #. source: Lets you choose {boss} at the end of a run instead of only Random Boss.
@@ -4139,40 +4135,41 @@ msgstr ""
 #. source: Land a single hit of {amount} damage
 #. Keep placeholders unchanged: {amount}
 msgid "UI.unlock_hit"
-msgstr ""
+msgstr "Dijeli {amount} štete u jednom udarcu."
 
 #. Unlock requirement - complete a protocol
 #. source: Complete {protocol}
 #. Keep placeholders unchanged: {protocol}
 msgid "UI.unlock_complete_protocol"
-msgstr ""
+msgstr "Završi {protocol}"
 
 #. Unlock description - unlocks a protocol
 #. source: Unlocks {reward}.
 #. Keep placeholders unchanged: {reward}
 msgid "UI.unlock_protocol_unlocks"
-msgstr ""
+msgstr "Odključa {reward}."
 
 #. Unlock requirement - reach a round on a protocol or higher
 #. source: Reach round {amount} on {protocol} or higher
 #. Keep placeholders unchanged: {amount}, {protocol}
+#, fuzzy
 msgid "UI.unlock_round_protocol"
-msgstr ""
+msgstr "Preživi do "
 
 #. UI (script-driven)
 #. source: Heal 500 HP total
 msgid "UI.unlock_plugin_big_hp_regen_boost"
-msgstr ""
+msgstr "Liječi 500 HP ukupno"
 
 #. UI (script-driven)
 #. source: Die 10 times
 msgid "UI.unlock_class_null"
-msgstr ""
+msgstr "Umri 10 puta"
 
 #. UI (script-driven)
 #. source: Collect 800 Coin in a single run
 msgid "UI.unlock_widget_nos"
-msgstr ""
+msgstr "Skuplji 800 Novčića u jednoj igri"
 
 #. UI (script-driven)
 #. source: Temporarily boost cursor speed for a short burst.
@@ -4192,7 +4189,7 @@ msgstr ""
 #. UI (script-driven)
 #. source: Criminal
 msgid "UI.unlock_widget_crime_reward"
-msgstr ""
+msgstr "Kriminalac"
 
 #. UI (script-driven)
 #. source: Slow the world around you to clear enemies more easily.
@@ -4202,94 +4199,92 @@ msgstr ""
 #. UI (script-driven)
 #. source: Heaps of Pain
 msgid "UI.unlock_widget_bullet_time_reward"
-msgstr ""
+msgstr "Hrpa Boli"
 
 #. UI (script-driven)
 #. source: Buy and sell Keys for Coin in Safe Folders.
 msgid "UI.unlock_file_keybuy_desc"
-msgstr ""
+msgstr "Kupi i prodaj Ključeve za Novčić u Sigurnim Mapama."
 
 #. UI (script-driven)
 #. source: KeyBuy
 msgid "UI.unlock_file_keybuy_reward"
-msgstr ""
+msgstr "KupiKljuč"
 
 #. UI (script-driven)
 #. source: Heal now, or upgrade Health Check files for later battles.
 msgid "UI.unlock_file_health_check_pro_desc"
-msgstr ""
+msgstr "Izliječi sada, ili nadogradi Provjere Zdravlja datoteke za budućnost."
 
 #. UI (script-driven)
 #. source: Health Check Plus
 msgid "UI.unlock_file_health_check_pro_reward"
-msgstr ""
+msgstr "Provjera Zdravlje Plus"
 
 #. UI (script-driven)
 #. source: Invest Coin between battles and cash out later.
 msgid "UI.unlock_file_stock_trader_desc"
-msgstr ""
+msgstr "Uloži Novčić između bitke i izvući kasnije."
 
 #. UI (script-driven)
 #. source: Finance Manager
 msgid "UI.unlock_file_stock_trader_reward"
-msgstr ""
+msgstr "Upravitelj Financije"
 
 #. Unlock description - Ethanol 130% safe file
 #. source: Pay Coin to copy a random plugin you already have installed.
-#, fuzzy
 msgid "UI.unlock_file_ethanol_desc"
-msgstr "Pay Coin to copy a random plugin you already have installed."
+msgstr "Plati Novčić za kopiranje slučajan dodak koji već imaš instaliran."
 
 #. Unlock reward - Ethanol 130% name
 #. source: Ethanol 130%
-#, fuzzy
 msgid "UI.unlock_file_ethanol_reward"
-msgstr "Ethanol 130%"
+msgstr "Etanol 130%"
 
 #. UI (script-driven)
 #. source: Download multi-part archives that drop Cracked Installers.
 msgid "UI.unlock_file_vapidshare_desc"
-msgstr ""
+msgstr "Preuzmi višedijelne arhive koje kreatiraju Krakiran Dodatak Instaler."
 
 #. UI (script-driven)
 #. source: Vapidshare
 msgid "UI.unlock_file_vapidshare_reward"
-msgstr ""
+msgstr "Vapidshare"
 
 #. UI (script-driven)
 #. source: Install plugins without spending a Key.
 msgid "UI.unlock_file_cracked_installer_desc"
-msgstr ""
+msgstr "Instalira dodatke bez Ključeva."
 
 #. UI (script-driven)
 #. source: Cracked Installer
 msgid "UI.unlock_file_cracked_installer_reward"
-msgstr ""
+msgstr "Krekiran Instaler"
 
 #. UI (script-driven)
 #. source: Clear a zone of enemies to choose from three plugins.
 msgid "UI.unlock_file_killzone_desc"
-msgstr ""
+msgstr "Očisti zonu neprijatelja i odaberi između tri dodatka."
 
 #. UI (script-driven)
 #. source: Clearzone
 msgid "UI.unlock_file_killzone_reward"
-msgstr ""
+msgstr "Čistazona"
 
 #. UI (script-driven)
 #. source: Install 3 legendary plugins
 msgid "UI.unlock_file_legendary_installer"
-msgstr ""
+msgstr "Instaliraj 3 legendarna dodataka"
 
 #. UI (script-driven)
 #. source: Spend 3 Keys for a legendary plugin install.
 msgid "UI.unlock_file_legendary_installer_desc"
-msgstr ""
+msgstr "Troši 3 Ključeva za instalaciju legendarnog dodatka."
 
 #. UI (script-driven)
 #. source: Legendary Installer
 msgid "UI.unlock_file_legendary_installer_reward"
-msgstr ""
+msgstr "Legendaran Instaler"
 
 #. UI (script-driven)
 #. source: Defeat a Plus! enemy in 10 seconds
@@ -4299,15 +4294,15 @@ msgstr "Defeat a Plus! enemy in 10 seconds"
 
 #. UI (script-driven)
 #. source: Install Morgan Antivirus to raise difficulty and spawn extra Plus! enemies.
-#, fuzzy
 msgid "UI.unlock_file_morgan_av_desc"
 msgstr ""
-"Install Morgan Antivirus to raise difficulty and spawn extra Plus! enemies."
+"Instaliraj Morgan Antivirusni program za veću težinu i dodatnih Plus! "
+"neprijatelje."
 
 #. UI (script-driven)
 #. source: Bonus Beanz
 msgid "UI.unlock_general_reward"
-msgstr ""
+msgstr "Bonusni Beanz-ovi"
 
 #. Lifetime clears milestone description
 #. source: Lifetime enemy clears milestone.
@@ -4323,25 +4318,24 @@ msgstr ""
 #. source: {file} files opened across all runs.
 #. Keep placeholders unchanged: {file}
 msgid "UI.unlock_general_file_type_desc"
-msgstr ""
+msgstr "{file} datoteke otvorene kroz svih igre."
 
 #. Lifetime Download More RAM milestone description
 #. source: Download More RAM completed across all runs.
-#, fuzzy
-#| msgid "UI.unlock_general_side_tasks_desc"
 msgid "UI.unlock_general_download_ram_desc"
-msgstr "Side Tasks completed across all runs."
+msgstr "Preuzmi Još RAM-a završene kroz svih igre."
 
 #. Lifetime enemy-type clears milestone description
 #. source: {enemy} enemies cleared across all runs.
 #. Keep placeholders unchanged: {enemy}
 msgid "UI.unlock_general_enemy_desc"
-msgstr ""
+msgstr "{enemy} neprijatelje očišćeni kroz sve igre."
 
 #. Lifetime critical hits milestone description
 #. source: Lifetime critical hits milestone.
+#, fuzzy
 msgid "UI.unlock_general_crits_desc"
-msgstr ""
+msgstr "Kritikalni Udarci na neprijateljima kroz svih igra."
 
 #. Lifetime damage milestone description
 #. source: Lifetime damage dealt milestone.
@@ -4356,12 +4350,12 @@ msgstr ""
 #. Lifetime run completions milestone description
 #. source: Runs completed successfully.
 msgid "UI.unlock_general_wins_desc"
-msgstr ""
+msgstr "Igre završene uspješno."
 
 #. Lifetime tasks completed milestone description
 #. source: Tasks completed from the list.
 msgid "UI.unlock_general_quests_desc"
-msgstr ""
+msgstr "Zadatki završene od lista."
 
 #. Single-run level milestone description
 #. source: Single-run level milestone.
@@ -4371,132 +4365,135 @@ msgstr ""
 #. Optional extra difficulty policy - name (legacy_hardware)
 #. source: Legacy Hardware
 msgid "POLICY.legacy_hardware.name"
-msgstr ""
+msgstr "Naslijeđni Hardver"
 
 #. Optional extra difficulty policy - description (legacy_hardware)
 #. source: Enemies move 40% faster and deal 20% more damage.
 msgid "POLICY.legacy_hardware.description"
-msgstr ""
+msgstr "Neprijatelji su 40% brži i dijeluju 20% više štete."
 
 #. Optional extra difficulty policy - name (bloatware)
 #. source: Bloatware
 msgid "POLICY.bloatware.name"
-msgstr ""
+msgstr "Nepotrebni Softver"
 
 #. Optional extra difficulty policy - description (bloatware)
 #. source: 40% more enemies spawn, and enemies have 20% more health.
 msgid "POLICY.bloatware.description"
-msgstr ""
+msgstr "40% više neprijatelja se pojavljaju, i imaju 20% više HP-a."
 
 #. Optional extra difficulty policy - name (void_breach)
 #. source: Void Breach
 msgid "POLICY.void_breach.name"
-msgstr ""
+msgstr "Praznost Kršenje"
 
 #. Optional extra difficulty policy - description (void_breach)
 #. source: The void deals 2x damage and applies 2x Lag.
 msgid "POLICY.void_breach.description"
-msgstr ""
+msgstr "Praznina dijeli 2x štetu i dodaje 2x Kašnjenje."
 
 #. Optional extra difficulty policy - name (bad_sector)
 #. source: Bad Sector
 msgid "POLICY.bad_sector.name"
-msgstr ""
+msgstr "Neispravan Sektor"
 
 #. Optional extra difficulty policy - description (bad_sector)
 #. source: Halve current HP each Battle Folder.
 msgid "POLICY.bad_sector.description"
-msgstr ""
+msgstr "Polovi trenutni HP s svakoj Borbnoj Mapi."
 
 #. Optional extra difficulty policy - name (low_memory)
 #. source: Low Memory
 msgid "POLICY.low_memory.name"
-msgstr ""
+msgstr "Niska Memorija"
 
 #. Optional extra difficulty policy - description (low_memory)
 #. source: No new weapons at level 8, 16, or 24.
 msgid "POLICY.low_memory.description"
-msgstr ""
+msgstr "Nema novih oružja na razini 8, 16 ili 24."
 
 #. Optional extra difficulty policy - name (unsigned_driver)
 #. source: Activation Required
 msgid "POLICY.unsigned_driver.name"
-msgstr ""
+msgstr "Aktivacija Potrebno"
 
 #. Optional extra difficulty policy - description (unsigned_driver)
 #. source: Keygen files do not spawn. Get plugins from cracked installers, or buy Keys at the Key Shop.
 msgid "POLICY.unsigned_driver.description"
 msgstr ""
+"Ključgen datoteke se ne pojavljuju. Dobi dodatke iz krekirane instalere, ili "
+"kupi Ključeve u Dućan Ključeva."
 
 #. Optional extra difficulty policy - name (read_only)
 #. source: Read Only
 msgid "POLICY.read_only.name"
-msgstr ""
+msgstr "Samo za Čitanje"
 
 #. Optional extra difficulty policy - description (read_only)
 #. source: Rerolls are disabled.
 msgid "POLICY.read_only.description"
-msgstr ""
+msgstr "Ponovo bacenje je onemogućeno."
 
 #. Optional extra difficulty policy - name (blue_screen_imminent)
 #. source: Blue Screen Imminent
 msgid "POLICY.blue_screen_imminent.name"
-msgstr ""
+msgstr "Plavi Ekran Blizak"
 
 #. Optional extra difficulty policy - description (blue_screen_imminent)
 #. source: The post-round escape timer is halved.
+#, fuzzy
 msgid "POLICY.blue_screen_imminent.description"
-msgstr ""
+msgstr "Brojač za  nakon"
 
 #. Optional extra difficulty policy - name (trial_version)
 #. source: Trial Version
 msgid "POLICY.trial_version.name"
-msgstr ""
+msgstr "Probna Verzija"
 
 #. Optional extra difficulty policy - description (trial_version)
 #. source: Battle rounds last 2.5 minutes.
 msgid "POLICY.trial_version.description"
-msgstr ""
+msgstr "Ratne Mape traju 2,5 minuta."
 
 #. Optional extra difficulty policy - name (extended_support)
 #. source: Extended Support
 msgid "POLICY.extended_support.name"
-msgstr ""
+msgstr "Produljena Podrška"
 
 #. Optional extra difficulty policy - description (extended_support)
 #. source: Battle rounds last 10 minutes.
 msgid "POLICY.extended_support.description"
-msgstr ""
+msgstr "Ratne Mape traju 10 minuta."
 
 #. Optional extra difficulty policy - name (kiosk_mode)
 #. source: Kiosk Mode
 msgid "POLICY.kiosk_mode.name"
-msgstr ""
+msgstr "Kiosk Način"
 
 #. Optional extra difficulty policy - description (kiosk_mode)
 #. source: No weapons for the whole round.
 msgid "POLICY.kiosk_mode.description"
-msgstr ""
+msgstr "Nema oružja cijele runde."
 
 #. Optional extra difficulty policy - name (fatal_exception)
 #. source: Fatal Exception
 msgid "POLICY.fatal_exception.name"
-msgstr ""
+msgstr "Fatalna Iznimka"
 
 #. Optional extra difficulty policy - description (fatal_exception)
 #. source: Touching the void ends the run.
 msgid "POLICY.fatal_exception.description"
-msgstr ""
+msgstr "Diranje prazninu završava igru."
 
 #. Optional extra difficulty policy - name (redirected_folders)
 #. source: Redirected Folders
 msgid "POLICY.redirected_folders.name"
-msgstr ""
+msgstr "Preusmjerene Mape"
 
 #. Optional extra difficulty policy - description (redirected_folders)
 #. source: No files spawn in the rounds.
 msgid "POLICY.redirected_folders.description"
-msgstr ""
+msgstr "Datoteke se ne pojavljaju tijekom rundi."
 
 #. Optional extra difficulty policy - name (open_relay)
 #. source: Open Relay
@@ -4506,111 +4503,115 @@ msgstr ""
 #. Optional extra difficulty policy - description (open_relay)
 #. source: Every battle file includes spam.
 msgid "POLICY.open_relay.description"
-msgstr ""
+msgstr "Svaka ratna datoteka dođe sa spam oglasima."
 
 #. Optional extra difficulty policy - name (default_domain_policy)
 #. source: Default Domain Policy
 msgid "POLICY.default_domain_policy.name"
-msgstr ""
+msgstr "Zadani Pravilnik Domene"
 
 #. Optional extra difficulty policy - description (default_domain_policy)
 #. source: Every standard Policy at once. Enemies are faster, tougher, and more numerous. Halve current HP each Battle Folder. No extra weapons, Keygens, or rerolls. Void is 2x. Escape timer is halved.
+#, fuzzy
 msgid "POLICY.default_domain_policy.description"
 msgstr ""
+"Svaki standardni Pravilnik odjednom. Neprijatelji su brži, teži i više ih. "
+"Polovuje trenutni HP svakom Ratnoj Mapi. Nema dodatnih oružja, Ključgen, ili "
+"ponovno bacanje. 2x praznina. "
 
 #. Policy complete unlock requirement template
 #. source: Complete any protocol using {policy}
 #. Keep placeholders unchanged: {policy}
 msgid "UI.unlock_policy_win"
-msgstr ""
+msgstr "Završi bilokoj protokol sa {policy}"
 
 #. Policy complete unlock description template
 #. source: Complete any protocol with {policy} enabled.
 #. Keep placeholders unchanged: {policy}
 msgid "UI.unlock_policy_win_desc"
-msgstr ""
+msgstr "Završi bilokoj protokol sa {policy} omogućen."
 
 #. Protocol V policy unlock requirement template
 #. source: Complete Protocol V with {policy}
 #. Keep placeholders unchanged: {policy}
 msgid "UI.unlock_policy_v5"
-msgstr ""
+msgstr "Završi Protokol V sa {policy}"
 
 #. Protocol V policy unlock description template
 #. source: Complete Protocol V with {policy} enabled.
 #. Keep placeholders unchanged: {policy}
 msgid "UI.unlock_policy_v5_desc"
-msgstr ""
+msgstr "Završi Protokol V sa {policy} omogućen."
 
 #. KeyBuy window and desktop icon title
 #. source: keyBuy
 msgid "UI.keybuy_title"
-msgstr ""
+msgstr "kupiKljuč"
 
 #. KeyBuy buy button
 #. source: Buy a Key
 msgid "UI.keybuy_buy"
-msgstr ""
+msgstr "Kupi Ključa"
 
 #. KeyBuy sell button
 #. source: Sell a Key
 msgid "UI.keybuy_sell"
-msgstr ""
+msgstr "Prodaj Ključa"
 
 #. KeyBuy listing price
 #. source: {cost} Coin
 #. Keep placeholders unchanged: {cost}
 msgid "UI.keybuy_cost"
-msgstr ""
+msgstr "{cost} Novčić"
 
 #. KeyBuy header slogan
 #. source: The World's Biggest Key Marketplace
 msgid "UI.keybuy_tagline"
-msgstr ""
+msgstr "Najveća Elektronička Trgovina Ključeva"
 
 #. KeyBuy buy tooltip
 #. source: Spend {cost} Coin for 1 Key.
 #. Keep placeholders unchanged: {cost}
 msgid "UI.keybuy_buy_tooltip"
-msgstr ""
+msgstr "Potroši {coin} Novčić za 1 Ključ."
 
 #. KeyBuy sell tooltip
 #. source: Sell 1 Key for {cost} Coin.\nMarketplace fee keeps {fee} Coin.
 #. Keep placeholders unchanged: {cost}, {fee}
 msgid "UI.keybuy_sell_tooltip"
 msgstr ""
+"Prodaj 1 Ključ za {cost} Novčić.\n"
+"Naknada tržišta zadrži {fee} Novčića."
 
 #. KeyBuy nav links under the logo
 #. source: home | buy | sell | my keys | help
-#, fuzzy
-#| msgid "UI.keys"
 msgid "UI.keybuy_nav"
-msgstr "Ključevi: %d"
+msgstr "početna | kupi | prodaj | moji ključevi | pomoć"
 
 #. KeyBuy buy column heading
 #. source: Buy
 msgid "UI.keybuy_heading_buy"
-msgstr ""
+msgstr "Kupi"
 
 #. KeyBuy sell column heading
 #. source: Sell
 msgid "UI.keybuy_heading_sell"
-msgstr ""
+msgstr "Prodaj"
 
 #. Health Check Pro heal button
 #. source: Heal Now
 msgid "UI.health_check_pro_heal"
-msgstr ""
+msgstr "Izliječi Odmah"
 
 #. Health Check Pro upgrade-files button
 #. source: Upgrade Files
 msgid "UI.health_check_pro_boost"
-msgstr ""
+msgstr "Nadogradi Datoteke"
 
 #. Health Check Pro upgrade-files button after purchase
 #. source: Upgraded
 msgid "UI.health_check_pro_boost_bought"
-msgstr ""
+msgstr "Nadograđeno"
 
 #. Health Check Pro upgrade-files tooltip
 #. source: Health Check files in the next battles drop more hearts this run.\nOnce per Safe Folder.
@@ -4620,22 +4621,22 @@ msgstr ""
 #. Health Check Pro heal tooltip
 #. source: Restore 50% of your Max HP right now.
 msgid "UI.health_check_pro_heal_tooltip"
-msgstr ""
+msgstr "Vraća 50% od vaš Maks. HP odmah sada."
 
 #. Health Check Pro program subtitle
 #. source: Help protect your PC
 msgid "UI.health_check_pro_banner"
-msgstr ""
+msgstr "Zaštitite vaše računalo"
 
 #. Health Check Pro file-upgrade card title
 #. source: Health Check Files
 msgid "UI.health_check_pro_file_head"
-msgstr ""
+msgstr "Provjera Zdravlje Datoteke"
 
 #. Health Check Pro heal card title
 #. source: Instant Repair
 msgid "UI.health_check_pro_heal_head"
-msgstr ""
+msgstr "Trenutačni Popravak"
 
 #. Health Check Pro file-upgrade explanation
 #. source: Upgrading makes Health Check files in battle drop more hearts.
@@ -4646,56 +4647,56 @@ msgstr ""
 #. source: Now: {min}–{max} HP
 #. Keep placeholders unchanged: {min}, {max}
 msgid "UI.health_check_pro_range_now"
-msgstr ""
+msgstr "Sada: {min}-{max} HP"
 
 #. Health Check Pro range after upgrade
 #. source: After upgrade: {min}–{max} HP
 #. Keep placeholders unchanged: {min}, {max}
 msgid "UI.health_check_pro_range_next"
-msgstr ""
+msgstr "Nakon nadogradnje: {min}-{max} HP"
 
 #. Health Check Pro range after purchase
 #. source: Upgraded: {min}–{max} HP
 #. Keep placeholders unchanged: {min}, {max}
 msgid "UI.health_check_pro_range_done"
-msgstr ""
+msgstr "Nadograđeno: {min}-{max} HP"
 
 #. Health Check Pro heal explanation
 #. source: Restore 50% of Max HP right now.
 msgid "UI.health_check_pro_heal_blurb"
-msgstr ""
+msgstr "Vraća 50% od Maks. HP odmah sada."
 
 #. Health Check Pro heal amount preview
 #. source: +{amount} HP
 #. Keep placeholders unchanged: {amount}
 msgid "UI.health_check_pro_heal_preview"
-msgstr ""
+msgstr "+{amount} HP"
 
 #. Health Check Pro coin cost
 #. source: {cost} Coin
 #. Keep placeholders unchanged: {cost}
 msgid "UI.health_check_pro_cost"
-msgstr ""
+msgstr "{cost} Novčić"
 
 #. Finance Manager window and desktop icon title
 #. source: Finance Manager
 msgid "UI.stock_trader_title"
-msgstr ""
+msgstr "Upravitelj Financije"
 
 #. Finance Manager last-folder warning
 #. source: Last folder: withdraw before the last battle!
 msgid "UI.stock_trader_warning"
-msgstr ""
+msgstr "Zadnja mapa: izvući prije zadnje borbe!"
 
 #. Finance Manager performance group
 #. source: Performance
 msgid "UI.stock_trader_group_history"
-msgstr ""
+msgstr "Performanse"
 
 #. Finance Manager position group
 #. source: Position
 msgid "UI.stock_trader_group_position"
-msgstr ""
+msgstr "Pozicija"
 
 #. Finance Manager run-stats group
 #. source: Run Stats
@@ -4705,7 +4706,7 @@ msgstr ""
 #. Finance Manager wallet group
 #. source: Wallet
 msgid "UI.stock_trader_group_wallet"
-msgstr ""
+msgstr "Novčanik"
 
 #. Finance Manager trade group
 #. source: Trade
@@ -4715,22 +4716,22 @@ msgstr ""
 #. Finance Manager invested row
 #. source: Invested
 msgid "UI.stock_trader_label_put_in"
-msgstr ""
+msgstr "Uloženo"
 
 #. Finance Manager balance row
 #. source: Balance
 msgid "UI.stock_trader_label_now"
-msgstr ""
+msgstr "Balans"
 
 #. Finance Manager open-profit row
 #. source: Profit
 msgid "UI.stock_trader_label_return"
-msgstr ""
+msgstr "Zarada"
 
 #. Finance Manager this-folder row
 #. source: This Folder
 msgid "UI.stock_trader_label_roll"
-msgstr ""
+msgstr "Ova Mapa"
 
 #. Finance Manager folder-change row
 #. source: Change
@@ -4740,22 +4741,23 @@ msgstr ""
 #. Finance Manager net-profit row
 #. source: Net Profit
 msgid "UI.stock_trader_label_run"
-msgstr ""
+msgstr "Neto Dobit"
 
 #. Finance Manager on-hand row
 #. source: On hand
 msgid "UI.stock_trader_label_on_hand"
-msgstr ""
+msgstr "Na ruci"
 
 #. Finance Manager pending row
 #. source: Pending
 msgid "UI.stock_trader_label_pending"
-msgstr ""
+msgstr "Na čekanju"
 
 #. Finance Manager plus button tooltip
 #. source: Add Coin to your pending deposit.
+#, fuzzy
 msgid "UI.stock_trader_plus_tooltip"
-msgstr ""
+msgstr "Dodaj Novčić na Vaš"
 
 #. Finance Manager minus button tooltip
 #. source: Reduce your pending deposit.
@@ -4784,57 +4786,49 @@ msgstr ""
 
 #. Ethanol 130% window explanation
 #. source: Pay Coin to roll a copy of a random plugin you already have installed.
-#, fuzzy
 msgid "UI.ethanol_body"
-msgstr "Pay Coin to roll a copy of a random plugin you already have installed."
+msgstr "Plati Novčić za kopiju slučajan dodatak koji već imaš instaliran."
 
 #. Ethanol 130% copy button
 #. source: Copy: {cost} Coin
 #. Keep placeholders unchanged: {cost}
-#, fuzzy
 msgid "UI.ethanol_copy"
-msgstr "Copy: {cost} Coin"
+msgstr "Kopiraj: {cost} Novčič"
 
 #. Ethanol 130% install button
 #. source: Install
-#, fuzzy
 msgid "UI.ethanol_install"
-msgstr "Install"
+msgstr "Instaliraj"
 
 #. Ethanol 130% window text when no plugins installed
 #. source: No plugins installed.
-#, fuzzy
 msgid "UI.ethanol_no_plugins"
-msgstr "No plugins installed."
+msgstr "Nema instalirana dodatka."
 
 #. Ethanol 130% window text when installed plugins cannot stack
 #. source: Installed plugins cannot be copied.
-#, fuzzy
 msgid "UI.ethanol_none_copyable"
-msgstr "Installed plugins cannot be copied."
+msgstr "Instalirani dodatki ne mogu biti kopirani."
 
 #. Ethanol 130% tooltip after the copy was used
 #. source: Already used in this folder.
-#, fuzzy
 msgid "UI.ethanol_used"
-msgstr "Already used in this folder."
+msgstr "Već iskorišteno ovoj mapi."
 
 #. Ethanol 130% idle panel title
 #. source: Ready to Distill...
-#, fuzzy
 msgid "UI.ethanol_ready"
-msgstr "Ready to Distill..."
+msgstr "Spreman za Destilaciju…"
 
 #. Ethanol 130% copying panel title
 #. source: Copying Plugin...
-#, fuzzy
 msgid "UI.ethanol_copying"
-msgstr "Copying Plugin..."
+msgstr "Kopiranje Dodataka…"
 
 #. Desktop icon tooltip when another Special File is already open
 #. source: Another Special File is open
 msgid "CLICKABLE.widget_busy"
-msgstr ""
+msgstr "Druga Specijalna Datoteka je već otvorena"
 
 #. Desktop icon tooltip
 #. source: Double-Click to Open
@@ -4859,9 +4853,8 @@ msgstr "Kliknite dvaput za Kupnju"
 #. Meta upgrade shop - refund hovered upgrade
 #. source: %s to Refund
 #. Keep placeholders unchanged: %s
-#, fuzzy
 msgid "CLICKABLE.menu_shortcut_refund"
-msgstr "%s to Refund"
+msgstr "%s za Povrat Beanz-a"
 
 #. Desktop icon tooltip
 #. source: Double-Click to Fight
@@ -4917,13 +4910,13 @@ msgstr "Kliknite dvaput za primjenu"
 #. source: Double-Click to purchase for %d Beanz
 #. Keep placeholders unchanged: %d
 msgid "CLICKABLE.double_click_buy"
-msgstr ""
+msgstr "Kliknite dvaput za kupnju za %d Beanz-a"
 
 #. Desktop icon tooltip
 #. source: Need %d Beanz to purchase
 #. Keep placeholders unchanged: %d
 msgid "CLICKABLE.cant_afford_beanz"
-msgstr ""
+msgstr "Treba %d Beanz-a za kupnju"
 
 #. Desktop icon tooltip
 #. source: Double-Click to Open Link
@@ -4948,15 +4941,13 @@ msgstr "Koristi 1 Ključ"
 
 #. Cracked installer tooltip
 #. source: No key required
-#, fuzzy
 msgid "CLICKABLE.no_key_required"
-msgstr "No key required"
+msgstr "Ključ nije potreban"
 
 #. Legendary installer tooltip
 #. source: Uses 3 keys · Always Legendary
-#, fuzzy
 msgid "CLICKABLE.legendary_installer_hint"
-msgstr "Uses 3 keys · Always Legendary"
+msgstr "Koristi 3 ključeva · Uvijek Legendaran"
 
 #. Desktop icon tooltip
 #. source: Destroys everything on-screen!
@@ -4965,9 +4956,8 @@ msgstr "Uništava sve na ekranu!"
 
 #. Desktop icon tooltip
 #. source: Harder run. Extra Plus! enemies.
-#, fuzzy
 msgid "CLICKABLE.morgan_av_warning"
-msgstr "Harder run. Extra Plus! enemies."
+msgstr "Teža igra. Dodatnih Plus! neprijatelja."
 
 #. Stat tooltip
 #. source: Level %d
@@ -5015,37 +5005,37 @@ msgstr "Moć: %.1f"
 #. source: Damage this run: %.0f
 #. Keep placeholders unchanged: %.0f
 msgid "TOOLTIP.run_damage"
-msgstr ""
+msgstr "Šteta ove igre: %.0f"
 
 #. Stat tooltip
 #. source: DPS: %.1f
 #. Keep placeholders unchanged: %.1f
 msgid "TOOLTIP.run_dps"
-msgstr ""
+msgstr "DPS: %.1f"
 
 #. Stat tooltip
 #. source: Hits: %d
 #. Keep placeholders unchanged: %d
 msgid "TOOLTIP.run_hits"
-msgstr ""
+msgstr "Udarci: %d"
 
 #. Stat tooltip
 #. source: Crit rate: %.0f%%
 #. Keep placeholders unchanged: %.0f, %%
 msgid "TOOLTIP.run_crit_rate"
-msgstr ""
+msgstr "Krit. prosječnost: %.0f%%"
 
 #. Stat tooltip
 #. source: Clears: %d
 #. Keep placeholders unchanged: %d
 msgid "TOOLTIP.run_clears"
-msgstr ""
+msgstr "Čišćenja: %d"
 
 #. Stat tooltip
 #. source: Biggest hit: %.0f
 #. Keep placeholders unchanged: %.0f
 msgid "TOOLTIP.run_highest_hit"
-msgstr ""
+msgstr "Najveći Udarac: %.0f"
 
 #. Stat tooltip
 #. source: Completions: %d
@@ -5055,10 +5045,8 @@ msgstr "Dovršeno: %d"
 
 #. Stat tooltip
 #. source: Drivers
-#, fuzzy
-#| msgid "TOOLTIP.refresh"
 msgid "TOOLTIP.drivers"
-msgstr "Osvježavanje: %.2fs"
+msgstr "Upravljački programi"
 
 #. Meta upgrade menu
 #. source: Rank: %d/%d
@@ -5122,15 +5110,13 @@ msgstr "Installer.pgi"
 
 #. Desktop icon tooltip
 #. source: cracked_installer.pgi
-#, fuzzy
 msgid "CLICKABLE.filename.cracked_installer"
-msgstr "cracked_installer.pgi"
+msgstr "krekiran_instaler.pgi"
 
 #. Desktop icon tooltip
 #. source: LEGENDARY_SETUP.exe
-#, fuzzy
 msgid "CLICKABLE.filename.legendary_installer"
-msgstr "LEGENDARY_SETUP.exe"
+msgstr "LEGENDARAN_INSTALER.exe"
 
 #. Desktop icon tooltip
 #. source: MorganAV.pgi
@@ -5255,114 +5241,97 @@ msgstr ""
 
 #. Safe Folder explorer - tree pane header
 #. source: Folders
-#, fuzzy
 msgid "UI.safe_hub_folders"
-msgstr "Folders"
+msgstr "Mape"
 
 #. Safe Folder explorer - battle folder tree row
 #. source: Battle Folder %d
 #. Keep placeholders unchanged: %d
-#, fuzzy
 msgid "UI.safe_hub_battle_folder"
-msgstr "Battle Folder %d"
+msgstr "Ratna Mapa %d"
 
 #. Safe Folder explorer - previous round stats header
 #. source: Previous Round
-#, fuzzy
 msgid "UI.safe_hub_last_round"
-msgstr "Previous Round"
+msgstr "Zadnja Runda"
 
 #. Safe Folder explorer - previous round window title
 #. source: BattleFolder%d.xls
 #. Keep placeholders unchanged: %d
-#, fuzzy
 msgid "UI.safe_hub_round_xls"
-msgstr "BattleFolder%d.xls"
+msgstr "RatnaMapa%d.xls"
 
 #. Safe Folder explorer - no tasks completed last round
 #. source: No new tasks this round
-#, fuzzy
 msgid "UI.safe_hub_tasks_empty"
-msgstr "No new tasks this round"
+msgstr "Nema novih zadataka ovoj rundi"
 
 #. Safe Folder explorer - last round kills tooltip
 #. source: Enemies cleared in the last Battle Folder.
-#, fuzzy
 msgid "RUNSTAT.last_round_kills_desc"
-msgstr "Enemies cleared in the last Battle Folder."
+msgstr "Neprijatelji očišćeni u zadnjoj Ratnoj Mapi."
 
 #. Safe Folder explorer - last round files tooltip
 #. source: Files opened in the last Battle Folder.
-#, fuzzy
 msgid "RUNSTAT.last_round_files_desc"
-msgstr "Files opened in the last Battle Folder."
+msgstr "Datoteke otvorene u zadnjoj Ratnoj Mapi."
 
 #. Safe Folder explorer - last round coin tooltip
 #. source: Coin collected in the last Battle Folder.
-#, fuzzy
 msgid "RUNSTAT.last_round_coin_desc"
-msgstr "Coin collected in the last Battle Folder."
+msgstr "Novčići sakupljeni u zadnjoj Ratnoj Mapi."
 
 #. Safe Folder explorer - last round keys tooltip
 #. source: Keys collected in the last Battle Folder.
-#, fuzzy
 msgid "RUNSTAT.last_round_keys_desc"
-msgstr "Keys collected in the last Battle Folder."
+msgstr "Ključevi sakupljeni u zadnjoj Ratnoj Mapi."
 
 #. Safe Folder explorer - last round Beanz tooltip
 #. source: Beanz earned in the last Battle Folder, including the Safe Folder award.
-#, fuzzy
 msgid "RUNSTAT.last_round_beanz_desc"
 msgstr ""
-"Beanz earned in the last Battle Folder, including the Safe Folder award."
+"Beanz-ovi zarađeni u zadnjoj Ratnoj Mapi, uključujući nagradu od Sigurnoj "
+"Mapi."
 
 #. Run and last-round DPS label
 #. source: DPS
-#, fuzzy
 msgid "RUNSTAT.dps"
 msgstr "DPS"
 
 #. Run DPS tooltip
 #. source: Damage per second this run, during Battle Folders only.
-#, fuzzy
 msgid "RUNSTAT.dps_desc"
-msgstr "Damage per second this run, during Battle Folders only."
+msgstr "Šteta po sekundi ovoj igri, samo tijekom Ratnim Mapama."
 
 #. Run damage dealt tooltip
 #. source: Total damage dealt this run.
-#, fuzzy
 msgid "RUNSTAT.damage_dealt_desc"
-msgstr "Total damage dealt this run."
+msgstr "Ukupan broj štete nanesene na neprijatelje ove igre."
 
 #. Run biggest hit tooltip
 #. source: Highest single hit this run.
-#, fuzzy
 msgid "RUNSTAT.biggest_hit_desc"
-msgstr "Highest single hit this run."
+msgstr "Najveći broj štete djeljeno u jednom udarcu ove igre."
 
 #. Run Side Tasks completed label
 #. source: Side Tasks
-#, fuzzy
 msgid "RUNSTAT.side_tasks"
-msgstr "Side Tasks"
+msgstr "Sporedni Zadaci"
 
 #. Run Side Tasks completed tooltip
 #. source: Side Tasks completed this run.
-#, fuzzy
 msgid "RUNSTAT.side_tasks_desc"
-msgstr "Side Tasks completed this run."
+msgstr "Sporedni Zadaci završeni ovoj igri."
 
 #. Last round DPS tooltip
 #. source: Damage per second in the last Battle Folder.
-#, fuzzy
 msgid "RUNSTAT.last_round_dps_desc"
-msgstr "Damage per second in the last Battle Folder."
+msgstr "Šteta po sekundi u zadnjoj Ratnoj Mapi."
 
 #. Last round damage dealt tooltip
 #. source: Damage dealt in the last Battle Folder.
-#, fuzzy
 msgid "RUNSTAT.last_round_damage_desc"
-msgstr "Damage dealt in the last Battle Folder."
+msgstr "Šteta nanesena u zadnjoj Ratnoj Mapi."
 
 #. Scene label
 msgid "Packet Loss"
@@ -5478,31 +5447,27 @@ msgstr "Preskače instaliranje dodatka i vraća Ključa."
 
 #. Weapon driver / overclock card - name (overclocked)
 #. source: Overclocked
-#, fuzzy
 msgid "DRIVER.overclocked.name"
-msgstr "Overclocked"
+msgstr "Overclockan"
 
 #. Weapon driver / overclock card - description (overclocked)
 #. source: Multiply Damage 1.6x.\nReduce Refresh -15%.
-#, fuzzy
 msgid "DRIVER.overclocked.description"
 msgstr ""
-"Multiply Damage 1.6x.\n"
-"Reduce Refresh -15%."
+"Pomnožuje Štetu 1,6x.\n"
+"Smanjuje Osvježivanje -15%."
 
 #. Weapon driver / overclock card - name (hyperthreaded)
 #. source: Hyperthreaded
-#, fuzzy
 msgid "DRIVER.hyperthreaded.name"
 msgstr "Hyperthreaded"
 
 #. Weapon driver / overclock card - description (hyperthreaded)
 #. source: Add +2 Amount.\nReduce Damage -20%.
-#, fuzzy
 msgid "DRIVER.hyperthreaded.description"
 msgstr ""
-"Add +2 Amount.\n"
-"Reduce Damage -20%."
+"Dodaje +2 Količinu.\n"
+"Smanjuje Štetu -20%."
 
 #. Weapon driver / overclock card - name (turbo_clock)
 #. source: Turbo Clock
@@ -6674,7 +6639,7 @@ msgstr "Glasnoća glazbe:"
 #. Scene label
 #. screens: settings_menu.tscn
 msgid "Keygen Volume:"
-msgstr "Glasnoća Ključgen-a:"
+msgstr "Glasnoća Ključgena:"
 
 #. Scene label
 #. screens: shop_screen.tscn
