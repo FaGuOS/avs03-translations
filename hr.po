@@ -669,8 +669,8 @@ msgstr "Morgan Antivirus"
 #. source: Difficulty is increased for the rest of the run.\n+1 extra Plus! enemy at each midway point.
 msgid "PLUGIN.morgan_av.description"
 msgstr ""
-"Povećajte težinu za 3 do kraja igre.\n"
-"Dodatni Plus! neprijatelj na svakoj polovici."
+"Težina je povećana do kraja igre.\n"
+"+1 dodatni Plus! neprijatelj na svakoj polovici."
 
 #. Plugin - name (popup_blocker)
 #. source: Realtime Protection
@@ -4331,7 +4331,7 @@ msgstr "Preživi do "
 #. UI (script-driven)
 #. source: Heal {amount} HP total
 msgid "UI.unlock_plugin_big_hp_regen_boost"
-msgstr "Liječi 500 HP ukupno"
+msgstr "Liječi {amount} HP ukupno"
 
 #. UI (script-driven)
 #. source: Die 10 times
@@ -4341,7 +4341,7 @@ msgstr "Umri 10 puta"
 #. UI (script-driven)
 #. source: Collect {amount} Coin in a single run
 msgid "UI.unlock_widget_nos"
-msgstr "Skuplji 800 Novčića u jednoj igri"
+msgstr "Skuplji {amount} Novčića u jednoj igri"
 
 #. UI (script-driven)
 #. source: Temporarily boost cursor speed for a short burst.
