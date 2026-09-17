@@ -68,7 +68,7 @@ msgstr ""
 #. Class select - name (breakpoint)
 #. source: Breakpoint
 msgid "CLASS.breakpoint.name"
-msgstr ""
+msgstr "Pointe"
 
 #. Class select - description (breakpoint)
 #. source: Increase Crit Chance +12%.\nMultiply Crit Damage 1.25x.\nReduce Max HP -15.\nMultiply Cursor Speed 0.9x.\nMultiply Weapon Damage 0.92x.
@@ -83,7 +83,7 @@ msgstr ""
 #. Class select - name (thread)
 #. source: Thread
 msgid "CLASS.thread.name"
-msgstr ""
+msgstr "Air"
 
 #. Class select - description (thread)
 #. source: Multiply Processing Speed 1.3x.\nMultiply Refresh Speed 1.12x.\nMultiply EXP Gain 1.08x.\nMultiply Weapon Damage 0.85x.
@@ -1640,17 +1640,17 @@ msgstr ""
 #. Weapon metadata
 #. source: mine
 msgid "WEAPON.minesweeper.spawn_noun"
-msgstr ""
+msgstr "mine"
 
 #. Weapon metadata
 #. source: envelope
 msgid "WEAPON.email.spawn_noun"
-msgstr ""
+msgstr "enveloppe"
 
 #. Weapon metadata
 #. source: tab
 msgid "WEAPON.cruiser.spawn_noun"
-msgstr ""
+msgstr "onglet"
 
 #. Weapon metadata
 #. source: trap
@@ -1665,22 +1665,22 @@ msgstr ""
 #. Weapon metadata
 #. source: chat bubble
 msgid "WEAPON.avn.spawn_noun"
-msgstr ""
+msgstr "message"
 
 #. Weapon metadata
 #. source: cone
 msgid "WEAPON.cone.spawn_noun"
-msgstr ""
+msgstr "cone"
 
 #. Weapon metadata
 #. source: link
 msgid "WEAPON.blatand.spawn_noun"
-msgstr ""
+msgstr "lien"
 
 #. Weapon metadata
 #. source: ring
 msgid "WEAPON.modem.spawn_noun"
-msgstr ""
+msgstr "appel"
 
 #. BOSS - name (recycle_bin)
 #. source: Recycle Bin
@@ -1706,12 +1706,12 @@ msgstr "Boss au hasard"
 #. BOSS
 #. source: Fight a boss you have not met yet.
 msgid "BOSS.random.tooltip_unmet"
-msgstr ""
+msgstr "Confronte un boss inconnu."
 
 #. BOSS
 #. source: Fight a random boss.
 msgid "BOSS.random.tooltip_all_met"
-msgstr ""
+msgstr "Confronte un boss à l'aléatoire."
 
 #. Elite HUD fallback name
 #. source: Elite
@@ -1857,12 +1857,12 @@ msgstr "Inconnu"
 #. Settings menu
 #. source: Standard
 msgid "SETTINGS.zoom_standard"
-msgstr "Standard"
+msgstr "Zoom standard"
 
 #. Settings menu
 #. source: Zoomed Out
 msgid "SETTINGS.zoom_zoomed_out"
-msgstr ""
+msgstr "Grand angle"
 
 #. Settings menu
 #. source: Language
@@ -1887,7 +1887,7 @@ msgstr "Audio"
 #. Settings menu
 #. source: Controls
 msgid "SETTINGS.tab_controls"
-msgstr ""
+msgstr "Contrôles"
 
 #. Settings menu
 #. source: Game
@@ -1917,7 +1917,7 @@ msgstr "Texte"
 #. Settings menu
 #. source: Menu controls
 msgid "SETTINGS.group_menu_controls"
-msgstr ""
+msgstr "Contrôles du menu"
 
 #. Settings menu
 #. source: Gameplay
@@ -1987,12 +1987,12 @@ msgstr "Vitesse du pointeur (menu)"
 #. Settings menu
 #. source: Run as Administrator
 msgid "SETTINGS.admin_cursor"
-msgstr "Ouvrir en tant que l'Administrateur"
+msgstr "Ouvrir en mode Administrateur"
 
 #. Settings menu
 #. source: Switch between windowed and fullscreen.
 msgid "SETTINGS.window_mode_tip"
-msgstr ""
+msgstr "Affiche le jeu en mode fenêtré ou en plein écran."
 
 #. Settings menu
 #. source: How large the game draws inside the window.
@@ -2003,6 +2003,8 @@ msgstr "La largeur des élements et de l'interface du jeu."
 #. source: Lock the frame rate to your display to prevent tearing.
 msgid "SETTINGS.vsync_tip"
 msgstr ""
+"Limite les images par seconde du jeu au même montant que le moniteur pour "
+"améliorer l'affichage."
 
 #. Settings menu
 #. source: Maximum frames per second. Unlimited uses your hardware's limit.
@@ -2012,7 +2014,7 @@ msgstr "Limite les images par seconde."
 #. Settings menu
 #. source: Strength of the CRT scanline filter over the screen.
 msgid "SETTINGS.crt_filter_tip"
-msgstr ""
+msgstr "L'intensité du filtre CRT sur l'écran."
 
 #. Settings menu
 #. source: Show or hide the monitor frame around the desktop.
@@ -2047,12 +2049,14 @@ msgstr "La vitesse des animations et transitions."
 #. Settings menu
 #. source: How fast the cursor moves with the stick or keys in menus.
 msgid "SETTINGS.menu_cursor_speed_tip"
-msgstr ""
+msgstr "La vitesse du pointeur dans les menus du jeu."
 
 #. Settings menu
 #. source: Control your cursor with the mouse in Safe Folders. Battle Folders always use WASD or the left stick.
 msgid "SETTINGS.admin_cursor_tip"
 msgstr ""
+"Contrôle le pointeur avec la souris dans les dossiers sécurisés. Les "
+"dossiers de combat utilisent toujours les touches directionelles."
 
 #. Settings menu
 #. source: OK
@@ -2068,7 +2072,7 @@ msgstr "Restaurer paramètres"
 #. source: Rebind %s
 #. Keep placeholders unchanged: %s
 msgid "SETTINGS.rebind_title"
-msgstr ""
+msgstr "Modifier %s"
 
 #. Settings menu
 #. source: Waiting for input...
@@ -2089,7 +2093,7 @@ msgstr "Secondaire"
 #. source: Already bound to %s.
 #. Keep placeholders unchanged: %s
 msgid "SETTINGS.rebind_conflict"
-msgstr ""
+msgstr "Déjà assigné à %s."
 
 #. Settings menu
 #. source: Replace
@@ -2115,7 +2119,7 @@ msgstr ""
 #. Settings menu
 #. source: Unbound
 msgid "SETTINGS.rebind_unbound"
-msgstr ""
+msgstr "Pas assigné"
 
 #. Settings menu
 #. source: Cancel
@@ -2225,7 +2229,7 @@ msgstr "Terminé"
 #. Torrent window
 #. source: Stalled
 msgid "TORRENT.stalled"
-msgstr ""
+msgstr "Perdu"
 
 #. Torrent window
 #. source: Downloading
@@ -2241,7 +2245,7 @@ msgstr "%d Ko/s"
 #. UI (script-driven)
 #. source: Vapor - Validating files - {0}% complete
 msgid "UI.vapor_validating"
-msgstr ""
+msgstr "Vapor - Validation des fichiers - {0}% complet"
 
 #. HUD - level label
 #. source: Level: %d
@@ -2263,17 +2267,17 @@ msgstr "Trouve le dossier sécurisé!"
 #. End-of-round timer prompt when the boss file drops
 #. source: Get to the Boss File!
 msgid "UI.get_to_boss_file"
-msgstr ""
+msgstr "Trouve le fichier boss!"
 
 #. Upgrade screen - title
 #. source: Level Up!
 msgid "UI.level_up"
-msgstr ""
+msgstr "Niveau atteint!"
 
 #. UI (script-driven)
 #. source: Collecting any loose Data.
 msgid "UI.collecting_data"
-msgstr ""
+msgstr "Collection de donnés."
 
 #. Login screen - create profile entry name
 #. source: New user
@@ -2294,7 +2298,7 @@ msgstr "Sauvegarde de la démo"
 #. source: %d Beanz, %d completions
 #. Keep placeholders unchanged: %d
 msgid "UI.login_demo_detail"
-msgstr ""
+msgstr "%d Beanz, %d sessions complétés"
 
 #. Login screen - profile entry subtitle
 #. source: %d Beanz
@@ -2352,6 +2356,7 @@ msgstr "Profil"
 #. source: Open .jpeg files in a run to unlock more pictures.
 msgid "UI.personalise_locked_avatar"
 msgstr ""
+"Ouvre des fichiers .jpeg pendant une session pour accéder aux autres images."
 
 #. Personalise window - apply button
 #. source: Apply
@@ -2362,12 +2367,12 @@ msgstr "Appliquer"
 #. source: %d/%d Unlocked
 #. Keep placeholders unchanged: %d
 msgid "UI.personalise_themes_unlocked"
-msgstr ""
+msgstr "%d/%d déverrouillé"
 
 #. Personalise window - hide locked themes and wallpapers
 #. source: Hide Locked
 msgid "UI.personalise_hide_locked"
-msgstr ""
+msgstr "Cacher verrouillés"
 
 #. Personalise theme preview - active window title
 #. source: Active Window
@@ -2387,12 +2392,12 @@ msgstr "Boîte de message"
 #. Personalise window - use Steam name and picture checkbox
 #. source: Use Steam profile
 msgid "UI.personalise_use_steam_profile"
-msgstr "Utiliser le profil Steam"
+msgstr "Utiliser mon profil Steam"
 
 #. Personalise window - Steam overlay name prompt
 #. source: Enter a name
 msgid "UI.personalise_name_prompt"
-msgstr ""
+msgstr "Entrez un nom de compte"
 
 #. Personalise window - theme group box title
 #. source: Theme
@@ -2427,17 +2432,17 @@ msgstr "Dans un fichier .jpeg/.jpg"
 #. Cosmetic unlock - avatar reward blurb
 #. source: Unlocks a new profile picture.
 msgid "UI.cosmetic_avatar_desc"
-msgstr ""
+msgstr "Déverrouille une nouvelle image de profil."
 
 #. Cosmetic unlock - wallpaper reward blurb
 #. source: Unlocks a new desktop wallpaper.
 msgid "UI.cosmetic_wallpaper_desc"
-msgstr ""
+msgstr "Déverrouille un nouvel arrière-plan."
 
 #. Cosmetic unlock - theme reward blurb
 #. source: Unlocks a new desktop theme.
 msgid "UI.cosmetic_theme_desc"
-msgstr ""
+msgstr "Déverrouille un nouveau thème."
 
 #. Cosmetic unlock - avatar reward name template
 #. source: {avatar} Picture
@@ -2513,7 +2518,7 @@ msgstr ""
 #. Personalise - avatar name
 #. source: Cruiser
 msgid "UI.avatar_cruiser"
-msgstr ""
+msgstr "Baladeur"
 
 #. Personalise - avatar name
 #. source: Enemy
@@ -2598,7 +2603,7 @@ msgstr "Tâches"
 #. Tasks screen - sort completed toggle
 #. source: Sort by Completed
 msgid "UI.task_sort_completed"
-msgstr ""
+msgstr "Trier par complété"
 
 #. Tasks footer - categories cycle label next to key icons
 #. source: Categories
@@ -2609,6 +2614,8 @@ msgstr "Catégories"
 #. source: Your run records live in these sheet. Switch to Tasks for unlocks.
 msgid "UI.task_virry_stats"
 msgstr ""
+"Les records de session se situent dans ce tableau. Les objets déverouillés "
+"se trouvent sous l'onglet \"Tâches\"."
 
 #. Virry blurb - weapons tasks
 #. source: Finish a weapon task, then purchase it in Add/Remove Unlocks.
@@ -2654,6 +2661,8 @@ msgstr ""
 #. source: Nice work! Claim your Beanz rewards by clicking a blue row.
 msgid "UI.task_virry_claimable"
 msgstr ""
+"Bon travail! Collecte les Beanz pour une tâche en cliquant sur une ligne "
+"bleue."
 
 #. Virry blurb - leftover task sheet
 #. source: Odds and ends that don't sit on the other task sheets.
@@ -2668,7 +2677,7 @@ msgstr "Record de score"
 #. Profile stats - highest score tooltip
 #. source: Best run score recorded on this profile.
 msgid "UI.stat_highest_score_desc"
-msgstr ""
+msgstr "Score maximum atteint."
 
 #. Profile stats - time played
 #. source: Time Played
@@ -2678,7 +2687,7 @@ msgstr "Temps joué"
 #. Profile stats - time played tooltip
 #. source: Time spent inside Battle Folders across all runs.
 msgid "UI.stat_time_played_desc"
-msgstr ""
+msgstr "Temps total écoulé dans les dossiers de combat."
 
 #. Profile stats - enemies cleared
 #. source: Enemies Cleared
@@ -2703,22 +2712,22 @@ msgstr ""
 #. Profile stats - runs finished
 #. source: Runs
 msgid "UI.stat_runs"
-msgstr ""
+msgstr "Sessions"
 
 #. Profile stats - runs finished tooltip
 #. source: Runs started and finished on this profile.
 msgid "UI.stat_runs_desc"
-msgstr ""
+msgstr "Sessions démarrés et achevés."
 
 #. Profile stats - runs completed
 #. source: Completions
 msgid "UI.stat_runs_won"
-msgstr ""
+msgstr "Sessions completés"
 
 #. Profile stats - runs completed tooltip
 #. source: Runs that completed a Protocol.
 msgid "UI.stat_runs_won_desc"
-msgstr ""
+msgstr "Nombre de sessions à protocole completés."
 
 #. Profile stats - critical hits
 #. source: Critical Hits
@@ -2728,7 +2737,7 @@ msgstr "Attaques critiques"
 #. Profile stats - critical hits tooltip
 #. source: Critical hits landed across all runs.
 msgid "UI.stat_crits_desc"
-msgstr ""
+msgstr "Nombre total d'attaques critiques."
 
 #. Profile stats - total damage dealt
 #. source: Damage Dealt
@@ -2758,7 +2767,7 @@ msgstr "Record d'attaque"
 #. Profile stats - biggest single hit tooltip
 #. source: Largest amount of damage dealt in a single hit.
 msgid "UI.stat_highest_hit_desc"
-msgstr ""
+msgstr "Nombre maximum de dégats en une attaque."
 
 #. Profile stats - files opened
 #. source: Files Opened
@@ -2767,10 +2776,8 @@ msgstr "Fichiers ouverts"
 
 #. Profile stats - files opened tooltip
 #. source: All folders and files double-clicked across runs.
-#, fuzzy
-#| msgid "RUNSTAT.files_opened"
 msgid "UI.stat_files_opened_desc"
-msgstr "Fichiers ouverts"
+msgstr "Fichiers ouverts au total."
 
 #. Profile stats - safe folders
 #. source: Safe Folders
@@ -2779,10 +2786,8 @@ msgstr "Dossiers sécurisés"
 
 #. Profile stats - safe folders tooltip
 #. source: Safe folders opened across all runs.
-#, fuzzy
-#| msgid "RUNSTAT.safe_folders"
 msgid "UI.stat_safe_folders_desc"
-msgstr "Dossiers sécurisés accédés"
+msgstr "Dossiers sécurisés accédés au total."
 
 #. Profile stats - highest level
 #. source: Highest Level
@@ -2792,17 +2797,17 @@ msgstr "Record de niveau"
 #. Profile stats - highest level tooltip
 #. source: Highest player level reached in a single run.
 msgid "UI.stat_max_level_desc"
-msgstr ""
+msgstr "Niveau maximum en une session."
 
 #. Profile stats - HP healed
 #. source: HP Healed
 msgid "UI.stat_hp_healed"
-msgstr "PV regénéré"
+msgstr "PV régénéré"
 
 #. Profile stats - HP healed tooltip
 #. source: Total HP restored across all runs.
 msgid "UI.stat_hp_healed_desc"
-msgstr ""
+msgstr "Nombre total de PV régénéré."
 
 #. Profile stats - plugins installed
 #. source: Plugins Installed
@@ -2812,12 +2817,12 @@ msgstr "Pilotes installés"
 #. Profile stats - plugins installed tooltip
 #. source: Plugins installed across all runs.
 msgid "UI.stat_plugins_desc"
-msgstr ""
+msgstr "Nombre total de pilotes installés."
 
 #. Profile stats - zip files opened tooltip
 #. source: Zip archives successfully extracted.
 msgid "UI.stat_zips_desc"
-msgstr ""
+msgstr "Fichiers compressés ouverts et extraits."
 
 #. Profile stats - failed file opens
 #. source: Spam Ad Attacks
@@ -2838,13 +2843,13 @@ msgstr ""
 #. source: .%s files opened
 #. Keep placeholders unchanged: %s
 msgid "UI.stat_ext_opened"
-msgstr ""
+msgstr "%s fichiers ouverts"
 
 #. Profile stats - file extension row tooltip
 #. source: %s files successfully opened.
 #. Keep placeholders unchanged: %s
 msgid "UI.stat_ext_opened_desc"
-msgstr ""
+msgstr "%s "
 
 #. Profile stats - named file opened row title
 #. source: %s opened
@@ -2859,10 +2864,8 @@ msgstr "Pièces collectionés"
 
 #. Profile stats - coins collected tooltip
 #. source: Coin picked up across all runs.
-#, fuzzy
-#| msgid "RUNSTAT.coin_collected"
 msgid "UI.stat_coins_collected_desc"
-msgstr "Pièces collectionés"
+msgstr "Pièces collectionés au total."
 
 #. Profile stats - keys collected
 #. source: Keys Collected
@@ -2871,20 +2874,18 @@ msgstr "Clés collectionés"
 
 #. Profile stats - keys collected tooltip
 #. source: Keys collected across all runs.
-#, fuzzy
-#| msgid "RUNSTAT.keys_collected"
 msgid "UI.stat_keys_collected_desc"
-msgstr "Clés collectionés"
+msgstr "Clés collectionés au total."
 
 #. Profile stats - highest weapon level
 #. source: Highest Weapon Level
 msgid "UI.stat_weapon_level"
-msgstr ""
+msgstr "Niveau d'arme"
 
 #. Profile stats - highest weapon level tooltip
 #. source: Highest weapon level reached in a single run.
 msgid "UI.stat_weapon_level_desc"
-msgstr ""
+msgstr "Niveau maximum d'une arme en une session."
 
 #. Profile stats - favourite weapon by time used
 #. source: Favourite Weapon
@@ -3002,7 +3003,7 @@ msgstr "Pilotes ignorés"
 #. Profile stats - installer skip tooltip
 #. source: Times Skip or Delete was used in an Installer.
 msgid "UI.stat_installer_skipped_desc"
-msgstr ""
+msgstr "Pilotes ignorés ou supprimés"
 
 #. Profile stats - shop upgrades bought
 #. source: Shop Purchases
@@ -3012,13 +3013,13 @@ msgstr "Achats"
 #. Profile stats - shop purchases tooltip
 #. source: Upgrades bought from the Shop.
 msgid "UI.stat_shop_purchases_desc"
-msgstr ""
+msgstr "Améliorations achetés dans la boutique"
 
 #. Profile stats - spreadsheet sheet tab label
 #. source: Sheet %d
 #. Keep placeholders unchanged: %d
 msgid "UI.sheet_tab"
-msgstr ""
+msgstr "Feuille %d"
 
 #. Vapor store - window title
 #. source: Vapor Store
@@ -3039,7 +3040,7 @@ msgstr ""
 #. Vapor store - featured weapon heading
 #. source: Featured Weapon
 msgid "UI.vapor_store_featured"
-msgstr ""
+msgstr "Arme du jour"
 
 #. Vapor store - special files list heading
 #. source: Special Files
@@ -3184,12 +3185,12 @@ msgstr "Autre"
 #. Store row - available label
 #. source: Available
 msgid "UI.store_state_available"
-msgstr ""
+msgstr "Disponible"
 
 #. Store row - unavailable label
 #. source: Unavailable
 msgid "UI.store_state_unavailable"
-msgstr ""
+msgstr "Indisponible"
 
 #. Store row - owned label
 #. source: Installed
@@ -3211,7 +3212,7 @@ msgstr "Progrès: %d / %d"
 #. source: Click to purchase for %d Beanz
 #. Keep placeholders unchanged: %d
 msgid "UI.store_tooltip_buy"
-msgstr ""
+msgstr "Clic pour acheter pour %d Beanz"
 
 #. UI (script-driven)
 #. source: Click to disable spawning
@@ -3227,19 +3228,21 @@ msgstr ""
 #. source: Complete %s or higher once to enable Policies.
 #. Keep placeholders unchanged: %s
 msgid "UI.policies_locked"
-msgstr ""
+msgstr "Complète %s pour activer les stratégies."
 
 #. Domain Policies locked until 3 distinct policies completed on the chosen protocol or higher
 #. source: Complete 3 different Policies on %s or higher to enable Domain Policies.
 #. Keep placeholders unchanged: %s
 msgid "UI.domain_policies_locked"
 msgstr ""
+"Complète 3 stratégies différentes au %s pour activer les stratégies de "
+"domaine."
 
 #. UI (script-driven)
 #. source: Run Beanz: x%.2f
 #. Keep placeholders unchanged: %.2f
 msgid "UI.policies_beanz_multiplier"
-msgstr ""
+msgstr "Beanz cette session: x%.2f"
 
 #. UI (script-driven)
 #. source: Policies
@@ -3305,7 +3308,7 @@ msgstr "Désactivé"
 #. Policies list - security setting when locked
 #. source: Locked
 msgid "UI.policies_setting_locked"
-msgstr ""
+msgstr "Verrouillé"
 
 #. Policies list and protocol tooltip - no completions yet
 #. source: Incomplete
@@ -3331,18 +3334,18 @@ msgstr ""
 #. source: Unlocked: %s
 #. Keep placeholders unchanged: %s
 msgid "UI.unlock_toast"
-msgstr ""
+msgstr "%s déverrouillé"
 
 #. Task reward claim prompt
 #. source: Click to claim %d Beanz
 #. Keep placeholders unchanged: %d
 msgid "UI.task_claim_reward"
-msgstr ""
+msgstr "Clic pour recevoir %d Beanz"
 
 #. Tasks screen - completed and claimed status
 #. source: Task complete
 msgid "UI.task_complete"
-msgstr ""
+msgstr "Tâche complétée"
 
 #. Task tooltip - category unlock label
 #. source: %s Unlock
@@ -3372,7 +3375,7 @@ msgstr "Pilotes pour {weapon}"
 #. source: Unlocks Weapon Drivers for {weapon}.
 #. Keep placeholders unchanged: {weapon}
 msgid "UI.unlock_driver_desc"
-msgstr "Débloque les pilotes d'armes pour {weapon}"
+msgstr "Déverrouille les pilotes d'armes pour {weapon}"
 
 #. Shop screen - title
 #. source: Shop
@@ -3708,12 +3711,12 @@ msgstr "Validation des fichiers du cache..."
 #. Clearzone archive window title
 #. source: Clearzone Archive
 msgid "UI.rar_title"
-msgstr ""
+msgstr "Archiveur Clearzone"
 
 #. Clearzone plugin pick window title
 #. source: Clearzone - Pick Your Plugin
 msgid "UI.rar_plugin_title"
-msgstr ""
+msgstr "Clearzone - Choix de pilote"
 
 #. Clearzone archive clear count
 #. source: %d / %d
@@ -3761,6 +3764,8 @@ msgstr "Télécharger"
 #. source: Another part is downloading. Get Vapidshare Pro for simultaneous downloads.
 msgid "CLICKABLE.vapid_part_busy"
 msgstr ""
+"Une autre partie est en cours de téléchargement. Achète Vapidshare Pro pour "
+"télécharger plusieurs fichiers."
 
 #. Shop / upgrade screen - reroll button
 #. source: Reroll: %.2f Coin
@@ -3808,7 +3813,7 @@ msgstr "Terminé (%d)"
 #. source: Stalled (%d)
 #. Keep placeholders unchanged: %d
 msgid "UI.stalled_count"
-msgstr ""
+msgstr "Perdu (%d)"
 
 #. End screen exit bar close prompt
 #. source: Press {close} to reboot to main menu...
