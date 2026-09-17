@@ -236,17 +236,17 @@
       "app[content][sysreqs][linux][min][graphics]": "512 MB VRAM"
     },
     "brazilian": {
-      "app[content][about]": "",
-      "app[content][short_description]": "",
-      "app[content][sysreqs][mac][min][osversion]": "",
-      "app[content][sysreqs][mac][min][processor]": "",
-      "app[content][sysreqs][mac][min][graphics]": "",
-      "app[content][sysreqs][windows][min][osversion]": "",
-      "app[content][sysreqs][windows][min][processor]": "",
-      "app[content][sysreqs][windows][min][graphics]": "",
-      "app[content][sysreqs][linux][min][osversion]": "",
-      "app[content][sysreqs][linux][min][processor]": "",
-      "app[content][sysreqs][linux][min][graphics]": ""
+      "app[content][about]": "[p]Ligue, logue e prepare-se para a ação com muitos cliques.[/p][p][img src=&quot;{STEAM_APP_IMAGE}/extras/doubleclickfull-optimize&quot;][/img]No Antivirus Survivors 2003 Professional, clique em pastas enquanto desvia do vácuo, luta contra vírus, desvia de pop-ups de spam e derrota chefes. Adquira XP e chaves explorando as pastas e abrindo arquivos, concluindo tarefas e políticas em troca de bônus. Crie sua build através de aprimoramentos e plugins, e desbloqueie novas armas e estilos de gameplay.[/p][p]Com ação intensa no estilo rogue-like e um amor profundo pelos sistemas operacionais do anos 2000, esse jogo é pura nostalgia do Y2K entregue em runs de aproximadamente 30-40 minutos.[/p][p][img src=&quot;{STEAM_APP_IMAGE}/extras/survivefull-optimize&quot;][/img][/p][p][b]O jogo completo inclui:[/b][/p][list][*][p][b]24 Armas[/b] - Pinball, Paciência, Minas, Firewall, e muito mais, inspirados na computação dos anos 2000.[/p][/*][*][p][b]50 Drivers[/b] - Transforme como uma arma funciona com aprimoramentos sob medida.[/p][/*][*][p][b]33 tipos de arquivo[/b] - Dê duplo clique nos seus tipos de arquivo favoritos para ganhar recompensas - LemWire, BigWave, Desfragmentar e muito mais.[/p][/*][*][p][b]62 plugins[/b] - Abra keygens e instale plugins para turbinar suas armas e estatísticas.[/p][/*][*][p][b]18 Aprimoramentos meta[/b] - Escolha com sabedoria para trilhar seu caminho através da progressão meta.[/p][/*][*][p][b]5 níveis de dificuldade[/b] - Cinco pastas de protocolo com riscos e recompensas ascendentes.[/p][/*][*][p][b]15 políticas[/b] - Desafios exclusivos para curtir o jogo de formas mais difíceis e interessantes.[/p][/*][*][p][b]18 estatísticas de jogador [/b]- Crie builds exclusivas ao aprimorar dano, velocidade, sorte, entre outros.[/p][/*][*][p][b]81 Papéis de Parede e 8 Temas[/b] - Cosméticos desbloqueáveis para personalizar sua área de trabalho.[/p][/*][*][p][b]6 Chefes e Mini Chefes[/b] - Inimigos potencializados e chefes poderosos para derrotar.[/p][/*][*][p][b]Mais de 200 tarefas [/b]- Conclua tarefas extras para desbloquear novos Arquivos, Armas, Plugins e muito mais![/p][/*][/list][p][img src=&quot;{STEAM_APP_IMAGE}/extras/upgradefuull-optimize&quot;][/img][/p][p]Dê duplo clique, extraia, baixe, aprimore, sobreviva.[/p]",
+      "app[content][short_description]": "O computador da família foi infectado de novo e é seu trabalho acabar com ondas de vírus e adwares com um arsenal de armas nostálgicas baseadas no Y2K. Antivirus Survivors 2003 Professional é um jogo de sobrevivência e auto-shooter cheio de referências à época em que os computadores ainda eram divertidos.",
+      "app[content][sysreqs][mac][min][osversion]": "macOS 12",
+      "app[content][sysreqs][mac][min][processor]": "Apple M1 ou processador Intel 2.0 GHz",
+      "app[content][sysreqs][mac][min][graphics]": "512 MB de VRAM",
+      "app[content][sysreqs][windows][min][osversion]": "Windows 10",
+      "app[content][sysreqs][windows][min][processor]": "2.0 GHz",
+      "app[content][sysreqs][windows][min][graphics]": "512 MB de VRAM",
+      "app[content][sysreqs][linux][min][osversion]": "SteamOS ou qualquer outra Distro Linux moderna",
+      "app[content][sysreqs][linux][min][processor]": "2.0 GHz",
+      "app[content][sysreqs][linux][min][graphics]": "512 MB de VRAM"
     },
     "portuguese": {
       "app[content][about]": "",
