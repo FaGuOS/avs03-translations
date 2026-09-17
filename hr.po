@@ -666,7 +666,7 @@ msgid "PLUGIN.morgan_av.name"
 msgstr "Morgan Antivirus"
 
 #. Plugin - description (morgan_av)
-#. source: Increase difficulty by 3 for the rest of the run.\nExtra Plus! enemy at each midway.
+#. source: Difficulty is increased for the rest of the run.\n+1 extra Plus! enemy at each midway point.
 msgid "PLUGIN.morgan_av.description"
 msgstr ""
 "Povećajte težinu za 3 do kraja igre.\n"
@@ -2130,6 +2130,16 @@ msgstr ""
 "koristi WASD ili lijevi joystick."
 
 #. Settings menu
+#. source: Controller Vibration
+msgid "SETTINGS.controller_vibration"
+msgstr "Vibracija Kontrolera"
+
+#. Settings menu
+#. source: Vibrate the controller when taking damage.
+msgid "SETTINGS.controller_vibration_tip"
+msgstr "Vibrira kontrolera prilikom primanja štete"
+
+#. Settings menu
 #. source: OK
 msgid "SETTINGS.ok"
 msgstr "OK"
@@ -3573,6 +3583,141 @@ msgid "UI.starter_help_policies"
 msgstr ""
 "Dodatna pravila povrh protokola. Dobiješ više Beanz-a dok su uključeni."
 
+#. Starter folder button that reopens the tutorial
+#. source: Refresher
+msgid "UI.refresher"
+msgstr "Podsjetnik"
+
+#. Tutorial next-page button
+#. source: Next
+msgid "UI.next"
+msgstr "Sljedeći"
+
+#. Tutorial page 1 title
+#. source: Welcome to {game}!
+#. Keep placeholders unchanged: {game}
+msgid "UI.tutorial_1_title"
+msgstr "Dobrodošli u {game}!"
+
+#. Tutorial page 1 body
+#. source: I'm Virry, and I'm going to take you through some basics of how to play.
+msgid "UI.tutorial_1_body"
+msgstr "Ja sam Virry i provest ću te kroz neke osnove ove igre."
+
+#. Tutorial page 2 title
+#. source: First, let's get moving.
+msgid "UI.tutorial_2_title"
+msgstr "Za početak, krenimo u akciju."
+
+#. Tutorial page 2 body - {move} {click} {drag} become input icons
+#. source: Use {move} to move around the screen. Click with {click}, and don't forget to double click to open files.\n\nYou can also use {drag} to drag files and move them around.
+#. Keep placeholders unchanged: {move}, {click}, {drag}
+msgid "UI.tutorial_2_body"
+msgstr ""
+"Koristite {move} za kretanje po zaslonu. Kliknite s {click} i ne zaboravite "
+"dvaput kliknuti za otvaranje datoteka\n"
+"\n"
+"Također možete koristiti {drag} za povlačenje i premještanje datoteka."
+
+#. Tutorial page 3 title - {class} {difficulty}
+#. source: To get started you can pick a {class} and {difficulty}.
+#. Keep placeholders unchanged: {class}, {difficulty}
+msgid "UI.tutorial_3_title"
+msgstr ""
+"Za početak možeš odabrati {class} i\n"
+"{difficulty}."
+
+#. Tutorial page 3 body - class, protocol, policies
+#. source: For now pick the {default}, but you can unlock different cursors with varying effects later.\n\nChoose {protocol_1}–{protocol_3} as your {difficulty}.\n\nCompleting a protocol unlocks {policies} which give you additional challenges.\n\nGo ahead and select your {class} and {difficulty} now!
+#. Keep placeholders unchanged: {default}, {protocol_1}, {protocol_3}, {difficulty}, {policies}, {class}
+msgid "UI.tutorial_3_body"
+msgstr ""
+"Za sada odaberite {default}, ali kasnije možete otključati različite kursore "
+"s različitim efektima.\n"
+"\n"
+"Odaberi {protocol_1}–{protocol_3} kao svoju {difficulty}.\n"
+"\n"
+"Dovršavanjem protokola otključavaš {policies} koje donose dodatne izazove.\n"
+"\n"
+"Slobodno sada odaberi svoju {class} i {difficulty}!"
+
+#. Tutorial page 4 title
+#. source: You can select one starting weapon to begin.
+msgid "UI.tutorial_4_title"
+msgstr "Za početak možeš odabrati jedno početno oružje."
+
+#. Tutorial page 4 body - {drivers}
+#. source: Progress through the game and level up to add more weapons to your build.\n\nAs you play, you can also unlock weapon upgrades to level up your weapon stats.\n\nWhen your weapon reaches certain levels, you unlock {drivers} which give bespoke upgrades.
+#. Keep placeholders unchanged: {drivers}
+msgid "UI.tutorial_4_body"
+msgstr ""
+"Napreduj kroz igru ​​i podiži razinu kako bi svojoj konfiguraciji dodao još "
+"oružja.\n"
+"\n"
+"Tijekom igranja možeš otključati i nadogradnje oružja kojima poboljšavaš "
+"njihove statistike.\n"
+"\n"
+"Kada vaše oružje dostigne određene razine, otključavate {drivers} koji daju "
+"prilagođene nadogradnje."
+
+#. Tutorial page 5 title
+#. source: The objective of the game is to survive.
+msgid "UI.tutorial_5_title"
+msgstr "Cilj igre je preživjeti."
+
+#. Tutorial page 5 body - {safe}
+#. source: There are 5 rounds of 5 minutes. Get to the {safe} at the end of each round to move on.
+#. Keep placeholders unchanged: {safe}
+msgid "UI.tutorial_5_body"
+msgstr ""
+"Ima 5 rundi od 5 minuta. Na kraju svake runde dođi do {safe} kako bi prešao "
+"dalje."
+
+#. Tutorial page 6 title
+#. source: To survive -
+msgid "UI.tutorial_6_title"
+msgstr "Kako bi preživjeli –"
+
+#. Tutorial page 6 body
+#. source: Avoid enemies, collect Coin and EXP, get upgrades, and open files.\n\nSome files have risks, some need keys, and some give guaranteed rewards.\n\nYou will also have a side objective for each round for bonus rewards.
+msgid "UI.tutorial_6_body"
+msgstr ""
+"Izbjegavaj neprijatelje, skupljaj Novčić i XP, nabavljaj nadogradnje i "
+"otvaraj datoteke.\n"
+"\n"
+"Neke datoteke imaju rizike, nekima su potrebni ključevi, a neke daju "
+"zajamčene nagrade.\n"
+"\n"
+"Također ćeš u svakoj rundi imati sporedni cilj za dodatne nagrade."
+
+#. Tutorial page 7 title - {safe}
+#. source: Earn Beanz for clearing enemies and making it to the {safe} for each round you survive.
+#. Keep placeholders unchanged: {safe}
+msgid "UI.tutorial_7_title"
+msgstr ""
+"Zaradite Beanz za čišćenje neprijatelja i dolazak do {safe} za svaku rundu "
+"koju preživite."
+
+#. Tutorial page 7 body - {vapor}
+#. source: Get extra Beanz for completing additional tasks.\n\nSpend your Beanz on unlocking cursor classes, weapons, upgrades, plugins, new file types, {vapor} items and more!
+#. Keep placeholders unchanged: {vapor}
+msgid "UI.tutorial_7_body"
+msgstr ""
+"Sakupi dodatne Beanzove dovršavanjem dodatnih zadataka.\n"
+"\n"
+"Potroši svoje Beanz-ove na otključavanje klasa kursora, oružja, nadogradnji, "
+"dodataka, novih vrsta datoteka, {vapor} predmeta i još mnogo toga!"
+
+#. Tutorial page 8 title
+#. source: That's everything for now!
+msgid "UI.tutorial_8_title"
+msgstr "To je sve za sada!"
+
+#. Tutorial page 8 body
+#. source: Pick a weapon, play, survive, and have fun :)
+msgid "UI.tutorial_8_body"
+msgstr "Odaberi oružje, igraj, preživi i zabavi se :)"
+
 #. Plus! cleared. %s is the elite name, %s is the dropped filename
 #. source: %s cleared, %s dropped.
 #. Keep placeholders unchanged: %s
@@ -3698,6 +3843,31 @@ msgstr "Omiljeni"
 msgid "UI.menu_help"
 msgstr "Pomoć"
 
+#. Window menu Action
+#. source: Action
+msgid "UI.menu_action"
+msgstr "Radnja"
+
+#. Starter folder / policies tree - difficulty row
+#. source: Folder Difficulty
+msgid "UI.folder_difficulty"
+msgstr "Težina Foldere"
+
+#. Starter folder / policies tree - weapon row
+#. source: Starter Weapon
+msgid "UI.starter_weapon"
+msgstr "Početno Oružje"
+
+#. Installer Remove button tooltip
+#. source: Skips installing plugin and removes it from selection pool.
+msgid "UI.installer_remove_tooltip"
+msgstr "Preskače instaliranje dodatka i uklanja ga iz popisa za odabir."
+
+#. Installer Install button tooltip
+#. source: Installs plugin.
+msgid "UI.installer_install_tooltip"
+msgstr "Instalira dodatka."
+
 #. Finance Manager all-in button
 #. source: All In
 msgid "UI.stock_trader_all_in"
@@ -3784,12 +3954,12 @@ msgstr "Validiranje cache datoteke…"
 #. Clearzone archive window title
 #. source: Clearzone Archive
 msgid "UI.rar_title"
-msgstr "Clearzone Arhiva"
+msgstr "Čistazona Arhiva"
 
 #. Clearzone plugin pick window title
 #. source: Clearzone - Pick Your Plugin
 msgid "UI.rar_plugin_title"
-msgstr "Clearzone - Odaberi Tvoje Dodatke"
+msgstr "Čistazona - Odaberi Tvoje Dodatke"
 
 #. Clearzone archive clear count
 #. source: %d / %d
@@ -4159,7 +4329,7 @@ msgid "UI.unlock_round_protocol"
 msgstr "Preživi do "
 
 #. UI (script-driven)
-#. source: Heal 500 HP total
+#. source: Heal {amount} HP total
 msgid "UI.unlock_plugin_big_hp_regen_boost"
 msgstr "Liječi 500 HP ukupno"
 
@@ -4169,7 +4339,7 @@ msgid "UI.unlock_class_null"
 msgstr "Umri 10 puta"
 
 #. UI (script-driven)
-#. source: Collect 800 Coin in a single run
+#. source: Collect {amount} Coin in a single run
 msgid "UI.unlock_widget_nos"
 msgstr "Skuplji 800 Novčića u jednoj igri"
 
@@ -5438,14 +5608,6 @@ msgid "VAPOR.validate_fail"
 msgstr ""
 "{0} datoteke nije uspjelo provjeriti valjanost i budu bile ponovno preuzete."
 
-#. Skips installing plugin and removes it from selection pool
-msgid "Skips installing plugin and removes it from selection pool."
-msgstr "Preskače instaliranje dodatka i uklanja ga iz popisa odabira."
-
-#. Skips installing plugin and refunds Key
-msgid "Skips installing plugin and refunds Key."
-msgstr "Preskače instaliranje dodatka i vraća Ključa."
-
 #. Weapon driver / overclock card - name (overclocked)
 #. source: Overclocked
 msgid "DRIVER.overclocked.name"
@@ -6020,10 +6182,6 @@ msgstr ""
 "Poveća Štetu +50%. Dodaje +1 Količinu.\n"
 "Smanjuje Osvježavanje -15%."
 
-#. Installs plugin
-msgid "Installs plugin."
-msgstr "Instalira dodatka"
-
 #. Scene label
 #. screens: spam_ad.tscn; trailer_ad.tscn
 msgid "(1) Alert!!! CRITICAL"
@@ -6033,11 +6191,6 @@ msgstr "(1) Upozorenje!!! KRITIČNO"
 #. screens: headshot_text.tscn
 msgid "Headshot!"
 msgstr "Headshot!"
-
-#. Scene label
-#. screens: defrag_window.tscn
-msgid "Action"
-msgstr "Akcija"
 
 #. Scene label
 #. screens: defrag_window.tscn
@@ -6259,16 +6412,6 @@ msgstr "Evolucija Foldere"
 
 #. Scene label
 #. screens: starter_folder.tscn
-msgid "Folder Difficulty"
-msgstr "Težina Foldere"
-
-#. Scene label
-#. screens: starter_folder.tscn
-msgid "Starter Weapon"
-msgstr "Početno Oružje"
-
-#. Scene label
-#. screens: starter_folder.tscn
 msgid "Locked Weapons - Coming Soon"
 msgstr "Zaključene Oružje - Uskoro Dostupno"
 
@@ -6345,7 +6488,7 @@ msgstr "Izlaz u izbornik"
 #. Scene label
 #. screens: installer_window.tscn
 msgid "PluginInstaller v2.03 r2"
-msgstr "PluginInstaller v2.03 r2"
+msgstr "DodatakInstaler v2.03 r2"
 
 #. Scene label
 #. screens: installer_window.tscn
@@ -6358,7 +6501,7 @@ msgid ""
 "PluginInstaller is preparing to find all appropriate plugins for this "
 "application."
 msgstr ""
-"PluginInstaller se priprema pronaći sve odgovarajuće dodatke za ovu "
+"DodatakInstaler se priprema pronaći sve odgovarajuće dodatke za ovu "
 "aplikaciju."
 
 #. Scene label
@@ -6637,25 +6780,23 @@ msgstr "Prozor"
 msgid "Antivirus Survivors 2003 Professional"
 msgstr "Antivirusni Program Survivori 2003. Profesionalan"
 
-#. source: Folder Difficulty
-msgid "UI.folder_difficulty"
-msgstr "Težina Foldere"
+#~ msgid "Skips installing plugin and removes it from selection pool."
+#~ msgstr "Preskače instaliranje dodatka i uklanja ga iz popisa odabira."
 
-#. source: Starter Weapon
-msgid "UI.starter_weapon"
-msgstr "Početno Oružje"
+#~ msgid "Skips installing plugin and refunds Key."
+#~ msgstr "Preskače instaliranje dodatka i vraća Ključa."
 
-#. source: Action
-msgid "UI.menu_action"
-msgstr "Radnja"
+#~ msgid "Installs plugin."
+#~ msgstr "Instalira dodatka"
 
-#. source: Skips installing plugin and removes it from selection pool.
-msgid "UI.installer_remove_tooltip"
-msgstr "Preskače instaliranje dodatka i uklanja ga iz popisa za odabir."
+#~ msgid "Action"
+#~ msgstr "Akcija"
 
-#. source: Installs plugin.
-msgid "UI.installer_install_tooltip"
-msgstr "Instalira dodatka."
+#~ msgid "Folder Difficulty"
+#~ msgstr "Težina Foldere"
+
+#~ msgid "Starter Weapon"
+#~ msgstr "Početno Oružje"
 
 #~ msgid "UI.cosmetic_wallpaper_card"
 #~ msgstr "Card Wallpaper"
