@@ -294,7 +294,7 @@ msgstr ""
 #. Plugin - name (big_wave_damage)
 #. source: Peak Hours
 msgid "PLUGIN.big_wave_damage.name"
-msgstr ""
+msgstr "Vršno Vrijeme"
 
 #. Plugin - description (big_wave_damage)
 #. source: Increase Weapon Damage Multiplier +10% when opening a Big Wave.
@@ -2363,7 +2363,7 @@ msgstr "Napravi račun"
 #. Login screen - imported demo save entry name
 #. source: Demo Save
 msgid "UI.login_demo_name"
-msgstr ""
+msgstr "Demo spremanje"
 
 #. Login screen - imported demo save entry subtitle
 #. source: %d Beanz, %d completions
@@ -3438,7 +3438,7 @@ msgstr "Zadatak dovršen"
 #. source: %s Unlock
 #. Keep placeholders unchanged: %s
 msgid "UI.task_unlocks_category"
-msgstr ""
+msgstr "Odključak %s"
 
 #. Task tooltip - category line with Beanz amount
 #. source: %s +%d Beanz
@@ -3525,7 +3525,7 @@ msgstr "Prikupljanje sva Novčića"
 #. source: Investment withdrawn (%.2f)
 #. Keep placeholders unchanged: %.2f
 msgid "UI.notif_investment_withdrawn"
-msgstr ""
+msgstr "Povučena investicija (%.2f)"
 
 #. Side Task complete toast
 #. source: Side Task complete
@@ -3764,7 +3764,7 @@ msgstr "Adresa"
 #. Browser Go button
 #. source: Go
 msgid "UI.browser_go"
-msgstr "Idi"
+msgstr "Kreni"
 
 #. Installer Remove button
 #. source: Remove
@@ -3837,6 +3837,7 @@ msgstr "Preuzmi"
 #. source: Another part is downloading. Get Vapidshare Pro for simultaneous downloads.
 msgid "CLICKABLE.vapid_part_busy"
 msgstr ""
+"Drugi dio već se preuzima. Dobi Vapidshare Pro za istovremenski preuzimanja."
 
 #. Shop / upgrade screen - reroll button
 #. source: Reroll: %.2f Coin
@@ -4112,12 +4113,12 @@ msgstr "Aktiviraj {amount} napade Spam Oglase "
 #. source: Defeat {boss}
 #. Keep placeholders unchanged: {boss}
 msgid "UI.unlock_defeat_boss"
-msgstr ""
+msgstr "Porazi {boss}"
 
 #. Unlock requirement - defeat any boss
 #. source: Defeat any boss
 msgid "UI.unlock_defeat_any_boss"
-msgstr ""
+msgstr "Porazi bilo koj šef"
 
 #. Unlock reward - boss choice file
 #. source: {boss} File
@@ -4130,6 +4131,8 @@ msgstr "{boss} Datoteka"
 #. Keep placeholders unchanged: {boss}
 msgid "UI.unlock_boss_choice_desc"
 msgstr ""
+"Dopušta vam da odaberete {boss} na kraju sesije umjesto slučajnog odabira "
+"Šefa."
 
 #. Unlock requirement - land a hit of N damage
 #. source: Land a single hit of {amount} damage
@@ -4152,7 +4155,6 @@ msgstr "Odključa {reward}."
 #. Unlock requirement - reach a round on a protocol or higher
 #. source: Reach round {amount} on {protocol} or higher
 #. Keep placeholders unchanged: {amount}, {protocol}
-#, fuzzy
 msgid "UI.unlock_round_protocol"
 msgstr "Preživi do "
 
@@ -4174,17 +4176,17 @@ msgstr "Skuplji 800 Novčića u jednoj igri"
 #. UI (script-driven)
 #. source: Temporarily boost cursor speed for a short burst.
 msgid "UI.unlock_widget_nos_desc"
-msgstr ""
+msgstr "Povećuje brzinu pokazivača za kratki niz."
 
 #. UI (script-driven)
 #. source: N2O
 msgid "UI.unlock_widget_nos_reward"
-msgstr ""
+msgstr "N2O"
 
 #. UI (script-driven)
 #. source: Commit crimes for coin while dodging the heat.
 msgid "UI.unlock_widget_crime_desc"
-msgstr ""
+msgstr "Počinite zločine za novčić. Svako ubojstvo daje novčić."
 
 #. UI (script-driven)
 #. source: Criminal
@@ -4194,7 +4196,7 @@ msgstr "Kriminalac"
 #. UI (script-driven)
 #. source: Slow the world around you to clear enemies more easily.
 msgid "UI.unlock_widget_bullet_time_desc"
-msgstr ""
+msgstr "Usporite svijet oko sebe da očistite neprijatelje lakše."
 
 #. UI (script-driven)
 #. source: Heaps of Pain
@@ -4288,9 +4290,8 @@ msgstr "Legendaran Instaler"
 
 #. UI (script-driven)
 #. source: Defeat a Plus! enemy in 10 seconds
-#, fuzzy
 msgid "UI.unlock_file_morgan_av"
-msgstr "Defeat a Plus! enemy in 10 seconds"
+msgstr "Očisti Plus! neprijatelj u 10 sekundi"
 
 #. UI (script-driven)
 #. source: Install Morgan Antivirus to raise difficulty and spawn extra Plus! enemies.
@@ -4307,12 +4308,12 @@ msgstr "Bonusni Beanz-ovi"
 #. Lifetime clears milestone description
 #. source: Lifetime enemy clears milestone.
 msgid "UI.unlock_general_kills_desc"
-msgstr ""
+msgstr "Sveukupan broj čišćenih neprijatelja."
 
 #. Lifetime files milestone description
 #. source: Lifetime files opened milestone.
 msgid "UI.unlock_general_files_desc"
-msgstr ""
+msgstr "Sveukupan broj datoteke otvorene."
 
 #. Lifetime file-type opens milestone description
 #. source: {file} files opened across all runs.
@@ -4333,19 +4334,18 @@ msgstr "{enemy} neprijatelje očišćeni kroz sve igre."
 
 #. Lifetime critical hits milestone description
 #. source: Lifetime critical hits milestone.
-#, fuzzy
 msgid "UI.unlock_general_crits_desc"
-msgstr "Kritikalni Udarci na neprijateljima kroz svih igra."
+msgstr "Kritikalni Udarci na neprijateljima kroz svih sesija."
 
 #. Lifetime damage milestone description
 #. source: Lifetime damage dealt milestone.
 msgid "UI.unlock_general_damage_desc"
-msgstr ""
+msgstr "Sveukupan broj nanesene štete."
 
 #. Biggest hit milestone description
 #. source: Biggest hit milestone.
 msgid "UI.unlock_general_highest_hit_desc"
-msgstr ""
+msgstr "Sveukupan najveći udarac."
 
 #. Lifetime run completions milestone description
 #. source: Runs completed successfully.
@@ -4360,7 +4360,7 @@ msgstr "Zadatki završene od lista."
 #. Single-run level milestone description
 #. source: Single-run level milestone.
 msgid "UI.unlock_general_level_desc"
-msgstr ""
+msgstr "Rekord za najveću razinu u jednoj sesiji."
 
 #. Optional extra difficulty policy - name (legacy_hardware)
 #. source: Legacy Hardware
@@ -4441,7 +4441,6 @@ msgstr "Plavi Ekran Blizak"
 
 #. Optional extra difficulty policy - description (blue_screen_imminent)
 #. source: The post-round escape timer is halved.
-#, fuzzy
 msgid "POLICY.blue_screen_imminent.description"
 msgstr "Brojač za  nakon"
 
@@ -4498,7 +4497,7 @@ msgstr "Datoteke se ne pojavljaju tijekom rundi."
 #. Optional extra difficulty policy - name (open_relay)
 #. source: Open Relay
 msgid "POLICY.open_relay.name"
-msgstr ""
+msgstr "Otvoreni Relej"
 
 #. Optional extra difficulty policy - description (open_relay)
 #. source: Every battle file includes spam.
@@ -4512,7 +4511,6 @@ msgstr "Zadani Pravilnik Domene"
 
 #. Optional extra difficulty policy - description (default_domain_policy)
 #. source: Every standard Policy at once. Enemies are faster, tougher, and more numerous. Halve current HP each Battle Folder. No extra weapons, Keygens, or rerolls. Void is 2x. Escape timer is halved.
-#, fuzzy
 msgid "POLICY.default_domain_policy.description"
 msgstr ""
 "Svaki standardni Pravilnik odjednom. Neprijatelji su brži, teži i više ih. "
@@ -4573,7 +4571,7 @@ msgstr "Najveća Elektronička Trgovina Ključeva"
 #. source: Spend {cost} Coin for 1 Key.
 #. Keep placeholders unchanged: {cost}
 msgid "UI.keybuy_buy_tooltip"
-msgstr "Potroši {coin} Novčić za 1 Ključ."
+msgstr "Potroši {cost} Novčić za 1 Ključ."
 
 #. KeyBuy sell tooltip
 #. source: Sell 1 Key for {cost} Coin.\nMarketplace fee keeps {fee} Coin.
@@ -4617,6 +4615,8 @@ msgstr "Nadograđeno"
 #. source: Health Check files in the next battles drop more hearts this run.\nOnce per Safe Folder.
 msgid "UI.health_check_pro_boost_tooltip"
 msgstr ""
+"Provjeru Zdravlja datoteke u sljedećim bitkama daju više srca ovoj sesiji.\n"
+"Jednom po Sigurnoj Mapi."
 
 #. Health Check Pro heal tooltip
 #. source: Restore 50% of your Max HP right now.
@@ -4641,7 +4641,7 @@ msgstr "Trenutačni Popravak"
 #. Health Check Pro file-upgrade explanation
 #. source: Upgrading makes Health Check files in battle drop more hearts.
 msgid "UI.health_check_pro_file_blurb"
-msgstr ""
+msgstr "Nadograda čini da Provjeru Zdravlja datoteke u bitkama daju više."
 
 #. Health Check Pro current heart range
 #. source: Now: {min}–{max} HP
@@ -4701,7 +4701,7 @@ msgstr "Pozicija"
 #. Finance Manager run-stats group
 #. source: Run Stats
 msgid "UI.stock_trader_group_run"
-msgstr ""
+msgstr "Statistike Sesije"
 
 #. Finance Manager wallet group
 #. source: Wallet
@@ -4711,7 +4711,7 @@ msgstr "Novčanik"
 #. Finance Manager trade group
 #. source: Trade
 msgid "UI.stock_trader_group_trade"
-msgstr ""
+msgstr "Trgovanje"
 
 #. Finance Manager invested row
 #. source: Invested
@@ -4736,7 +4736,7 @@ msgstr "Ova Mapa"
 #. Finance Manager folder-change row
 #. source: Change
 msgid "UI.stock_trader_label_change"
-msgstr ""
+msgstr "Novce"
 
 #. Finance Manager net-profit row
 #. source: Net Profit
@@ -4755,34 +4755,33 @@ msgstr "Na čekanju"
 
 #. Finance Manager plus button tooltip
 #. source: Add Coin to your pending deposit.
-#, fuzzy
 msgid "UI.stock_trader_plus_tooltip"
-msgstr "Dodaj Novčić na Vaš"
+msgstr "Dodaj Novčiće na Vaš depozit na čekanju."
 
 #. Finance Manager minus button tooltip
 #. source: Reduce your pending deposit.
 msgid "UI.stock_trader_minus_tooltip"
-msgstr ""
+msgstr "Smanji svoj depozit na čekanju."
 
 #. Finance Manager all-in button tooltip
 #. source: Set pending deposit to all Coin on hand.
 msgid "UI.stock_trader_all_in_tooltip"
-msgstr ""
+msgstr "Postavi depozit na čekanju na sve Novčić koje imaš."
 
 #. Finance Manager invest button
 #. source: Invest
 msgid "UI.stock_trader_invest"
-msgstr ""
+msgstr "Uloži"
 
 #. Finance Manager invest button tooltip
 #. source: Invest pending Coin.
 msgid "UI.stock_trader_confirm_tooltip"
-msgstr ""
+msgstr "Uloži Novčić na čekanju."
 
 #. Finance Manager withdraw button tooltip
 #. source: Cash out your current investment to Coin.
 msgid "UI.stock_trader_withdraw_tooltip"
-msgstr ""
+msgstr "Isplati svoju trenutačno ulaganje."
 
 #. Ethanol 130% window explanation
 #. source: Pay Coin to roll a copy of a random plugin you already have installed.
@@ -5131,7 +5130,7 @@ msgstr "Težina"
 #. Run stats panel row
 #. source: Current protocol difficulty for this run.
 msgid "RUNSTAT.difficulty_desc"
-msgstr ""
+msgstr "Trenutna težina protokola za ovu sesiju."
 
 #. Run stats panel row
 #. source: Levels Gained
@@ -5141,7 +5140,7 @@ msgstr "Osvojene Razine"
 #. Run stats panel row
 #. source: Levels gained from experience this run.
 msgid "RUNSTAT.levels_gained_desc"
-msgstr ""
+msgstr "Razine dobivene od XP-a ove sesije."
 
 #. Run stats panel row
 #. source: EXP Gained
@@ -5151,7 +5150,7 @@ msgstr "XP Osvojen"
 #. Run stats panel row
 #. source: Total experience collected this run.
 msgid "RUNSTAT.exp_gained_desc"
-msgstr ""
+msgstr "Ukupan broj XP-a pokupjen ove sesije."
 
 #. Run stats panel row
 #. source: Safe Folders Opened
@@ -5161,27 +5160,27 @@ msgstr "Sigurne Mape Otvorene"
 #. Run stats panel row
 #. source: Safe folders opened this run.
 msgid "RUNSTAT.safe_folders_desc"
-msgstr "Sigurne Mape otvorene ovoj igri."
+msgstr "Sigurne Mape otvorene ovoj sesiji."
 
 #. Run stats panel row
 #. source: Folders and files opened this run.
 msgid "RUNSTAT.files_opened_desc"
-msgstr ""
+msgstr "Mape i datoteke otvorene ove sesije."
 
 #. Run stats panel row
 #. source: Enemies cleared this run.
 msgid "RUNSTAT.enemies_cleared_desc"
-msgstr ""
+msgstr "Neprijatelji očišćeni ove sesije."
 
 #. Run stats panel row
 #. source: Coins collected this run.
 msgid "RUNSTAT.coin_collected_desc"
-msgstr ""
+msgstr "Novčić prikupljen ove sesije."
 
 #. Run stats panel row
 #. source: Keys collected this run.
 msgid "RUNSTAT.keys_collected_desc"
-msgstr ""
+msgstr "Ključevi dobiveni ove sesije."
 
 #. Run stats panel row
 #. source: Beanz Collected
@@ -5191,53 +5190,55 @@ msgstr "Beanz-ovi Sakupljeni"
 #. Run stats panel row
 #. source: Beanz earned this run.
 msgid "RUNSTAT.beanz_collected_desc"
-msgstr ""
+msgstr "Beanz-ovi zarađeni ove sesije."
 
 #. Run stats panel row
 #. source: Score
 msgid "RUNSTAT.score"
-msgstr ""
+msgstr "Bodovi"
 
 #. Run stats panel row
 #. source: Run score from clears, levels, safe folders, and a completion bonus.
 msgid "RUNSTAT.score_desc"
 msgstr ""
+"Bodovi ove sesije od čišćenja neprijatela, razine, sigurne mape, i bonus za "
+"završetak."
 
 #. Run stats panel row
 #. source: Class
 msgid "RUNSTAT.class"
-msgstr ""
+msgstr "Klasa"
 
 #. Run stats panel row
 #. source: Cursor class chosen for this run.
 msgid "RUNSTAT.class_desc"
-msgstr ""
+msgstr "Kursor Klasa izabran za ovu sesiju."
 
 #. Run stats panel row
 #. source: Policy
 msgid "RUNSTAT.policy"
-msgstr ""
+msgstr "Pravilnik"
 
 #. Run stats panel row
 #. source: Extra difficulty policy enabled for this run.
 msgid "RUNSTAT.policy_desc"
-msgstr ""
+msgstr "Pravilnik dotatne težine omogućen ove sesije."
 
 #. Run stats panel row
 #. source: None
 msgid "RUNSTAT.policy_none"
-msgstr ""
+msgstr "Nikakav"
 
 #. End-of-run stats - tasks completed header with count
 #. source: Tasks Completed - %d
 #. Keep placeholders unchanged: %d
 msgid "UI.win_tasks_title"
-msgstr ""
+msgstr "Zadatki Završeni - %d"
 
 #. UI (script-driven)
 #. source: No new tasks this run
 msgid "UI.win_tasks_empty"
-msgstr ""
+msgstr "Nema novih zadataka ovoj sesiji"
 
 #. Safe Folder explorer - tree pane header
 #. source: Folders
@@ -5471,35 +5472,30 @@ msgstr ""
 
 #. Weapon driver / overclock card - name (turbo_clock)
 #. source: Turbo Clock
-#, fuzzy
 msgid "DRIVER.turbo_clock.name"
 msgstr "Turbo Clock"
 
 #. Weapon driver / overclock card - description (turbo_clock)
 #. source: Increase Speed +50%.\nReduce Power -15%.
-#, fuzzy
 msgid "DRIVER.turbo_clock.description"
 msgstr ""
-"Increase Speed +50%.\n"
-"Reduce Power -15%."
+"Povećava Brzinu +50%.\n"
+"Smanjuje Moć -15%."
 
 #. Weapon driver / overclock card - name (bloated_cache)
 #. source: Bloated Cache
-#, fuzzy
 msgid "DRIVER.bloated_cache.name"
-msgstr "Bloated Cache"
+msgstr "Prenapuhana Predmemorija"
 
 #. Weapon driver / overclock card - description (bloated_cache)
 #. source: Multiply Size 1.5x.
-#, fuzzy
 msgid "DRIVER.bloated_cache.description"
-msgstr "Multiply Size 1.5x."
+msgstr "Pomnožuje Veličinu 1,5x."
 
 #. Weapon driver / overclock card - name (extended_table)
 #. source: Extended Table
-#, fuzzy
 msgid "DRIVER.extended_table.name"
-msgstr "Extended Table"
+msgstr "Proširena Tablica"
 
 #. Weapon driver / overclock card - description (extended_table)
 #. source: Attack Speed no longer makes this weapon expire sooner.
@@ -5509,9 +5505,8 @@ msgstr "Attack Speed makes this weapon last longer instead of expiring sooner."
 
 #. Weapon driver / overclock card - name (bumper)
 #. source: Bumper
-#, fuzzy
 msgid "DRIVER.bumper.name"
-msgstr "Bumper"
+msgstr "Odbojnik"
 
 #. Weapon driver / overclock card - description (bumper)
 #. source: On wall bounce: Increase Damage +50% and trigger a Blast.
@@ -5521,9 +5516,8 @@ msgstr "On wall bounce: Increase Damage +50% and trigger a Blast."
 
 #. Weapon driver / overclock card - name (avd_fragmented)
 #. source: Fragmented
-#, fuzzy
 msgid "DRIVER.avd_fragmented.name"
-msgstr "Fragmented"
+msgstr "Fragmentiran"
 
 #. Weapon driver / overclock card - description (avd_fragmented)
 #. source: On wall bounce: split into two half-size copies.\nCopies can split once.
@@ -5535,9 +5529,8 @@ msgstr ""
 
 #. Weapon driver / overclock card - name (avn_away)
 #. source: Away Message
-#, fuzzy
 msgid "DRIVER.avn_away.name"
-msgstr "Away Message"
+msgstr ""
 
 #. Weapon driver / overclock card - description (avn_away)
 #. source: Add +1 Amount. Increase Speed +20%.\nIncrease Size +15%.
@@ -5549,23 +5542,20 @@ msgstr ""
 
 #. Weapon driver / overclock card - name (avn_buddy)
 #. source: Buddy List
-#, fuzzy
 msgid "DRIVER.avn_buddy.name"
-msgstr "Buddy List"
+msgstr "Popis Kontakta"
 
 #. Weapon driver / overclock card - description (avn_buddy)
 #. source: Add +2 Amount.\nIncrease Power +15%.
-#, fuzzy
 msgid "DRIVER.avn_buddy.description"
 msgstr ""
-"Add +2 Amount.\n"
-"Increase Power +15%."
+"Dodaje +2 Količinu.\n"
+"Poveća Moć +15%."
 
 #. Weapon driver / overclock card - name (blatand_pair)
 #. source: Paired Devices
-#, fuzzy
 msgid "DRIVER.blatand_pair.name"
-msgstr "Paired Devices"
+msgstr "Upareni Uređaji"
 
 #. Weapon driver / overclock card - description (blatand_pair)
 #. source: Add +1 Amount. Increase Power +25%.\nIncrease Speed +20%.
@@ -5577,23 +5567,20 @@ msgstr ""
 
 #. Weapon driver / overclock card - name (bubbles_soap)
 #. source: Soap
-#, fuzzy
 msgid "DRIVER.bubbles_soap.name"
-msgstr "Soap"
+msgstr "Sapun"
 
 #. Weapon driver / overclock card - description (bubbles_soap)
 #. source: Add +1 Amount.\nIncrease Size +40%.
-#, fuzzy
 msgid "DRIVER.bubbles_soap.description"
 msgstr ""
-"Add +1 Amount.\n"
-"Increase Size +40%."
+"Dodaje +1 Količinu.\n"
+"Poveća Veličinu +40%."
 
 #. Weapon driver / overclock card - name (bubbles_suds)
 #. source: Suds
-#, fuzzy
 msgid "DRIVER.bubbles_suds.name"
-msgstr "Suds"
+msgstr "Pjena"
 
 #. Weapon driver / overclock card - description (bubbles_suds)
 #. source: On wall bounce: split into two half-size copies.\nCopies can split once.
@@ -5605,9 +5592,8 @@ msgstr ""
 
 #. Weapon driver / overclock card - name (cdrive_seek)
 #. source: Seek
-#, fuzzy
 msgid "DRIVER.cdrive_seek.name"
-msgstr "Seek"
+msgstr "Traži"
 
 #. Weapon driver / overclock card - description (cdrive_seek)
 #. source: Converts Repel to Lag.\nIncrease Speed +60%.
@@ -5619,9 +5605,8 @@ msgstr ""
 
 #. Weapon driver / overclock card - name (cdrive_cleanup)
 #. source: Disk Cleanup
-#, fuzzy
 msgid "DRIVER.cdrive_cleanup.name"
-msgstr "Disk Cleanup"
+msgstr "Čišćenja Diska"
 
 #. Weapon driver / overclock card - description (cdrive_cleanup)
 #. source: Slams target enemies on screen.
@@ -5631,9 +5616,8 @@ msgstr "Slams hit the strongest enemies on screen."
 
 #. Weapon driver / overclock card - name (cone_detour)
 #. source: Detour
-#, fuzzy
 msgid "DRIVER.cone_detour.name"
-msgstr "Detour"
+msgstr "Obilaznica"
 
 #. Weapon driver / overclock card - description (cone_detour)
 #. source: Converts Heat to Lag. Increase Size +35%.\nIncrease Damage +15%.
@@ -5645,17 +5629,15 @@ msgstr ""
 
 #. Weapon driver / overclock card - name (cone_workzone)
 #. source: Work Zone
-#, fuzzy
 msgid "DRIVER.cone_workzone.name"
-msgstr "Work Zone"
+msgstr "Radna Zona"
 
 #. Weapon driver / overclock card - description (cone_workzone)
 #. source: Add +1 Amount.\nIncrease Power +30%.
-#, fuzzy
 msgid "DRIVER.cone_workzone.description"
 msgstr ""
-"Add +1 Amount.\n"
-"Increase Power +30%."
+"Dodaje +1 Količinu.\n"
+"Poveća Moć +30%."
 
 #. Weapon driver / overclock card - name (cruiser_multitab)
 #. source: Browser Hijack
@@ -5685,9 +5667,8 @@ msgstr "Tabs chase enemies until the attack ends."
 
 #. Weapon driver / overclock card - name (cut_cleave)
 #. source: Cleave
-#, fuzzy
 msgid "DRIVER.cut_cleave.name"
-msgstr "Cleave"
+msgstr "Rascijepanje"
 
 #. Weapon driver / overclock card - description (cut_cleave)
 #. source: Converts Repel to Infect. Increase Size +80%.\nAdd -0.5 Amount.
@@ -5726,9 +5707,8 @@ msgstr ""
 
 #. Weapon driver / overclock card - name (email_bounce)
 #. source: Undeliverable
-#, fuzzy
 msgid "DRIVER.email_bounce.name"
-msgstr "Undeliverable"
+msgstr "Neisporučiv"
 
 #. Weapon driver / overclock card - description (email_bounce)
 #. source: When the last envelope bounces, start Refresh.
@@ -5738,9 +5718,8 @@ msgstr "When the last envelope bounces, start Refresh."
 
 #. Weapon driver / overclock card - name (firewall_deny)
 #. source: Deny
-#, fuzzy
 msgid "DRIVER.firewall_deny.name"
-msgstr "Deny"
+msgstr "Zabrani"
 
 #. Weapon driver / overclock card - description (firewall_deny)
 #. source: Increase Power +50%. Add +1 Amount.
@@ -5764,9 +5743,8 @@ msgstr "When the last flame dies, start Refresh."
 
 #. Weapon driver / overclock card - name (fontart_bold)
 #. source: Bold
-#, fuzzy
 msgid "DRIVER.fontart_bold.name"
-msgstr "Bold"
+msgstr "Podebljan"
 
 #. Weapon driver / overclock card - description (fontart_bold)
 #. source: Increase Size +60%. Increase Power +60%.\nReduce Amount -25%.
@@ -5776,7 +5754,6 @@ msgstr "Heavy glyphs, fewer letters. +60% Size, +60% Power, -25% Amount."
 
 #. Weapon driver / overclock card - name (fontart_wordart)
 #. source: WordArt
-#, fuzzy
 msgid "DRIVER.fontart_wordart.name"
 msgstr "WordArt"
 
@@ -5790,9 +5767,8 @@ msgstr ""
 
 #. Weapon driver / overclock card - name (fraps_benchmark)
 #. source: Benchmark
-#, fuzzy
 msgid "DRIVER.fraps_benchmark.name"
-msgstr "Benchmark"
+msgstr "Test Performansi"
 
 #. Weapon driver / overclock card - description (fraps_benchmark)
 #. source: Converts Repel to Heat. Increase Damage +25%.\nIncrease Speed +20%.
@@ -5805,7 +5781,7 @@ msgstr ""
 #. Weapon driver / overclock card - name (fraps_vsync)
 #. source: VSync
 msgid "DRIVER.fraps_vsync.name"
-msgstr ""
+msgstr "VSync"
 
 #. Weapon driver / overclock card - description (fraps_vsync)
 #. source: FPS numbers bounce off walls.\nIncrease Size +20%.
@@ -5828,9 +5804,8 @@ msgstr ""
 
 #. Weapon driver / overclock card - name (hitmarkers_killstreak)
 #. source: Killstreak
-#, fuzzy
 msgid "DRIVER.hitmarkers_killstreak.name"
-msgstr "Killstreak"
+msgstr "Niz Ubojstva"
 
 #. Weapon driver / overclock card - description (hitmarkers_killstreak)
 #. source: Cleared enemies increase attack Speed in the next attack.
@@ -5840,9 +5815,8 @@ msgstr "Kills this volley increase Speed on the next volley."
 
 #. Weapon driver / overclock card - name (minesweeper_flag)
 #. source: Incendiary Charge
-#, fuzzy
 msgid "DRIVER.minesweeper_flag.name"
-msgstr "Incendiary Charge"
+msgstr "Zapaljiva Optužba"
 
 #. Weapon driver / overclock card - description (minesweeper_flag)
 #. source: Converts Repel to Heat. Add +1 Amount.\nIncrease Power +20%.
@@ -5854,9 +5828,8 @@ msgstr ""
 
 #. Weapon driver / overclock card - name (minesweeper_chord)
 #. source: Chord
-#, fuzzy
 msgid "DRIVER.minesweeper_chord.name"
-msgstr "Chord"
+msgstr "Akord"
 
 #. Weapon driver / overclock card - description (minesweeper_chord)
 #. source: Mines stay until triggered.
@@ -5866,9 +5839,8 @@ msgstr "Mines stay until triggered."
 
 #. Weapon driver / overclock card - name (modem_handshake)
 #. source: Dial-up Congestion
-#, fuzzy
 msgid "DRIVER.modem_handshake.name"
-msgstr "Dial-up Congestion"
+msgstr "Zagušenje Dial-up Veze"
 
 #. Weapon driver / overclock card - description (modem_handshake)
 #. source: Converts Repel to Lag. Add +1 Amount.\nIncrease Size +25%.
@@ -5880,9 +5852,8 @@ msgstr ""
 
 #. Weapon driver / overclock card - name (modem_broadband)
 #. source: Broadband
-#, fuzzy
 msgid "DRIVER.modem_broadband.name"
-msgstr "Broadband"
+msgstr "Širokopojasna Veza"
 
 #. Weapon driver / overclock card - description (modem_broadband)
 #. source: Increase Speed +50%.\nIncrease Damage +20%.
@@ -5894,9 +5865,8 @@ msgstr ""
 
 #. Weapon driver / overclock card - name (orchestra_fortissimo)
 #. source: Tab Overload
-#, fuzzy
 msgid "DRIVER.orchestra_fortissimo.name"
-msgstr "Tab Overload"
+msgstr "Preopterećenje Kartice"
 
 #. Weapon driver / overclock card - description (orchestra_fortissimo)
 #. source: Converts Infect to Heat. Increase Damage +35%.\nIncrease Power +35%.
@@ -5908,9 +5878,8 @@ msgstr ""
 
 #. Weapon driver / overclock card - name (orchestra_taskkill)
 #. source: End Process
-#, fuzzy
 msgid "DRIVER.orchestra_taskkill.name"
-msgstr "End Process"
+msgstr "Završi proces"
 
 #. Weapon driver / overclock card - description (orchestra_taskkill)
 #. source: Increase execute chance.
@@ -5920,9 +5889,8 @@ msgstr "Increase execute chance."
 
 #. Weapon driver / overclock card - name (paint_spill)
 #. source: Spill
-#, fuzzy
 msgid "DRIVER.paint_spill.name"
-msgstr "Spill"
+msgstr "Prolijevanje"
 
 #. Weapon driver / overclock card - description (paint_spill)
 #. source: Increase Size +100%.\nReduce Damage -20%.
@@ -5934,9 +5902,8 @@ msgstr ""
 
 #. Weapon driver / overclock card - name (paint_fill)
 #. source: Fill Bucket
-#, fuzzy
 msgid "DRIVER.paint_fill.name"
-msgstr "Fill Bucket"
+msgstr "Kanta za Ispunu"
 
 #. Weapon driver / overclock card - description (paint_fill)
 #. source: Add +1 Amount.\nIncrease Power +40%.
@@ -5962,9 +5929,8 @@ msgstr ""
 
 #. Weapon driver / overclock card - name (quarantine_strict)
 #. source: Strict
-#, fuzzy
 msgid "DRIVER.quarantine_strict.name"
-msgstr "Strict"
+msgstr "Strogi"
 
 #. Weapon driver / overclock card - description (quarantine_strict)
 #. source: Converts Repel to Infect.\nIncrease Power +70%.
@@ -5976,9 +5942,8 @@ msgstr ""
 
 #. Weapon driver / overclock card - name (quarantine_heuristic)
 #. source: Heuristic
-#, fuzzy
 msgid "DRIVER.quarantine_heuristic.name"
-msgstr "Heuristic"
+msgstr "Heuristički"
 
 #. Weapon driver / overclock card - description (quarantine_heuristic)
 #. source: Increase Damage +40%.\nIncrease Speed +20%.
@@ -5990,9 +5955,8 @@ msgstr ""
 
 #. Weapon driver / overclock card - name (satellite_dish)
 #. source: Microwave Dish
-#, fuzzy
 msgid "DRIVER.satellite_dish.name"
-msgstr "Microwave Dish"
+msgstr "Mikrovalna Antena"
 
 #. Weapon driver / overclock card - description (satellite_dish)
 #. source: Converts Lag to Heat. Increase Size +30%.\nIncrease Speed +15%.
@@ -6004,9 +5968,8 @@ msgstr ""
 
 #. Weapon driver / overclock card - name (satellite_uplink)
 #. source: Uplink
-#, fuzzy
 msgid "DRIVER.satellite_uplink.name"
-msgstr "Uplink"
+msgstr "Uzvodna Veza"
 
 #. Weapon driver / overclock card - description (satellite_uplink)
 #. source: Dishes follow you for their lifetime.
@@ -6016,9 +5979,8 @@ msgstr "Dishes follow you for their lifetime."
 
 #. Weapon driver / overclock card - name (scimitar_dragon)
 #. source: Weapon Poison
-#, fuzzy
 msgid "DRIVER.scimitar_dragon.name"
-msgstr "Weapon Poison"
+msgstr "Otrovno Oružje"
 
 #. Weapon driver / overclock card - description (scimitar_dragon)
 #. source: Converts Repel to Infect. Increase Size +50%.\nAdd +1 Amount.
@@ -6030,21 +5992,18 @@ msgstr ""
 
 #. Weapon driver / overclock card - name (scimitar_dual)
 #. source: Dual Wield
-#, fuzzy
 msgid "DRIVER.scimitar_dual.name"
-msgstr "Dual Wield"
+msgstr "Dvojno Vladanje"
 
 #. Weapon driver / overclock card - description (scimitar_dual)
 #. source: Add +2 Amount.
-#, fuzzy
 msgid "DRIVER.scimitar_dual.description"
-msgstr "Add +2 Amount."
+msgstr "Dodaje +2 Količinu."
 
 #. Weapon driver / overclock card - name (search_deep)
 #. source: Deep Search
-#, fuzzy
 msgid "DRIVER.search_deep.name"
-msgstr "Deep Search"
+msgstr "Duboko Traženje"
 
 #. Weapon driver / overclock card - description (search_deep)
 #. source: Converts Repel to Lag. Add +2 Amount.\nReduce Damage -20%.
@@ -6056,9 +6015,8 @@ msgstr ""
 
 #. Weapon driver / overclock card - name (search_indexed)
 #. source: Find Next
-#, fuzzy
 msgid "DRIVER.search_indexed.name"
-msgstr "Find Next"
+msgstr "Traži Sljedeći"
 
 #. Weapon driver / overclock card - description (search_indexed)
 #. source: Increase Speed +30%.\nIncrease Refresh +20%.
@@ -6070,9 +6028,8 @@ msgstr ""
 
 #. Weapon driver / overclock card - name (sniper_scope)
 #. source: High Caliber
-#, fuzzy
 msgid "DRIVER.sniper_scope.name"
-msgstr "High Caliber"
+msgstr "Visoki Kaliber"
 
 #. Weapon driver / overclock card - description (sniper_scope)
 #. source: Multiply Damage 1.5x. Increase Power +30%.\nIncrease Refresh +25%.
@@ -6084,9 +6041,8 @@ msgstr ""
 
 #. Weapon driver / overclock card - name (sniper_oneshot)
 #. source: One Shot
-#, fuzzy
 msgid "DRIVER.sniper_oneshot.name"
-msgstr "One Shot"
+msgstr "Jedan Pucanj"
 
 #. Weapon driver / overclock card - description (sniper_oneshot)
 #. source: Adds +7% execute chance.\nIncrease Damage +25%.
@@ -6098,9 +6054,8 @@ msgstr ""
 
 #. Weapon driver / overclock card - name (solitaire_cheat)
 #. source: Cheat
-#, fuzzy
 msgid "DRIVER.solitaire_cheat.name"
-msgstr "Cheat"
+msgstr "Varati"
 
 #. Weapon driver / overclock card - description (solitaire_cheat)
 #. source: Increase Damage +50%. Add +1 Amount.\nReduce Refresh -15%.
@@ -6594,7 +6549,7 @@ msgstr "Ograničenje FPS-a"
 #. Scene label
 #. screens: settings_menu.tscn
 msgid "Cycle"
-msgstr ""
+msgstr "Kruži"
 
 #. Scene label
 #. screens: settings_menu.tscn
@@ -6737,7 +6692,7 @@ msgstr "Početno Oružje"
 
 #. source: Action
 msgid "UI.menu_action"
-msgstr ""
+msgstr "Radnja"
 
 #. source: Skips installing plugin and removes it from selection pool.
 msgid "UI.installer_remove_tooltip"
