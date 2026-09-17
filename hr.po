@@ -5436,7 +5436,7 @@ msgstr "Prazan"
 #. source: {0} files failed to validate and will be reaquired.
 msgid "VAPOR.validate_fail"
 msgstr ""
-"{0} datoteka nije uspjelo provjeriti valjanost i budu bile ponovno preuzete."
+"{0} datoteke nije uspjelo provjeriti valjanost i budu bile ponovno preuzete."
 
 #. Skips installing plugin and removes it from selection pool
 msgid "Skips installing plugin and removes it from selection pool."
@@ -5456,7 +5456,7 @@ msgstr "Overclockan"
 msgid "DRIVER.overclocked.description"
 msgstr ""
 "Pomnožuje Štetu 1,6x.\n"
-"Smanjuje Osvježivanje -15%."
+"Smanjuje Osvježavanje -15%."
 
 #. Weapon driver / overclock card - name (hyperthreaded)
 #. source: Hyperthreaded
@@ -5499,9 +5499,8 @@ msgstr "Proširena Tablica"
 
 #. Weapon driver / overclock card - description (extended_table)
 #. source: Attack Speed no longer makes this weapon expire sooner.
-#, fuzzy
 msgid "DRIVER.extended_table.description"
-msgstr "Attack Speed makes this weapon last longer instead of expiring sooner."
+msgstr "Brzina Šteta više ne uzrokuje da ovo oružje istekne ranije."
 
 #. Weapon driver / overclock card - name (bumper)
 #. source: Bumper
@@ -5510,9 +5509,8 @@ msgstr "Odbojnik"
 
 #. Weapon driver / overclock card - description (bumper)
 #. source: On wall bounce: Increase Damage +50% and trigger a Blast.
-#, fuzzy
 msgid "DRIVER.bumper.description"
-msgstr "On wall bounce: Increase Damage +50% and trigger a Blast."
+msgstr "Pri odbijanju od zida: Povećava Štetu +50% i stvara eksploziju"
 
 #. Weapon driver / overclock card - name (avd_fragmented)
 #. source: Fragmented
@@ -5521,24 +5519,22 @@ msgstr "Fragmentiran"
 
 #. Weapon driver / overclock card - description (avd_fragmented)
 #. source: On wall bounce: split into two half-size copies.\nCopies can split once.
-#, fuzzy
 msgid "DRIVER.avd_fragmented.description"
 msgstr ""
-"On wall bounce: split into two half-size copies.\n"
-"Copies can split once."
+"Pri odbijanju od zida: dijeli se na dvije kopije pola-manje veličine.\n"
+"Kopije mogu podijeliti se jedanput."
 
 #. Weapon driver / overclock card - name (avn_away)
 #. source: Away Message
 msgid "DRIVER.avn_away.name"
-msgstr ""
+msgstr "Poruka o Odsutnosti"
 
 #. Weapon driver / overclock card - description (avn_away)
 #. source: Add +1 Amount. Increase Speed +20%.\nIncrease Size +15%.
-#, fuzzy
 msgid "DRIVER.avn_away.description"
 msgstr ""
-"Add +1 Amount. Increase Speed +20%.\n"
-"Increase Size +15%."
+"Dodaje +1 Količinu. Poveća Brzinu +15%.\n"
+"Poveća Veličinu +15%."
 
 #. Weapon driver / overclock card - name (avn_buddy)
 #. source: Buddy List
@@ -5559,11 +5555,10 @@ msgstr "Upareni Uređaji"
 
 #. Weapon driver / overclock card - description (blatand_pair)
 #. source: Add +1 Amount. Increase Power +25%.\nIncrease Speed +20%.
-#, fuzzy
 msgid "DRIVER.blatand_pair.description"
 msgstr ""
-"Add +1 Amount. Increase Power +25%.\n"
-"Increase Speed +20%."
+"Dodaje +1 Količinu. Poveća Moć +25%.\n"
+"Poveća Brzinu +20%."
 
 #. Weapon driver / overclock card - name (bubbles_soap)
 #. source: Soap
@@ -5584,11 +5579,10 @@ msgstr "Pjena"
 
 #. Weapon driver / overclock card - description (bubbles_suds)
 #. source: On wall bounce: split into two half-size copies.\nCopies can split once.
-#, fuzzy
 msgid "DRIVER.bubbles_suds.description"
 msgstr ""
-"On wall bounce: split into two half-size copies.\n"
-"Copies can split once."
+"Pri odbijanju od zida: dijeli se na dvije kopije pola-manje veličine.\n"
+"Kopije mogu podijeliti se jedanput."
 
 #. Weapon driver / overclock card - name (cdrive_seek)
 #. source: Seek
@@ -5597,11 +5591,10 @@ msgstr "Traži"
 
 #. Weapon driver / overclock card - description (cdrive_seek)
 #. source: Converts Repel to Lag.\nIncrease Speed +60%.
-#, fuzzy
 msgid "DRIVER.cdrive_seek.description"
 msgstr ""
-"Converts Repel to Lag.\n"
-"Increase Speed +60%."
+"Pretvara Odbijanje u Kašnjenje.\n"
+"Poveća Brzinu +60%"
 
 #. Weapon driver / overclock card - name (cdrive_cleanup)
 #. source: Disk Cleanup
@@ -5610,7 +5603,6 @@ msgstr "Čišćenja Diska"
 
 #. Weapon driver / overclock card - description (cdrive_cleanup)
 #. source: Slams target enemies on screen.
-#, fuzzy
 msgid "DRIVER.cdrive_cleanup.description"
 msgstr "Slams hit the strongest enemies on screen."
 
@@ -5621,11 +5613,10 @@ msgstr "Obilaznica"
 
 #. Weapon driver / overclock card - description (cone_detour)
 #. source: Converts Heat to Lag. Increase Size +35%.\nIncrease Damage +15%.
-#, fuzzy
 msgid "DRIVER.cone_detour.description"
 msgstr ""
-"Converts Heat to Lag. Increase Size +35%.\n"
-"Increase Damage +15%."
+"Pretvara Zagrijavanje u Kašnjenje. Poveća Veličinu +35%.\n"
+"Poveća Štetu +15%."
 
 #. Weapon driver / overclock card - name (cone_workzone)
 #. source: Work Zone
@@ -5641,29 +5632,25 @@ msgstr ""
 
 #. Weapon driver / overclock card - name (cruiser_multitab)
 #. source: Browser Hijack
-#, fuzzy
 msgid "DRIVER.cruiser_multitab.name"
 msgstr "Browser Hijack"
 
 #. Weapon driver / overclock card - description (cruiser_multitab)
 #. source: Converts Lag to Infect. Add +1 Amount.\nIncrease Power +25%.
-#, fuzzy
 msgid "DRIVER.cruiser_multitab.description"
 msgstr ""
-"Converts Lag to Infect. Add +1 Amount.\n"
-"Increase Power +25%."
+"Pretvara Kašnjenje u Infekciju. Dodaje +1 Količinu.\n"
+"Poveća Moć +25%."
 
 #. Weapon driver / overclock card - name (cruiser_popup)
 #. source: Popup Storm
-#, fuzzy
 msgid "DRIVER.cruiser_popup.name"
 msgstr "Popup Storm"
 
 #. Weapon driver / overclock card - description (cruiser_popup)
 #. source: Tabs chase enemies until the attack ends.
-#, fuzzy
 msgid "DRIVER.cruiser_popup.description"
-msgstr "Tabs chase enemies until the attack ends."
+msgstr "Kartice prate neprijatelje tijekom ciklusa napada."
 
 #. Weapon driver / overclock card - name (cut_cleave)
 #. source: Cleave
@@ -5672,38 +5659,34 @@ msgstr "Rascijepanje"
 
 #. Weapon driver / overclock card - description (cut_cleave)
 #. source: Converts Repel to Infect. Increase Size +80%.\nAdd -0.5 Amount.
-#, fuzzy
 msgid "DRIVER.cut_cleave.description"
 msgstr ""
-"Wider shears, fewer snips. Converts Repel to Infect. +80% Size, -0.5 Amount."
+"Pretvara Odbijanje u Infekciju. Poveća Veličinu +80%.\n"
+"Dodaje -0.5 Količinu."
 
 #. Weapon driver / overclock card - name (cut_papercut)
 #. source: Paper Cut
-#, fuzzy
 msgid "DRIVER.cut_papercut.name"
-msgstr "Paper Cut"
+msgstr "Posjekotina od Papira"
 
 #. Weapon driver / overclock card - description (cut_papercut)
 #. source: Add +2 Amount.\nIncrease Speed +25%.
-#, fuzzy
 msgid "DRIVER.cut_papercut.description"
 msgstr ""
-"Add +2 Amount.\n"
-"Increase Speed +25%."
+"Dodaje +2 Količinu.\n"
+"Poveća Brzinu +25%."
 
 #. Weapon driver / overclock card - name (email_cc)
 #. source: Flame Mail
-#, fuzzy
 msgid "DRIVER.email_cc.name"
-msgstr "Flame Mail"
+msgstr "Vatreni Mail"
 
 #. Weapon driver / overclock card - description (email_cc)
 #. source: Converts Infect to Heat. Add +1 Amount.\nIncrease Speed +35%.
-#, fuzzy
 msgid "DRIVER.email_cc.description"
 msgstr ""
-"Converts Infect to Heat. Add +1 Amount.\n"
-"Increase Speed +35%."
+"Pretvara Infekciju u Zagrijavanje. Dodaje +1 Količina.\n"
+"Poveća Brzinu +35%."
 
 #. Weapon driver / overclock card - name (email_bounce)
 #. source: Undeliverable
@@ -5712,9 +5695,8 @@ msgstr "Neisporučiv"
 
 #. Weapon driver / overclock card - description (email_bounce)
 #. source: When the last envelope bounces, start Refresh.
-#, fuzzy
 msgid "DRIVER.email_bounce.description"
-msgstr "When the last envelope bounces, start Refresh."
+msgstr "Kad zadnja omotnica odbije, pokreni Osvježavanje."
 
 #. Weapon driver / overclock card - name (firewall_deny)
 #. source: Deny
@@ -5723,23 +5705,18 @@ msgstr "Zabrani"
 
 #. Weapon driver / overclock card - description (firewall_deny)
 #. source: Increase Power +50%. Add +1 Amount.
-#, fuzzy
 msgid "DRIVER.firewall_deny.description"
-msgstr ""
-"Increase Power +50%. Increase Damage +50%.\n"
-"Reduce Refresh -15%."
+msgstr "Poveća Moć +50%. Dodaje +1 Količina."
 
 #. Weapon driver / overclock card - name (firewall_stealth)
 #. source: Flameout
-#, fuzzy
 msgid "DRIVER.firewall_stealth.name"
-msgstr "Flameout"
+msgstr "Gašenje Plamena"
 
 #. Weapon driver / overclock card - description (firewall_stealth)
 #. source: When the last flame dies, start Refresh.
-#, fuzzy
 msgid "DRIVER.firewall_stealth.description"
-msgstr "When the last flame dies, start Refresh."
+msgstr "Kada se zadnji plamen ugasi, pokreni Osvježavanje."
 
 #. Weapon driver / overclock card - name (fontart_bold)
 #. source: Bold
@@ -5748,9 +5725,10 @@ msgstr "Podebljan"
 
 #. Weapon driver / overclock card - description (fontart_bold)
 #. source: Increase Size +60%. Increase Power +60%.\nReduce Amount -25%.
-#, fuzzy
 msgid "DRIVER.fontart_bold.description"
-msgstr "Heavy glyphs, fewer letters. +60% Size, +60% Power, -25% Amount."
+msgstr ""
+"Poveća Veličinu +60%. Poveća Moć +60%.\n"
+"Smanjuje Količinu -25%."
 
 #. Weapon driver / overclock card - name (fontart_wordart)
 #. source: WordArt
@@ -5759,11 +5737,10 @@ msgstr "WordArt"
 
 #. Weapon driver / overclock card - description (fontart_wordart)
 #. source: Increase Size +40%.\nAdd +1 Amount.
-#, fuzzy
 msgid "DRIVER.fontart_wordart.description"
 msgstr ""
-"Increase Size +40%.\n"
-"Add +1 Amount."
+"Poveća Veličinu +40%.\n"
+"Dodaje +1 Količinu."
 
 #. Weapon driver / overclock card - name (fraps_benchmark)
 #. source: Benchmark
@@ -5772,11 +5749,10 @@ msgstr "Test Performansi"
 
 #. Weapon driver / overclock card - description (fraps_benchmark)
 #. source: Converts Repel to Heat. Increase Damage +25%.\nIncrease Speed +20%.
-#, fuzzy
 msgid "DRIVER.fraps_benchmark.description"
 msgstr ""
-"Converts Repel to Heat. Increase Damage +25%.\n"
-"Increase Speed +20%."
+"Pretvara Odbijanje u Zagrijavanje. Poveća Štetu +25%.\n"
+"Poveća Brzinu +20%."
 
 #. Weapon driver / overclock card - name (fraps_vsync)
 #. source: VSync
@@ -5787,20 +5763,20 @@ msgstr "VSync"
 #. source: FPS numbers bounce off walls.\nIncrease Size +20%.
 msgid "DRIVER.fraps_vsync.description"
 msgstr ""
+"Brojke FPS-a odbijaju se od zidova.\n"
+"Poveća Veličinu +20%."
 
 #. Weapon driver / overclock card - name (hitmarkers_headhunter)
 #. source: Headhunter
-#, fuzzy
 msgid "DRIVER.hitmarkers_headhunter.name"
-msgstr "Headhunter"
+msgstr "Lovac na Glave"
 
 #. Weapon driver / overclock card - description (hitmarkers_headhunter)
 #. source: Increase execute chance. Converts Repel to Heat.\nReduce Damage -15%.
-#, fuzzy
 msgid "DRIVER.hitmarkers_headhunter.description"
 msgstr ""
-"Increase execute chance. Converts Repel to Heat.\n"
-"Reduce Damage -15%."
+"Poveća šansu za izvršavanje. Pretvara Odbijanje u Zagrijavanje.\n"
+"Smanjuje Štetu -15%."
 
 #. Weapon driver / overclock card - name (hitmarkers_killstreak)
 #. source: Killstreak
@@ -5809,9 +5785,8 @@ msgstr "Niz Ubojstva"
 
 #. Weapon driver / overclock card - description (hitmarkers_killstreak)
 #. source: Cleared enemies increase attack Speed in the next attack.
-#, fuzzy
 msgid "DRIVER.hitmarkers_killstreak.description"
-msgstr "Kills this volley increase Speed on the next volley."
+msgstr "Očišćeni neprijatelji povećavaju Brzinu štete sljedećoj napada."
 
 #. Weapon driver / overclock card - name (minesweeper_flag)
 #. source: Incendiary Charge
@@ -5820,11 +5795,10 @@ msgstr "Zapaljiva Optužba"
 
 #. Weapon driver / overclock card - description (minesweeper_flag)
 #. source: Converts Repel to Heat. Add +1 Amount.\nIncrease Power +20%.
-#, fuzzy
 msgid "DRIVER.minesweeper_flag.description"
 msgstr ""
-"Converts Repel to Heat. Add +1 Amount.\n"
-"Increase Power +20%."
+"Pretvara Odbijanje u Zagrijavanje. Dodaje +1 Količinu.\n"
+"Poveća Moć +20%."
 
 #. Weapon driver / overclock card - name (minesweeper_chord)
 #. source: Chord
@@ -5833,9 +5807,8 @@ msgstr "Akord"
 
 #. Weapon driver / overclock card - description (minesweeper_chord)
 #. source: Mines stay until triggered.
-#, fuzzy
 msgid "DRIVER.minesweeper_chord.description"
-msgstr "Mines stay until triggered."
+msgstr "Mine ostaju dok se ne aktiviraju."
 
 #. Weapon driver / overclock card - name (modem_handshake)
 #. source: Dial-up Congestion
@@ -5844,11 +5817,10 @@ msgstr "Zagušenje Dial-up Veze"
 
 #. Weapon driver / overclock card - description (modem_handshake)
 #. source: Converts Repel to Lag. Add +1 Amount.\nIncrease Size +25%.
-#, fuzzy
 msgid "DRIVER.modem_handshake.description"
 msgstr ""
-"Converts Repel to Lag. Add +1 Amount.\n"
-"Increase Size +25%."
+"Pretvara Odbijanje u Kašnjenje. Dodaje +1 Količinu.\n"
+"Poveća Veličinu +25%."
 
 #. Weapon driver / overclock card - name (modem_broadband)
 #. source: Broadband
@@ -5857,11 +5829,10 @@ msgstr "Širokopojasna Veza"
 
 #. Weapon driver / overclock card - description (modem_broadband)
 #. source: Increase Speed +50%.\nIncrease Damage +20%.
-#, fuzzy
 msgid "DRIVER.modem_broadband.description"
 msgstr ""
-"Increase Speed +50%.\n"
-"Increase Damage +20%."
+"Poveća Brzinu +50%.\n"
+"Poveća Štetu +20%."
 
 #. Weapon driver / overclock card - name (orchestra_fortissimo)
 #. source: Tab Overload
@@ -5870,11 +5841,10 @@ msgstr "Preopterećenje Kartice"
 
 #. Weapon driver / overclock card - description (orchestra_fortissimo)
 #. source: Converts Infect to Heat. Increase Damage +35%.\nIncrease Power +35%.
-#, fuzzy
 msgid "DRIVER.orchestra_fortissimo.description"
 msgstr ""
-"Converts Infect to Heat. Increase Damage +35%.\n"
-"Increase Power +35%."
+"Pretvara Infekciju u Zagrijavanje. Poveća Štetu +35%.\n"
+"Poveća Moć +35%."
 
 #. Weapon driver / overclock card - name (orchestra_taskkill)
 #. source: End Process
@@ -5883,9 +5853,8 @@ msgstr "Završi proces"
 
 #. Weapon driver / overclock card - description (orchestra_taskkill)
 #. source: Increase execute chance.
-#, fuzzy
 msgid "DRIVER.orchestra_taskkill.description"
-msgstr "Increase execute chance."
+msgstr "Poveća šansu za izvršavanje."
 
 #. Weapon driver / overclock card - name (paint_spill)
 #. source: Spill
@@ -5894,11 +5863,10 @@ msgstr "Prolijevanje"
 
 #. Weapon driver / overclock card - description (paint_spill)
 #. source: Increase Size +100%.\nReduce Damage -20%.
-#, fuzzy
 msgid "DRIVER.paint_spill.description"
 msgstr ""
-"Increase Size +100%.\n"
-"Reduce Damage -20%."
+"Poveća Veličinu +100%.\n"
+"Smanjuje Štetu -20%."
 
 #. Weapon driver / overclock card - name (paint_fill)
 #. source: Fill Bucket
@@ -5907,25 +5875,22 @@ msgstr "Kanta za Ispunu"
 
 #. Weapon driver / overclock card - description (paint_fill)
 #. source: Add +1 Amount.\nIncrease Power +40%.
-#, fuzzy
 msgid "DRIVER.paint_fill.description"
 msgstr ""
-"Add +1 Amount.\n"
-"Increase Power +40%."
+"Dodaje +1 Količinu.\n"
+"Poveća Moć +40%."
 
 #. Weapon driver / overclock card - name (pinball_tilted)
 #. source: Tilted
-#, fuzzy
 msgid "DRIVER.pinball_tilted.name"
-msgstr "Tilted"
+msgstr "Nagnut"
 
 #. Weapon driver / overclock card - description (pinball_tilted)
 #. source: On wall bounce: Increase Size. Happens up to twice.\nReduce Size -30%.
-#, fuzzy
 msgid "DRIVER.pinball_tilted.description"
 msgstr ""
-"On wall bounce: Increase Size. Happens up to twice.\n"
-"Reduce Size -30%."
+"Pri odbijanju od zida: Poveća Veličinu. Događa se do dva puta.\n"
+"Smanjuje Veličinu -30%."
 
 #. Weapon driver / overclock card - name (quarantine_strict)
 #. source: Strict
@@ -5934,11 +5899,10 @@ msgstr "Strogi"
 
 #. Weapon driver / overclock card - description (quarantine_strict)
 #. source: Converts Repel to Infect.\nIncrease Power +70%.
-#, fuzzy
 msgid "DRIVER.quarantine_strict.description"
 msgstr ""
-"Converts Repel to Infect.\n"
-"Increase Power +70%."
+"Pretvara Odbijanje u Infekciju.\n"
+"Poveća Moć +70%."
 
 #. Weapon driver / overclock card - name (quarantine_heuristic)
 #. source: Heuristic
@@ -5947,11 +5911,10 @@ msgstr "Heuristički"
 
 #. Weapon driver / overclock card - description (quarantine_heuristic)
 #. source: Increase Damage +40%.\nIncrease Speed +20%.
-#, fuzzy
 msgid "DRIVER.quarantine_heuristic.description"
 msgstr ""
-"Increase Damage +40%.\n"
-"Increase Speed +20%."
+"Poveća Štetu +40%.\n"
+"Poveća Brzinu +20%."
 
 #. Weapon driver / overclock card - name (satellite_dish)
 #. source: Microwave Dish
@@ -5960,11 +5923,10 @@ msgstr "Mikrovalna Antena"
 
 #. Weapon driver / overclock card - description (satellite_dish)
 #. source: Converts Lag to Heat. Increase Size +30%.\nIncrease Speed +15%.
-#, fuzzy
 msgid "DRIVER.satellite_dish.description"
 msgstr ""
-"Converts Lag to Heat. Increase Size +30%.\n"
-"Increase Speed +15%."
+"Pretvara Kašnjenje u Zagrijavanje. Poveća Veličinu +30%.\n"
+"Poveća Brzinu +15%."
 
 #. Weapon driver / overclock card - name (satellite_uplink)
 #. source: Uplink
@@ -5973,9 +5935,8 @@ msgstr "Uzvodna Veza"
 
 #. Weapon driver / overclock card - description (satellite_uplink)
 #. source: Dishes follow you for their lifetime.
-#, fuzzy
 msgid "DRIVER.satellite_uplink.description"
-msgstr "Dishes follow you for their lifetime."
+msgstr "Sateliti prate vas tijekom cijelog svog vijeka trajanja."
 
 #. Weapon driver / overclock card - name (scimitar_dragon)
 #. source: Weapon Poison
@@ -5984,11 +5945,10 @@ msgstr "Otrovno Oružje"
 
 #. Weapon driver / overclock card - description (scimitar_dragon)
 #. source: Converts Repel to Infect. Increase Size +50%.\nAdd +1 Amount.
-#, fuzzy
 msgid "DRIVER.scimitar_dragon.description"
 msgstr ""
-"Converts Repel to Infect. Increase Size +50%.\n"
-"Add +1 Amount."
+"Pretvara Odbijanje u Kašnjenje. Poveća Veličinu +50%.\n"
+"Dodaje +1 Količinu."
 
 #. Weapon driver / overclock card - name (scimitar_dual)
 #. source: Dual Wield
@@ -6007,11 +5967,10 @@ msgstr "Duboko Traženje"
 
 #. Weapon driver / overclock card - description (search_deep)
 #. source: Converts Repel to Lag. Add +2 Amount.\nReduce Damage -20%.
-#, fuzzy
 msgid "DRIVER.search_deep.description"
 msgstr ""
-"Converts Repel to Lag. Add +2 Amount.\n"
-"Reduce Damage -20%."
+"Pretvara Odbijanje u Kašnjenje. Dodaje +2 Količinu.\n"
+"Smanjuje Štetu -20%."
 
 #. Weapon driver / overclock card - name (search_indexed)
 #. source: Find Next
@@ -6020,11 +5979,10 @@ msgstr "Traži Sljedeći"
 
 #. Weapon driver / overclock card - description (search_indexed)
 #. source: Increase Speed +30%.\nIncrease Refresh +20%.
-#, fuzzy
 msgid "DRIVER.search_indexed.description"
 msgstr ""
-"Increase Speed +30%.\n"
-"Increase Refresh +20%."
+"Poveća Brzinu +30%.\n"
+"Poveća Osvježavanje +20%."
 
 #. Weapon driver / overclock card - name (sniper_scope)
 #. source: High Caliber
@@ -6033,11 +5991,10 @@ msgstr "Visoki Kaliber"
 
 #. Weapon driver / overclock card - description (sniper_scope)
 #. source: Multiply Damage 1.5x. Increase Power +30%.\nIncrease Refresh +25%.
-#, fuzzy
 msgid "DRIVER.sniper_scope.description"
 msgstr ""
-"Multiply Damage 1.5x. Increase Power +30%.\n"
-"Increase Refresh +25%."
+"Pomnožuje Štetu 1,5x. Poveća Moć +30%.\n"
+"Poveća Osvježavanje +25%."
 
 #. Weapon driver / overclock card - name (sniper_oneshot)
 #. source: One Shot
@@ -6046,11 +6003,10 @@ msgstr "Jedan Pucanj"
 
 #. Weapon driver / overclock card - description (sniper_oneshot)
 #. source: Adds +7% execute chance.\nIncrease Damage +25%.
-#, fuzzy
 msgid "DRIVER.sniper_oneshot.description"
 msgstr ""
-"Increase execute chance.\n"
-"Increase Damage +25%."
+"Dodaje +7% šansu za izvršavanje.\n"
+"Poveća Štetu +25%."
 
 #. Weapon driver / overclock card - name (solitaire_cheat)
 #. source: Cheat
@@ -6059,11 +6015,10 @@ msgstr "Varati"
 
 #. Weapon driver / overclock card - description (solitaire_cheat)
 #. source: Increase Damage +50%. Add +1 Amount.\nReduce Refresh -15%.
-#, fuzzy
 msgid "DRIVER.solitaire_cheat.description"
 msgstr ""
-"Increase Damage +50%. Add +1 Amount.\n"
-"Reduce Refresh -15%."
+"Poveća Štetu +50%. Dodaje +1 Količinu.\n"
+"Smanjuje Osvježavanje -15%."
 
 #. Installs plugin
 msgid "Installs plugin."
