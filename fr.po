@@ -20,7 +20,7 @@ msgstr "Brique"
 #. source: Add +40 Max HP.\nAdd +12 Armo(u)r.\nMultiply Cursor Speed 0.8x.\nMultiply Weapon Damage 0.85x.\nMultiply Weapon Damage 1.1x when taking Damage (Lasts 8s, stacks up to 3).
 msgid "CLASS.brick.description"
 msgstr ""
-"+40 PV maxi.\n"
+"+40 PV.\n"
 "+12 protection.\n"
 "0.8x vitesse curseur.\n"
 "1.1x force d'attaque en cas d'attaque ennemi (pendant 8s, max. 3x)"
@@ -44,7 +44,7 @@ msgstr "Null"
 #. source: Reduce Max HP -25.\nAdd +8 Packet Loss.\nMultiply Luck 1.5x.\nMultiply Weapon Damage 0.9x.
 msgid "CLASS.null.description"
 msgstr ""
-"-25 PV maxi.\n"
+"-25 PV.\n"
 "+8 perte de paquets.\n"
 "1.5x chance.\n"
 "0.9x force d'attaque."
@@ -60,7 +60,7 @@ msgid "CLASS.vector.description"
 msgstr ""
 "1.25x vitesse curseur.\n"
 "+15 perte de paquets.\n"
-"-25 PV maxi.\n"
+"-25 PV.\n"
 "0.9x force d'attaque.\n"
 "En cas de perte de paquets, 1.25x vitesse curseur et 1.2x réduction temps "
 "d'attente d'attaque (pendant 4s)."
@@ -76,7 +76,7 @@ msgid "CLASS.breakpoint.description"
 msgstr ""
 "+12% chance d'att. critique.\n"
 "1.25x force d'attaque critique.\n"
-"-15 PV maxi.\n"
+"-15 PV.\n"
 "0.9x vitesse curseur.\n"
 "0.92x force d'attaque."
 
@@ -107,7 +107,7 @@ msgstr ""
 "1.3x gain de pièces.\n"
 "1.3x magnétisme.\n"
 "+10% réduction dans la boutique.\n"
-"0.9x PV maxi.\n"
+"0.9x PV.\n"
 "0.85x force d'attaque."
 
 #. Folder evolution mode - name (chaos)
@@ -194,7 +194,7 @@ msgstr "Multiplie le magnétisme par +2% pour chaque rang."
 #. Meta upgrade menu - description (max_health)
 #. source: Adds +10 Max HP per Rank.
 msgid "META.max_health.description"
-msgstr "Ajoute +10 PV maxi pour chaque rang."
+msgstr "Ajoute +10 PV pour chaque rang."
 
 #. Meta upgrade menu - name (packet_loss)
 #. source: Packet Loss
@@ -282,7 +282,7 @@ msgstr "Édition entreprise"
 #. source: Add +64 Max HP.\nAdd +12 Health Regen.
 msgid "PLUGIN.big_hp_regen_boost.description"
 msgstr ""
-"Ajoute +64 PV maxi.\n"
+"Ajoute +64 PV.\n"
 "Ajoute +12 regénération de PV."
 
 #. Plugin - name (big_wave_damage)
@@ -389,7 +389,7 @@ msgstr "Choix de carrière"
 msgid "PLUGIN.damage_level_scaling.description"
 msgstr ""
 "Incrémente la force d'attaque par +3% pour chaque niveau.\n"
-"Réduit les PV maxi par -1 pour chaque niveau."
+"Réduit les PV par -1 pour chaque niveau."
 
 #. Plugin - name (damage_missing_hp)
 #. source: Redline
@@ -449,12 +449,12 @@ msgstr "Chance de 5% de regéneration en cas d'attaque critique."
 #. Plugin - name (hp_boost)
 #. source: Max HP Boost
 msgid "PLUGIN.hp_boost.name"
-msgstr "Boost PV maxi"
+msgstr "Boost de PV"
 
 #. Plugin - description (hp_boost)
 #. source: Add +15 Max HP.
 msgid "PLUGIN.hp_boost.description"
-msgstr "Ajoute +15 PV maxi."
+msgstr "Ajoute +15 PV."
 
 #. Plugin - name (hp_on_heal)
 #. source: AutoRecover
@@ -464,7 +464,7 @@ msgstr "AutoRégen"
 #. Plugin - description (hp_on_heal)
 #. source: 7% Chance to Add +3 Max HP when Healed. (5s Cooldown).
 msgid "PLUGIN.hp_on_heal.description"
-msgstr "7% de chance d'ajouter +3 PV maxi quand la barre de PV est pleine."
+msgstr "7% de chance d'ajouter +3 PV quand la barre de PV est pleine."
 
 #. Plugin - name (locate_pointer)
 #. source: Locate Pointer
@@ -495,6 +495,8 @@ msgstr "Pause chanceuse"
 #. source: Increase Luck +12%.\nIncrease Luck +25% on Rerolls (Lasts 10s).
 msgid "PLUGIN.luck_reroll.description"
 msgstr ""
+"Incrémente la chance par +12%.\n"
+"Incrémente la chance par +25% en cas de nouv. sélection (pendant 10s)."
 
 #. Plugin - name (luck_zip_boost)
 #. source: Compressed Folders
@@ -597,6 +599,8 @@ msgstr ""
 #. source: Add +10 Max HP.\nHeal 25% of Max HP when opening a Safe Folder.
 msgid "PLUGIN.smart_recovery.description"
 msgstr ""
+"Ajoute +10 PV.\n"
+"Régénère 25% des PV maxi en ouvrant un dossier sécurisé."
 
 #. Plugin - name (weapon_speed_boost)
 #. source: Weapon Speed Boost
@@ -897,6 +901,7 @@ msgstr "Protocole I"
 #. source: The beginner difficulty. Earn 16 Beanz per Safe Folder opened + cleared enemies.
 msgid "PROTOCOL.protocol_1.description"
 msgstr ""
+"La difficulté pour débutants. 16 Beanz pour chaque dossier sécurisé ouvert."
 
 #. Difficulty protocol - name (protocol_2)
 #. source: Protocol II
@@ -907,6 +912,7 @@ msgstr "Protocole II"
 #. source: The sophomore difficulty. Earn 24 Beanz per Safe Folder opened + cleared enemies.
 msgid "PROTOCOL.protocol_2.description"
 msgstr ""
+"La difficulté secondaire. 24 Beanz pour chaque dossier sécurisé ouvert."
 
 #. Difficulty protocol - name (protocol_3)
 #. source: Protocol III
@@ -916,7 +922,7 @@ msgstr "Protocole III"
 #. Difficulty protocol - description (protocol_3)
 #. source: The tertiary difficulty. Earn 32 Beanz per Safe Folder opened + cleared enemies.
 msgid "PROTOCOL.protocol_3.description"
-msgstr ""
+msgstr "La difficulté tertiaire. 32 Beanz pour chaque dossier sécurisé ouvert."
 
 #. Difficulty protocol - name (protocol_4)
 #. source: Protocol IV
@@ -927,6 +933,8 @@ msgstr "Protocole IV"
 #. source: The senior difficulty. Earn 48 Beanz per Safe Folder opened + cleared enemies.
 msgid "PROTOCOL.protocol_4.description"
 msgstr ""
+"La difficulté pour joueurs avancés. 48 Beanz pour chaque dossier sécurisé "
+"ouvert."
 
 #. Difficulty protocol - name (protocol_5)
 #. source: Protocol V
@@ -937,6 +945,7 @@ msgstr "Protocole V"
 #. source: You don't have to do this. 64 Beanz per Safe Folder opened if you do though.
 msgid "PROTOCOL.protocol_5.description"
 msgstr ""
+"Très difficile, mais donne 64 Beanz pour chaque dossier sécurisé ouvert."
 
 #. Stat display - name (upgrade_player_armor)
 #. source: Armo(u)r
@@ -956,7 +965,7 @@ msgstr "Gain de pièces"
 #. Stat display - description (upgrade_player_coin_gain)
 #. source: Multiplies the amount of all Coin received.
 msgid "STAT.upgrade_player_coin_gain.description"
-msgstr ""
+msgstr "Multiplie le nombre de pièces."
 
 #. Stat display - name (upgrade_player_crit_chance)
 #. source: Crit Chance
@@ -966,7 +975,7 @@ msgstr "Chance d'attaque critique"
 #. Stat display - description (upgrade_player_crit_chance)
 #. source: Chance to cause Crit Hit.
 msgid "STAT.upgrade_player_crit_chance.description"
-msgstr ""
+msgstr "La chance d'une attaque critique."
 
 #. Stat display - name (upgrade_player_crit_damage_multi)
 #. source: Crit Damage
@@ -976,7 +985,7 @@ msgstr "Force d'attaque critique"
 #. Stat display - description (upgrade_player_crit_damage_multi)
 #. source: Multiplies Damage on Crit Hit.
 msgid "STAT.upgrade_player_crit_damage_multi.description"
-msgstr ""
+msgstr "Multiplie les dégats de l'attaque critique."
 
 #. Stat display - name (upgrade_player_damage_multi)
 #. source: Weapon Damage
@@ -986,7 +995,7 @@ msgstr "Force d'attaque"
 #. Stat display - description (upgrade_player_damage_multi)
 #. source: Multiplies all Damage output.
 msgid "STAT.upgrade_player_damage_multi.description"
-msgstr ""
+msgstr "Multiplie les dégats des attaques."
 
 #. Stat display - name (upgrade_player_dodge)
 #. source: Packet Loss
@@ -996,7 +1005,7 @@ msgstr "Perte de paquets"
 #. Stat display - description (upgrade_player_dodge)
 #. source: Chance to dogde all incoming Damage. (Exponential)
 msgid "STAT.upgrade_player_dodge.description"
-msgstr ""
+msgstr "Chance d'éviter toute attaque ennemie. (Exponentiel)"
 
 #. Stat display - name (upgrade_player_exp_gain)
 #. source: EXP Gain
@@ -1006,7 +1015,7 @@ msgstr "Gain d'EXP"
 #. Stat display - description (upgrade_player_exp_gain)
 #. source: Multiplies the amount of all EXP received.
 msgid "STAT.upgrade_player_exp_gain.description"
-msgstr ""
+msgstr "Multiplie l'EXP."
 
 #. Stat display - name (upgrade_player_health_regen)
 #. source: Health Regen
@@ -1475,7 +1484,7 @@ msgstr ""
 #. Upgrade card - name (weapon_quarantine)
 #. source: Quarantine
 msgid "UPGRADE.weapon_quarantine.name"
-msgstr "Quarantine"
+msgstr "Quarantaine"
 
 #. Upgrade card - description (weapon_quarantine)
 #. source: Scans an area around the player damaging enemies.
@@ -2843,13 +2852,13 @@ msgstr ""
 #. source: .%s files opened
 #. Keep placeholders unchanged: %s
 msgid "UI.stat_ext_opened"
-msgstr "%s fichiers ouverts"
+msgstr "Fichiers %s ouverts"
 
 #. Profile stats - file extension row tooltip
 #. source: %s files successfully opened.
 #. Keep placeholders unchanged: %s
 msgid "UI.stat_ext_opened_desc"
-msgstr "%s "
+msgstr "Fichers %s ouverts."
 
 #. Profile stats - named file opened row title
 #. source: %s opened
@@ -3328,7 +3337,7 @@ msgstr ""
 #. UI (script-driven)
 #. source: Reroll Locked
 msgid "UI.reroll_disabled"
-msgstr ""
+msgstr "Nouv. sélection désactivé"
 
 #. Toast shown when something is unlocked
 #. source: Unlocked: %s
@@ -3464,7 +3473,7 @@ msgstr "Pas assez de clés :("
 #. Starter folder weapons category help
 #. source: Your first of four weapons for the run. You'll pick more as you level up.
 msgid "UI.starter_help_weapons"
-msgstr ""
+msgstr "La première de quatre armes pour cette session."
 
 #. Starter folder cursor class category help
 #. source: Cursor Classes set your base stats. All upgrades multiply on top of those.
@@ -3771,7 +3780,7 @@ msgstr ""
 #. source: Reroll: %.2f Coin
 #. Keep placeholders unchanged: %.2f
 msgid "UI.reroll_coin"
-msgstr ""
+msgstr "Nouv. sélection: %.2f pièces"
 
 #. HUD - Beanz label
 #. source: Beanz: %d
@@ -4354,7 +4363,7 @@ msgstr ""
 #. Optional extra difficulty policy - description (read_only)
 #. source: Rerolls are disabled.
 msgid "POLICY.read_only.description"
-msgstr ""
+msgstr "Choix de nouv. sélection désactivé"
 
 #. Optional extra difficulty policy - name (blue_screen_imminent)
 #. source: Blue Screen Imminent
