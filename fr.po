@@ -620,7 +620,7 @@ msgstr "Rapport d'erreur"
 #. Plugin - description (xp_drop_boost)
 #. source: Increase enemy EXP Drop Chance +20%.
 msgid "PLUGIN.xp_drop_boost.description"
-msgstr ""
+msgstr "Incrémente la chance d'EXP des ennemis par +20%."
 
 #. Plugin - name (xp_file_open)
 #. source: Knowledge Base
@@ -630,7 +630,7 @@ msgstr "Encyclopédie"
 #. Plugin - description (xp_file_open)
 #. source: Gain +5 EXP when opening a File.
 msgid "PLUGIN.xp_file_open.description"
-msgstr ""
+msgstr "+5 EXP en ouvrant un fichier."
 
 #. Plugin - name (xp_gain_boost)
 #. source: EXP Gain Boost
@@ -640,7 +640,7 @@ msgstr "Boost de gain d'EXP"
 #. Plugin - description (xp_gain_boost)
 #. source: Multiply EXP Gain 1.1x.
 msgid "PLUGIN.xp_gain_boost.description"
-msgstr ""
+msgstr "Multiplie le gain d'EXP par 1.1x."
 
 #. Plugin - name (xp_gain_on_damage)
 #. source: Readme
@@ -651,6 +651,8 @@ msgstr "Lisez-moi"
 #. source: Increase EXP Gain +10%.\nGain +4 EXP when taking damage.
 msgid "PLUGIN.xp_gain_on_damage.description"
 msgstr ""
+"Incrémente le gain d'EXP par +10%.\n"
+"+4 EXP en cas d'attaque ennemie."
 
 #. Plugin - name (morgan_av)
 #. source: Morgan Antivirus
@@ -661,6 +663,8 @@ msgstr "Antivirus Morgan"
 #. source: Difficulty is increased for the rest of the run.\n+1 extra Plus! enemy at each midway point.
 msgid "PLUGIN.morgan_av.description"
 msgstr ""
+"Difficulté incrémentée pendant le reste de cette session.\n"
+"+1 ennemi Plus! pendant un dossier de combat."
 
 #. Plugin - name (popup_blocker)
 #. source: Realtime Protection
@@ -670,7 +674,7 @@ msgstr "Protection temps réel"
 #. Plugin - description (popup_blocker)
 #. source: Enemy projectiles can be destroyed by weapons.
 msgid "PLUGIN.popup_blocker.description"
-msgstr ""
+msgstr "Les armes peuvent neutraliser les projectiles ennemis."
 
 #. Plugin - name (spam_blocker)
 #. source: Popup Blocker
@@ -680,17 +684,17 @@ msgstr "Anti-Pub"
 #. Plugin - description (spam_blocker)
 #. source: Block half of Spam Popups.
 msgid "PLUGIN.spam_blocker.description"
-msgstr ""
+msgstr "Bloque la moitié des attaques spam."
 
 #. Plugin - name (adsense)
 #. source: Hit Counter
 msgid "PLUGIN.adsense.name"
-msgstr ""
+msgstr "Petite fortune"
 
 #. Plugin - description (adsense)
 #. source: Gain +1 Coin when opening a File.
 msgid "PLUGIN.adsense.description"
-msgstr ""
+msgstr "+1 pièce en ouvrant un fichier."
 
 #. Plugin - name (still_frame)
 #. source: Still Frame
@@ -701,6 +705,8 @@ msgstr "Pas bouge!"
 #. source: Increase Weapon Damage +5% per second while not moving, up to +15% per stack.
 msgid "PLUGIN.still_frame.description"
 msgstr ""
+"Incrémente la force d'attaque par +5% pour chaque seconde sans mouvement, "
+"pour un maximum de +15%."
 
 #. Plugin - name (shzip_license)
 #. source: SHZip License
@@ -710,7 +716,7 @@ msgstr "Licence SHZip"
 #. Plugin - description (shzip_license)
 #. source: Increase Zip Processing Speed +50%.
 msgid "PLUGIN.shzip_license.description"
-msgstr ""
+msgstr "Incrémente la vitesse d'extraction de fichiers ZIP par +50%."
 
 #. Plugin - name (refresh_overclock)
 #. source: Refresh Overclock
@@ -730,7 +736,7 @@ msgstr "Attaque monétaire"
 #. Plugin - description (wallet_damage)
 #. source: Increase Weapon Damage +1% per 10 Coin held.
 msgid "PLUGIN.wallet_damage.description"
-msgstr ""
+msgstr "Incrémente la force d'attaque par +1% pour chaque 10 pièces."
 
 #. Plugin - name (first_strike)
 #. source: First Strike
@@ -741,6 +747,8 @@ msgstr "Première attaque"
 #. source: Increase Damage +25% against enemies above 90% HP.
 msgid "PLUGIN.first_strike.description"
 msgstr ""
+"Incrémente la force d'attaque par +25% pour les ennemis avec plus de 90% de "
+"leur PV."
 
 #. Plugin - name (crit_blast)
 #. source: Crit Blast
@@ -771,6 +779,7 @@ msgstr "Vapidshare Pro"
 #. source: Download Vapidshare parts simultaneously and faster.
 msgid "PLUGIN.vapidshare_pro.description"
 msgstr ""
+"Plusieurs téléchargements et téléchargements plus rapides sur Vapidshare."
 
 #. Plugin - name (megacrit)
 #. source: Megacrit
@@ -955,7 +964,7 @@ msgstr "Protection"
 #. Stat display - description (upgrade_player_armor)
 #. source: Resistence from all incoming Damage. (Exponential)
 msgid "STAT.upgrade_player_armor.description"
-msgstr ""
+msgstr "Résistance contre les attaques ennemis. (Exponentiel)"
 
 #. Stat display - name (upgrade_player_coin_gain)
 #. source: Coin Gain
@@ -1020,12 +1029,12 @@ msgstr "Multiplie l'EXP."
 #. Stat display - name (upgrade_player_health_regen)
 #. source: Health Regen
 msgid "STAT.upgrade_player_health_regen.name"
-msgstr "Regénération PV"
+msgstr "Régénération PV"
 
 #. Stat display - description (upgrade_player_health_regen)
 #. source: Amount of Health Regen every 20s.
 msgid "STAT.upgrade_player_health_regen.description"
-msgstr ""
+msgstr "Nombre de PV régénéré toutes les 20s."
 
 #. Stats manager - HP value format
 #. source: {sign}{value} HP
@@ -1041,7 +1050,7 @@ msgstr "Chance"
 #. Stat display - description (upgrade_player_luck)
 #. source: Increases odds for better rolls, resulting in higher rarities amoung other benefits.
 msgid "STAT.upgrade_player_luck.description"
-msgstr ""
+msgstr "Taux de chance plus haut pour recevoir des pilotes plus rares."
 
 #. Stat display - name (upgrade_player_magnetism_multi)
 #. source: Magnetism
@@ -1061,7 +1070,7 @@ msgstr "PV maxi"
 #. Stat display - description (upgrade_player_max_health)
 #. source: Additional Max HP.
 msgid "STAT.upgrade_player_max_health.description"
-msgstr ""
+msgstr "Incrémente le nombre de PV maximum."
 
 #. Stat display - name (upgrade_player_power_multi)
 #. source: Weapon Power
@@ -1092,6 +1101,7 @@ msgstr "Temps d'attente d'attaque"
 #. source: Multiplies the speed that all weapons cooldown. (Exponential)
 msgid "STAT.upgrade_player_refresh_multi.description"
 msgstr ""
+"Réduit la vitesse d'attente pour qu'une arme réapparaisse. (Exponentiel)"
 
 #. Stat display - name (upgrade_player_speed)
 #. source: Cursor Speed
@@ -1101,7 +1111,7 @@ msgstr "Vitesse du pointeur"
 #. Stat display - description (upgrade_player_speed)
 #. source: Multiplies the player movement speed.
 msgid "STAT.upgrade_player_speed.description"
-msgstr ""
+msgstr "Multiplie la vitesse de mouvement du pointeur."
 
 #. Stat display - name (upgrade_player_weap_amount)
 #. source: Weapon Amount
@@ -1121,7 +1131,7 @@ msgstr "Taille des armes"
 #. Stat display - description (upgrade_player_weap_size)
 #. source: Multiplies the size of all weapons.
 msgid "STAT.upgrade_player_weap_size.description"
-msgstr ""
+msgstr "Multiplie la taille de toutes les armes."
 
 #. Stat display - name (upgrade_player_weap_speed)
 #. source: Weapon Speed
@@ -1131,7 +1141,7 @@ msgstr "Vitesse des armes"
 #. Stat display - description (upgrade_player_weap_speed)
 #. source: Multiplies the speed that all weapons attack. (Exponential)
 msgid "STAT.upgrade_player_weap_speed.description"
-msgstr ""
+msgstr "Multiplie la vitesse d'attaque de toutes les armes. (Exponentiel)"
 
 #. Weapon upgrade card - damage stat title
 #. source: {weapon} Damage
@@ -5002,7 +5012,6 @@ msgstr ""
 msgid "ZIP.progress"
 msgstr ""
 "Temps estimé: {m}m {s}s ({cur} Ko sur {max} Ko)\n"
-"\n"
 "Vitesse: {rate} Ko/sec"
 
 #. Zip extractor window
@@ -5054,10 +5063,8 @@ msgstr "Difficulté"
 
 #. Run stats panel row
 #. source: Current protocol difficulty for this run.
-#, fuzzy
-#| msgid "RUNSTAT.difficulty"
 msgid "RUNSTAT.difficulty_desc"
-msgstr "Difficulté"
+msgstr "La difficulté pour cette session."
 
 #. Run stats panel row
 #. source: Levels Gained
@@ -5066,10 +5073,8 @@ msgstr "Niveau"
 
 #. Run stats panel row
 #. source: Levels gained from experience this run.
-#, fuzzy
-#| msgid "RUNSTAT.levels_gained"
 msgid "RUNSTAT.levels_gained_desc"
-msgstr "Niveau"
+msgstr "Le niveau actuel pour cette session."
 
 #. Run stats panel row
 #. source: EXP Gained
@@ -5078,10 +5083,8 @@ msgstr "EXP gagné"
 
 #. Run stats panel row
 #. source: Total experience collected this run.
-#, fuzzy
-#| msgid "RUNSTAT.exp_gained"
 msgid "RUNSTAT.exp_gained_desc"
-msgstr "EXP gagné"
+msgstr "EXP gagné cette session."
 
 #. Run stats panel row
 #. source: Safe Folders Opened
@@ -5090,17 +5093,13 @@ msgstr "Dossiers sécurisés accédés"
 
 #. Run stats panel row
 #. source: Safe folders opened this run.
-#, fuzzy
-#| msgid "RUNSTAT.safe_folders"
 msgid "RUNSTAT.safe_folders_desc"
-msgstr "Dossiers sécurisés accédés"
+msgstr "Dossiers sécurisés accédés cette session."
 
 #. Run stats panel row
 #. source: Folders and files opened this run.
-#, fuzzy
-#| msgid "RUNSTAT.files_opened"
 msgid "RUNSTAT.files_opened_desc"
-msgstr "Fichiers ouverts"
+msgstr "Fichiers ouverts cette session."
 
 #. Run stats panel row
 #. source: Enemies cleared this run.
@@ -5109,17 +5108,13 @@ msgstr ""
 
 #. Run stats panel row
 #. source: Coins collected this run.
-#, fuzzy
-#| msgid "RUNSTAT.coin_collected"
 msgid "RUNSTAT.coin_collected_desc"
-msgstr "Pièces collectionés"
+msgstr "Pièces collectionés cette session."
 
 #. Run stats panel row
 #. source: Keys collected this run.
-#, fuzzy
-#| msgid "RUNSTAT.keys_collected"
 msgid "RUNSTAT.keys_collected_desc"
-msgstr "Clés collectionés"
+msgstr "Clés collectionés cette session."
 
 #. Run stats panel row
 #. source: Beanz Collected
@@ -5129,7 +5124,7 @@ msgstr "Beanz collectionés"
 #. Run stats panel row
 #. source: Beanz earned this run.
 msgid "RUNSTAT.beanz_collected_desc"
-msgstr ""
+msgstr "Beanz pour cette session."
 
 #. Run stats panel row
 #. source: Score
@@ -5149,7 +5144,7 @@ msgstr "Classe"
 #. Run stats panel row
 #. source: Cursor class chosen for this run.
 msgid "RUNSTAT.class_desc"
-msgstr ""
+msgstr "La classe de pointeur choisie pour cette session."
 
 #. Run stats panel row
 #. source: Policy
@@ -5159,23 +5154,23 @@ msgstr "Stratégies"
 #. Run stats panel row
 #. source: Extra difficulty policy enabled for this run.
 msgid "RUNSTAT.policy_desc"
-msgstr ""
+msgstr "La stratégie activée pour cette session."
 
 #. Run stats panel row
 #. source: None
 msgid "RUNSTAT.policy_none"
-msgstr "Aucun"
+msgstr "Aucune"
 
 #. End-of-run stats - tasks completed header with count
 #. source: Tasks Completed - %d
 #. Keep placeholders unchanged: %d
 msgid "UI.win_tasks_title"
-msgstr ""
+msgstr "Tâches complétés - %d"
 
 #. UI (script-driven)
 #. source: No new tasks this run
 msgid "UI.win_tasks_empty"
-msgstr ""
+msgstr "Aucune nouvelle tâche cette session"
 
 #. Safe Folder explorer - tree pane header
 #. source: Folders
@@ -5186,7 +5181,7 @@ msgstr "Dossiers"
 #. source: Battle Folder %d
 #. Keep placeholders unchanged: %d
 msgid "UI.safe_hub_battle_folder"
-msgstr ""
+msgstr "Dossier de combat %d"
 
 #. Safe Folder explorer - previous round stats header
 #. source: Previous Round
@@ -5197,7 +5192,7 @@ msgstr ""
 #. source: BattleFolder%d.xls
 #. Keep placeholders unchanged: %d
 msgid "UI.safe_hub_round_xls"
-msgstr ""
+msgstr "DossierCombat%d.xls"
 
 #. Safe Folder explorer - no tasks completed last round
 #. source: No new tasks this round
@@ -5232,7 +5227,7 @@ msgstr ""
 #. Run and last-round DPS label
 #. source: DPS
 msgid "RUNSTAT.dps"
-msgstr ""
+msgstr "DPS"
 
 #. Run DPS tooltip
 #. source: Damage per second this run, during Battle Folders only.
@@ -5252,12 +5247,12 @@ msgstr ""
 #. Run Side Tasks completed label
 #. source: Side Tasks
 msgid "RUNSTAT.side_tasks"
-msgstr ""
+msgstr "Tâches secondaires"
 
 #. Run Side Tasks completed tooltip
 #. source: Side Tasks completed this run.
 msgid "RUNSTAT.side_tasks_desc"
-msgstr ""
+msgstr "Tâches secondaires complétés cette session."
 
 #. Last round DPS tooltip
 #. source: Damage per second in the last Battle Folder.
@@ -5406,7 +5401,7 @@ msgstr ""
 #. Weapon driver / overclock card - name (bloated_cache)
 #. source: Bloated Cache
 msgid "DRIVER.bloated_cache.name"
-msgstr ""
+msgstr "Cache rempli"
 
 #. Weapon driver / overclock card - description (bloated_cache)
 #. source: Multiply Size 1.5x.
@@ -5456,7 +5451,7 @@ msgstr ""
 #. Weapon driver / overclock card - name (avn_buddy)
 #. source: Buddy List
 msgid "DRIVER.avn_buddy.name"
-msgstr ""
+msgstr "Liste de copains"
 
 #. Weapon driver / overclock card - description (avn_buddy)
 #. source: Add +2 Amount.\nIncrease Power +15%.
@@ -5466,7 +5461,7 @@ msgstr ""
 #. Weapon driver / overclock card - name (blatand_pair)
 #. source: Paired Devices
 msgid "DRIVER.blatand_pair.name"
-msgstr ""
+msgstr "Périphériques connectés"
 
 #. Weapon driver / overclock card - description (blatand_pair)
 #. source: Add +1 Amount. Increase Power +25%.\nIncrease Speed +20%.
@@ -5476,7 +5471,7 @@ msgstr ""
 #. Weapon driver / overclock card - name (bubbles_soap)
 #. source: Soap
 msgid "DRIVER.bubbles_soap.name"
-msgstr ""
+msgstr "Savon"
 
 #. Weapon driver / overclock card - description (bubbles_soap)
 #. source: Add +1 Amount.\nIncrease Size +40%.
@@ -5506,7 +5501,7 @@ msgstr ""
 #. Weapon driver / overclock card - name (cdrive_cleanup)
 #. source: Disk Cleanup
 msgid "DRIVER.cdrive_cleanup.name"
-msgstr ""
+msgstr "Nettoyage de disque"
 
 #. Weapon driver / overclock card - description (cdrive_cleanup)
 #. source: Slams target enemies on screen.
@@ -5526,7 +5521,7 @@ msgstr ""
 #. Weapon driver / overclock card - name (cone_workzone)
 #. source: Work Zone
 msgid "DRIVER.cone_workzone.name"
-msgstr ""
+msgstr "Travaux"
 
 #. Weapon driver / overclock card - description (cone_workzone)
 #. source: Add +1 Amount.\nIncrease Power +30%.
@@ -5626,7 +5621,7 @@ msgstr ""
 #. Weapon driver / overclock card - name (fontart_wordart)
 #. source: WordArt
 msgid "DRIVER.fontart_wordart.name"
-msgstr ""
+msgstr "WordArt"
 
 #. Weapon driver / overclock card - description (fontart_wordart)
 #. source: Increase Size +40%.\nAdd +1 Amount.
@@ -5636,7 +5631,7 @@ msgstr ""
 #. Weapon driver / overclock card - name (fraps_benchmark)
 #. source: Benchmark
 msgid "DRIVER.fraps_benchmark.name"
-msgstr ""
+msgstr "Test de performance"
 
 #. Weapon driver / overclock card - description (fraps_benchmark)
 #. source: Converts Repel to Heat. Increase Damage +25%.\nIncrease Speed +20%.
@@ -5646,7 +5641,7 @@ msgstr ""
 #. Weapon driver / overclock card - name (fraps_vsync)
 #. source: VSync
 msgid "DRIVER.fraps_vsync.name"
-msgstr ""
+msgstr "VSync"
 
 #. Weapon driver / overclock card - description (fraps_vsync)
 #. source: FPS numbers bounce off walls.\nIncrease Size +20%.
@@ -5766,7 +5761,7 @@ msgstr ""
 #. Weapon driver / overclock card - name (quarantine_strict)
 #. source: Strict
 msgid "DRIVER.quarantine_strict.name"
-msgstr ""
+msgstr "Stricte"
 
 #. Weapon driver / overclock card - description (quarantine_strict)
 #. source: Converts Repel to Infect.\nIncrease Power +70%.
@@ -5806,7 +5801,7 @@ msgstr ""
 #. Weapon driver / overclock card - name (scimitar_dragon)
 #. source: Weapon Poison
 msgid "DRIVER.scimitar_dragon.name"
-msgstr ""
+msgstr "Poison"
 
 #. Weapon driver / overclock card - description (scimitar_dragon)
 #. source: Converts Repel to Infect. Increase Size +50%.\nAdd +1 Amount.
@@ -6090,12 +6085,12 @@ msgstr "/"
 #. Scene label
 #. screens: starter_folder.tscn
 msgid "Weapons..."
-msgstr ""
+msgstr "Armes..."
 
 #. Scene label
 #. screens: starter_folder.tscn
 msgid "Great, now just pick a weapon you want to start with."
-msgstr ""
+msgstr "Maintenant, choisis une première arme."
 
 #. Scene label
 #. screens: starter_folder.tscn
