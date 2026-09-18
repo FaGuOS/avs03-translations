@@ -862,7 +862,7 @@ msgstr ""
 #. Difficulty protocol - name (protocol_1)
 #. source: Protocol I
 msgid "PROTOCOL.protocol_1.name"
-msgstr ""
+msgstr "Protokoll I"
 
 #. Difficulty protocol - description (protocol_1)
 #. source: The beginner difficulty. Earn 16 Beanz per Safe Folder opened + cleared enemies.
@@ -872,7 +872,7 @@ msgstr ""
 #. Difficulty protocol - name (protocol_2)
 #. source: Protocol II
 msgid "PROTOCOL.protocol_2.name"
-msgstr ""
+msgstr "Protokoll II"
 
 #. Difficulty protocol - description (protocol_2)
 #. source: The sophomore difficulty. Earn 24 Beanz per Safe Folder opened + cleared enemies.
@@ -882,7 +882,7 @@ msgstr ""
 #. Difficulty protocol - name (protocol_3)
 #. source: Protocol III
 msgid "PROTOCOL.protocol_3.name"
-msgstr ""
+msgstr "Protokoll III"
 
 #. Difficulty protocol - description (protocol_3)
 #. source: The tertiary difficulty. Earn 32 Beanz per Safe Folder opened + cleared enemies.
@@ -892,7 +892,7 @@ msgstr ""
 #. Difficulty protocol - name (protocol_4)
 #. source: Protocol IV
 msgid "PROTOCOL.protocol_4.name"
-msgstr ""
+msgstr "Protokoll IV"
 
 #. Difficulty protocol - description (protocol_4)
 #. source: The senior difficulty. Earn 48 Beanz per Safe Folder opened + cleared enemies.
@@ -902,7 +902,7 @@ msgstr ""
 #. Difficulty protocol - name (protocol_5)
 #. source: Protocol V
 msgid "PROTOCOL.protocol_5.name"
-msgstr ""
+msgstr "Protokoll V"
 
 #. Difficulty protocol - description (protocol_5)
 #. source: You don't have to do this. 64 Beanz per Safe Folder opened if you do though.
@@ -1806,157 +1806,157 @@ msgstr ""
 #. Settings menu
 #. source: Unlimited
 msgid "SETTINGS.fps_unlimited"
-msgstr ""
+msgstr "Unbegrenzt"
 
 #. Settings menu
 #. source: Windowed
 msgid "SETTINGS.windowed"
-msgstr ""
+msgstr "Fenster"
 
 #. Settings menu
 #. source: Full Screen
 msgid "SETTINGS.fullscreen"
-msgstr ""
+msgstr "Vollbild"
 
 #. Settings menu
 #. source: Unknown
 msgid "SETTINGS.unknown"
-msgstr ""
+msgstr "Unbekannt"
 
 #. Settings menu
 #. source: Standard
 msgid "SETTINGS.zoom_standard"
-msgstr ""
+msgstr "Standard"
 
 #. Settings menu
 #. source: Zoomed Out
 msgid "SETTINGS.zoom_zoomed_out"
-msgstr ""
+msgstr "Niedriger Zoom"
 
 #. Settings menu
 #. source: Language
 msgid "SETTINGS.language"
-msgstr ""
+msgstr "Sprache"
 
 #. Settings menu
 #. source: Control Panel
 msgid "SETTINGS.window_title"
-msgstr ""
+msgstr "Systemsteuerung"
 
 #. Settings menu
 #. source: Display
 msgid "SETTINGS.tab_display"
-msgstr ""
+msgstr "Anzeige"
 
 #. Settings menu
 #. source: Audio
 msgid "SETTINGS.tab_audio"
-msgstr ""
+msgstr "Audio"
 
 #. Settings menu
 #. source: Controls
 msgid "SETTINGS.tab_controls"
-msgstr ""
+msgstr "Steuerung"
 
 #. Settings menu
 #. source: Game
 msgid "SETTINGS.tab_game"
-msgstr ""
+msgstr "Spiel"
 
 #. Settings menu
 #. source: External display
 msgid "SETTINGS.group_external_display"
-msgstr ""
+msgstr "Externe Anzeige"
 
 #. Settings menu
 #. source: Internal display
 msgid "SETTINGS.group_internal_display"
-msgstr ""
+msgstr "Interne Anzeige"
 
 #. Settings menu
 #. source: Audio levels
 msgid "SETTINGS.group_audio_levels"
-msgstr ""
+msgstr "Audiolevel"
 
 #. Settings menu
 #. source: Text services
 msgid "SETTINGS.group_text_services"
-msgstr ""
+msgstr "Text"
 
 #. Settings menu
 #. source: Menu controls
 msgid "SETTINGS.group_menu_controls"
-msgstr ""
+msgstr "Menüeinstellungen"
 
 #. Settings menu
 #. source: Gameplay
 msgid "SETTINGS.controls_gameplay"
-msgstr ""
+msgstr "Spiel"
 
 #. Settings menu
 #. source: Menus
 msgid "SETTINGS.controls_menus"
-msgstr ""
+msgstr "Menü"
 
 #. Settings menu
 #. source: Window Mode
 msgid "SETTINGS.window_mode"
-msgstr ""
+msgstr "Fenstermodus"
 
 #. Settings menu
 #. source: Display Zoom
 msgid "SETTINGS.display_zoom"
-msgstr ""
+msgstr "Zoom"
 
 #. Settings menu
 #. source: Vsync
 msgid "SETTINGS.vsync"
-msgstr ""
+msgstr "VSync"
 
 #. Settings menu
 #. source: FPS Cap
 msgid "SETTINGS.fps_cap"
-msgstr ""
+msgstr "FPS-Limit"
 
 #. Settings menu
 #. source: CRT Filter
 msgid "SETTINGS.crt_filter"
-msgstr ""
+msgstr "CRT-Filter"
 
 #. Settings menu
 #. source: Show Monitor Bezel
 msgid "SETTINGS.show_monitor_bezel"
-msgstr ""
+msgstr "Monitorrand anzeigen"
 
 #. Settings menu
 #. source: Master Volume
 msgid "SETTINGS.master_volume"
-msgstr ""
+msgstr "Lautstärke"
 
 #. Settings menu
 #. source: Music Volume
 msgid "SETTINGS.music_volume"
-msgstr ""
+msgstr "Musiklautstärke"
 
 #. Settings menu
 #. source: Keygen Volume
 msgid "SETTINGS.keygen_volume"
-msgstr ""
+msgstr "Keygen-Lautstärke"
 
 #. Settings menu
 #. source: Animation Speed
 msgid "SETTINGS.anim_speed"
-msgstr ""
+msgstr "Animationsgeschwindigkeit"
 
 #. Settings menu
 #. source: Menu Cursor Speed
 msgid "SETTINGS.menu_cursor_speed"
-msgstr ""
+msgstr "Menü-Mausgeschwindigkeit"
 
 #. Settings menu
 #. source: Run as Administrator
 msgid "SETTINGS.admin_cursor"
-msgstr ""
+msgstr "Als Administrator ausführen"
 
 #. Settings menu
 #. source: Switch between windowed and fullscreen.
@@ -2026,7 +2026,7 @@ msgstr ""
 #. Settings menu
 #. source: OK
 msgid "SETTINGS.ok"
-msgstr ""
+msgstr "OK"
 
 #. Settings menu
 #. source: Restore Defaults
@@ -2089,62 +2089,62 @@ msgstr ""
 #. Settings menu
 #. source: Cancel
 msgid "SETTINGS.cancel"
-msgstr ""
+msgstr "Abbrechen"
 
 #. Settings menu
 #. source: Move Up
 msgid "SETTINGS.action_move_up"
-msgstr ""
+msgstr "Oben"
 
 #. Settings menu
 #. source: Move Down
 msgid "SETTINGS.action_move_down"
-msgstr ""
+msgstr "Unten"
 
 #. Settings menu
 #. source: Move Left
 msgid "SETTINGS.action_move_left"
-msgstr ""
+msgstr "Links"
 
 #. Settings menu
 #. source: Move Right
 msgid "SETTINGS.action_move_right"
-msgstr ""
+msgstr "Rechts"
 
 #. Settings menu
 #. source: Movement
 msgid "SETTINGS.action_move"
-msgstr ""
+msgstr "Bewegung"
 
 #. Settings menu
 #. source: Click / Drag
 msgid "SETTINGS.action_left_click"
-msgstr ""
+msgstr "Click"
 
 #. Settings menu
 #. source: Special
 msgid "SETTINGS.action_widget_action"
-msgstr ""
+msgstr "Spezial"
 
 #. Settings menu
 #. source: Show Stats
 msgid "SETTINGS.action_tab"
-msgstr ""
+msgstr "Statistik anzeigen"
 
 #. Settings menu
 #. source: Pause
 msgid "SETTINGS.action_pause"
-msgstr ""
+msgstr "Pause"
 
 #. Settings menu
 #. source: Close
 msgid "SETTINGS.action_close"
-msgstr ""
+msgstr "Schließen"
 
 #. Settings menu
 #. source: Menu Shortcut
 msgid "SETTINGS.action_menu_shortcut"
-msgstr ""
+msgstr "Menü"
 
 #. Settings menu
 #. source: Previous Tab
@@ -2159,37 +2159,37 @@ msgstr ""
 #. Rarity label
 #. source: Common
 msgid "RARITY.common"
-msgstr ""
+msgstr "Standard"
 
 #. Rarity label
 #. source: Uncommon
 msgid "RARITY.uncommon"
-msgstr ""
+msgstr "Selten"
 
 #. Rarity label
 #. source: Rare
 msgid "RARITY.rare"
-msgstr ""
+msgstr "Sehr selten"
 
 #. Rarity label
 #. source: Epic
 msgid "RARITY.epic"
-msgstr ""
+msgstr "Episch"
 
 #. Rarity label
 #. source: Legendary
 msgid "RARITY.legendary"
-msgstr ""
+msgstr "Legendär"
 
 #. Rarity label
 #. source: Unknown
 msgid "RARITY.unknown"
-msgstr ""
+msgstr "Unbekannt"
 
 #. Torrent window
 #. source: Finished
 msgid "TORRENT.finished"
-msgstr ""
+msgstr "Fertig"
 
 #. Torrent window
 #. source: Stalled
@@ -2199,13 +2199,13 @@ msgstr ""
 #. Torrent window
 #. source: Downloading
 msgid "TORRENT.downloading"
-msgstr ""
+msgstr "Lädt herunter"
 
 #. Torrent window
 #. source: %d KB/s
 #. Keep placeholders unchanged: %d
 msgid "TORRENT.speed"
-msgstr ""
+msgstr "Geschwindigkeit"
 
 #. UI (script-driven)
 #. source: Vapor - Validating files - {0}% complete
@@ -2216,28 +2216,28 @@ msgstr ""
 #. source: Level: %d
 #. Keep placeholders unchanged: %d
 msgid "UI.level"
-msgstr ""
+msgstr "Level: %d"
 
 #. Upgrade screen - fake window title
 #. source: level%d.doc - SH Docs 2003
 #. Keep placeholders unchanged: %d
 msgid "UI.window_title"
-msgstr ""
+msgstr "level%d.doc - SH Docs 2003"
 
 #. End-of-round timer prompt for the Safe Folder
 #. source: Get to the Safe Folder!
 msgid "UI.get_to_safe_folder"
-msgstr ""
+msgstr "Finde den gesicherten Ordner!"
 
 #. End-of-round timer prompt when the boss file drops
 #. source: Get to the Boss File!
 msgid "UI.get_to_boss_file"
-msgstr ""
+msgstr "Finde die Bossdatei!"
 
 #. Upgrade screen - title
 #. source: Level Up!
 msgid "UI.level_up"
-msgstr ""
+msgstr "Neues Level!"
 
 #. UI (script-driven)
 #. source: Collecting any loose Data.
@@ -2247,17 +2247,17 @@ msgstr ""
 #. Login screen - create profile entry name
 #. source: New user
 msgid "UI.login_new_user"
-msgstr ""
+msgstr "Neuer Benutzer"
 
 #. Login screen - create profile entry subtitle
 #. source: Create a profile
 msgid "UI.login_new_user_detail"
-msgstr ""
+msgstr "Profil erstellen"
 
 #. Login screen - imported demo save entry name
 #. source: Demo Save
 msgid "UI.login_demo_name"
-msgstr ""
+msgstr "Demo-Speicherstand"
 
 #. Login screen - imported demo save entry subtitle
 #. source: %d Beanz, %d completions
@@ -2269,17 +2269,17 @@ msgstr ""
 #. source: %d Beanz
 #. Keep placeholders unchanged: %d
 msgid "UI.login_profile_detail"
-msgstr ""
+msgstr "%d Beanz"
 
 #. Login screen - second click confirms removing an entry
 #. source: Click again to remove
 msgid "UI.login_confirm_remove"
-msgstr ""
+msgstr "Zum Entfernen erneut clicken"
 
 #. Login screen - currently logged in profile subtitle
 #. source: Logged in
 msgid "UI.login_logged_in"
-msgstr ""
+msgstr "Eingeloggt"
 
 #. Login screen - click your user name prompt
 #. source: To begin, click your user name.\nAfter you log on, you can change profiles.\nJust click on your name at the top of the menu.
@@ -2289,53 +2289,53 @@ msgstr ""
 #. Login screen - turn off computer button
 #. source: Turn off computer
 msgid "UI.login_turn_off"
-msgstr ""
+msgstr "Computer herunterfahren"
 
 #. Start menu - profile header hover / switch user affordance
 #. source: Switch User
 msgid "UI.switch_user"
-msgstr ""
+msgstr "Benutzer wechseln"
 
 #. Personalise window - title
 #. source: Display Properties
 msgid "UI.personalise_title"
-msgstr ""
+msgstr "Anzeigeeinstellungen"
 
 #. Personalise window - Theme tab
 #. source: Theme
 msgid "UI.personalise_tab_theme"
-msgstr ""
+msgstr "Thema"
 
 #. Personalise window - Desktop tab
 #. source: Desktop
 msgid "UI.personalise_tab_desktop"
-msgstr ""
+msgstr "Desktop"
 
 #. Personalise window - Profile tab
 #. source: Profile
 msgid "UI.personalise_tab_profile"
-msgstr ""
+msgstr "Profil"
 
 #. Personalise window - locked avatar hint
 #. source: Open .jpeg files in a run to unlock more pictures.
 msgid "UI.personalise_locked_avatar"
-msgstr ""
+msgstr "Öffne .jpeg-Dateien in einer Runde um mehr Bilder zu entsperren."
 
 #. Personalise window - apply button
 #. source: Apply
 msgid "UI.personalise_apply"
-msgstr ""
+msgstr "Anwenden"
 
 #. Personalise window - themes unlocked counter
 #. source: %d/%d Unlocked
 #. Keep placeholders unchanged: %d
 msgid "UI.personalise_themes_unlocked"
-msgstr ""
+msgstr "%d/%d entsperrt"
 
 #. Personalise window - hide locked themes and wallpapers
 #. source: Hide Locked
 msgid "UI.personalise_hide_locked"
-msgstr ""
+msgstr "Gesperrte nicht anzeigen"
 
 #. Personalise theme preview - active window title
 #. source: Active Window
@@ -2355,223 +2355,223 @@ msgstr ""
 #. Personalise window - use Steam name and picture checkbox
 #. source: Use Steam profile
 msgid "UI.personalise_use_steam_profile"
-msgstr ""
+msgstr "Steam-Profil nutzen"
 
 #. Personalise window - Steam overlay name prompt
 #. source: Enter a name
 msgid "UI.personalise_name_prompt"
-msgstr ""
+msgstr "Name eingeben"
 
 #. Personalise window - theme group box title
 #. source: Theme
 msgid "UI.personalise_group_theme"
-msgstr ""
+msgstr "Thema"
 
 #. Personalise window - wallpaper group box title
 #. source: Wallpaper
 msgid "UI.personalise_group_background"
-msgstr ""
+msgstr "Hintergrund"
 
 #. Personalise window - user name group box title
 #. source: User name
 msgid "UI.personalise_group_name"
-msgstr ""
+msgstr "Benutzername"
 
 #. Personalise window - profile picture group box title
 #. source: Profile picture
 msgid "UI.personalise_group_picture"
-msgstr ""
+msgstr "Profilbild"
 
 #. Cosmetic unlock - bmp drop requirement
 #. source: Found in a .bmp file
 msgid "UI.cosmetic_found_bmp"
-msgstr ""
+msgstr "In einer .bmp-Datei gefunden"
 
 #. Cosmetic unlock - image drop requirement
 #. source: Found in a .jpeg/.png file
 msgid "UI.cosmetic_found_image"
-msgstr ""
+msgstr "In einer .jpeg/.png-Datei gefunden"
 
 #. Cosmetic unlock - avatar reward blurb
 #. source: Unlocks a new profile picture.
 msgid "UI.cosmetic_avatar_desc"
-msgstr ""
+msgstr "Entsperrt ein neues Profilbild."
 
 #. Cosmetic unlock - wallpaper reward blurb
 #. source: Unlocks a new desktop wallpaper.
 msgid "UI.cosmetic_wallpaper_desc"
-msgstr ""
+msgstr "Entsperrt ein neues Hintergrundbild."
 
 #. Cosmetic unlock - theme reward blurb
 #. source: Unlocks a new desktop theme.
 msgid "UI.cosmetic_theme_desc"
-msgstr ""
+msgstr "Entsperrt ein neues Desktopthema."
 
 #. Cosmetic unlock - avatar reward name template
 #. source: {avatar} Picture
 #. Keep placeholders unchanged: {avatar}
 msgid "UI.cosmetic_avatar_picture"
-msgstr ""
+msgstr "{avatar}-Bild"
 
 #. Cosmetic unlock - classic theme name
 #. source: Classic Theme
 msgid "UI.cosmetic_theme_classic"
-msgstr ""
+msgstr "Klassisches Thema"
 
 #. Cosmetic unlock - vapor theme name
 #. source: Vapor Theme
 msgid "UI.cosmetic_theme_vapor"
-msgstr ""
+msgstr "Vapor-Thema"
 
 #. Cosmetic unlock - gold theme name
 #. source: Gold Theme
 msgid "UI.cosmetic_theme_gold"
-msgstr ""
+msgstr "Gold-Thema"
 
 #. Personalise - avatar name
 #. source: Beanz
 msgid "UI.avatar_beanz"
-msgstr ""
+msgstr "Beanz"
 
 #. Personalise - avatar name
 #. source: Giraffe
 msgid "UI.avatar_giraffe"
-msgstr ""
+msgstr "Giraffe"
 
 #. Personalise - avatar name
 #. source: Piggy
 msgid "UI.avatar_piggy"
-msgstr ""
+msgstr "Schweinchen"
 
 #. Personalise - avatar name
 #. source: Heart
 msgid "UI.avatar_heart"
-msgstr ""
+msgstr "Herz"
 
 #. Personalise - avatar name
 #. source: Computer
 msgid "UI.avatar_computer"
-msgstr ""
+msgstr "Computer"
 
 #. Personalise - avatar name
 #. source: Printer
 msgid "UI.avatar_printer"
-msgstr ""
+msgstr "Drucker"
 
 #. Personalise - avatar name
 #. source: Paint
 msgid "UI.avatar_paint"
-msgstr ""
+msgstr "Paint"
 
 #. Personalise - avatar name
 #. source: Orchestra
 msgid "UI.avatar_orchestra"
-msgstr ""
+msgstr "Orchestra"
 
 #. Personalise - avatar name
 #. source: Zip
 msgid "UI.avatar_zip"
-msgstr ""
+msgstr "ZIP-Datei"
 
 #. Personalise - avatar name
 #. source: Crawler
 msgid "UI.avatar_crawler"
-msgstr ""
+msgstr "Crawler"
 
 #. Personalise - avatar name
 #. source: Cruiser
 msgid "UI.avatar_cruiser"
-msgstr ""
+msgstr "Cruiser"
 
 #. Personalise - avatar name
 #. source: Enemy
 msgid "UI.avatar_enemy"
-msgstr ""
+msgstr "Gegner"
 
 #. Personalise - avatar name
 #. source: Lemwire
 msgid "UI.avatar_lemwire"
-msgstr ""
+msgstr "LemWire"
 
 #. Personalise - avatar name
 #. source: Coin
 msgid "UI.avatar_coin"
-msgstr ""
+msgstr "Münze"
 
 #. Personalise - theme name
 #. source: Modern
 msgid "UI.theme_modern"
-msgstr ""
+msgstr "Modern"
 
 #. Personalise - theme name
 #. source: Classic
 msgid "UI.theme_classic"
-msgstr ""
+msgstr "Klassisch"
 
 #. Personalise - theme name
 #. source: Vapor
 msgid "UI.theme_vapor"
-msgstr ""
+msgstr "Vapor"
 
 #. Personalise - theme name
 #. source: Olive
 msgid "UI.theme_olive"
-msgstr ""
+msgstr "Grün"
 
 #. Personalise - theme name
 #. source: Silver
 msgid "UI.theme_silver"
-msgstr ""
+msgstr "Silber"
 
 #. Personalise - theme name
 #. source: Dark
 msgid "UI.theme_dark"
-msgstr ""
+msgstr "Dunkel"
 
 #. Personalise - theme name
 #. source: Media
 msgid "UI.theme_media"
-msgstr ""
+msgstr "Media"
 
 #. Personalise - theme name
 #. source: Pink
 msgid "UI.theme_pink"
-msgstr ""
+msgstr "Pink"
 
 #. Personalise - theme name
 #. source: Gold
 msgid "UI.theme_gold"
-msgstr ""
+msgstr "Gold"
 
 #. Profile stats window - Excel-flavored title
 #. source: Profile.xls - Antivirus Survivors
 msgid "UI.stats_window_title_xls"
-msgstr ""
+msgstr "Profil.xls - Antivirus Survivors"
 
 #. Start menu - Tasks and Stats button
 #. source: Tasks and Stats
 msgid "UI.start_menu_tasks_stats"
-msgstr ""
+msgstr "Aufgaben und Statistik"
 
 #. Profile stats window - statistics tab
 #. source: Stats
 msgid "UI.stats_tab"
-msgstr ""
+msgstr "Statistik"
 
 #. Profile stats window - tasks tab label
 #. source: Tasks
 msgid "UI.tasks_tab"
-msgstr ""
+msgstr "Aufgaben"
 
 #. Tasks screen - sort completed toggle
 #. source: Sort by Completed
 msgid "UI.task_sort_completed"
-msgstr ""
+msgstr "Sortieren nach Erledigt"
 
 #. Tasks footer - categories cycle label next to key icons
 #. source: Categories
 msgid "UI.task_hint_categories"
-msgstr ""
+msgstr "Kategorien"
 
 #. Virry blurb - statistics mode
 #. source: Your run records live in these sheet. Switch to Tasks for unlocks.
@@ -3541,27 +3541,27 @@ msgstr ""
 #. Window menu File
 #. source: File
 msgid "UI.menu_file"
-msgstr ""
+msgstr "Datei"
 
 #. Window menu Edit
 #. source: Edit
 msgid "UI.menu_edit"
-msgstr ""
+msgstr "Bearbeiten"
 
 #. Window menu View
 #. source: View
 msgid "UI.menu_view"
-msgstr ""
+msgstr "Ansicht"
 
 #. Window menu Favorites
 #. source: Favorites
 msgid "UI.menu_favorites"
-msgstr ""
+msgstr "Favoriten"
 
 #. Window menu Help
 #. source: Help
 msgid "UI.menu_help"
-msgstr ""
+msgstr "Hilfe"
 
 #. Window menu Action
 #. source: Action
@@ -5986,7 +5986,7 @@ msgstr "Willkommen..."
 #. Scene label
 #. screens: starter_folder.tscn
 msgid "Let's get started with Double-Clicking some settings."
-msgstr "Starten wir mit ein paar Einstellungen."
+msgstr "Starten wir mit einigen Einstellungen."
 
 #. Scene label
 #. screens: starter_folder.tscn; window.tscn
@@ -6322,7 +6322,7 @@ msgstr "Seeds"
 #. Scene label
 #. screens: torrent_window.tscn
 msgid "Speed"
-msgstr "Geschwindigkeit"
+msgstr "Geschw."
 
 #. Scene label
 #. screens: torrent_window.tscn
