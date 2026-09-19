@@ -2417,7 +2417,7 @@ msgstr "Пользов."
 #. Personalise window - locked avatar hint
 #. source: Open .png files in a run to unlock more pictures.
 msgid "UI.personalise_locked_avatar"
-msgstr "Открывайте .jpeg файлы, чтобы разблокировать больше аватаров."
+msgstr "Открывайте .png файлы, чтобы разблокировать больше аватаров."
 
 #. Personalise window - apply button
 #. source: Apply
@@ -4772,8 +4772,7 @@ msgstr "Улучшены"
 msgid "UI.health_check_pro_boost_tooltip"
 msgstr ""
 "Файлы «Проверка здоровья» увеличивают количество выпадающих сердечек в "
-"следующих боях этого забега\n"
-"Один раз за безопасную папку."
+"следующих боях этого забега."
 
 #. Health Check Pro heal tooltip
 #. source: Restore 50% of your Max HP right now.
