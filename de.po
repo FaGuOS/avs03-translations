@@ -78,6 +78,11 @@ msgstr ""
 #. source: Increase Crit Chance +12%.\nMultiply Crit Damage 1.25x.\nReduce Max HP -15.\nMultiply Cursor Speed 0.9x.\nMultiply Weapon Damage 0.92x.
 msgid "CLASS.breakpoint.description"
 msgstr ""
+"Erhöht Krit.-Wahrscheinlichkeit um 12%.\n"
+"Multipliziert Krit.-Schaden um 1.25x.\n"
+"Reduziert HP um -15.\n"
+"Multipliziert Mausgeschwindigkeit um 0.9x.\n"
+"Multipliziert Waffenschaden um 0.92x."
 
 #. Class select - name (thread)
 #. source: Thread
@@ -88,276 +93,293 @@ msgstr ""
 #. source: Multiply Processing Speed 1.3x.\nMultiply Refresh Speed 1.12x.\nMultiply EXP Gain 1.08x.\nMultiply Weapon Damage 0.85x.
 msgid "CLASS.thread.description"
 msgstr ""
+"Multipliziert Prozessorgeschwindigkeit um 1.3x.\n"
+"Reduziert Waffentimeout um 1.12x\n"
+"Multipliziert XP-Gewinn um 1.08x.\n"
+"Mulipliziert Waffenschaden um 0.85x."
 
 #. Class select - name (admin)
 #. source: Admin
 msgid "CLASS.admin.name"
-msgstr ""
+msgstr "Administrator"
 
 #. Class select - description (admin)
 #. source: Start with +1 Key.\nMultiply Coin Gain 1.3x.\nMultiply Pickup Range 1.3x.\nDiscount Shop Items +10%.\nMultiply Max HP 0.9x.\nMultiply Weapon Damage 0.85x.
 msgid "CLASS.admin.description"
 msgstr ""
+"Starte mit +1 Schlüssel.\n"
+"Multipliziert Münzengewinn um 1.3x.\n"
+"Multipliziert Magnetismus um 1.3x.\n"
+"10% Rabatt auf alle Items im Shop.\n"
+"Multipliziert HP um 0.9x.\n"
+"Multipliziert Waffenschaden um 0.85x."
 
 #. Folder evolution mode - name (chaos)
 #. source: Chaos
 msgid "EVO.chaos.name"
-msgstr ""
+msgstr "Chaos"
 
 #. Folder evolution mode - description (chaos)
 #. source: A inconsistent unpredictable mess of difficulty. I couldn't tell you what to expect.
 msgid "EVO.chaos.description"
-msgstr ""
+msgstr "Ein unberechenbarer Schwierigkeitsgrad."
 
 #. Folder evolution mode - name (linear)
 #. source: Linear
 msgid "EVO.linear.name"
-msgstr ""
+msgstr "Linear"
 
 #. Folder evolution mode - description (linear)
 #. source: A consistent linear stream of more enemies being added over time.
 msgid "EVO.linear.description"
-msgstr ""
+msgstr "Die Anzahl an Gegner steigt linear."
 
 #. Folder evolution mode - name (variable)
 #. source: Variable
 msgid "EVO.variable.name"
-msgstr ""
+msgstr "Dynamisch"
 
 #. Folder evolution mode - description (variable)
 #. source: A varied level of enemies that ramps up and down to give more moments of peace but harder increases.
 msgid "EVO.variable.description"
-msgstr ""
+msgstr "Die Anzahl an Gegner variiert um für Ruhemomente zu sorgen."
 
 #. Meta upgrade menu - description (armor)
 #. source: Adds +1 Armo(u)r per Rank.
 msgid "META.armor.description"
-msgstr ""
+msgstr "Für jeden Rang +1 Schutz."
 
 #. Meta upgrade menu - description (coin_gain)
 #. source: Multiply Coin Gain by an extra +1% per Rank.
 msgid "META.coin_gain.description"
-msgstr ""
+msgstr "Für jeden Rang +1% Münzengewinn."
 
 #. Meta upgrade menu - description (crit_chance)
 #. source: Increases Crit Chance +1% per Rank.
 msgid "META.crit_chance.description"
-msgstr ""
+msgstr "Für jeden Rang +1 Krit.-Wahrscheinlichkeit."
 
 #. Meta upgrade menu - description (crit_damage)
 #. source: Multiply Crit Damage by an extra +2% per Rank.
 msgid "META.crit_damage.description"
-msgstr ""
+msgstr "Für jeden Rang +2% Krit.-Schaden"
 
 #. Meta upgrade menu - name (cursor_speed)
 #. source: Cursor Speed
 msgid "META.cursor_speed.name"
-msgstr ""
+msgstr "Mausgeschwindigkeit"
 
 #. Meta upgrade menu - description (cursor_speed)
 #. source: Multiply Cursor Speed by an extra +1% per Rank.
 msgid "META.cursor_speed.description"
-msgstr ""
+msgstr "Für jeden Rang +1% Mausgeschwindigkeit."
 
 #. Meta upgrade menu - description (exp_gain)
 #. source: Multiply EXP Gain by an extra +2% per Rank.
 msgid "META.exp_gain.description"
-msgstr ""
+msgstr "Für jeden Rang +2% XP-Gewinn."
 
 #. Meta upgrade menu - description (health_regen)
 #. source: Adds +1 Health Regen per Rank.
 msgid "META.health_regen.description"
-msgstr ""
+msgstr "Für jeden Rang +1 HP-Regeneration."
 
 #. Meta upgrade menu - description (luck)
 #. source: Multiply Luck by an extra +1% per Rank.
 msgid "META.luck.description"
-msgstr ""
+msgstr "Für jeden Rang +1% Glück."
 
 #. Meta upgrade menu - description (magnetism)
 #. source: Multiply Magnetism by an extra +2% per Rank.
 msgid "META.magnetism.description"
-msgstr ""
+msgstr "Für jeden Rang +2% Magnetismus."
 
 #. Meta upgrade menu - description (max_health)
 #. source: Adds +10 Max HP per Rank.
 msgid "META.max_health.description"
-msgstr ""
+msgstr "Für jeden Rang +10 HP."
 
 #. Meta upgrade menu - name (packet_loss)
 #. source: Packet Loss
 msgid "META.packet_loss.name"
-msgstr ""
+msgstr "Paketverlust"
 
 #. Meta upgrade menu - description (packet_loss)
 #. source: Adds +1 Packet Loss per Rank.
 msgid "META.packet_loss.description"
-msgstr ""
+msgstr "Für jeden Rang +1 Paketverlust."
 
 #. Meta upgrade menu - description (proc_speed)
 #. source: Multiply Processing Speed by an extra +1% per Rank.
 msgid "META.proc_speed.description"
-msgstr ""
+msgstr "Für jeden Rang +1% Prozessorgeschwindigkeit."
 
 #. Meta upgrade menu - description (weap_amount)
 #. source: Increases Weapon Amount chance +3% per Rank.
 msgid "META.weap_amount.description"
-msgstr ""
+msgstr "Für jeden Rang +3% Extra-Waffen-Wahrscheinlichkeit."
 
 #. Meta upgrade menu - description (weap_damage)
 #. source: Multiply Weapon Damage by an extra +2% per Rank.
 msgid "META.weap_damage.description"
-msgstr ""
+msgstr "Für jeden Rang +2% Waffenschaden."
 
 #. Meta upgrade menu - description (weap_refresh)
 #. source: Multiply Weapon Refresh by an extra +1% per Rank.
 msgid "META.weap_refresh.description"
-msgstr ""
+msgstr "Für jeden Rang +1% Waffen-Timeout-Reduzierung."
 
 #. Meta upgrade menu - description (weap_repel)
 #. source: Multiply Weapon Repel by an extra +1% per Rank.
 msgid "META.weap_repel.description"
-msgstr ""
+msgstr "Für jeden Rang +1% Waffen-Rückstoß."
 
 #. Meta upgrade menu - description (weap_size)
 #. source: Multiply Weapon Size by an extra +1% per Rank.
 msgid "META.weap_size.description"
-msgstr ""
+msgstr "Für jeden Rang +1% Waffengröße."
 
 #. Meta upgrade menu - description (weap_speed)
 #. source: Multiply Weapon Speed by an extra +1% per Rank.
 msgid "META.weap_speed.description"
-msgstr ""
+msgstr "Für jeden Rang +1% Waffengeschwindigkeit."
 
 #. Plugin - name (armor_boost)
 #. source: Armo(u)r Boost
 msgid "PLUGIN.armor_boost.name"
-msgstr ""
+msgstr "Extra-Schutz"
 
 #. Plugin - description (armor_boost)
 #. source: Add +5 Armo(u)r.
 msgid "PLUGIN.armor_boost.description"
-msgstr ""
+msgstr "Fügt +5 Schutz hinzu."
 
 #. Plugin - name (armor_damage_trigger)
 #. source: Hardware IRQ
 msgid "PLUGIN.armor_damage_trigger.name"
-msgstr ""
+msgstr "Hardware-IRQ"
 
 #. Plugin - description (armor_damage_trigger)
 #. source: Add +5 Armo(u)r.\nAdd +25 Packet Loss when taking Damage (Lasts 10s).
 msgid "PLUGIN.armor_damage_trigger.description"
 msgstr ""
+"Fügt +5 Schutz hinzu.\n"
+"Fügt +25 Paketverlust bei Schaden für 10 Sek. hinzu."
 
 #. Plugin - name (armor_missing_hp)
 #. source: Last Known Good
 msgid "PLUGIN.armor_missing_hp.name"
-msgstr ""
+msgstr "HP-Kompensierung"
 
 #. Plugin - description (armor_missing_hp)
 #. source: Add +1 Armo(u)r per 2% missing HP.
 msgid "PLUGIN.armor_missing_hp.description"
-msgstr ""
+msgstr "Für jede 2% fehlende HP, fügt +1 Schutz hinzu."
 
 #. Plugin - name (big_hp_regen_boost)
 #. source: Enterprise Edition
 msgid "PLUGIN.big_hp_regen_boost.name"
-msgstr ""
+msgstr "Enterprise-Edition"
 
 #. Plugin - description (big_hp_regen_boost)
 #. source: Add +64 Max HP.\nAdd +12 Health Regen.
 msgid "PLUGIN.big_hp_regen_boost.description"
 msgstr ""
+"Fügt +64 HP hinzu.\n"
+"Fügt +12 HP-Regeneration hinzu."
 
 #. Plugin - name (big_wave_damage)
 #. source: Peak Hours
 msgid "PLUGIN.big_wave_damage.name"
-msgstr ""
+msgstr "Server-Überlastung"
 
 #. Plugin - description (big_wave_damage)
 #. source: Increase Weapon Damage Multiplier +10% when opening a Big Wave.
 msgid "PLUGIN.big_wave_damage.description"
 msgstr ""
+"Fügt +10% zum Waffenschaden-Multiplikator hinzu beim Öffnen von BigWave."
 
 #. Plugin - name (blast_on_file_open)
 #. source: AutoPlay
 msgid "PLUGIN.blast_on_file_open.name"
-msgstr ""
+msgstr "AutoPlay"
 
 #. Plugin - description (blast_on_file_open)
 #. source: 25% Chance to trigger a Blast when opening a File.
 msgid "PLUGIN.blast_on_file_open.description"
-msgstr ""
+msgstr "25%-ige Wahrscheinlichkeit einer Explosion beim Öffnen einer Datei."
 
 #. Plugin - name (chance_defrag)
 #. source: Disk Cleanup
 msgid "PLUGIN.chance_defrag.name"
-msgstr ""
+msgstr "Datenträgerbereinigung"
 
 #. Plugin - description (chance_defrag)
 #. source: 10% Chance to perform a Defrag every 30s.
 msgid "PLUGIN.chance_defrag.description"
-msgstr ""
+msgstr "10%-ige Wahrscheinlichkeit einer Defragmentierung jede 30s."
 
 #. Plugin - name (coin_boost)
 #. source: Coin Gain Boost
 msgid "PLUGIN.coin_boost.name"
-msgstr ""
+msgstr "Extra-Münzengewinn"
 
 #. Plugin - description (coin_boost)
 #. source: Multiply Coin Gain 1.1x.
 msgid "PLUGIN.coin_boost.description"
-msgstr ""
+msgstr "Multipliziert Münzengewinn um 1.1x."
 
 #. Plugin - name (coin_drop_boost)
 #. source: Shared Folders
 msgid "PLUGIN.coin_drop_boost.name"
-msgstr ""
+msgstr "Geteilte Ordner"
 
 #. Plugin - description (coin_drop_boost)
 #. source: Increase enemy Coin Drop Chance +20%.
 msgid "PLUGIN.coin_drop_boost.description"
-msgstr ""
+msgstr "Erhöht Wahrscheinlichkeit für Münzen von getöteten Gegnern um +20%."
 
 #. Plugin - name (crit_chance_boost)
 #. source: Crit Chance Boost
 msgid "PLUGIN.crit_chance_boost.name"
-msgstr ""
+msgstr "Extra-Krit.-Wahrscheinlichkeit"
 
 #. Plugin - description (crit_chance_boost)
 #. source: Multiply Crit Chance 1.1x.
 msgid "PLUGIN.crit_chance_boost.description"
-msgstr ""
+msgstr "Multipliziert Krit.-Wahrscheinlichkeit um 1.1x."
 
 #. Plugin - name (cursor_speed_boost)
 #. source: Cursor Speed Boost
 msgid "PLUGIN.cursor_speed_boost.name"
-msgstr ""
+msgstr "Extra-Mausgeschwindigkeit"
 
 #. Plugin - description (cursor_speed_boost)
 #. source: Multiply Cursor Speed 1.1x
 msgid "PLUGIN.cursor_speed_boost.description"
-msgstr ""
+msgstr "Multipliziert Mausgeschwindigkeit um 1.1x."
 
 #. Plugin - name (cursor_speed_damage)
 #. source: Critical Battery
 msgid "PLUGIN.cursor_speed_damage.name"
-msgstr ""
+msgstr "Niedriger Akkustand"
 
 #. Plugin - description (cursor_speed_damage)
 #. source: Increase Cursor Speed +10%.\nIncrease Cursor Speed +30% when taking Damage (Lasts 10s).
 msgid "PLUGIN.cursor_speed_damage.description"
 msgstr ""
+"Erhöht Mausgeschwindigkeit um +10%.\n"
+"Erhöht Mausgeschwindigkeit um +30% bei Schaden für 10 Sek."
 
 #. Plugin - name (damage_boost)
 #. source: Weapon Damage Boost
 msgid "PLUGIN.damage_boost.name"
-msgstr ""
+msgstr "Extra-Waffenschaden"
 
 #. Plugin - description (damage_boost)
 #. source: Multiply Weapon Damage 1.1x.
 msgid "PLUGIN.damage_boost.description"
-msgstr ""
+msgstr "Multipliziert Waffenschaden um 1.1x."
 
 #. Plugin - name (damage_level_scaling)
 #. source: Career Path
