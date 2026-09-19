@@ -73,7 +73,6 @@ msgstr ""
 #. source: Breakpoint
 msgid "CLASS.breakpoint.name"
 msgstr "Брейкпоинт"
-#. СПРОСИТЬ ШОНА !!!!!
 
 #. Class select - description (breakpoint)
 #. source: Increase Crit Chance +12%.\nMultiply Crit Damage 1.25x.\nReduce Max HP -15.\nMultiply Cursor Speed 0.9x.\nMultiply Weapon Damage 0.92x.
@@ -565,9 +564,9 @@ msgid "PLUGIN.regen_boost.description"
 msgstr "Добавляет +5 к регенерации здоровья."
 
 #. Plugin - name (shop_discount_10)
-#. source: Works Suite
+#. source: Coupon Code
 msgid "PLUGIN.shop_discount_10.name"
-msgstr "Офисный пакет"
+msgstr "Купон"
 
 #. Plugin - description (shop_discount_10)
 #. source: Discount Shop Items +10%.
@@ -577,7 +576,7 @@ msgstr "Добавляет скидку к товарам в магазине +1
 #. Plugin - name (shop_discount_25)
 #. source: Volume License
 msgid "PLUGIN.shop_discount_25.name"
-msgstr "Корпоративная Лицензия"
+msgstr "Корпоративная лицензия"
 
 #. Plugin - description (shop_discount_25)
 #. source: Discount Shop Items +25%.
@@ -599,7 +598,7 @@ msgstr ""
 #. Plugin - name (smart_recovery)
 #. source: Smart Recovery
 msgid "PLUGIN.smart_recovery.name"
-msgstr "Умное Восстановление"
+msgstr "Умное восстановление"
 
 #. Plugin - description (smart_recovery)
 #. source: Add +10 Max HP.\nHeal 25% of Max HP when opening a Safe Folder.
@@ -666,7 +665,7 @@ msgid "PLUGIN.morgan_av.name"
 msgstr "Антивирус Morgan"
 
 #. Plugin - description (morgan_av)
-#. source: Increase difficulty by 3 for the rest of the run.\nExtra Plus! enemy at each midway.
+#. source: Difficulty is increased for the rest of the run.\n+1 extra Plus! enemy at each midway point.
 msgid "PLUGIN.morgan_av.description"
 msgstr ""
 "Увеличивает сложность на 3 до самого конца забега.\n"
@@ -1508,8 +1507,7 @@ msgstr "Paint"
 #. Upgrade card - description (weapon_paint)
 #. source: Paints circles near the player that damage and add stacks of Lag to enemies over time.
 msgid "UPGRADE.weapon_paint.description"
-msgstr ""
-"Рисует круги рядом с курсором, наносящие эффект лага на врагов."
+msgstr "Рисует круги рядом с курсором, наносящие эффект лага на врагов."
 
 #. Upgrade card - name (weapon_pinball)
 #. source: Pinball
@@ -1570,8 +1568,7 @@ msgstr "Ятаган"
 #. Upgrade card - description (weapon_scimitar)
 #. source: Slashes above and below the cursor. Extra amount adds alternating slashes.
 msgid "UPGRADE.weapon_scimitar.description"
-msgstr ""
-"Режет над и под курсором. Доп. кол-во прибавляет чередующиеся разрезы."
+msgstr "Режет над и под курсором. Доп. кол-во прибавляет чередующиеся разрезы."
 
 #. Upgrade card - name (weapon_sniper)
 #. source: Sniper 1.6
@@ -1604,7 +1601,8 @@ msgstr "Эл. почта"
 #. source: Envelopes fly out, bounce off walls, and boomerang home hitting both ways.
 msgid "UPGRADE.weapon_email.description"
 msgstr ""
-"Конверты разлетаются, отскакивают от стен и возвращаются как бумеранг, нанося урон."
+"Конверты разлетаются, отскакивают от стен и возвращаются как бумеранг, "
+"нанося урон."
 
 #. Upgrade card - name (weapon_cruiser)
 #. source: Internet Cruiser
@@ -1654,13 +1652,12 @@ msgstr ""
 #. Upgrade card - name (weapon_cone)
 #. source: Very Large Cone
 msgid "UPGRADE.weapon_cone.name"
-msgstr "Very Large Cone."
+msgstr "Very Large Cone"
 
 #. Upgrade card - description (weapon_cone)
 #. source: Orange traffic wedges stuck to you. They cook what they point at with Heat.
 msgid "UPGRADE.weapon_cone.description"
-msgstr ""
-"Оранжевые дорожные конусы прицепились к вам. Наносят эффект пламени."
+msgstr "Оранжевые дорожные конусы прицепились к вам. Наносят эффект пламени."
 
 #. Upgrade card - name (weapon_blatand)
 #. source: Blåtand
@@ -1670,8 +1667,7 @@ msgstr "Blåtand"
 #. Upgrade card - description (weapon_blatand)
 #. source: Chains dashed Infect links between enemies at a fixed link length.
 msgid "UPGRADE.weapon_blatand.description"
-msgstr ""
-"Создает статичную цепь между врагами. Наносит эффект инфекции."
+msgstr "Создает статичную цепь между врагами. Наносит эффект инфекции."
 
 #. Upgrade card - name (weapon_modem)
 #. source: Output Device
@@ -2050,6 +2046,11 @@ msgid "SETTINGS.admin_cursor"
 msgstr "От имени администратора"
 
 #. Settings menu
+#. source: Controller Vibration
+msgid "SETTINGS.controller_vibration"
+msgstr "Вибрация контроллера"
+
+#. Settings menu
 #. source: Switch between windowed and fullscreen.
 msgid "SETTINGS.window_mode_tip"
 msgstr "Переключаться между оконным и полноэкранным режимами."
@@ -2117,6 +2118,11 @@ msgid "SETTINGS.admin_cursor_tip"
 msgstr ""
 "Управление курсором при помощи мыши в безоп. папках. В бою всегда "
 "используются WASD или левый стик."
+
+#. Settings menu
+#. source: Vibrate the controller when taking damage.
+msgid "SETTINGS.controller_vibration_tip"
+msgstr "Вибрирует контроллером при получении урона."
 
 #. Settings menu
 #. source: OK
@@ -2354,12 +2360,6 @@ msgstr "Создать профиль"
 msgid "UI.login_demo_name"
 msgstr "Сохранение из демо"
 
-#. Login screen - imported demo save entry subtitle
-#. source: %d Beanz, %d completions
-#. Keep placeholders unchanged: %d
-msgid "UI.login_demo_detail"
-msgstr "%d Баобов, %d прохождений"
-
 #. Login screen - profile entry subtitle
 #. source: %d Beanz
 #. Keep placeholders unchanged: %d
@@ -2415,7 +2415,7 @@ msgid "UI.personalise_tab_profile"
 msgstr "Пользов."
 
 #. Personalise window - locked avatar hint
-#. source: Open .jpeg files in a run to unlock more pictures.
+#. source: Open .png files in a run to unlock more pictures.
 msgid "UI.personalise_locked_avatar"
 msgstr "Открывайте .jpeg файлы, чтобы разблокировать больше аватаров."
 
@@ -2525,6 +2525,31 @@ msgstr "Тема Vapor"
 #. source: Gold Theme
 msgid "UI.cosmetic_theme_gold"
 msgstr "Золотая тема"
+
+#. Cosmetic unlock - olive theme name
+#. source: Olive Theme
+msgid "UI.cosmetic_theme_olive"
+msgstr "Тема \"Оливки\""
+
+#. Cosmetic unlock - silver theme name
+#. source: Silver Theme
+msgid "UI.cosmetic_theme_silver"
+msgstr "Тема \"Серебро\""
+
+#. Cosmetic unlock - dark theme name
+#. source: Dark Theme
+msgid "UI.cosmetic_theme_dark"
+msgstr "Тема \"Тёмная\""
+
+#. Cosmetic unlock - media theme name
+#. source: Media Theme
+msgid "UI.cosmetic_theme_media"
+msgstr "Тема \"Медиа\""
+
+#. Cosmetic unlock - pink theme name
+#. source: Pink Theme
+msgid "UI.cosmetic_theme_pink"
+msgstr "Тема \"Розовая\""
 
 #. Personalise - avatar name
 #. source: Beanz
@@ -2702,8 +2727,8 @@ msgstr ""
 #. source: Weapon Drivers upgrade a weapon's with unique additions. When unlocked reach levels 8, 16 and 24 to obtain them.
 msgid "UI.task_virry_drivers"
 msgstr ""
-"Драйвера оружия улучшают значения оружия. Достигните определенный уровень "
-"за один забег."
+"Драйвера оружия улучшают значения оружия. Достигните определенный уровень за "
+"один забег."
 
 #. Virry blurb - files tasks
 #. source: Safe Files, Battle Files, and Special Files. Unlock them, then purchase them in Add/Remove Unlocks.
@@ -2728,8 +2753,7 @@ msgstr ""
 #. Virry blurb - general milestones
 #. source: General milestones. Mostly Beanz rewards.
 msgid "UI.task_virry_general"
-msgstr ""
-"Общие достижения. В основном награды в виде Баобов."
+msgstr "Общие достижения. В основном награды в виде Баобов."
 
 #. Virry blurb - claimable rewards waiting
 #. source: Nice work! Claim your Beanz rewards by clicking a blue row.
@@ -2992,7 +3016,7 @@ msgstr "Убийств с %s"
 #. source: %s enemy clears
 #. Keep placeholders unchanged: %s
 msgid "UI.stat_named_enemy_clears"
-msgstr ""%s" убито"
+msgstr "\"%s\" убито"
 
 #. Profile stats - named completions row title
 #. source: %s completions
@@ -3399,11 +3423,6 @@ msgstr ""
 "перемещение только на WASD или левым стиком."
 
 #. UI (script-driven)
-#. source: Complete a run to unlock Administrator rights.
-msgid "UI.admin_mouse_tooltip_locked"
-msgstr "Пройдите забег для разблокировки прав администратора."
-
-#. UI (script-driven)
 #. source: Reroll Locked
 msgid "UI.reroll_disabled"
 msgstr ""
@@ -3568,6 +3587,120 @@ msgstr ""
 "Необязательные доп. правила для выбранного пакета. Прохождение с ними дает "
 "больше Баобов."
 
+#. Starter folder button that reopens the tutorial guide
+#. source: Guide
+msgid "UI.refresher"
+msgstr "Руководство"
+
+#. Tutorial next-page button
+#. source: Next
+msgid "UI.next"
+msgstr "Далее"
+
+#. Tutorial window title
+#. source: Quick Start Guide
+msgid "UI.tutorial_title"
+msgstr "Руководство по игре"
+
+#. Tutorial page 1 - {game}
+#. source: Welcome to {game}!\n\nI'm Virry, and I'm going to take you through some basics of how to play.
+#. Keep placeholders unchanged: {game}
+msgid "UI.tutorial_1_body"
+msgstr ""
+"Добро пожаловать в {game}!\n"
+"\n"
+"Меня зовут Вирри, и сейчас я тебя научу всем основам этой игры."
+
+#. Tutorial page 2 - {move} {click} {drag} become input icons
+#. source: First, let's get moving.\n\nUse {move} to move around the screen.\n\nClick with {click}, and don't forget to double-click to open files.\n\nYou can also hold {drag} to drag files and move them around the folder.
+#. Keep placeholders unchanged: {move}, {click}, {drag}
+msgid "UI.tutorial_2_body"
+msgstr ""
+"Для начала, прогуляемся.\n"
+"\n"
+"Используйте {move} для перемещения по экрану.\n"
+"\n"
+"Нажимайте при помощи {click}, и не забывайте нажимать дважды для открытия "
+"файлов.\n"
+"\n"
+"Также Вы можете удерживать {drag} для перетаскивания файлов по всей папке."
+
+#. Tutorial page 3 - class, protocol, policies
+#. source: To get started you can pick a {class} and {difficulty}.\n\nFor now let's pick the {default} Cursor, more will unlock as you play.\n\nChoose Protocol I-III as your {difficulty}.\n\nCompleting a Protocol will unlock {policies} which give you additional challenges.\n\nGo ahead and select your {class} and {difficulty} now!
+#. Keep placeholders unchanged: {class}, {difficulty}, {default}, {policies}
+msgid "UI.tutorial_3_body"
+msgstr ""
+"Для того, чтобы начать, Вам надо выбрать {class} и {difficulty}.\n"
+"\n"
+"Пока что выберем курсор \"{default}\", Вы можете открыть больше курсоров, "
+"играя в игру.\n"
+"\n"
+"Выберите Пакет I-III в качестве сложности игры.\n"
+"\n"
+"Прохождение пакета откроет {policies}, что добавит в Вашу игру немного "
+"усложнений.\n"
+"\n"
+"А теперь, выберите себе {class} и {difficulty}!"
+
+#. Tutorial page 4 - {drivers}
+#. source: You can select one Starter Weapon to begin.\n\nProgress through the run and level up to add more weapons to your build.\n\nWhen you level up, you can also choose between weapon and player upgrades to increase your stats.\n\nWhen your weapon reaches certain levels, you unlock {drivers} which give bespoke upgrades.
+#. Keep placeholders unchanged: {drivers}
+msgid "UI.tutorial_4_body"
+msgstr ""
+"Теперь вы можете выбрать своё оружие для начала игры.\n"
+"\n"
+"Играйте и зарабатывайте уровни, чтобы получить больше оружия.\n"
+"\n"
+"Когда вы получаете новый уровень, Вы можете выбрать себе новый апгрейд или "
+"оружие для улучшения вашей статы.\n"
+"\n"
+"Когда вы достигните определённого уровня на оружии, Вы откроете {drivers}, "
+"что даст вам особые апгрейды."
+
+#. Tutorial page 5 - {safe}
+#. source: The objective of the game is to survive.\n\nThere are 5 rounds of 5 minutes. Get to the {safe} at the end of each round to move on.
+#. Keep placeholders unchanged: {safe}
+msgid "UI.tutorial_5_body"
+msgstr ""
+"Цель игры - выживать.\n"
+"\n"
+"Всего есть 5 раундов по 5 минут. Дойдите до \"{safe}\" в конце каждого "
+"раунда для продолжения."
+
+#. Tutorial page 6
+#. source: To survive:\nAvoid enemies, collect EXP and Coin, get upgrades, and open files.\n\nSome files have risks, some need keys, and some just give guaranteed rewards.\n\nYou will also have a Side Task in the top-right corner for each round that awards bonuses.
+msgid "UI.tutorial_6_body"
+msgstr ""
+"Чтобы выжить, вам нужно:\n"
+"Уклоняться от врагов, собирать опыт и монеты, получать апгрейды и открывать "
+"файлы.\n"
+"\n"
+"Все файлы делают что-то своё: у одних свои риски, другим нужны ключи, а "
+"третье просто дают вам что либо в награду.\n"
+"\n"
+"Также у вас будет необязательное задание в верхнем правом углу окна, оно "
+"меняется каждый раунд и даёт вам награду за выполнение."
+
+#. Tutorial page 7 - {safe} {vapor}
+#. source: Earn Beanz for clearing enemies and making it to the {safe} in time.\n\nGet extra Beanz for completing Tasks.\n\nSpend your Beanz on new Cursor Classes, Weapons, Stat Upgrades, Plugins, Files, {vapor} items and more!
+#. Keep placeholders unchanged: {safe}, {vapor}
+msgid "UI.tutorial_7_body"
+msgstr ""
+"Вы также можете зарабатывать баобы за открытие \"{safe}\" вовремя.\n"
+"\n"
+"Зарабатывайте ещё больше баобов за прохождение Заданий.\n"
+"\n"
+"Тратьте свои накопленные баобы на классы курсора, оружия, апгрейды, файлы, "
+"товары в {vapor} и не только!"
+
+#. Tutorial page 8
+#. source: That's everything for now!\n\nPick your first weapon, play, survive, and have fun :)
+msgid "UI.tutorial_8_body"
+msgstr ""
+"А пока, у меня всё!\n"
+"\n"
+"Теперь выбирай оружие, играй, выживай, а главное, наслаждайся игрой :)"
+
 #. Plus! cleared. %s is the elite name, %s is the dropped filename
 #. source: %s cleared, %s dropped.
 #. Keep placeholders unchanged: %s
@@ -3693,6 +3826,31 @@ msgstr "Избранное"
 msgid "UI.menu_help"
 msgstr "Справка"
 
+#. Window menu Action
+#. source: Action
+msgid "UI.menu_action"
+msgstr "Действия"
+
+#. Starter folder / policies tree - difficulty row
+#. source: Folder Difficulty
+msgid "UI.folder_difficulty"
+msgstr "Сложность папок"
+
+#. Starter folder / policies tree - weapon row
+#. source: Starter Weapon
+msgid "UI.starter_weapon"
+msgstr "Начальное оружие"
+
+#. Installer Remove button tooltip
+#. source: Skips installing plugin and removes it from selection pool.
+msgid "UI.installer_remove_tooltip"
+msgstr "Пропускает установку расширения и удаляет его из списка доступных."
+
+#. Installer Install button tooltip
+#. source: Installs plugin.
+msgid "UI.installer_install_tooltip"
+msgstr "Устанавливает расширение."
+
 #. Finance Manager all-in button
 #. source: All In
 msgid "UI.stock_trader_all_in"
@@ -3777,6 +3935,11 @@ msgstr "Проверка кэша файлов..."
 #. source: Clearzone Archive
 msgid "UI.rar_title"
 msgstr "Clearzone архив"
+
+#. Clearzone plugin pick window title
+#. source: Clearzone - Pick Your Plugin
+msgid "UI.rar_plugin_title"
+msgstr "Clearzone - выберите расширение"
 
 #. Clearzone archive clear count
 #. source: %d / %d
@@ -3969,8 +4132,7 @@ msgstr "Разместите открытые окна по всем углам"
 #. Unlock description - overlay windows in all 4 corners
 #. source: Open files until their windows fill every corner of the screen.
 msgid "UI.unlock_corner_windows_desc"
-msgstr ""
-"Открывайте файлы пока их окна не заполнят каждый угол экрана."
+msgstr "Открывайте файлы пока их окна не заполнят каждый угол экрана."
 
 #. Unlock requirement - complete N tasks
 #. source: Complete {amount} tasks
@@ -4148,7 +4310,8 @@ msgid "UI.unlock_round_protocol"
 msgstr "Достигните раунда {amount} на \"{protocol}\" или выше"
 
 #. UI (script-driven)
-#. source: Heal 500 HP total
+#. source: Heal {amount} HP total
+#. Keep placeholders unchanged: {amount}
 msgid "UI.unlock_plugin_big_hp_regen_boost"
 msgstr "Вылечите 500 ОЗ"
 
@@ -4158,7 +4321,8 @@ msgid "UI.unlock_class_null"
 msgstr "Умрите 10 раз"
 
 #. UI (script-driven)
-#. source: Collect 800 Coin in a single run
+#. source: Collect {amount} Coin in a single run
+#. Keep placeholders unchanged: {amount}
 msgid "UI.unlock_widget_nos"
 msgstr "Потратьте 800 монет за один забег"
 
@@ -4604,10 +4768,11 @@ msgid "UI.health_check_pro_boost_bought"
 msgstr "Улучшены"
 
 #. Health Check Pro upgrade-files tooltip
-#. source: Health Check files in the next battles drop more hearts this run.\nOnce per Safe Folder.
+#. source: Health Check files in the next battles drop more hearts this run.
 msgid "UI.health_check_pro_boost_tooltip"
 msgstr ""
-"Файлы «Проверка здоровья» увеличивают количество выпадающих сердечек в следующих боях этого забега\n"
+"Файлы «Проверка здоровья» увеличивают количество выпадающих сердечек в "
+"следующих боях этого забега\n"
 "Один раз за безопасную папку."
 
 #. Health Check Pro heal tooltip
@@ -5427,14 +5592,6 @@ msgstr "Пусто"
 msgid "VAPOR.validate_fail"
 msgstr "{0} файлов не прошли проверку и будут переустановлены."
 
-#. Skips installing plugin and removes it from selection pool
-msgid "Skips installing plugin and removes it from selection pool."
-msgstr "Пропускает установку расширения и убирает его из списка доступных."
-
-#. Skips installing plugin and refunds Key
-msgid "Skips installing plugin and refunds Key."
-msgstr "Пропускает установку расширения и возвращает ключ."
-
 #. Weapon driver / overclock card - name (overclocked)
 #. source: Overclocked
 msgid "DRIVER.overclocked.name"
@@ -5489,8 +5646,7 @@ msgstr "Расширенная таблица"
 #. Weapon driver / overclock card - description (extended_table)
 #. source: Attack Speed no longer makes this weapon expire sooner.
 msgid "DRIVER.extended_table.description"
-msgstr ""
-"Скорость атаки больше не сокращает время существования этого оружия."
+msgstr "Скорость атаки больше не сокращает время существования этого оружия."
 
 #. Weapon driver / overclock card - name (bumper)
 #. source: Bumper
@@ -6013,10 +6169,6 @@ msgstr ""
 "Увеличивает размер на +50%. Добавляет +1 к кол-ву.\n"
 "Уменьшает реген на -15%."
 
-#. Installs plugin
-msgid "Installs plugin."
-msgstr "Устанавливает расширение."
-
 #. Scene label
 #. screens: spam_ad.tscn; trailer_ad.tscn
 msgid "(1) Alert!!! CRITICAL"
@@ -6026,11 +6178,6 @@ msgstr "(1) Внимание! КРИТИЧНО"
 #. screens: headshot_text.tscn
 msgid "Headshot!"
 msgstr "Хэдшот!"
-
-#. Scene label
-#. screens: defrag_window.tscn
-msgid "Action"
-msgstr "Действие"
 
 #. Scene label
 #. screens: defrag_window.tscn
@@ -6249,16 +6396,6 @@ msgstr "Отлично, теперь просто выбери оружие, с 
 #. screens: starter_folder.tscn
 msgid "Folder Evolution"
 msgstr "Эволюция папок"
-
-#. Scene label
-#. screens: starter_folder.tscn
-msgid "Folder Difficulty"
-msgstr "Сложность папок"
-
-#. Scene label
-#. screens: starter_folder.tscn
-msgid "Starter Weapon"
-msgstr "Начальное оружие"
 
 #. Scene label
 #. screens: starter_folder.tscn
@@ -6631,6 +6768,27 @@ msgstr "Окно"
 #. Scene label
 msgid "Antivirus Survivors 2003 Professional"
 msgstr "Антивирус Выживатели 2003 Профессиональный"
+
+#~ msgid "UI.login_demo_detail"
+#~ msgstr "%d Баобов, %d прохождений"
+
+#~ msgid "UI.admin_mouse_tooltip_locked"
+#~ msgstr "Пройдите забег для разблокировки прав администратора."
+
+#~ msgid "Skips installing plugin and removes it from selection pool."
+#~ msgstr "Пропускает установку расширения и убирает его из списка доступных."
+
+#~ msgid "Skips installing plugin and refunds Key."
+#~ msgstr "Пропускает установку расширения и возвращает ключ."
+
+#~ msgid "Installs plugin."
+#~ msgstr "Устанавливает расширение."
+
+#~ msgid "Action"
+#~ msgstr "Действие"
+
+#~ msgid "Starter Weapon"
+#~ msgstr "Начальное оружие"
 
 #~ msgid "File"
 #~ msgstr "Файл"
