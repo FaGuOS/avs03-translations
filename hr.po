@@ -5209,6 +5209,11 @@ msgid "META.cost_beanz"
 msgstr "Cijena: %d Beanz"
 
 #. Zip extractor window
+#. source: SHZip v2.03
+msgid "ZIP.title_licensed"
+msgstr "SHZip v2.03"
+
+#. Zip extractor window
 #. source: Extracting file: \n%s from /.???
 #. Keep placeholders unchanged: %s
 msgid "ZIP.extracting"
