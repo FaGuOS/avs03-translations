@@ -41,17 +41,17 @@
       "app[content][sysreqs][linux][min][graphics]": "512 MB VRAM"
     },
     "german": {
-      "app[content][about]": "",
-      "app[content][short_description]": "",
-      "app[content][sysreqs][mac][min][osversion]": "",
-      "app[content][sysreqs][mac][min][processor]": "",
-      "app[content][sysreqs][mac][min][graphics]": "",
-      "app[content][sysreqs][windows][min][osversion]": "",
-      "app[content][sysreqs][windows][min][processor]": "",
-      "app[content][sysreqs][windows][min][graphics]": "",
-      "app[content][sysreqs][linux][min][osversion]": "",
-      "app[content][sysreqs][linux][min][processor]": "",
-      "app[content][sysreqs][linux][min][graphics]": ""
+      "app[content][about]": "[p]Starte den Computer, melde dich an und mach dich bereit für intensive Doppelklick-Action.[/p][p][img src=&quot;{STEAM_APP_IMAGE}/extras/doubleclickfull-optimize&quot;][/img]Klicke dich durch Ordner und bekämpfe Gegner, Spamwerbung, Viren und Bosse in Antivirus Survivors 2003. Finde XP, Schlüssel und Münzen in Dateien, und erhalte zusätzliche Belohnungen durch Aufgaben und Richtlinien. Verbessere deine Fähigkeiten und entsperre neue Spielweisen mit Upgrades, Plugins und einer vielzahl an diversen Waffen.[/p][p]Mit intensivem Roguelike-Gameplay und einer an Betriebssystemen aus dem Jahre 2000 angelehnter Grafik ist Antivirus Survivors 2003 ein purer Nostalgietrip, aufgeteilt in 30-40-minütigen Runden.[/p][p][img src=&quot;{STEAM_APP_IMAGE}/extras/survivefull-optimize&quot;][/img][/p][p][b]Die Vollversion enthält:[/b][/p][list][*][p][b]24 Waffen[/b] - Pinball, Solitaire, Minen, Firewall, und weitere an den 2000er-Jahren angelehnte Waffen.[/p][/*][*][p][b]50 Treiber[/b] - Verändere die Funktionsweise deiner Waffen mit besonderen Upgrades.[/p][/*][*][p][b]33 Dateitypen[/b] - Öffne deine Lieblingsdateien für Belohnungen - LemWire, BigWave, Defragmentierung und weitere.[/p][/*][*][p][b]62 Plugins[/b] - Öffne Keygens und installiere Plugins, um deinen Zeiger und deine Waffen zu verbessern.[/p][/*][*][p][b]18 Meta-Upgrades[/b] - Passe den Spielfortschritt nach deinen Vorlieben an mit diesen Upgrades.[/p][/*][*][p][b]5 Schwierigkeitsgrade[/b] - Fünf Protokollordner mit steigenden Risiken und Belohnungen.[/p][/*][*][p][b]15 Richtlinien[/b] - Besondere Herausforderungen, die das Spiel noch schwerer und interessanter gestalten.[/p][/*][*][p][b]18 verschiedene Stats [/b]- Mit Upgrades für Schaden, Geschwindigkeit, Glück und noch mehr ist jede Runde einzigartig.[/p][/*][*][p][b]81 Hintergründe and 8 Themen[/b] - Entsperrbare Hintergründe und Themen um deinen Desktop anzupassen.[/p][/*][*][p][b]6 Bosse and Minibosse[/b] - Kämpfe gegen gestärkte Gegner und besondere Bosse.[/p][/*][*][p][b]Mehr als 200 Aufgaben [/b]- Beende zusätzliche Aufgaben um neue Dateien, Waffen, Plugins, und mehr zu entsperren![/p][/*][/list][p][img src=&quot;{STEAM_APP_IMAGE}/extras/upgradefuull-optimize&quot;][/img][/p][p]Klicke, Extrahiere, Downloade, Upgrade, Überlebe.[/p]",
+      "app[content][short_description]": "Der Heimcomputer ist erneut infiziert, und es ist deine Aufgabe, Horden von Viren und Adware mit einer großen Sammlung an nostalgischen Waffen zu bekämpfen. Antivirus Survivors 2003 Professional ist ein Survivor-Auto-Shooter angelehnt an den 2000er Jahren, eine Zeit wo Computer noch neu und aufregend waren.",
+      "app[content][sysreqs][mac][min][osversion]": "macOS 12",
+      "app[content][sysreqs][mac][min][processor]": "Apple M1 oder 2.0 GHz Intel",
+      "app[content][sysreqs][mac][min][graphics]": "512 MB VRAM",
+      "app[content][sysreqs][windows][min][osversion]": "Windows 10",
+      "app[content][sysreqs][windows][min][processor]": "2.0 GHz",
+      "app[content][sysreqs][windows][min][graphics]": "512 MB VRAM",
+      "app[content][sysreqs][linux][min][osversion]": "SteamOS oder eine moderne Linux-Distribution",
+      "app[content][sysreqs][linux][min][processor]": "2.0 GHz",
+      "app[content][sysreqs][linux][min][graphics]": "512 MB VRAM"
     },
     "spanish": {
       "app[content][about]": "",
