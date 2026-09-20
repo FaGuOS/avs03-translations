@@ -2122,7 +2122,7 @@ msgstr ""
 #. Settings menu
 #. source: Vibrate the controller when taking damage.
 msgid "SETTINGS.controller_vibration_tip"
-msgstr "Вибрирует контроллером при получении урона."
+msgstr "Контроллер вибрирует при получении урона."
 
 #. Settings menu
 #. source: OK
@@ -3609,7 +3609,7 @@ msgid "UI.tutorial_1_body"
 msgstr ""
 "Добро пожаловать в {game}!\n"
 "\n"
-"Меня зовут Вирри, и сейчас я тебя научу всем основам этой игры."
+"Меня зовут Вирри и сейчас я тебя научу всем основам этой игры."
 
 #. Tutorial page 2 - {move} {click} {drag} become input icons
 #. source: First, let's get moving.\n\nUse {move} to move around the screen.\n\nClick with {click}, and don't forget to double-click to open files.\n\nYou can also hold {drag} to drag files and move them around the folder.
@@ -3620,25 +3620,25 @@ msgstr ""
 "\n"
 "Используйте {move} для перемещения по экрану.\n"
 "\n"
-"Нажимайте при помощи {click}, и не забывайте нажимать дважды для открытия "
+"Нажимайте при помощи {click} и не забывайте нажимать дважды для открытия "
 "файлов.\n"
 "\n"
-"Также Вы можете удерживать {drag} для перетаскивания файлов по всей папке."
+"Также вы можете удерживать {drag} для перетаскивания файлов по всей папке."
 
 #. Tutorial page 3 - class, protocol, policies
 #. source: To get started you can pick a {class} and {difficulty}.\n\nFor now let's pick the {default} Cursor, more will unlock as you play.\n\nChoose Protocol I-III as your {difficulty}.\n\nCompleting a Protocol will unlock {policies} which give you additional challenges.\n\nGo ahead and select your {class} and {difficulty} now!
 #. Keep placeholders unchanged: {class}, {difficulty}, {default}, {policies}
 msgid "UI.tutorial_3_body"
 msgstr ""
-"Для того, чтобы начать, Вам надо выбрать {class} и {difficulty}.\n"
+"Для того, чтобы начать, вам надо выбрать {class} и {difficulty}.\n"
 "\n"
-"Пока что выберем курсор \"{default}\", Вы можете открыть больше курсоров, "
-"играя в игру.\n"
+"Пока что выберем курсор \"{default}\", вы можете открыть больше курсоров, "
+"проходя игру.\n"
 "\n"
-"Выберите Пакет I-III в качестве сложности игры.\n"
+"Выберите пакет I-III в качестве сложности игры.\n"
 "\n"
-"Прохождение пакета откроет {policies}, что добавит в Вашу игру немного "
-"усложнений.\n"
+"Прохождение пакета откроет {policies}, что добавит в вашу игру немного "
+"сложностей.\n"
 "\n"
 "А теперь, выберите себе {class} и {difficulty}!"
 
@@ -3647,15 +3647,15 @@ msgstr ""
 #. Keep placeholders unchanged: {drivers}
 msgid "UI.tutorial_4_body"
 msgstr ""
-"Теперь вы можете выбрать своё оружие для начала игры.\n"
+"Теперь вы можете выбрать своё оружие для начала.\n"
 "\n"
 "Играйте и зарабатывайте уровни, чтобы получить больше оружия.\n"
 "\n"
-"Когда вы получаете новый уровень, Вы можете выбрать себе новый апгрейд или "
+"При получении нового уровня, вы можете выбрать себе новый апгрейд или "
 "оружие для улучшения вашей статы.\n"
 "\n"
-"Когда вы достигните определённого уровня на оружии, Вы откроете {drivers}, "
-"что даст вам особые апгрейды."
+"Когда вы достигните определённого уровня оружия, вы откроете {drivers}, "
+"которые являются особыми апгрейдами."
 
 #. Tutorial page 5 - {safe}
 #. source: The objective of the game is to survive.\n\nThere are 5 rounds of 5 minutes. Get to the {safe} at the end of each round to move on.
@@ -3676,10 +3676,10 @@ msgstr ""
 "файлы.\n"
 "\n"
 "Все файлы делают что-то своё: у одних свои риски, другим нужны ключи, а "
-"третье просто дают вам что либо в награду.\n"
+"третьи просто дают вам что-либо в награду.\n"
 "\n"
 "Также у вас будет необязательное задание в верхнем правом углу окна, оно "
-"меняется каждый раунд и даёт вам награду за выполнение."
+"меняется каждый раунд и за его выполнение вам даётся награда."
 
 #. Tutorial page 7 - {safe} {vapor}
 #. source: Earn Beanz for clearing enemies and making it to the {safe} in time.\n\nGet extra Beanz for completing Tasks.\n\nSpend your Beanz on new Cursor Classes, Weapons, Stat Upgrades, Plugins, Files, {vapor} items and more!
