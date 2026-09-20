@@ -762,7 +762,7 @@ msgstr "Boom!"
 msgid "PLUGIN.crit_blast.description"
 msgstr ""
 "Chance de 10% pour q'une attaque critique cause une explosion pour 50% de "
-"dégats."
+"dégâts."
 
 #. Plugin - name (zip_recover)
 #. source: Zip Recover
@@ -795,7 +795,7 @@ msgstr "Mégacritique"
 msgid "PLUGIN.megacrit.description"
 msgstr ""
 "Incrémente la chance d'attaque critique par +40%.\n"
-"En cas de chance de plus de 100%, une attaque mégacritique double les dégats."
+"En cas de chance de plus de 100%, une attaque mégacritique double les dégâts."
 
 #. Plugin - name (hyperthread)
 #. source: Hyperthreading
@@ -1004,7 +1004,7 @@ msgstr "Force d'attaque critique"
 #. Stat display - description (upgrade_player_crit_damage_multi)
 #. source: Multiplies Damage on Crit Hit.
 msgid "STAT.upgrade_player_crit_damage_multi.description"
-msgstr "Multiplie les dégats de l'attaque critique."
+msgstr "Multiplie les dégâts de l'attaque critique."
 
 #. Stat display - name (upgrade_player_damage_multi)
 #. source: Weapon Damage
@@ -1014,7 +1014,7 @@ msgstr "Force d'attaque"
 #. Stat display - description (upgrade_player_damage_multi)
 #. source: Multiplies all Damage output.
 msgid "STAT.upgrade_player_damage_multi.description"
-msgstr "Multiplie les dégats des attaques."
+msgstr "Multiplie les dégâts des attaques."
 
 #. Stat display - name (upgrade_player_dodge)
 #. source: Packet Loss
@@ -2021,7 +2021,7 @@ msgstr "Ouvrir en mode Administrateur"
 #. Settings menu
 #. source: Controller Vibration
 msgid "SETTINGS.controller_vibration"
-msgstr "Vibration"
+msgstr "Vibration de la manette"
 
 #. Settings menu
 #. source: Switch between windowed and fullscreen.
@@ -2095,7 +2095,7 @@ msgstr ""
 #. Settings menu
 #. source: Vibrate the controller when taking damage.
 msgid "SETTINGS.controller_vibration_tip"
-msgstr "Vibre la manette en cas d'attaque ennemie."
+msgstr "Faire vibrer la manette en cas d'attaque ennemie."
 
 #. Settings menu
 #. source: OK
@@ -2805,7 +2805,7 @@ msgstr "Dégats soumis"
 #. Profile stats - total damage dealt tooltip
 #. source: Total damage dealt to enemies across all runs.
 msgid "UI.stat_damage_dealt_desc"
-msgstr "Nombre total de dégats soumis aux ennemis."
+msgstr "Nombre total de dégâts soumis aux ennemis."
 
 #. Profile stats - total damage taken
 #. source: Damage Taken
@@ -2815,7 +2815,7 @@ msgstr "Dégats subits"
 #. Profile stats - total damage taken tooltip
 #. source: Total damage taken across all runs.
 msgid "UI.stat_damage_taken_desc"
-msgstr "Nombre total de dégats subits par des attaques ennemis."
+msgstr "Nombre total de dégâts subits par des attaques ennemis."
 
 #. Profile stats - biggest single hit
 #. source: Biggest Hit
@@ -2825,7 +2825,7 @@ msgstr "Record d'attaque"
 #. Profile stats - biggest single hit tooltip
 #. source: Largest amount of damage dealt in a single hit.
 msgid "UI.stat_highest_hit_desc"
-msgstr "Nombre maximum de dégats en une attaque."
+msgstr "Nombre maximum de dégâts en une attaque."
 
 #. Profile stats - files opened
 #. source: Files Opened
@@ -3113,7 +3113,7 @@ msgstr "Télécharger"
 #. Add/Remove Unlocks - window title
 #. source: Add/Remove Unlocks
 msgid "UI.features_store_title"
-msgstr "Ajout/Suppression de contenu"
+msgstr "Ajout/Suppr. de contenu"
 
 #. Add/Remove Unlocks - weapons tab intro
 #. source: Unlock new weapons to start with and choose during runs.

@@ -72,7 +72,7 @@ msgstr ""
 #. Class select - name (breakpoint)
 #. source: Breakpoint
 msgid "CLASS.breakpoint.name"
-msgstr ""
+msgstr "Spitze"
 
 #. Class select - description (breakpoint)
 #. source: Increase Crit Chance +12%.\nMultiply Crit Damage 1.25x.\nReduce Max HP -15.\nMultiply Cursor Speed 0.9x.\nMultiply Weapon Damage 0.92x.
@@ -87,7 +87,7 @@ msgstr ""
 #. Class select - name (thread)
 #. source: Thread
 msgid "CLASS.thread.name"
-msgstr ""
+msgstr "Luft"
 
 #. Class select - description (thread)
 #. source: Multiply Processing Speed 1.3x.\nMultiply Refresh Speed 1.12x.\nMultiply EXP Gain 1.08x.\nMultiply Weapon Damage 0.85x.
@@ -337,7 +337,7 @@ msgstr "Geteilte Ordner"
 #. Plugin - description (coin_drop_boost)
 #. source: Increase enemy Coin Drop Chance +20%.
 msgid "PLUGIN.coin_drop_boost.description"
-msgstr "Erhöht Wahrscheinlichkeit für Münzen von getöteten Gegnern um +20%."
+msgstr "Erhöht Wahrscheinlichkeit für Münzen von zerstörten Gegnern um +20%."
 
 #. Plugin - name (crit_chance_boost)
 #. source: Crit Chance Boost
@@ -623,7 +623,7 @@ msgstr "Fehlerbehebung"
 #. Plugin - description (xp_drop_boost)
 #. source: Increase enemy EXP Drop Chance +20%.
 msgid "PLUGIN.xp_drop_boost.description"
-msgstr "Erhöht Wahrscheinlichkeit für XP von getöteten Gegnern um +20%."
+msgstr "Erhöht Wahrscheinlichkeit für XP von zerstörten Gegnern um +20%."
 
 #. Plugin - name (xp_file_open)
 #. source: Knowledge Base
@@ -1586,7 +1586,7 @@ msgstr "Sniper 1.6"
 #. source: One heavy shot at the strongest enemy. Clears show in a killfeed.
 msgid "UPGRADE.weapon_sniper.description"
 msgstr ""
-"Ein großer Schuss auf den stärksten Gegner. Zeigt getötete Gegner in einem "
+"Ein großer Schuss auf den stärksten Gegner. Zeigt zerstörte Gegner in einem "
 "Feed an."
 
 #. Upgrade card - name (weapon_minesweeper)
@@ -2441,12 +2441,12 @@ msgstr "Gesperrte nicht anzeigen"
 #. Personalise theme preview - active window title
 #. source: Active Window
 msgid "UI.personalise_preview_active_window"
-msgstr ""
+msgstr "Aktives Fenster"
 
 #. Personalise theme preview - window body text
 #. source: Window Text
 msgid "UI.personalise_preview_window_text"
-msgstr ""
+msgstr "Fenstertext"
 
 #. Personalise theme preview - message box title
 #. source: Message Box
@@ -2703,16 +2703,22 @@ msgstr "Kategorien"
 #. source: Your run records live in these sheet. Switch to Tasks for unlocks.
 msgid "UI.task_virry_stats"
 msgstr ""
+"Deine Rekorde befinden sich in dieser Tabelle. Entsperrtes befindet sich im "
+"Aufgaben-Tab."
 
 #. Virry blurb - weapons tasks
 #. source: Finish a weapon task, then purchase it in Add/Remove Unlocks.
 msgid "UI.task_virry_weapons"
 msgstr ""
+"Beende eine Waffenaufgabe, und kaufe die zugehörige Waffe dann in Inhalt "
+"hinzuf./entf."
 
 #. Virry blurb - cursor class tasks
 #. source: Cursor Classes change how you fight. Unlock one, then purchase it in Add/Remove Unlocks.
 msgid "UI.task_virry_classes"
 msgstr ""
+"Zeigerklassen verändern deinen Basiszustand. Entsperrte Zeiger können in "
+"Inhalt hinzuf./entf. gekauft werden."
 
 #. Virry blurb - plugin tasks
 #. source: Plugins add passive power that can be obtain by opening Installers. Complete the task, then purchase them in Add/Remove Unlocks.
@@ -2748,6 +2754,8 @@ msgstr ""
 #. source: Nice work! Claim your Beanz rewards by clicking a blue row.
 msgid "UI.task_virry_claimable"
 msgstr ""
+"Gute Arbeit! Erhalte deine gewonnenen Beanz, indem du auf einer blauen Reihe "
+"klickst."
 
 #. Virry blurb - leftover task sheet
 #. source: Odds and ends that don't sit on the other task sheets.
@@ -2757,92 +2765,92 @@ msgstr ""
 #. Profile stats - highest score
 #. source: Highest Score
 msgid "UI.stat_highest_score"
-msgstr ""
+msgstr "Höchste Punktzahl"
 
 #. Profile stats - highest score tooltip
 #. source: Best run score recorded on this profile.
 msgid "UI.stat_highest_score_desc"
-msgstr ""
+msgstr "Höchste Rundenpunktzahl auf diesem Profil."
 
 #. Profile stats - time played
 #. source: Time Played
 msgid "UI.stat_time_played"
-msgstr ""
+msgstr "Spielzeit"
 
 #. Profile stats - time played tooltip
 #. source: Time spent inside Battle Folders across all runs.
 msgid "UI.stat_time_played_desc"
-msgstr ""
+msgstr "In Kampfordnern insgesamt verbrachte Zeit."
 
 #. Profile stats - enemies cleared
 #. source: Enemies Cleared
 msgid "UI.stat_kills"
-msgstr ""
+msgstr "Zerstörte Gegner"
 
 #. Profile stats - enemies cleared tooltip
 #. source: Enemies cleared across all runs.
 msgid "UI.stat_kills_desc"
-msgstr ""
+msgstr "Gesamtzahl der zerstörten Gegner."
 
 #. Profile stats - deaths
 #. source: Deaths
 msgid "UI.stat_deaths"
-msgstr ""
+msgstr "Tode"
 
 #. Profile stats - deaths tooltip
 #. source: Times this profile has bluescreened.
 msgid "UI.stat_deaths_desc"
-msgstr ""
+msgstr "Anzahl an Bluescreens auf diesem Profil."
 
 #. Profile stats - runs finished
 #. source: Runs
 msgid "UI.stat_runs"
-msgstr ""
+msgstr "Runden"
 
 #. Profile stats - runs finished tooltip
 #. source: Runs started and finished on this profile.
 msgid "UI.stat_runs_desc"
-msgstr ""
+msgstr "Gestartete und beendete Spielrunden auf diesem Profil."
 
 #. Profile stats - runs completed
 #. source: Completions
 msgid "UI.stat_runs_won"
-msgstr ""
+msgstr "Gewonnene Runden"
 
 #. Profile stats - runs completed tooltip
 #. source: Runs that completed a Protocol.
 msgid "UI.stat_runs_won_desc"
-msgstr ""
+msgstr "Runden mit gewonnenem Protokoll."
 
 #. Profile stats - critical hits
 #. source: Critical Hits
 msgid "UI.stat_crits"
-msgstr ""
+msgstr "Kritische Attacken"
 
 #. Profile stats - critical hits tooltip
 #. source: Critical hits landed across all runs.
 msgid "UI.stat_crits_desc"
-msgstr ""
+msgstr "Gesamtzahl kritischer Attacken"
 
 #. Profile stats - total damage dealt
 #. source: Damage Dealt
 msgid "UI.stat_damage_dealt"
-msgstr ""
+msgstr "Zugefügter Schaden"
 
 #. Profile stats - total damage dealt tooltip
 #. source: Total damage dealt to enemies across all runs.
 msgid "UI.stat_damage_dealt_desc"
-msgstr ""
+msgstr "Gesamtzahl des an Gegnern zugefügten Schaden."
 
 #. Profile stats - total damage taken
 #. source: Damage Taken
 msgid "UI.stat_damage_taken"
-msgstr ""
+msgstr "Erhaltener Schaden"
 
 #. Profile stats - total damage taken tooltip
 #. source: Total damage taken across all runs.
 msgid "UI.stat_damage_taken_desc"
-msgstr ""
+msgstr "Gesamtzahl des erhaltenen Schaden."
 
 #. Profile stats - biggest single hit
 #. source: Biggest Hit
