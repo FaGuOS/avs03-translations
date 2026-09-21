@@ -320,7 +320,7 @@ msgstr "Disk Temizleme"
 #. Plugin - description (chance_defrag)
 #. source: 10% Chance to perform a Defrag every 30s.
 msgid "PLUGIN.chance_defrag.description"
-msgstr "Her 30 saniyede bir %10 ihtimalle Parça Birleştirme şansı."
+msgstr "Her 30 saniyede bir %10 ihtimalle Disk Birleştirme şansı."
 
 #. Plugin - name (coin_boost)
 #. source: Coin Gain Boost
@@ -428,7 +428,7 @@ msgstr "Başlangıç Klasörü"
 #. Plugin - description (defrag_on_safe_folder)
 #. source: Perform a Defrag when the Safe Folder spawns.
 msgid "PLUGIN.defrag_on_safe_folder.description"
-msgstr "Güvenli Klasör ortaya çıktığında Parça Birleştirme gerçekleştir."
+msgstr "Güvenli Klasör ortaya çıktığında Disk Birleştirme gerçekleştir."
 
 #. Plugin - name (dual_core)
 #. source: Dual Core
@@ -606,7 +606,7 @@ msgstr "Akıllı Kurtarma"
 msgid "PLUGIN.smart_recovery.description"
 msgstr ""
 "Azami Cana +10 ekle.\n"
-"Güvenli Klasör açıldığında Azami Canın %25’i kadar iyileş."
+"Güvenli Klasör açıldığında Azami Canın %25'i kadar iyileş."
 
 #. Plugin - name (weapon_speed_boost)
 #. source: Weapon Speed Boost
@@ -712,7 +712,7 @@ msgstr "Hareketsiz Görüntü"
 msgid "PLUGIN.still_frame.description"
 msgstr ""
 "Hareketsiz kalınan saniye başına Silah Hasarını +%5 artır, yük başına +"
-"%15’e kadar."
+"%15'e kadar."
 
 #. Plugin - name (shzip_license)
 #. source: SHZip License
@@ -754,7 +754,7 @@ msgstr "İlk Vuruş"
 #. Plugin - description (first_strike)
 #. source: Increase Damage +25% against enemies above 90% HP.
 msgid "PLUGIN.first_strike.description"
-msgstr "Canı %90’ın üzerinde olan düşmanlara karşı hasarı +%25 artır."
+msgstr "Canı %90'ın üzerinde olan düşmanlara karşı hasarı +%25 artır."
 
 #. Plugin - name (crit_blast)
 #. source: Crit Blast
@@ -797,7 +797,7 @@ msgstr "Mega Kritik"
 msgid "PLUGIN.megacrit.description"
 msgstr ""
 "Kritik Şansını +%40 artır.\n"
-"%100’ün üzerindeki Kritik Şansı, Kritik Hasarının iki katı kadar Mega "
+"%100'ün üzerindeki Kritik Şansı, Kritik Hasarının iki katı kadar Mega "
 "Kritik vuruş yapabilir."
 
 #. Plugin - name (hyperthread)
@@ -850,7 +850,7 @@ msgstr "Genişletme Yuvası"
 #. Plugin - description (expansion_slot)
 #. source: Equip a random extra weapon at level 6.
 msgid "PLUGIN.expansion_slot.description"
-msgstr "Seviye 6’da fazladan rastgele bir silah kuşan."
+msgstr "Seviye 6'da fazladan rastgele bir silah kuşan."
 
 #. Plugin - name (task_manager)
 #. source: Task Manager
@@ -885,7 +885,7 @@ msgstr "Sistem Geri Yükleme"
 #. source: On death, heal 50% of Max HP instead of Blue Screen.\nOnce per stack.
 msgid "PLUGIN.system_restore.description"
 msgstr ""
-"Öldüğünde, Mavi Ekran yerine Azami Canının %50’si kadar iyileş.\n"
+"Öldüğünde, Mavi Ekran yerine Azami Canının %50'si kadar iyileş.\n"
 "Yük başına bir defa."
 
 #. Plugin - name (power_user)
@@ -1072,8 +1072,8 @@ msgstr "Şans"
 #. source: Increases odds for better rolls, resulting in higher rarities amoung other benefits.
 msgid "STAT.upgrade_player_luck.description"
 msgstr ""
-"Daha iyi seçenekler elde etme ihtimalini artırır; bu da diğer avantajların "
-"yanı sıra daha yüksek nadirlik seviyeleri sağlar."
+"Daha iyi seçeneklerin gelme ihtimalini artırır; diğer avantajların yanı "
+"sıra nadirliği yükseltir."
 
 #. Stat display - name (upgrade_player_magnetism_multi)
 #. source: Magnetism
@@ -1148,7 +1148,7 @@ msgstr "Silah Miktarı"
 #. source: Chance of additional weapon spawns on attack. Relative to base amount.
 msgid "STAT.upgrade_player_weap_amount.description"
 msgstr ""
-"Saldırı sırasında ek silahların ortaya çıkma ihtimali. Temel miktara "
+"Saldırı sırasında silahların fazladan ortaya çıkma ihtimali. Temel miktara "
 "oranla."
 
 #. Stat display - name (upgrade_player_weap_size)
@@ -1561,7 +1561,7 @@ msgstr "Düşmanlara Enfeksiyon yükleri ekleyen, seken bir kart fırlatır."
 #. Upgrade card - name (weapon_fraps)
 #. source: Frames
 msgid "UPGRADE.weapon_fraps.name"
-msgstr "Kareler"
+msgstr "KareSayar"
 
 #. Upgrade card - description (weapon_fraps)
 #. source: Fires flickering FPS numbers. The number shown is the damage dealt.
@@ -1806,7 +1806,7 @@ msgstr "Soru Plus!"
 #. ELITE - name (crawler)
 #. source: Internet Crawler Plus!
 msgid "ELITE.crawler.name"
-msgstr "Arama Motoru Örümceği Plus!"
+msgstr "Web Örümceği Plus!"
 
 #. ELITE - name (avn_buddy)
 #. source: AVN Buddy Plus!
@@ -1841,7 +1841,7 @@ msgstr "Büyük Kritik Hata"
 #. Enemy sniper-feed name - name (crawler)
 #. source: Internet Crawler
 msgid "ENEMY.crawler.name"
-msgstr "Arama Motoru Örümceği"
+msgstr "Web Örümceği"
 
 #. Enemy sniper-feed name - name (mine)
 #. source: Mine
@@ -2278,12 +2278,12 @@ msgstr "Sonraki Sekme"
 #. Rarity label
 #. source: Common
 msgid "RARITY.common"
-msgstr "Sıradan"
+msgstr "Normal"
 
 #. Rarity label
 #. source: Uncommon
 msgid "RARITY.uncommon"
-msgstr "Sıra Dışı"
+msgstr "Nadir Olmayan"
 
 #. Rarity label
 #. source: Rare
@@ -2446,7 +2446,7 @@ msgstr "Uygula"
 #. source: %d/%d Unlocked
 #. Keep placeholders unchanged: %d
 msgid "UI.personalise_themes_unlocked"
-msgstr "%d/%d Kilidi Açıldı"
+msgstr "Kilidi açılan: %d/%d"
 
 #. Personalise window - hide locked themes and wallpapers
 #. source: Hide Locked
@@ -2547,7 +2547,7 @@ msgstr "Altın Tema"
 #. Cosmetic unlock - olive theme name
 #. source: Olive Theme
 msgid "UI.cosmetic_theme_olive"
-msgstr "Zeytin Tema"
+msgstr "Zeytin Yeşili Tema"
 
 #. Cosmetic unlock - silver theme name
 #. source: Silver Theme
@@ -2617,7 +2617,7 @@ msgstr "Arşiv"
 #. Personalise - avatar name
 #. source: Crawler
 msgid "UI.avatar_crawler"
-msgstr "Arama Motoru Örümceği"
+msgstr "Web Örümceği"
 
 #. Personalise - avatar name
 #. source: Cruiser
@@ -2657,7 +2657,7 @@ msgstr "Vapor"
 #. Personalise - theme name
 #. source: Olive
 msgid "UI.theme_olive"
-msgstr "Zeytin"
+msgstr "Zeytin Yeşili"
 
 #. Personalise - theme name
 #. source: Silver
@@ -2707,7 +2707,7 @@ msgstr "Görevler"
 #. Tasks screen - sort completed toggle
 #. source: Sort by Completed
 msgid "UI.task_sort_completed"
-msgstr "Tamamlananlara göre Sırala"
+msgstr "Tamamlamaya göre Sırala"
 
 #. Tasks footer - categories cycle label next to key icons
 #. source: Categories
@@ -2718,8 +2718,8 @@ msgstr "Kategoriler"
 #. source: Your run records live in these sheet. Switch to Tasks for unlocks.
 msgid "UI.task_virry_stats"
 msgstr ""
-"Bu sayfalarda el kayıtlarınız yer alıyor. Kilitleri açmak için Görevler’e "
-"geçin."
+"Bu sayfalarda el kayıtlarınız yer alıyor. Kilit açmak için Görevler "
+"sekmesine geçin."
 
 #. Virry blurb - weapons tasks
 #. source: Finish a weapon task, then purchase it in Add/Remove Unlocks.
@@ -2747,7 +2747,7 @@ msgstr ""
 msgid "UI.task_virry_drivers"
 msgstr ""
 "Silah sürücüleri, bir silahı benzersiz bir yükseltmeyle güçlendirir. "
-"Kilitleri açıldığında elde edebilmek için Seviye 8, 16 ve 24’e ulaş."
+"Kilitleri açıldığında elde edebilmek için Seviye 8, 16 ve 24'e ulaş."
 
 #. Virry blurb - files tasks
 #. source: Safe Files, Battle Files, and Special Files. Unlock them, then purchase them in Add/Remove Unlocks.
@@ -2768,7 +2768,7 @@ msgstr ""
 msgid "UI.task_virry_policies"
 msgstr ""
 "Her bir İlke aktifken bir Protokolü tamamla, ardından Etki Alanı "
-"İlkelerini bitir. En zoru Protokol V’tir."
+"İlkelerini bitir. En zoru Protokol V'tir."
 
 #. Virry blurb - general milestones
 #. source: General milestones. Mostly Beanz rewards.
@@ -2793,7 +2793,7 @@ msgstr "En Yüksek Skor"
 #. Profile stats - highest score tooltip
 #. source: Best run score recorded on this profile.
 msgid "UI.stat_highest_score_desc"
-msgstr "Bu profildeki ellerdeki en iyi skor."
+msgstr "Bu profildeki ellerden alınan en iyi skor."
 
 #. Profile stats - time played
 #. source: Time Played
@@ -2843,7 +2843,7 @@ msgstr "Tamamlamalar"
 #. Profile stats - runs completed tooltip
 #. source: Runs that completed a Protocol.
 msgid "UI.stat_runs_won_desc"
-msgstr "Protokol’ü tamamlayan eller."
+msgstr "Protokolü tamamlayan eller."
 
 #. Profile stats - critical hits
 #. source: Critical Hits
@@ -3008,7 +3008,7 @@ msgstr "Bir elde ulaşılan en yüksek silah seviyesi."
 #. Profile stats - favourite weapon by time used
 #. source: Favourite Weapon
 msgid "UI.stat_favourite_weapon"
-msgstr "Favori Silah"
+msgstr "Sık Kullanılan Silah"
 
 #. Profile stats - favourite weapon tooltip
 #. source: Weapon you've spent the most battle time using.
@@ -3066,7 +3066,7 @@ msgstr "Bu düşman türünün kaç defa temizlendiği."
 #. Profile stats - protocol completions row tooltip
 #. source: Runs completed on this Protocol.
 msgid "UI.stat_protocol_wins_desc"
-msgstr "Bu Protokol’de tamamlanan eller."
+msgstr "Bu Protokolde tamamlanan eller."
 
 #. Profile stats - overall sheet tab
 #. source: Overall
@@ -3076,32 +3076,32 @@ msgstr "Tümü"
 #. Profile stats - files 1 sheet tab
 #. source: Files 1
 msgid "UI.stat_sheet_files"
-msgstr "Dosyalar 1"
+msgstr "Dosya 1"
 
 #. Profile stats - files 2 sheet tab
 #. source: Files 2
 msgid "UI.stat_sheet_battle"
-msgstr "Dosyalar 2"
+msgstr "Dosya 2"
 
 #. Profile stats - weapons sheet tab
 #. source: Weapons
 msgid "UI.stat_sheet_weapons"
-msgstr "Silahlar"
+msgstr "Silah"
 
 #. Profile stats - enemies sheet tab
 #. source: Enemies
 msgid "UI.stat_sheet_enemies"
-msgstr "Düşmanlar"
+msgstr "Düşman"
 
 #. Profile stats - cursor class sheet tab
 #. source: Cursors
 msgid "UI.stat_sheet_classes"
-msgstr "İmleçler"
+msgstr "İmleç"
 
 #. Profile stats - policy completions sheet tab
 #. source: Policies
 msgid "UI.stat_sheet_policies"
-msgstr "İlkeler"
+msgstr "İlke"
 
 #. Profile stats - HaD: DoCK headshots
 #. source: Headshots
@@ -3121,7 +3121,7 @@ msgstr "Atlanan Eklentiler"
 #. Profile stats - installer skip tooltip
 #. source: Times Skip or Delete was used in an Installer.
 msgid "UI.stat_installer_skipped_desc"
-msgstr "Kurulum sihirbazında kullanılan Atla ve Sil’ler."
+msgstr "Kurulum sihirbazında kullanılan Atla ve Sil'ler."
 
 #. Profile stats - shop upgrades bought
 #. source: Shop Purchases
@@ -3344,7 +3344,7 @@ msgstr "Oluşmasını devre dışı bırakmak için tıkla"
 #. UI (script-driven)
 #. source: Click to enable spawning
 msgid "UI.store_tooltip_disabled"
-msgstr "Oluşmasını etkinleştirmek için tıkla."
+msgstr "Oluşmasını etkinleştirmek için tıkla"
 
 #. Policies locked until the chosen protocol or higher is completed once
 #. source: Complete %s or higher once to enable Policies.
@@ -3470,7 +3470,7 @@ msgstr "Görev tamamlandı"
 #. source: %s Unlock
 #. Keep placeholders unchanged: %s
 msgid "UI.task_unlocks_category"
-msgstr "%s Kilidi Aç"
+msgstr "%s Kilidi Açıldı"
 
 #. Task tooltip - category line with Beanz amount
 #. source: %s +%d Beanz
@@ -3509,7 +3509,7 @@ msgstr "Birkaç yükseltme satın al! Lütfen, jeton lazım…"
 #. UI (script-driven)
 #. source: Defragmented
 msgid "UI.defragmented"
-msgstr "Parçalar Birleştirildi"
+msgstr "Disk Birleştirildi"
 
 #. UI (script-driven)
 #. source: %2.2f KB
@@ -3567,7 +3567,7 @@ msgstr "Yan Görev tamamlandı"
 #. Vapidshare cracked installer spawned toast
 #. source: Cracked Installer created
 msgid "UI.notif_vapidshare_complete"
-msgstr "Crack’li kurulum sihirbazı oluşturuldu"
+msgstr "Crack'li kurulum sihirbazı oluşturuldu"
 
 #. Vapidshare part finished toast. %s is the part filename
 #. source: %s complete
@@ -3654,7 +3654,7 @@ msgstr ""
 "Şimdilik {default} imleci seçelim, oynadıkça daha fazlasının kilidi "
 "açılacak.\n"
 "\n"
-"Sonrasında {difficulty} için Protokol I’den III’e kadar birini seç.\n"
+"Sonrasında {difficulty} için Protokol I'den III'e kadar birini seç.\n"
 "\n"
 "Bir Protokolü tamamlamak sana fazladan meydan okumalar kazandıracak "
 "{policies} kısmını açacak.\n"
@@ -3684,7 +3684,7 @@ msgid "UI.tutorial_5_body"
 msgstr ""
 "Ana amaç hayatta kalmak.\n"
 "\n"
-"5’er dakikalık 5 tur var. İlerlemek için her turun sonunda {safe} "
+"5'er dakikalık 5 tur var. İlerlemek için her turun sonunda {safe} "
 "neredeyse oraya git."
 
 #. Tutorial page 6
@@ -3750,12 +3750,12 @@ msgstr "Lütfen bekleyin…"
 #. Cracked installer window title
 #. source: Cracked Plugin Setup
 msgid "UI.installer_title_cracked"
-msgstr "Crack’li Eklenti Kurulumu"
+msgstr "Crack'li Eklenti Kurulumu"
 
 #. Legendary installer window title
 #. source: PluginInstaller LEGENDARY
 msgid "UI.installer_title_legendary"
-msgstr "EFSANEVİ Eklenti_Kur"
+msgstr "EFSANEVİ EklentiKurulumu"
 
 #. Morgan AV installer window title
 #. source: Morgan Antivirus Setup
@@ -3776,7 +3776,7 @@ msgstr "Kurulumu atlar ve anahtarı iade eder."
 #. source: Open %d/%d .%s files
 #. Keep placeholders unchanged: %d, %s
 msgid "UI.side_objective_open"
-msgstr ".%s dosyaları %d/%d açıldı"
+msgstr "%d/%d .%s dosyası aç"
 
 #. Vapidshare window title when Vapidshare Pro plugin is equipped
 #. source: Vapidshare Pro
@@ -3872,7 +3872,7 @@ msgstr "Eklentiyi kurar."
 #. Finance Manager all-in button
 #. source: All In
 msgid "UI.stock_trader_all_in"
-msgstr "Rest"
+msgstr "Tümü"
 
 #. Finance Manager withdraw button
 #. source: Withdraw
@@ -4126,7 +4126,7 @@ msgstr "{amount} arşiv dosyasını başarıyla dışarı çıkart"
 #. source: Open vapor.exe {amount} times
 #. Keep placeholders unchanged: {amount}
 msgid "UI.unlock_open_vapor"
-msgstr "Vapor.exe’yi {amount} defa aç"
+msgstr "Vapor.exe'yi {amount} defa aç"
 
 #. Unlock requirement - clear N of an enemy type
 #. source: Clear {amount} {enemy} enemies
@@ -4400,7 +4400,7 @@ msgstr "Savaşların arasında Jeton yatır, sonra çek."
 #. UI (script-driven)
 #. source: Finance Manager
 msgid "UI.unlock_file_stock_trader_reward"
-msgstr "Finans Menajeri"
+msgstr "Finans Yöneticisi"
 
 #. Unlock description - Ethanol 130% safe file
 #. source: Pay Coin to copy a random plugin you already have installed.
@@ -4416,7 +4416,7 @@ msgstr "Ethanol 130%"
 #. source: Download multi-part archives that drop Cracked Installers.
 msgid "UI.unlock_file_vapidshare_desc"
 msgstr ""
-"Çok partlı arşiv dosyaları indirerek crack’li kurulum sihirbazları oluştur."
+"Çok partlı arşiv dosyaları indirerek crack'li kurulum sihirbazları oluştur."
 
 #. UI (script-driven)
 #. source: Vapidshare
@@ -4431,7 +4431,7 @@ msgstr "Anahtar harcamadan eklenti yükle."
 #. UI (script-driven)
 #. source: Cracked Installer
 msgid "UI.unlock_file_cracked_installer_reward"
-msgstr "Crack’li Kurulum Sihirbazı"
+msgstr "Crack'li Kurulum Sihirbazı"
 
 #. UI (script-driven)
 #. source: Clear a zone of enemies to choose from three plugins.
@@ -4495,7 +4495,7 @@ msgstr "Tüm ellerde açılan {file} dosyası."
 #. Lifetime Download More RAM milestone description
 #. source: Download More RAM completed across all runs.
 msgid "UI.unlock_general_download_ram_desc"
-msgstr "Tüm ellerde indirilen RAM’ler."
+msgstr "Tüm ellerde indirilen RAM'ler."
 
 #. Lifetime enemy-type clears milestone description
 #. source: {enemy} enemies cleared across all runs.
@@ -4592,7 +4592,7 @@ msgstr "Etkinleştirme Gerekli"
 #. source: Keygen files do not spawn. Get plugins from cracked installers, or buy Keys at the Key Shop.
 msgid "POLICY.unsigned_driver.description"
 msgstr ""
-"Keygen dosyaları oluşmaz. Eklentilere crack’li kurulum sihirbazları ile "
+"Keygen dosyaları oluşmaz. Eklentilere crack'li kurulum sihirbazları ile "
 "veya ürün anahtarı dükkânından anahtar satın alarak sahip ol."
 
 #. Optional extra difficulty policy - name (read_only)
@@ -4705,13 +4705,13 @@ msgstr "{policy} etkinken herhangi bir Protokolü tamamla."
 #. source: Complete Protocol V with {policy}
 #. Keep placeholders unchanged: {policy}
 msgid "UI.unlock_policy_v5"
-msgstr "{policy} ile Protokol V’i tamamla."
+msgstr "{policy} ile Protokol V'i tamamla."
 
 #. Protocol V policy unlock description template
 #. source: Complete Protocol V with {policy} enabled.
 #. Keep placeholders unchanged: {policy}
 msgid "UI.unlock_policy_v5_desc"
-msgstr "{policy} etkinken Protokol V’i tamamla."
+msgstr "{policy} etkinken Protokol V'i tamamla."
 
 #. KeyBuy window and desktop icon title
 #. source: keyBuy
@@ -4793,7 +4793,7 @@ msgstr ""
 #. Health Check Pro heal tooltip
 #. source: Restore 50% of your Max HP right now.
 msgid "UI.health_check_pro_heal_tooltip"
-msgstr "Anında azami canının %50’sini yenile."
+msgstr "Anında azami canının %50'sini yenile."
 
 #. Health Check Pro program subtitle
 #. source: Help protect your PC
@@ -4838,7 +4838,7 @@ msgstr "Yükseltildi: {min}–{max} Can"
 #. Health Check Pro heal explanation
 #. source: Restore 50% of Max HP right now.
 msgid "UI.health_check_pro_heal_blurb"
-msgstr "Anında azami canın %50’sini yenile."
+msgstr "Anında azami canın %50'sini yenile."
 
 #. Health Check Pro heal amount preview
 #. source: +{amount} HP
@@ -4855,12 +4855,12 @@ msgstr "{cost} Jeton"
 #. Finance Manager window and desktop icon title
 #. source: Finance Manager
 msgid "UI.stock_trader_title"
-msgstr "Finans Menajeri"
+msgstr "Finans Yöneticisi"
 
 #. Finance Manager last-folder warning
 #. source: Last folder: withdraw before the last battle!
 msgid "UI.stock_trader_warning"
-msgstr "Son klasör: son savaştan önce para çek!"
+msgstr "Son klasör: son savaştan önce yatırımlarını çek!"
 
 #. Finance Manager performance group
 #. source: Performance
@@ -5281,7 +5281,7 @@ msgstr "LemWire.exe"
 #. Desktop icon tooltip
 #. source: Installer.pgi
 msgid "CLICKABLE.filename.installer"
-msgstr "kurulum_sihirbazi.pgi"
+msgstr "Kurulum Sihirbazi.pgi"
 
 #. Desktop icon tooltip
 #. source: cracked_installer.pgi
@@ -5542,7 +5542,7 @@ msgstr "Jeton Toplayıcı"
 #. Scene label
 #. screens: defrag_window.tscn
 msgid "Defrag Collector"
-msgstr "Parça Birleştirme Toplayıcı"
+msgstr "Disk Birleştiricisi"
 
 #. Scene label
 msgid "Health Check"
@@ -6221,7 +6221,7 @@ msgstr "YEREL DİSK (C:)"
 #. Scene label
 #. screens: defrag_window.tscn
 msgid "Defragmenting"
-msgstr "Parça Birleştirme"
+msgstr "Disk Birleştirme"
 
 #. Scene label
 #. screens: defrag_window.tscn
@@ -6306,7 +6306,7 @@ msgstr "!!! !! KAZANDIN KAZANDIN KAZANDIN!!! !!!"
 #. Scene label
 #. screens: spam_ad_4.tscn
 msgid "FREE AVDs CLI..."
-msgstr "ÜCRETSİZ AVD’ler İÇİN TIK…"
+msgstr "ÜCRETSİZ AVD'ler İÇİN TIK…"
 
 #. Scene label
 #. screens: spam_ad_5.tscn
@@ -6424,7 +6424,7 @@ msgstr "Kilitli Silahlar - Çok Yakında"
 #. Scene label
 #. screens: stat_list.tscn
 msgid "StatsManager V0.1b"
-msgstr "StatsManager V0.1b"
+msgstr "İstatistikYöneticisi V0.1b"
 
 #. Scene label
 #. screens: stat_list.tscn
@@ -6478,7 +6478,7 @@ msgstr ""
 "Bu sırada, sonraki zorlukları denemenin tadını çıkar ve “Bean”lerini "
 "harcayarak yükseltmeler yapıp farklı oynanış stillerini keşfet.\n"
 "\n"
-"Eğer bu demo eğlenceli geldiyse oyunu Steam’de istek listene eklemeyi veya "
+"Eğer bu demo eğlenceli geldiyse oyunu Steam'de istek listene eklemeyi veya "
 "takip etmeyi unutma, daha fazlası gelecek!"
 
 #. Scene label
@@ -6494,7 +6494,7 @@ msgstr "Menü Ekranına Çık"
 #. Scene label
 #. screens: installer_window.tscn
 msgid "PluginInstaller v2.03 r2"
-msgstr "Eklenti_Kur v2.03 r2"
+msgstr "EklentiKurulumu v2.03 r2"
 
 #. Scene label
 #. screens: installer_window.tscn
@@ -6507,7 +6507,8 @@ msgid ""
 "PluginInstaller is preparing to find all appropriate plugins for this "
 "application."
 msgstr ""
-"Eklenti_Kur, bu uygulama için uygun tüm eklentileri bulmaya hazırlanıyor."
+"EklentiKurulumu, bu uygulama için uygun tüm eklentileri bulmaya "
+"hazırlanıyor."
 
 #. Scene label
 #. screens: installer_window.tscn
@@ -6521,7 +6522,7 @@ msgid ""
 "Heal 20% of Max HP when opening a Safe Folder."
 msgstr ""
 "Azami Cana +10 ekle.\n"
-"Güvenli Klasör açıldığında Azami Canın %20’sini iyileştir."
+"Güvenli Klasör açıldığında Azami Canın %20'sini iyileştir."
 
 #. Scene label
 #. screens: main_menu.tscn
@@ -6581,8 +6582,8 @@ msgid ""
 "enjoy and have a great day <3\n"
 "shaun"
 msgstr ""
-"Oynadığınız için çok teşekkür ederim. Benim için anlamı büyük.\n"
-"keyfini çıkarın ve harika bir gün geçirin <3\n"
+"Oynadığın için çok teşekkür ederim. Benim için anlamı büyük.\n"
+"keyfini çıkar ve harika bir gün geçir <3\n"
 "shaun"
 
 #. Scene label
