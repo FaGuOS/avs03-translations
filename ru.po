@@ -1121,7 +1121,7 @@ msgstr ""
 #. Stat display - name (upgrade_player_refresh_multi)
 #. source: Weapon Refresh
 msgid "STAT.upgrade_player_refresh_multi.name"
-msgstr "Реген оружия"
+msgstr "Перезаряд. оружия"
 
 #. Stat display - description (upgrade_player_refresh_multi)
 #. source: Multiplies the speed that all weapons cooldown. (Exponential)
@@ -1184,7 +1184,7 @@ msgstr "Увеличивает урон от {weapon} на +{percent}%."
 #. source: {weapon} Speed
 #. Keep placeholders unchanged: {weapon}
 msgid "WEAPON_UPGRADE.speed.name"
-msgstr "{weapon} скорость"
+msgstr "Скорость {weapon}"
 
 #. Weapon upgrade card - attack speed stat description
 #. source: Increases {weapon} attack speed by +{percent}%.
@@ -1196,7 +1196,7 @@ msgstr "Увеличивает скорость атаки {weapon} на +{perce
 #. source: {weapon} Refresh
 #. Keep placeholders unchanged: {weapon}
 msgid "WEAPON_UPGRADE.refresh.name"
-msgstr "{weapon} перезарядка"
+msgstr "Перезарядка {weapon}"
 
 #. Weapon upgrade card - refresh/cooldown stat description
 #. source: Increases {weapon} refresh speed by +{percent}%.
@@ -1208,7 +1208,7 @@ msgstr "Увеличивает скорость перезарядки {weapon} 
 #. source: {weapon} Size
 #. Keep placeholders unchanged: {weapon}
 msgid "WEAPON_UPGRADE.size.name"
-msgstr "{weapon} размер"
+msgstr "Размер {weapon}"
 
 #. Weapon upgrade card - size stat description
 #. source: Increases {weapon} size by +{percent}%.
@@ -1220,7 +1220,7 @@ msgstr "Увеличивает размер {weapon} на +{percent}%."
 #. source: {weapon} Amount
 #. Keep placeholders unchanged: {weapon}
 msgid "WEAPON_UPGRADE.amount.name"
-msgstr "{weapon} кол-во"
+msgstr "Кол-во {weapon}"
 
 #. Weapon upgrade card - spawn amount stat description
 #. source: Adds +{percent}% chance of additional {spawn_noun}.
@@ -1232,7 +1232,7 @@ msgstr "Добавляет +{percent}% к шансу появления доп. 
 #. source: {weapon} Power
 #. Keep placeholders unchanged: {weapon}
 msgid "WEAPON_UPGRADE.power.name"
-msgstr "{weapon} сила"
+msgstr "Сила {weapon}"
 
 #. Weapon upgrade card - repel power description
 #. source: Increases {weapon} Repel effect by +{percent}%.
@@ -2033,12 +2033,12 @@ msgstr "Громкость ключгена"
 #. Settings menu
 #. source: Animation Speed
 msgid "SETTINGS.anim_speed"
-msgstr "скорость анимаций"
+msgstr "Скорость анимаций"
 
 #. Settings menu
 #. source: Menu Cursor Speed
 msgid "SETTINGS.menu_cursor_speed"
-msgstr "скорость курсора в меню"
+msgstr "Скорость курсора в меню"
 
 #. Settings menu
 #. source: Run as Administrator
@@ -3632,13 +3632,13 @@ msgid "UI.tutorial_3_body"
 msgstr ""
 "Для того, чтобы начать, вам надо выбрать {class} и {difficulty}.\n"
 "\n"
-"Пока что выберем курсор \"{default}\", вы можете открыть больше курсоров, "
-"проходя игру.\n"
+"Пока что выберем курсор \"{default}\", Вы можете открыть больше курсоров, "
+"играя в игру.\n"
 "\n"
 "Выберите пакет I-III в качестве сложности игры.\n"
 "\n"
-"Прохождение пакета откроет {policies}, что добавит в вашу игру немного "
-"сложностей.\n"
+"Прохождение пакета откроет {policies}, что добавит в Вашу игру немного "
+"усложнений.\n"
 "\n"
 "А теперь, выберите себе {class} и {difficulty}!"
 
@@ -3647,12 +3647,12 @@ msgstr ""
 #. Keep placeholders unchanged: {drivers}
 msgid "UI.tutorial_4_body"
 msgstr ""
-"Теперь вы можете выбрать своё оружие для начала.\n"
+"Теперь вы можете выбрать своё оружие для начала игры.\n"
 "\n"
 "Играйте и зарабатывайте уровни, чтобы получить больше оружия.\n"
 "\n"
-"При получении нового уровня, вы можете выбрать себе новый апгрейд или "
-"оружие для улучшения вашей статы.\n"
+"При получении нового уровня, вы можете выбрать себе новый апгрейд или оружие "
+"для улучшения вашей статы.\n"
 "\n"
 "Когда вы достигните определённого уровня оружия, вы откроете {drivers}, "
 "которые являются особыми апгрейдами."
@@ -3664,8 +3664,8 @@ msgid "UI.tutorial_5_body"
 msgstr ""
 "Цель игры - выживать.\n"
 "\n"
-"Всего есть 5 раундов по 5 минут. Дойдите до \"{safe}\" в конце каждого "
-"раунда для продолжения."
+"Всего есть 5 раундов по 5 минут. Дойдите до \"Безопасной папки\" в конце "
+"каждого раунда для продолжения."
 
 #. Tutorial page 6
 #. source: To survive:\nAvoid enemies, collect EXP and Coin, get upgrades, and open files.\n\nSome files have risks, some need keys, and some just give guaranteed rewards.\n\nYou will also have a Side Task in the top-right corner for each round that awards bonuses.
@@ -4116,7 +4116,7 @@ msgstr "Откройте vapor.exe {amount} раз"
 #. source: Clear {amount} {enemy} enemies
 #. Keep placeholders unchanged: {amount}, {enemy}
 msgid "UI.unlock_clear_enemy"
-msgstr "Убейте {amount} {enemy}"
+msgstr "Убейте {amount} врагов \"{enemy}\""
 
 #. Unlock requirement - complete N runs
 #. source: Complete {amount} runs
@@ -4375,7 +4375,7 @@ msgstr ""
 #. UI (script-driven)
 #. source: Health Check Plus
 msgid "UI.unlock_file_health_check_pro_reward"
-msgstr "Здоровье плюс"
+msgstr "Здоровье-плюс"
 
 #. UI (script-driven)
 #. source: Invest Coin between battles and cash out later.
@@ -4787,7 +4787,7 @@ msgstr "Защитите свой ПК"
 #. Health Check Pro file-upgrade card title
 #. source: Health Check Files
 msgid "UI.health_check_pro_file_head"
-msgstr "Файлы Проверки Здоровья"
+msgstr "Файлы \"Проверка здоровья\""
 
 #. Health Check Pro heal card title
 #. source: Instant Repair
@@ -5142,7 +5142,7 @@ msgstr "Скорость: %.2fс"
 #. source: Refresh: %.2fs
 #. Keep placeholders unchanged: %.2f
 msgid "TOOLTIP.refresh"
-msgstr "Реген: %.2fс"
+msgstr "Перезарядка: %.2fс"
 
 #. Stat tooltip
 #. source: Size: %.2fx
@@ -5524,7 +5524,7 @@ msgstr "Дефрагментация"
 
 #. Scene label
 msgid "Health Check"
-msgstr "Проверка Здоровья"
+msgstr "Проверка здоровья"
 
 #. Scene label
 msgid "Pointer Trails"
