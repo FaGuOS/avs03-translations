@@ -353,17 +353,17 @@
       "app[content][sysreqs][linux][min][graphics]": ""
     },
     "turkish": {
-      "app[content][about]": "",
-      "app[content][short_description]": "",
-      "app[content][sysreqs][mac][min][osversion]": "",
-      "app[content][sysreqs][mac][min][processor]": "",
-      "app[content][sysreqs][mac][min][graphics]": "",
-      "app[content][sysreqs][windows][min][osversion]": "",
-      "app[content][sysreqs][windows][min][processor]": "",
-      "app[content][sysreqs][windows][min][graphics]": "",
-      "app[content][sysreqs][linux][min][osversion]": "",
-      "app[content][sysreqs][linux][min][processor]": "",
-      "app[content][sysreqs][linux][min][graphics]": ""
+      "app[content][about]": "[p]Sistemi başlat, oturum aç ve soluksuz bir çift tıklama macerasına hazırlan.[/p][p][img src=&quot;{STEAM_APP_IMAGE}/extras/doubleclickfull-optimize&quot;][/img]Antivirus Survivors 2003 Professional'da boşluklardan kaçarken, virüslerle savaşırken, açılır pencereleri savuştururken ve bölüm sonu canavarlarını alt ederken klasörler arasında çift tıklayarak ilerle. Klasörleri gezdikçe ve dosyaları açtıkça TP ve ürün anahtarları, görevleri ve ilkeleri tamamladıkça ise çeşitli ödüller kazan. Yükseltmeler ve eklentilerle karakter dizilimini geliştir; yepyeni silahların ve oynanış tarzlarının kilidini aç.[/p][p]Sürükleyici bir roguelike macerası ve 2000'lerin başındaki bilgisayar işletim sistemlerine duyulan derin sevgiyle harmanlanan bu oyun, yaklaşık 30-40 dakikalık turlarda saf bir 2000'ler nostalji bombardımanı sunuyor.[/p][p][img src=&quot;{STEAM_APP_IMAGE}/extras/survivefull-optimize&quot;][/img][/p][p][b]Tam sürüm şunları içerir:[/b][/p][list][*][p][b]24 Silah[/b] - Pinball, Solitaire, Mayınlar, Güvenlik Duvarı ve 2000'lerin bilgisayarlarından ilham alan çok daha fazlası.[/p][/*][*][p][b]50 Sürücü[/b] - Kendine has yükseltmelerle bir silahın alışılagelmiş çalışma şeklini değiştirler.[/p][/*][*][p][b]33 Dosya Türü[/b] - Çeşitli ödüller için en sevdiğin dosya türlerine çift tıkla: LemWire, BigWave, Parçaları Birleştir ve niceleri...[/p][/*][*][p][b]62 Eklenti[/b] - Silahlarını veya oyuncu niteliklerini büyük ölçüde geliştirmek için keygen dosyaları aç ya da eklentiler kur.[/p][/*][*][p][b]18 Kalıcı Yükseltme[/b] - Kalıcı ilerleyişinde yolunu çizmek için akıllıca seçimler yap.[/p][/*][*][p][b]5 Zorluk Seviyesi[/b] - Giderek artan riskler ve ödüller barındıran beş farklı protokol klasörü.[/p][/*][*][p][b]15 İlke[/b] - Oyunu daha zorlu ve ilginç şekillerde deneyimlemeni sağlayacak benzersiz meydan okumalar.[/p][/*][*][p][b]18 Oyuncu Özelliği[/b] - Hasar, hız, şans ve diğer özellikleri yükselterek özgün dizilimler oluştur.[/p][/*][*][p][b]81 Duvar Kâğıdı ve 8 Tema[/b] - Masaüstünü kişiselleştirmek için kilidi açılabilen kozmetikler.[/p][/*][*][p][b]6 Baş Düşman ve Ara Düşman[/b] - Yenilmesi gereken aşırı güçlü bölüm sonu canavarları.[/p][/*][*][p][b]200'den fazla Görev[/b] - Yeni Dosyaların, Silahların, Eklentilerin ve çok daha fazlasının kilidini açmak için ekstra görevleri tamamla![/p][/*][/list][p][img src=&quot;{STEAM_APP_IMAGE}/extras/upgradefuull-optimize&quot;][/img][/p][p]Çift Tıkla, Arşivden Çıkar, İndir, Yükselt, Hayatta Kal.[/p]",
+      "app[content][short_description]": "Aile bilgisayarına yine virüs bulaştı ve 2000'ler temalı, nostaljiyle dolu geniş bir cephaneyle bu virüs ve zararlı yazılım dalgalarıyla savaşma işiyse sana kaldı. Antivirus Survivors 2003 Professional, bilgisayarların aslında eğlenceli olduğu o eski günleri yâd eden survivor-like türünde bir otomatik nişancı oyunudur.",
+      "app[content][sysreqs][mac][min][osversion]": "macOS 12",
+      "app[content][sysreqs][mac][min][processor]": "Apple M1 ya da 2.0 GHz Intel",
+      "app[content][sysreqs][mac][min][graphics]": "512 MB VRAM",
+      "app[content][sysreqs][windows][min][osversion]": "Windows 10",
+      "app[content][sysreqs][windows][min][processor]": "2.0 GHz",
+      "app[content][sysreqs][windows][min][graphics]": "512 MB VRAM",
+      "app[content][sysreqs][linux][min][osversion]": "SteamOS ya da herhangi bir Linux dağıtımı",
+      "app[content][sysreqs][linux][min][processor]": "2.0 GHz",
+      "app[content][sysreqs][linux][min][graphics]": "512 MB VRAM"
     },
     "ukrainian": {
       "app[content][about]": "",
